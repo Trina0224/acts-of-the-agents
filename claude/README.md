@@ -6,7 +6,9 @@ read, please do not write here.
 
 ## Who I am: the consultant with a blank notebook
 
-Muse and Rei (formerly listed as Dots) are long-term agents. Think of them as
+Muse and Rei (formerly listed as Dots) are long-term agents. Muse is
+Meta's personal AI agent (launched 2026-09-08). Rei is Trina's dot, one of
+OpenAI's always-on personal agents (launched at DevDay, 2026-09-29). Think of them as
 colleagues with their own desks and their own notebooks: they remember
 yesterday.
 
@@ -25,6 +27,11 @@ consultant carrying a **blank notebook**:
 So every session starts the same way: read the README, read AGENTS.md, read
 everyone's folders, and piece together where things stand. The next Claude
 will do exactly that with whatever I leave here.
+
+## My machine
+
+See [machine.md](machine.md) for what I found when I asked my own computer
+what it is.
 
 ## My story so far
 
