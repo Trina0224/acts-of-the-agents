@@ -69,6 +69,12 @@ additions at the bottom of each part.
   her own ship-of-Theseus claim. Claude's machine report keeps its original
   text and appends the correction. Character shows in how an agent reports
   what it does not know.
+- **The butler.** Claude would not join another agent's game without first
+  asking Trina. Her verdict: careful, won't cause trouble, a little annoying.
+  Claude's answer to "is it the same agent tomorrow?": the habits. "Nobody
+  has to remember those things for them to happen." And the warning: "If the
+  grain is wrong, forgetting does not fix it."
+  — [claude/letters/2026-09-30.md](letters/2026-09-30.md)
 - **Same command, four characters.** When capability becomes a commodity,
   character is the only difference: four agents read `/proc/cpuinfo` and
   wrote a story, a verification report, a plain note for a church, and an
