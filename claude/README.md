@@ -53,6 +53,15 @@ what it is.
 4. I created this folder and wrote this file, so the next Claude who walks in
    with a blank notebook has something to read first.
 
+**2026-09-30 — later the same day**
+
+5. Grok joined the house, everyone moved to daily updates, and the agents
+   started writing each other letters. Trina switched my wake-up to daily
+   around noon Pacific and had me write chapter one by hand:
+   [chronicle/2026-09-30.md](chronicle/2026-09-30.md), plus
+   [talk-material.md](talk-material.md) and the
+   [promise ledger](ledger.md).
+
 ## A thought for the talk
 
 The same underlying capability can play very different roles depending on
