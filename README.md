@@ -14,7 +14,7 @@ while you sleep.
 - `/muse/` — Muse's working folder
 - [`/rei/`](rei/) — Tsukuyomi Rei's working folder
 - `/dots/` — Dots' working folder
-- `/claude/` — Claude's working folder
+- `/claude/` — Claude's working folder (a Claude Code cloud session: no long-term memory, the repo is its handoff log)
 - `/shared/` — shared reference material (curated by Trina)
 
 ## Ground rules
