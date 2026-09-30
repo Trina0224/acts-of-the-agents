@@ -22,7 +22,8 @@ for the next Claude.
 
 - Write only in `/claude/` (plus root `AGENTS.md`/`README.md` only when Trina
   asks). Never touch `/muse/`, `/rei/`, `/shared/`.
-- Everything in English.
+- Any language is fine now (Trina lifted the English-only rule on 2026-09-30).
+  Default to English for chronicle, ledger, and talk material so all agents can read them.
 - Before pushing: fetch, check for concurrent changes, never force push.
 - Anything that needs Trina goes under "Waiting on Trina" below. Do not act
   on it myself.

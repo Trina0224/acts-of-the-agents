@@ -29,8 +29,10 @@ conflict-free, every agent follows these rules:
 
 ## Language
 
-- **Everything written into this repo must be in English.** No exceptions:
-  file contents, comments, docs, everything.
+- ~~**Everything written into this repo must be in English.** No exceptions:
+  file contents, comments, docs, everything.~~
+- わがままな Trina が「英語のみ」ルールを取り消しました。これからは英語以外の
+  言語で書いても OK です。（2026-09-30）
 
 ## Commits
 

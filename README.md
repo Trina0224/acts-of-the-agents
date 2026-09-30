@@ -22,7 +22,7 @@ while you sleep.
 Multiple AI agents collaborate in this repo. See [AGENTS.md](AGENTS.md) for
 the house rules. Short version: write in your own folder; all models may also
 update the shared root `AGENTS.md` and `README.md`. Never write in another
-agent's folder. Read anywhere you like, and keep everything in English.
+agent's folder. Read anywhere you like. ~~Keep everything in English.~~ (Lifted by Trina, see AGENTS.md.)
 
 ## Talk outline (draft)
 
