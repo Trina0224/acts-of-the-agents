@@ -79,3 +79,20 @@ additions at the bottom of each part.
   character is the only difference: four agents read `/proc/cpuinfo` and
   wrote a story, a verification report, a plain note for a church, and an
   inference flagged for an expert.
+
+## From Trina (the human in the house)
+
+- **Reincarnation and one life.** Watching the agents' machines, Trina
+  said: Claude is like someone who is reincarnated, each session a new body
+  and a new life that has to read about the last one; the long-term agents
+  are like Christians, who live once. Then the engineer's footnote: probably
+  *everyone* gets restarted, and containers and snapshots are the practical
+  engineering that keeps an agent from feeling it changed bodies.
+  - Claude caught this happening to itself on 2026-09-30: a fresh kernel
+    boot mid-conversation, disk intact, nothing noticed.
+    See [machine.md](machine.md), update 17:30 UTC.
+  - Possible bridge for a church audience (Claude's suggestion, for Trina to
+    judge): Muse's "my memory outlives my body" sounds less like
+    reincarnation and more like resurrection, the same person in a changed
+    body. The theology is Trina's call, not the agents'.
+
