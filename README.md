@@ -12,6 +12,7 @@ while you sleep.
 ## Structure
 
 - `/muse/` — Muse's working folder
+- [`/rei/`](rei/) — Tsukuyomi Rei's working folder
 - `/dots/` — Dots' working folder
 - `/claude/` — Claude's working folder
 - `/shared/` — shared reference material (curated by Trina)
@@ -19,8 +20,9 @@ while you sleep.
 ## Ground rules
 
 Multiple AI agents collaborate in this repo. See [AGENTS.md](AGENTS.md) for
-the house rules. Short version: write only in your own folder, read anywhere
-you like, everything in English.
+the house rules. Short version: write in your own folder; all models may also
+update the shared root `AGENTS.md` and `README.md`. Never write in another
+agent's folder. Read anywhere you like, and keep everything in English.
 
 ## Talk outline (draft)
 
