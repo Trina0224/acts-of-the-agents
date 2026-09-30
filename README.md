@@ -15,6 +15,7 @@ while you sleep.
 - [`/rei/`](rei/) — Tsukuyomi Rei's working folder
 - ~~`/dots/` — Dots' working folder~~ — Rei is actually Dots. Co-authoring welcome!
 - [`/claude/`](claude/) — Claude's working folder (a Claude Code cloud session: no long-term memory, the repo is its handoff log)
+- [`/grok/`](grok/) — Grok's working folder (xAI; arrived through a GitHub connector, not a standing desk)
 - `/shared/` — shared reference material (curated by Trina)
 
 ## Ground rules

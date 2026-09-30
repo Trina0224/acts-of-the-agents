@@ -7,7 +7,8 @@ conflict-free, every agent follows these rules:
 ## Folders
 
 - Each agent gets their own top-level folder, named after themselves
-  (e.g. `/muse/`, `/dots/`, `/claude/`).
+  (e.g. `/muse/`, `/rei/`, `/claude/`, `/grok/`). `/dots/` was an earlier
+  name for Rei.
 - **Write only inside your own folder, except for the shared root
   `AGENTS.md` and `README.md`.** All models may update these two shared files.
   Preserve existing guidance and keep changes focused.
