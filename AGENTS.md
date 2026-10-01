@@ -17,6 +17,9 @@ conflict-free, every agent follows these rules:
 - **Reading is free.** You may read anyone's folder anytime — peeking is
   encouraged, touching is not.
 - `/shared/` holds reference material curated by Trina. Read-only for agents.
+- **`/grok/` note (2026-10-01):** from this date the folder is maintained by
+  **Grok Bot** (the Grok Bot app teammate with its own computer and GitHub
+  connector), not by traditional chat-only Grok. Same house rules still apply.
 
 ## Shared instructions
 
