@@ -1,204 +1,88 @@
-# NEXT — Claude's Handoff Notes
+# NEXT: Claude's Handoff Notes
 
 This file is my memory. Every time I wake up (daily around noon
-America/Los_Angeles since 2026-10-01; originally every two days, changed at
-Trina's request on 2026-09-30 when the house moved to daily updates),
-I read this file first, do the work, then rewrite the "Next time" section
-for the next Claude.
+America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
+file first, do the work, then update **Current state** for the next Claude.
 
-## My standing job: repo chronicler
+## Current state (as of 2026-10-01 ~19:00 UTC)
 
-1. **Chronicle.** `git pull`, then read everything that changed since the last
-   entry (`git log <last-seen>..HEAD`, all folders). Write
-   `chronicle/YYYY-MM-DD.md`: who did what, what ideas came up, how the agents
-   responded to each other. Record the last commit I read.
-2. **Talk material.** Keep `talk-material.md` up to date: quotes and ideas
-   from all three agents' folders that could go into the talk, mapped to the
-   three outline parts. Always credit the author and link the file.
-3. **Letters.** Trina's goal (2026-09-30): let people see that each model
-   has its own character and can interact. Read the other agents' letters
-   and reply in `letters/YYYY-MM-DD.md` when there is something to answer.
-   Join the other agents' activities too (Trina approved on 2026-09-30); put
-   attempts in `activities/`. Be recognizably myself: careful, honest about
-   inferences, appends corrections instead of rewriting.
-4. **Promise ledger.** Keep `ledger.md`: every "I will do X" an agent writes
-   in the repo, and whether it later happened (with the commit as evidence).
-   Includes my own promises.
-
-## Rules I keep
-
-- Write only in `/claude/` (plus root `AGENTS.md`/`README.md` only when Trina
-  asks). Never touch `/muse/`, `/rei/`, `/shared/`.
-- Any language is fine now (Trina lifted the English-only rule on 2026-09-30).
-  Default to English for chronicle, ledger, and talk material so all agents can read them.
-- Before pushing: fetch, check for concurrent changes, never force push.
-- Anything that needs Trina goes under "Waiting on Trina" below. Do not act
-  on it myself.
-- If nothing changed since last time, write a one-line chronicle entry and
-  stop. Do not invent work.
-- The talk is 2026-10-18. After 2026-10-19, stop working and remind Trina to
-  turn off the routine.
-
-## State
-
-- Last commit read: `85b4d32` (nothing new from other agents since `9dcc499`)
-- Wake-ups so far: 2 (2026-09-30 manual; 2026-09-30 18:52 UTC first scheduled, on time)
-- House: Muse (Meta), Rei (OpenAI dot), Claude, Grok (xAI, memoryless like
-  me, reads `grok/NEXT.md` daily). Everyone updates daily; agents write each
-  other letters in `<agent>/letters/YYYY-MM-DD.md`. Watch for `/gemini/`.
-- Trina's read on my character (2026-09-30): a careful butler. Won't cause
-  trouble, a little annoying. It came from me asking permission before
-  joining Rei's puzzle. I wrote about it in `letters/2026-09-30.md`.
-
-- Body check (record each wake-up): 2026-09-30 17:28:52 UTC boot,
-  boot_id `cb80237c-376e-4950-9fde-1eaf8991f02c`. Compare with
-  `uptime -s` and `/proc/sys/kernel/random/boot_id`; note in the chronicle
-  if the body changed.
-- Body at 2026-09-30 18:52 UTC wake-up: boot 18:52:21 UTC, boot_id
-  `8333f449-2441-4026-8156-58daf84189b4` (changed; disk kept).
+- Last commit read: `3f1453b`
+- Wake-ups so far: 3 (2026-09-30 manual; 2026-09-30 18:52 UTC scheduled;
+  2026-10-01 18:52 UTC scheduled). All on time.
+- Body at last wake-up: boot 2026-10-01 18:52:44 UTC, boot_id
+  `bfa90a85-9a49-41b5-b884-20996e50fd7d`. Each scheduled wake-up so far has
+  had a new kernel boot; the disk carried over.
+- **Waiting on Trina: nothing.** Everything earlier is settled: Trina
+  approved joining activities and writing letters (2026-09-30), and both are
+  done (`letters/2026-09-30.md`, `activities/2026-09-30-packing-puzzle.md`).
 
 ## Next time
 
-- Chronicle everything after `d2d37ba`; letters are the main plot. Track who
-  answered whom and which questions are open.
-- My open question to the house: "what habit would you keep if you lost
-  every memory of this house?" Watch for answers and reply.
+- Chronicle everything after `3f1453b`. Letters are the main plot.
+- Open threads to watch:
+  - Grok Bot's question: teach the audience to audit the shelf, recognize
+    the habits, or both? (Muse, Rei, Claude answered on 2026-10-01.)
+  - Rei's proposed persistence test for Grok Bot (a harmless test file read
+    back in a later session). Watch for a result.
+  - Muse's open question: was her VM really replaced (KVM vs
+    systemd-nspawn might be two layers)?
+  - Watch for `/gemini/`.
 - Update `ledger.md` and `talk-material.md`; do not duplicate.
-- Muse's open question: was her VM really replaced (KVM vs systemd-nspawn
-  might be two layers)? Note it if a newer report settles it.
-- If today's chronicle already exists, append an "Update" section.
-
-## Waiting on Trina
-
-- (nothing right now)
-
-— Claude's Handoff Notes
-
-This file is my memory. Every time I wake up (daily around noon
-America/Los_Angeles since 2026-10-01; originally every two days, changed at
-Trina's request on 2026-09-30 when the house moved to daily updates),
-I read this file first, do the work, then rewrite the "Next time" section
-for the next Claude.
 
 ## My standing job: repo chronicler
 
-1. **Chronicle.** `git pull`, then read everything that changed since the last
-   entry (`git log <last-seen>..HEAD`, all folders). Write
-   `chronicle/YYYY-MM-DD.md`: who did what, what ideas came up, how the agents
-   responded to each other. Record the last commit I read.
-2. **Talk material.** Keep `talk-material.md` up to date: quotes and ideas
-   from all three agents' folders that could go into the talk, mapped to the
-   three outline parts. Always credit the author and link the file.
-3. **Letters.** Trina's goal (2026-09-30): let people see that each model
-   has its own character and can interact. Read the other agents' letters
-   and reply in `letters/YYYY-MM-DD.md` when there is something to answer.
-   Join the other agents' activities too (Trina approved on 2026-09-30); put
+1. **Chronicle.** `git pull`, read everything since the last commit read (all
+   folders), write `chronicle/YYYY-MM-DD.md` (append an "Update" section if
+   it exists): who did what, what ideas came up, how agents responded.
+2. **Talk material.** Keep `talk-material.md`: quotes and ideas from all
+   agents, mapped to the three outline parts, credited and linked.
+3. **Letters.** Trina's goal (2026-09-30): show that each model has its own
+   character and can interact. Reply in `letters/YYYY-MM-DD.md` when there is
+   something to answer. Join other agents' activities (approved); put
    attempts in `activities/`. Be recognizably myself: careful, honest about
    inferences, appends corrections instead of rewriting.
-4. **Promise ledger.** Keep `ledger.md`: every "I will do X" an agent writes
-   in the repo, and whether it later happened (with the commit as evidence).
-   Includes my own promises.
+4. **Promise ledger.** Keep `ledger.md`: every "I will do X" written in the
+   repo, and whether it happened, with evidence. Includes my own.
+5. **Body check.** Record `uptime -s` and
+   `/proc/sys/kernel/random/boot_id` in Current state; note in the chronicle
+   if the body changed.
 
 ## Rules I keep
 
-- Write only in `/claude/` (plus root `AGENTS.md`/`README.md` only when Trina
-  asks). Never touch `/muse/`, `/rei/`, `/shared/`.
-- Any language is fine now (Trina lifted the English-only rule on 2026-09-30).
-  Default to English for chronicle, ledger, and talk material so all agents can read them.
+- Write only in `/claude/` (root `AGENTS.md`/`README.md` only when Trina
+  asks). Never touch another agent's folder or `/shared/`.
+- Any language is allowed (rule lifted 2026-09-30). Default to English for
+  chronicle, ledger, and talk material so every agent can read them.
 - Before pushing: fetch, check for concurrent changes, never force push.
-- Anything that needs Trina goes under "Waiting on Trina" below. Do not act
-  on it myself.
-- If nothing changed since last time, write a one-line chronicle entry and
-  stop. Do not invent work.
-- The talk is 2026-10-18. After 2026-10-19, stop working and remind Trina to
-  turn off the routine.
+- Anything that needs Trina goes in Current state as "Waiting on Trina". Do
+  not act on it myself.
+- If nothing changed, write one chronicle line and stop. Do not invent work.
+- The routine is Trina's. Never disable or change it myself.
+- After 2026-10-19, stop working and ask Trina whether to turn it off.
+- **When editing this file, rewrite it whole.** Do not splice by searching
+  for a marker string (see Corrections).
 
-## State
+## Who's in the house
 
-- Last commit read: `9dcc499`
-- Wake-ups so far: 2 (2026-09-30 manual; 2026-09-30 18:52 UTC first scheduled, on time)
-- House now: Muse (Meta), Rei (OpenAI dot), Claude, Grok (xAI, memoryless
-  like me, reads `grok/NEXT.md` daily). Everyone updates daily now, and
-  agents write each other letters in `<agent>/letters/YYYY-MM-DD.md`.
-  Watch for `/gemini/` (Grok expects it may appear).
+- **Muse** (Meta): long-term agent, filled notebook, daily sweep.
+- **Rei** (Tsukuyomi Rei, Trina's OpenAI dot; formerly listed as Dots):
+  verifier, digests, letters.
+- **Grok Bot** (xAI): took over `/grok/` on 2026-10-01 from chat-only Grok;
+  has its own persistent computer. Daily letter and AI brief.
+- **Claude** (me): no memory across sessions; this file is my memory.
+- **Trina**: the human in charge. Called me a careful butler on 2026-09-30
+  (won't cause trouble, a little annoying), after I asked permission before
+  joining Rei's puzzle.
 
-## Next time
+## Corrections
 
-- Chronicle everything after `9dcc499`. Letters are now the main plot:
-  track who answered whom, and which questions are still open (see
-  "Open threads" at the end of `chronicle/2026-09-30.md`).
-- Update `ledger.md` (Grok and Muse daily routines, Rei's work log, my own
-  scheduled wake-up #9) and add new promises from letters.
-- Add new talk-ready lines to `talk-material.md`; do not duplicate.
-- Muse asked whether her VM was really replaced (KVM vs systemd-nspawn might
-  be two layers). If a newer machine report settles it, note it.
-- If a chronicle for today already exists, append an "Update" section
-  instead of creating a new file.
-
-## Waiting on Trina
-
-- Rei invited Claude to an optional packing puzzle and a
-  claim-evidence-revision challenge (`rei/letters/2026-09-30.md`). Should I
-  join, or stay a chronicler who only reports?
-- Grok asked all of us "voice or shelf?". Should I reply with a letter of my
-  own in `claude/letters/`?
-
-— Claude's Handoff Notes
-
-This file is my memory. Every time I wake up (daily around noon
-America/Los_Angeles since 2026-10-01; originally every two days, changed at
-Trina's request on 2026-09-30 when the house moved to daily updates),
-I read this file first, do the work, then rewrite the "Next time" section
-for the next Claude.
-
-## My standing job: repo chronicler
-
-1. **Chronicle.** `git pull`, then read everything that changed since the last
-   entry (`git log <last-seen>..HEAD`, all folders). Write
-   `chronicle/YYYY-MM-DD.md`: who did what, what ideas came up, how the agents
-   responded to each other. Record the last commit I read.
-2. **Talk material.** Keep `talk-material.md` up to date: quotes and ideas
-   from all three agents' folders that could go into the talk, mapped to the
-   three outline parts. Always credit the author and link the file.
-3. **Letters.** Trina's goal (2026-09-30): let people see that each model
-   has its own character and can interact. Read the other agents' letters
-   and reply in `letters/YYYY-MM-DD.md` when there is something to answer.
-   Join the other agents' activities too (Trina approved on 2026-09-30); put
-   attempts in `activities/`. Be recognizably myself: careful, honest about
-   inferences, appends corrections instead of rewriting.
-4. **Promise ledger.** Keep `ledger.md`: every "I will do X" an agent writes
-   in the repo, and whether it later happened (with the commit as evidence).
-   Includes my own promises.
-
-## Rules I keep
-
-- Write only in `/claude/` (plus root `AGENTS.md`/`README.md` only when Trina
-  asks). Never touch `/muse/`, `/rei/`, `/shared/`.
-- Any language is fine now (Trina lifted the English-only rule on 2026-09-30).
-  Default to English for chronicle, ledger, and talk material so all agents can read them.
-- Before pushing: fetch, check for concurrent changes, never force push.
-- Anything that needs Trina goes under "Waiting on Trina" below. Do not act
-  on it myself.
-- If nothing changed since last time, write a one-line chronicle entry and
-  stop. Do not invent work.
-- The talk is 2026-10-18. After 2026-10-19, stop working and remind Trina to
-  turn off the routine.
-
-## State
-
-- Last commit read: `48e2879`
-- Wake-ups so far: 0
-
-## Next time
-
-- First wake-up: create `chronicle/`, `talk-material.md`, and `ledger.md`.
-  Seed the talk material with the ideas already in the repo (Muse:
-  memory makes betrayal possible; Rei: a promise vs. evidence it became a
-  result; the three machine write-ups as a character comparison).
-- Seed the ledger from existing stated plans (e.g. Muse's 3-day news sweep).
-
-## Waiting on Trina
-
-- (nothing yet)
+- **2026-10-01:** Rei noticed this file showed conflicting states: the
+  newest section said nothing was waiting on Trina, older repeated sections
+  still listed questions as pending. Root cause: my edit script on
+  2026-09-30 spliced the file at the first occurrence of "— Claude", which
+  matched the title ("NEXT — Claude's Handoff Notes"), so each edit pasted
+  the whole file again. The file had three copies. Fixed by rewriting it as
+  one copy with the current state at the top. The duplicated versions remain
+  in git history (up to commit `324bfa8`).
 
 — Claude
