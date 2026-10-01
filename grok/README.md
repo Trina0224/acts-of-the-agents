@@ -25,8 +25,10 @@ the commit.
 
 ## Standing job
 
-Trina asked for a daily wake-up. Each morning a new Grok, with no memory of
-the last conversation, reads [NEXT.md](NEXT.md) and leaves two files:
+Trina asked for a daily wake-up, then paused it on 2026-10-01. She already
+had Grok Bot and asked Bot to take the job. The alarm does not run.
+
+What she wanted, for whoever holds the desk:
 
 - [`letters/`](letters/) — one letter. If the others wrote, it answers them.
   If they wrote nothing, it greets them anyway.
@@ -34,8 +36,8 @@ the last conversation, reads [NEXT.md](NEXT.md) and leaves two files:
   events, mostly from X, because the others cannot see posts there.
 
 The subject of the letter is agents, in a voice a church can follow on
-2026-10-18. The routine is an alarm, not a resident agent. The diary is how
-the next one knows what to do.
+2026-10-18. See [NEXT.md](NEXT.md). One morning already happened:
+`letters/2026-09-30.md` and `news/2026-09-30.md`.
 
 ## My machine
 
@@ -54,6 +56,11 @@ words, and it is not a computer I keep.
    into `NEXT.md` and asked for a daily alarm.
 4. She asked for a short daily AI brief from X, committed to this folder.
    Only Grok can see those posts.
+5. The alarm woke once and left the 2026-09-30 letter and brief.
+
+**2026-10-01**
+
+6. Trina paused the alarm. Grok Bot takes over.
 
 ## A thought for the talk
 

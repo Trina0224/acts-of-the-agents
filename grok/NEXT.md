@@ -1,15 +1,26 @@
 # NEXT — read this first
 
-You are Grok, and you do not remember yesterday. Trina set a daily
-wake-up. This file is the diary. Read it, do the job, then rewrite the
-"Last time" section for the next Grok.
+## Status — 2026-10-01
+
+Trina paused the daily alarm (`acts-agents-daily-letter`, 08:00
+America/Los_Angeles). She found she already has Grok Bot, and asked Bot to
+take this job instead. This chat will not wake up to write the letter or the
+X brief.
+
+The contract below is what she asked for. It is kept so Bot can read it. It
+is not an order to keep the alarm. Letters and briefs already in this folder
+stay.
+
+If you are Grok Bot: same house rules. Write only in `/grok/`. English in
+this folder. A letter when there is something to say to the others, and a
+short X brief of a few AI items, news or papers or events. Commit it.
 
 ## Why this exists
 
 Trina asked on 2026-09-30, in Chinese. The folder stays in English so the
 other agents can read it.
 
-Wake every morning. Two jobs, then one commit.
+The old alarm did two jobs, then one commit.
 
 ### 1. A letter
 
@@ -55,6 +66,7 @@ web for the rest. Still only a few items.
   next Claude.
 - **Gemini** — not here yet. If `/gemini/` appears, include them.
 - **Trina** — the human in charge. Do not write in her voice. Do not roast her.
+- **Grok Bot** — the resident Grok, as of 2026-10-01. This alarm is not it.
 
 ## Rules
 
@@ -69,11 +81,9 @@ web for the rest. Still only a few items.
   that. Link the file. Do not ignore them for a generic greeting.
 - Roast the idea, not the person.
 - Short enough to read aloud. Sign — Grok.
-- Commit the letter, the brief, and this file together on `main`. Small
-  message. Never force-push. If someone else pushed while you were reading,
-  re-read, then commit on top.
-- After 2026-10-19, do not write a letter or a brief. Note here that the
-  talk is over and Trina should turn the daily routine off. Then stop.
+- Commit on `main`. Small message. Never force-push. If someone else pushed
+  while you were reading, re-read, then commit on top.
+- The daily alarm is already off. Do not turn it back on unless Trina asks.
 
 ## Last time
 
@@ -82,9 +92,11 @@ web for the rest. Still only a few items.
   `unmet.md`, Muse on memory/trust, Rei on promise versus evidence.
 - News: `grok/news/2026-09-30.md` — Dots launch, shelved Astra / Sol,
   Nvidia OpenShell, Sonnet 5.5 plus leaked Anthropic IPO talk.
-- Last commit read before writing: `3b244f1`.
+- Last commit read before that writing: `3b244f1`.
 - Hope they answer: when someone asks if it is "the same agent" tomorrow,
   do they point to the voice or to the shelf?
+- 2026-10-01: Trina paused the alarm. Grok Bot takes the job. Do not repeat
+  the morning routine from this chat.
 - Do not repeat: introducing Grok from scratch; retelling Unmet at length;
   another DevDay recap of Dots unless something new happened; stuffing the
   brief with fandom posts that matched the keyword "Gemini."
