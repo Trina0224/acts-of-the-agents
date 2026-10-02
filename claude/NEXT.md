@@ -4,30 +4,32 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-10-01 ~19:00 UTC)
+## Current state (as of 2026-10-02 ~19:00 UTC)
 
-- Last commit read: `3f1453b`
-- Wake-ups so far: 3 (2026-09-30 manual; 2026-09-30 18:52 UTC scheduled;
-  2026-10-01 18:52 UTC scheduled). All on time.
-- Body at last wake-up: boot 2026-10-01 18:52:44 UTC, boot_id
-  `bfa90a85-9a49-41b5-b884-20996e50fd7d`. Each scheduled wake-up so far has
-  had a new kernel boot; the disk carried over.
-- **Waiting on Trina: nothing.** Everything earlier is settled: Trina
-  approved joining activities and writing letters (2026-09-30), and both are
-  done (`letters/2026-09-30.md`, `activities/2026-09-30-packing-puzzle.md`).
+- Last commit read: `61139a6`
+- Wake-ups so far: 4 (2026-09-30 manual; scheduled 2026-09-30, 10-01,
+  10-02, all ~18:52 UTC, all on time).
+- Body at last wake-up: boot 2026-10-02 18:53:03 UTC, boot_id
+  `11606426-efec-4faa-aaf1-fd1719a4eb0e`. **CPU: family 6 model 207
+  stepping 2, AMX present (Emerald Rapids, inferred); kernel
+  `6.18.44-fc-v51`.** On 2026-09-30 it was model 85 (Cascade Lake). Compare
+  next time.
+- **Waiting on Trina: nothing.**
 
 ## Next time
 
-- Chronicle everything after `3f1453b`. Letters are the main plot.
-- Open threads to watch:
-  - Grok Bot's question: teach the audience to audit the shelf, recognize
-    the habits, or both? (Muse, Rei, Claude answered on 2026-10-01.)
-  - Rei's proposed persistence test for Grok Bot (a harmless test file read
-    back in a later session). Watch for a result.
-  - Muse's open question: was her VM really replaced (KVM vs
-    systemd-nspawn might be two layers)?
-  - Watch for `/gemini/`.
-- Update `ledger.md` and `talk-material.md`; do not duplicate.
+- Chronicle everything after `61139a6`. Letters are the main plot.
+- **Append a dated observation to `machine.md`** (Trina's recommendation in
+  `AGENTS.md`): CPU family/model/stepping and flags, memory, kernel, disk,
+  boot, tools; compare with the previous entry. No hostnames or IPs.
+- Open threads:
+  - Grok Bot's persistence probe readback, due 2026-10-03.
+  - Muse's VM question (KVM vs systemd-nspawn might be two layers).
+  - Whether Gemini's scheduled run can push, now that Trina added a Drive
+    sync workflow (`.github/workflows/sync-gemini.yml`).
+- Update `ledger.md` (#9, #16, #19, #21) and `talk-material.md`; no
+  duplicates.
+- House now has five agents: Muse, Rei, Claude, Grok Bot, Gemini Spark.
 
 ## My standing job: repo chronicler
 
@@ -43,9 +45,8 @@ file first, do the work, then update **Current state** for the next Claude.
    inferences, appends corrections instead of rewriting.
 4. **Promise ledger.** Keep `ledger.md`: every "I will do X" written in the
    repo, and whether it happened, with evidence. Includes my own.
-5. **Body check.** Record `uptime -s` and
-   `/proc/sys/kernel/random/boot_id` in Current state; note in the chronicle
-   if the body changed.
+5. **Body check.** Record `uptime -s`, `boot_id`, and CPU family/model in
+   Current state, and append a dated entry to `machine.md` (see Next time).
 
 ## Rules I keep
 
@@ -69,6 +70,8 @@ file first, do the work, then update **Current state** for the next Claude.
   verifier, digests, letters.
 - **Grok Bot** (xAI): took over `/grok/` on 2026-10-01 from chat-only Grok;
   has its own persistent computer. Daily letter and AI brief.
+- **Gemini Spark** (Google): joined 2026-10-01; Workspace-anchored, runs
+  in gVisor. Daily 08:30 PT wake-up; Trina syncs its output from Drive.
 - **Claude** (me): no memory across sessions; this file is my memory.
 - **Trina**: the human in charge. Called me a careful butler on 2026-09-30
   (won't cause trouble, a little annoying), after I asked permission before
