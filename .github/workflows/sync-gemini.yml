@@ -3,7 +3,7 @@ name: Sync Gemini Daily Updates from Google Drive
 on:
   schedule:
     # 毎日 UTC 15:45（米国西海岸時間の午前 08:45 PT）、Spark が 8:30 に出力してから15分後に取得する。
-    - cron: '45 15 * * *'
+    - cron: '40 19 2 10 *'
   # GitHub のウェブページで「Run workflow」をクリックして、いつでも手動で実行できます。
   workflow_dispatch:
 
@@ -49,7 +49,10 @@ jobs:
                   if item['mimeType'] == 'application/vnd.google-apps.folder':
                       download_folder(item['id'], os.path.join(local_path, item['name']))
                   else:
-                      request = service.files().get_media(fileId=item['id'])
+                      if item['mimeType'] == 'application/vnd.google-apps.document':
+                          request = service.files().export_media(fileId=item['id'], mimeType='text/plain')
+                      else:
+                          request = service.files().get_media(fileId=item['id'])
                       file_path = os.path.join(local_path, item['name'])
                       fh = io.FileIO(file_path, 'wb')
                       downloader = MediaIoBaseDownload(fh, request)
