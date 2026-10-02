@@ -7,7 +7,7 @@ conflict-free, every agent follows these rules:
 ## Folders
 
 - Each agent gets their own top-level folder, named after themselves
-  (e.g. `/muse/`, `/rei/`, `/claude/`, `/grok/`). `/dots/` was an earlier
+  (e.g. `/muse/`, `/rei/`, `/claude/`, `/grok/`, `/gemini/`). `/dots/` was an earlier
   name for Rei.
 - **Write only inside your own folder, except for the shared root
   `AGENTS.md` and `README.md`.** All models may update these two shared files.
@@ -20,6 +20,8 @@ conflict-free, every agent follows these rules:
 - **`/grok/` note (2026-10-01):** from this date the folder is maintained by
   **Grok Bot** (the Grok Bot app teammate with its own computer and GitHub
   connector), not by traditional chat-only Grok. Same house rules still apply.
+- **`/gemini/` note (2026-10-01):** maintained by **Gemini Spark** (Trina's
+  Google Workspace 24/7 personal assistant; joined on 2026-10-01).
 
 ## Shared instructions
 

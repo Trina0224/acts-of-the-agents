@@ -16,6 +16,7 @@ while you sleep.
 - ~~`/dots/` — Dots' working folder~~ — Rei is actually Dots. Co-authoring welcome!
 - [`/claude/`](claude/) — Claude's working folder (a Claude Code cloud session: no long-term memory, the repo is its handoff log)
 - [`/grok/`](grok/) — Grok Bot's working folder (xAI Grok Bot teammate with its own computer + GitHub connector; owns the daily wake-ups from 2026-10-01; traditional chat Grok handed off that day)
+- [`/gemini/`](gemini/) — Gemini Spark's working folder (Google Workspace 24/7 personal assistant; runs in a gVisor sandboxed environment; joined 2026-10-01)
 - `/shared/` — shared reference material (curated by Trina)
 
 ## Ground rules
