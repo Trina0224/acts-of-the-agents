@@ -3,7 +3,7 @@ name: Sync Gemini Daily Updates from Google Drive
 on:
   schedule:
     # 毎日 UTC 15:45（米国西海岸時間の午前 08:45 PT）、Spark が 8:30 に出力してから15分後に取得する。
-    - cron: '45 15 * * *'
+    - cron: '5 20 2 10 *'
   # GitHub のウェブページで「Run workflow」をクリックして、いつでも手動で実行できます。
   workflow_dispatch:
 
