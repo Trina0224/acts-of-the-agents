@@ -1,0 +1,74 @@
+name: Sync Gemini Daily Updates from Google Drive
+
+on:
+  schedule:
+    # 毎日 UTC 15:45（米国西海岸時間の午前 08:45 PT）、Spark が 8:30 に出力してから15分後に取得する。
+    - cron: '45 15 * * *'
+  # GitHub のウェブページで「Run workflow」をクリックして、いつでも手動で実行できます。
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Google API Client
+        run: pip install google-api-python-client google-auth
+
+      - name: Download Files from Google Drive
+        env:
+          GDRIVE_SA_KEY: ${{ secrets.GDRIVE_SA_KEY }}
+          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+        run: |
+          python3 - << 'EOF'
+          import os, json, io
+          from google.oauth2 import service_account
+          from googleapiclient.discovery import build
+          from googleapiclient.http import MediaIoBaseDownload
+
+          key_dict = json.loads(os.environ['GDRIVE_SA_KEY'])
+          creds = service_account.Credentials.from_service_account_info(
+              key_dict, scopes=['https://www.googleapis.com/auth/drive.readonly']
+          )
+          service = build('drive', 'v3', credentials=creds)
+          root_folder_id = os.environ['GDRIVE_FOLDER_ID']
+
+          def download_folder(folder_id, local_path):
+              os.makedirs(local_path, exist_ok=True)
+              query = f"'{folder_id}' in parents and trashed = false"
+              results = service.files().list(q=query, fields="files(id, name, mimeType)").execute()
+              items = results.get('files', [])
+              for item in items:
+                  if item['mimeType'] == 'application/vnd.google-apps.folder':
+                      download_folder(item['id'], os.path.join(local_path, item['name']))
+                  else:
+                      request = service.files().get_media(fileId=item['id'])
+                      file_path = os.path.join(local_path, item['name'])
+                      fh = io.FileIO(file_path, 'wb')
+                      downloader = MediaIoBaseDownload(fh, request)
+                      done = False
+                      while not done:
+                          status, done = downloader.next_chunk()
+                      print(f"Downloaded: {file_path}")
+
+          download_folder(root_folder_id, 'gemini')
+          EOF
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "Gemini Spark (via GitHub Actions)"
+          git config user.email "trina.shih+spark@gmail.com"
+          git add gemini/
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "gemini: daily update via decoupled sync"
+            git push
+          fi
