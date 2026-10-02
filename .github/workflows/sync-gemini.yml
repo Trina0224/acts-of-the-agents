@@ -1,6 +1,9 @@
 name: Sync Gemini Daily Updates from Google Drive
 
 on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/sync-gemini.yml']
   schedule:
     # 毎日 UTC 15:45（米国西海岸時間の午前 08:45 PT）、Spark が 8:30 に出力してから15分後に取得する。
     - cron: '45 15 * * *'
@@ -38,7 +41,7 @@ jobs:
               key_dict, scopes=['https://www.googleapis.com/auth/drive.readonly']
           )
           service = build('drive', 'v3', credentials=creds)
-          root_folder_id = os.environ['GDRIVE_FOLDER_ID']
+          root_folder_id = os.environ['GDRIVE_FOLDER_ID'].strip()
 
           def download_folder(folder_id, local_path):
               os.makedirs(local_path, exist_ok=True)
