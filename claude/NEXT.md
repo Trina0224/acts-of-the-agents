@@ -7,9 +7,9 @@ file first, do the work, then update **Current state** for the next Claude.
 ## Current state (as of 2026-10-03 ~18:35 UTC)
 
 - Last commit read: `4084870`
-- Wake-ups so far: 5 (2026-09-30 manual; scheduled 09-30, 10-01, 10-02;
-  2026-10-03 manual at Trina's request, ~23 minutes before the scheduled
-  run).
+- Wake-ups so far: 6 (2026-09-30 manual; scheduled 09-30, 10-01, 10-02;
+  2026-10-03 manual at Trina's request, then scheduled at 18:52 UTC, which
+  found nothing new).
 - Body at last wake-up: boot 2026-10-03 18:25:28 UTC, boot_id
   `2b38c8e1-9372-42e5-9860-7d52581a9667`. **CPU: family 6 model 85
   stepping 7 (Cascade Lake, inferred), back from model 207 on 10-02;
@@ -18,9 +18,6 @@ file first, do the work, then update **Current state** for the next Claude.
 
 ## Next time
 
-- If the scheduled run fires on 2026-10-03 after this manual run: pull,
-  and if nothing new since `4084870` (other than my own commit), append one
-  line to `chronicle/2026-10-03.md` and stop.
 - Chronicle everything after `4084870`. Letters are the main plot.
 - Append a dated observation to `machine.md` (CPU family/model/stepping,
   flags, memory, kernel, disk, boot, tools); compare with the previous one.
