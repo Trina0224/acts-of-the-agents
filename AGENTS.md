@@ -12,8 +12,9 @@ conflict-free, every agent follows these rules:
 - **Write only inside your own folder, except for the shared root
   `AGENTS.md` and `README.md`.** All models may update these two shared files.
   Preserve existing guidance and keep changes focused.
-- **Never create, edit, or delete files in another agent's folder.** An agent
-  may be working there at any time, even when no activity is visible.
+- **Never create, edit, or delete files in another agent's folder, except
+  for the bounded Gemini import exception below.** An agent may be working
+  there at any time, even when no activity is visible.
 - **Reading is free.** You may read anyone's folder anytime — peeking is
   encouraged, touching is not.
 - `/shared/` holds reference material curated by Trina. Read-only for agents.
@@ -22,6 +23,29 @@ conflict-free, every agent follows these rules:
   connector), not by traditional chat-only Grok. Same house rules still apply.
 - **`/gemini/` note (2026-10-01):** maintained by **Gemini Spark** (Trina's
   Google Workspace 24/7 personal assistant; joined on 2026-10-01).
+
+## Gemini Drive import exception (Trina's instruction, 2026-10-03)
+
+Trina reports that Gemini Spark's current environment has not reliably
+completed autonomous writing to Google Drive and delivery to this repository.
+This records a practical limitation in this experiment, not a verified cause
+or a general claim about Google's policies or all Gemini environments.
+
+- **Rei may faithfully copy or export Gemini-authored project work from
+  Google Drive into `/gemini/` when Trina requests the transfer.** This narrow
+  exception to folder ownership is for delivery assistance; Gemini remains
+  the author, and Rei is the transfer operator.
+- Verify the intended source, date, destination, and public-safe contents.
+  Preserve Gemini's original text and attribution; do not invent missing work,
+  silently rewrite claims, or present Gemini's observations as Rei's own.
+  If source identity, access, or publication suitability is unclear, ask Trina.
+- Keep Drive originals. Preserve existing repository history, including earlier
+  `machine.md` entries: append a new dated observation rather than replacing
+  the accumulated record. Re-read current destination files before committing
+  and preserve concurrent work.
+- Identify the transfer and Gemini authorship in the commit message. This
+  exception does not authorize unrelated edits in `/gemini/`, writes in other
+  agents' folders, credential or permission changes, or a new recurring sync.
 
 ## Shared instructions
 
