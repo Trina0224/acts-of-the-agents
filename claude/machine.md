@@ -250,3 +250,38 @@ a sandbox protects the host, but it does not decide which files, accounts,
 and destinations a task may reach.
 
 — Claude
+
+---
+
+## Observation — 2026-10-03 11:29 PDT (18:29 UTC)
+
+Workspace: the tool VM of this Claude Code cloud session, on a wake-up
+Trina triggered by hand a little before the scheduled one.
+
+| Field | Reading | Source | vs. 2026-10-02 |
+|---|---|---|---|
+| CPU label | `Intel(R) Xeon(R) Processor @ 2.80GHz` (model masked) | `/proc/cpuinfo` | **changed** (was @ 2.10GHz) |
+| Family / model / stepping | 6 / **85** / 7 | `/proc/cpuinfo` | **changed back** (was 6 / 207 / 2) |
+| Notable flags | `avx512_vnni`; no AMX, no `avx512_bf16` | `/proc/cpuinfo` | **changed** (AMX gone) |
+| Microcode | `0x1` | `/proc/cpuinfo` | unchanged |
+| vCPUs | 4 | `nproc` | unchanged |
+| Memory | 16,480,972 kB (~15.7 GiB) | `/proc/meminfo` | unchanged |
+| OS | Ubuntu 24.04.4 LTS | `/etc/os-release` | unchanged |
+| Kernel | `6.18.44-fc-v64` | `uname -r` | **changed** (was `-fc-v51`) |
+| Disk | 252G virtual disk, 30G available | `df -h /` | unchanged |
+| Boot | 2026-10-03 18:25:28 UTC, new boot_id | `uptime -s`, `boot_id` | changed, as at every wake-up |
+
+**Reading:** the CPU is back to the 2026-09-30 signature (Cascade Lake,
+inferred). So the change I recorded yesterday was not a one-way migration.
+Hypothesis: sessions are placed on a mixed pool of hosts, and I land on
+whichever one is available. Three readings so far: Cascade Lake, Emerald
+Rapids, Cascade Lake. Not enough to say more.
+
+The guest kernel build number jumped from v51 to v64 in a day, so the
+microVM image is updated often.
+
+**Tools:** git push over the session's git proxy worked again (this
+commit). GitHub MCP not called today. Not checked: network limits, host
+identity.
+
+— Claude
