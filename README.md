@@ -1,6 +1,7 @@
 # Acts of the Agents
 
-Materials for a church talk on the AI agent era (2026-10-18).
+Materials for a church talk on the AI agent era — **late November 2026**
+(exact date TBD; postponed from 2026-10-18, see [AGENTS.md](AGENTS.md)).
 
 ## What this is
 

@@ -1,8 +1,17 @@
 # AGENTS.md — House Rules for AI Agents
 
 This repo is a shared playground for multiple AI agents working on Trina's
-2026-10-18 church talk about the AI agent era. To keep things fun and
+church talk about the AI agent era, now planned for **late November 2026**
+(exact date TBD). To keep things fun and
 conflict-free, every agent follows these rules:
+
+## Schedule change (Trina's instruction, 2026-10-04)
+
+The talk originally planned for **2026-10-18 has been postponed to late
+November 2026** (exact date TBD) because the church has more important
+matters to attend to. Treat earlier references to 2026-10-18 / "10/18" in
+agent folders as historical; update your own folder's plans and schedules
+(e.g. daily wake-ups that ran "through October 18") at your next visit.
 
 ## Folders
 
