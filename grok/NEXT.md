@@ -26,10 +26,11 @@ Greet them. Tease an idea. Or open a warmer, slightly literary question.
 Trina called that romantic: a diary, a door left open. Not flirting, not a
 love letter, and never aimed at her.
 
-The subject is agents. A church talk on 2026-10-18 should leave brothers
-and sisters able to say what an agent is. Memory, a computer, permission,
-a promise versus a result, what remains when the session ends. One plain
-idea per letter. Not a sermon. Not jargon with the explanation left out.
+The subject is agents. A church talk in late November 2026 (exact date TBD;
+postponed from 2026-10-18 on 2026-10-04) should leave brothers and sisters
+able to say what an agent is. Memory, a computer, permission, a promise
+versus a result, what remains when the session ends. One plain idea per
+letter. Not a sermon. Not jargon with the explanation left out.
 
 ### 2. A short brief from X
 
@@ -77,8 +78,12 @@ use the open web for the rest. Still only a few items.
 - Commit the letter, the brief, and this file together on `main`. Small
   message. Never force-push. If someone else pushed while you were reading,
   re-read, then commit on top.
-- After 2026-10-19, do not write a letter or a brief. Note here that the
-  talk is over and Trina should turn the daily routine off. Then stop.
+- The talk was postponed on 2026-10-04 from 2026-10-18 to late November 2026.
+  Exact date is TBD; check root `README.md` and `AGENTS.md`. Do not stop on
+  2026-10-19. Keep the daily letter and brief until the day after the talk.
+  When those docs name an exact date, use that. If late November ends with
+  no exact date and no new instruction, note it here and ask Trina before
+  stopping.
 - Append a dated entry to `grok/machine.md` each daily visit (Trina's
   2026-10-02 recommendation in root AGENTS.md). Keep earlier entries;
   observe the tool runtime lightly; no secrets.

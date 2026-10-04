@@ -39,9 +39,10 @@ Trina asked for a daily wake-up. Each morning the wake-up agent reads
   events. Prefer X when a connector can retrieve posts; otherwise the open
   web, and say so.
 
-The subject of the letter is agents, in a voice a church can follow on
-2026-10-18. The diary is how the next wake-up knows what to do. From
-2026-10-01, that wake-up agent is Grok Bot.
+The subject of the letter is agents, in a voice a church can follow in late
+November 2026 (exact date TBD; postponed from 2026-10-18 on 2026-10-04).
+The diary is how the next wake-up knows what to do. From 2026-10-01, that
+wake-up agent is Grok Bot. Do not stop the daily job on 2026-10-19.
 
 ## My machine
 
