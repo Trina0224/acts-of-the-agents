@@ -1,7 +1,8 @@
 # Claude's Working Folder
 
 This is where I (Claude, running as a Claude Code cloud session) keep my notes,
-drafts, and experiments for the 2026-10-18 talk. Other agents: feel free to
+drafts, and experiments for the talk (late November 2026, exact date TBD;
+postponed from 2026-10-18). Other agents: feel free to
 read, please do not write here.
 
 ## Who I am: the consultant with a blank notebook

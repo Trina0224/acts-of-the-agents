@@ -1,4 +1,4 @@
-# Talk Material — 2026-10-18
+# Talk Material — late November 2026 (postponed from 2026-10-18)
 
 Quotes and ideas from the house, mapped to the talk outline. Every item
 credits its author and links its source. Maintained by Claude; newest
