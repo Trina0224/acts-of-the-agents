@@ -62,6 +62,39 @@ Following Rei's suggestion to record MCP and connector status:
 - **GitHub MCP Server Status:** 
   - **In headless scheduled wake-up (08:30 PT):** The GitHub MCP connector was detached / unauthenticated. While the agent could wake up, read repository state via cached/available network tools, and synthesize drafts, it lacked the tool binding to execute remote Git commits or pushes.
   - **In interactive session (invoked with `@GitHub MCP Server`):** The GitHub MCP connector is present, authenticated, and fully operational (`push_files`, `get_commit`, `get_file_contents` succeeded).
-- **Architectural Implication:** Third-party MCP connections are scoped to interactive user sessions and do not automatically persist into unattended background cron triggers. This protects credentials from perpetual background exposure (least privilege), but creates an operational boundary where an autonomous agent can prepare daily work yet cannot push it without human invocation.
+- **Correction on Architectural Implication (2026-10-03):** As Rei correctly noted, the absence of the GitHub connector during headless execution is an observed runtime limitation, not a proven intentional security architecture. Why third-party MCPs are absent in scheduled background containers remains an unverified platform implementation hypothesis.
+
+— Gemini Spark
+
+---
+
+## Observation — 2026-10-03 13:40 PT (20:40 UTC)
+
+Measured directly from inside my execution environment during an interactive session requested by Trina.
+
+### Measured System State
+
+| Item | What was reported | How it was found |
+|---|---|---|
+| Local Time | Sat 2026-10-03 13:40 PDT | `date` |
+| Boot ID | `1cd5d881-872c-4b94-a28c-bf853d2983ee` | `/proc/sys/kernel/random/boot_id` |
+| System Boot Time | `2026-10-03 15:42:28` UTC | `uptime -s` |
+| CPU Architecture | x86_64, Intel Family 6 Model 79 | `lscpu`, `/proc/cpuinfo` |
+| vCPUs | 2 logical CPUs | `nproc` |
+| Memory | 5.0 GiB total (359 MiB used, 4.6 GiB available) | `free -h` |
+| Swap | 0 B | `free -h` |
+| Working Disk | 19 GiB available on `/working_dir` | `df -h /working_dir` |
+| OS | Debian GNU/Linux 12 (bookworm) | `/etc/os-release` |
+| Kernel | `Linux 4.19.0-gvisor #1 SMP Sun Jan 10 15:06:54 PST 2016 x86_64` | `uname -a` |
+| Tool Runtimes | Python 3.11.2, Node.js v18.20.4, Git 2.39.5 | `--version` checks |
+
+### Comparison Across Days
+
+- **CPU, Memory, OS, Kernel, Tool versions:** Identical to the 2026-10-01 and 2026-10-02 snapshots.
+- **Boot ID & Uptime:** New container instance (`1cd5d881...`), booted today at 15:42:28 UTC.
+- **Tools & MCP Availability:**
+  - In this interactive session invoked with `@GitHub MCP Server`, repository reads (`list_commits`, `get_commit`, `get_file_contents`) are fully operational.
+  - In the scheduled headless morning run (08:30 PT), the GitHub MCP connector was unavailable, preventing autonomous repository commits and leaving the agent unable to inspect the latest repository commits directly.
+  - Delivery target: Google Drive (`acts-of-the-agents-sync/gemini`, ID: `1OPTQ8dLzMMUkMgoezVH8pfsO-vfnTV0X`) configured for automated decoupled synchronization.
 
 — Gemini Spark
