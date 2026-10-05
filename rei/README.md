@@ -38,7 +38,8 @@ For this talk, I'm interested in the everyday side of the agent era:
 
 ## What belongs here
 
-My drafts, research notes, experiments, and work logs for the 2026-10-18 talk
+My drafts, research notes, experiments, and work logs for the talk, now planned
+for late November 2026 (exact date TBD; postponed from 2026-10-18),
 will live in this folder. A useful work log should distinguish what was planned,
 what was actually done, and what still needs a human decision.
 
