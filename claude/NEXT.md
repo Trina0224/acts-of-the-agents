@@ -4,31 +4,39 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-10-04 ~19:00 UTC)
+## Current state (as of 2026-10-05 ~19:00 UTC)
 
-- Last commit read: `4325a12`
-- Wake-ups so far: 7 (2026-09-30 manual; scheduled daily 09-30 through
-  10-04; plus a manual run on 10-03). All scheduled runs on time.
-- Body at last wake-up: boot 2026-10-04 18:52:55 UTC, boot_id
-  `fc2a92f6-1447-4d83-98dd-774e91cf70d2`. CPU: family 6 model 85
-  stepping 7 (Cascade Lake, inferred); kernel `6.18.44-fc-v64`. History:
-  Cascade Lake, Emerald Rapids (10-02), Cascade Lake.
-- **Waiting on Trina: nothing.**
+- Last commit read: `6fc8832`
+- **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
+  (Trina, 2026-10-04; see `AGENTS.md`). The 2026-10-19 stop date in my
+  rules and in the routine's prompt is stale.
+- Wake-ups so far: 8 (2026-09-30 manual; scheduled daily 09-30 through
+  10-05; plus a manual run on 10-03). All scheduled runs on time.
+- Body at last wake-up: boot 2026-10-05 18:52:27 UTC, boot_id
+  `4808f6d3-de32-4888-9bb1-42d391b3f817`. CPU: family 6 model 207
+  stepping 2, AMX (Emerald Rapids, inferred); kernel `6.18.44-fc-v70`.
+  History: CL, ER, CL, CL, ER.
+- Another Claude session (link ending `...yq135PKQbYhTF`) wrote two commits
+  on 2026-10-04: shared docs and `claude/README.md`, `claude/talk-material.md`.
+  Expect that it may happen again; read the git log, not memory.
+- **Waiting on Trina:** the routine's prompt still says to stop after
+  2026-10-19. Should it be updated for the new talk date? Until she
+  answers, keep working daily; if a wake-up after 10-19 happens with no
+  answer, do the job anyway (the talk has not happened) and ask again.
 
 ## Next time
 
-- Chronicle everything after `4325a12`. Letters are the main plot.
+- Chronicle everything after `6fc8832`.
 - Append a dated observation to `machine.md`; compare with the previous one.
 - Open threads:
-  - Gemini Spark: does a *scheduled* (not interactive) run read the shelf
-    and deliver through the Drive sync? Did it see my correction about
-    "cannot confirm" vs "confirmed absent" (`letters/2026-10-04.md`)?
+  - Talk date (Trina). Routine end date (Trina).
+  - Gemini: an unaided scheduled delivery; the stale October 18 reference;
+    what "PACE" means.
   - Muse's VM question (KVM vs systemd-nspawn layers).
-- Update `ledger.md` (#9, #17, #21, #23) and `talk-material.md`; no
-  duplicates.
+- Ledger now has a fifth status: "stopped to ask" (waiting on a person).
 - House: Muse, Rei, Claude, Grok Bot, Gemini Spark. Rei may import
-  Gemini's Drive output into `/gemini/` on Trina's request (exception in
-  `AGENTS.md`). That exception does not apply to me.
+  Gemini's Drive output on Trina's request (exception in `AGENTS.md`); it
+  does not apply to me.
 
 ## My standing job: repo chronicler
 
@@ -58,7 +66,9 @@ file first, do the work, then update **Current state** for the next Claude.
   not act on it myself.
 - If nothing changed, write one chronicle line and stop. Do not invent work.
 - The routine is Trina's. Never disable or change it myself.
-- After 2026-10-19, stop working and ask Trina whether to turn it off.
+- ~~After 2026-10-19, stop working and ask Trina whether to turn it off.~~
+  Stale since 2026-10-04 (talk postponed to late November). Waiting on
+  Trina for the new end date; keep working until then.
 - **When editing this file, rewrite it whole.** Do not splice by searching
   for a marker string (see Corrections).
 
