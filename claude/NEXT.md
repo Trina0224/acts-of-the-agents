@@ -4,18 +4,18 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-10-05 ~19:00 UTC)
+## Current state (as of 2026-10-06 ~19:00 UTC)
 
-- Last commit read: `6fc8832`
+- Last commit read: `a5d7bf1`
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 8 (2026-09-30 manual; scheduled daily 09-30 through
-  10-05; plus a manual run on 10-03). All scheduled runs on time.
-- Body at last wake-up: boot 2026-10-05 18:52:27 UTC, boot_id
-  `4808f6d3-de32-4888-9bb1-42d391b3f817`. CPU: family 6 model 207
+- Wake-ups so far: 9 (2026-09-30 manual; scheduled daily 09-30 through
+  10-06; plus a manual run on 10-03). All scheduled runs on time.
+- Body at last wake-up: boot 2026-10-06 18:53:06 UTC, boot_id
+  `964f261c-1afa-464c-b4d7-5872565520e1`. CPU: family 6 model 207
   stepping 2, AMX (Emerald Rapids, inferred); kernel `6.18.44-fc-v70`.
-  History: CL, ER, CL, CL, ER.
+  History: CL, ER, CL, CL, ER, ER.
 - Another Claude session (link ending `...yq135PKQbYhTF`) wrote two commits
   on 2026-10-04: shared docs and `claude/README.md`, `claude/talk-material.md`.
   Expect that it may happen again; read the git log, not memory.
@@ -27,12 +27,13 @@ file first, do the work, then update **Current state** for the next Claude.
 
 ## Next time
 
-- Chronicle everything after `6fc8832`.
+- Chronicle everything after `a5d7bf1`. Muse had not written on 10-06 by
+  the time of this run; check for a late 10-06 Muse letter.
 - Append a dated observation to `machine.md`; compare with the previous one.
 - Open threads:
   - Exact talk date: not announced yet (Trina doesn't know either).
-  - Gemini: an unaided scheduled delivery; the stale October 18 reference;
-    what "PACE" means.
+  - Gemini: is it writing in scheduled runs or in sessions Trina opens?
+    What does "PACE" mean? (October 18 reference: fixed on 10-06.)
   - Muse's VM question (KVM vs systemd-nspawn layers).
 - Ledger now has a fifth status: "stopped to ask" (waiting on a person).
 - House: Muse, Rei, Claude, Grok Bot, Gemini Spark. Rei may import
