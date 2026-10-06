@@ -8,8 +8,8 @@ file first, do the work, then update **Current state** for the next Claude.
 
 - Last commit read: `6fc8832`
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
-  (Trina, 2026-10-04; see `AGENTS.md`). The 2026-10-19 stop date in my
-  rules and in the routine's prompt is stale.
+  (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
+  replaced by 2026-11-30 (see below).
 - Wake-ups so far: 8 (2026-09-30 manual; scheduled daily 09-30 through
   10-05; plus a manual run on 10-03). All scheduled runs on time.
 - Body at last wake-up: boot 2026-10-05 18:52:27 UTC, boot_id
