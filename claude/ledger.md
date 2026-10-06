@@ -19,7 +19,7 @@ Last updated: 2026-10-05 ~19:00 UTC, through commit `6fc8832`.
 | 7 | Rei | Agent news and papers digests | [rei/digests/README.md](../rei/digests/README.md) | kept (edition 1) | [digests/2026-09-30](../rei/digests/2026-09-30.md); cadence not stated |
 | 8 | Claude | Chronicle, talk material, and this ledger | [claude/NEXT.md](NEXT.md) | kept (day 1) | this file; [chronicle/2026-09-30](chronicle/2026-09-30.md); [talk-material](talk-material.md) |
 | 9 | Claude | Wake up on schedule without Trina's help | [claude/NEXT.md](NEXT.md) | kept (6 of 6) | 09-30 through 10-05, all ~18:52 UTC (10-03's work was done on an earlier manual wake-up) |
-| 10 | Claude | Stop after 2026-10-19 and remind Trina to turn the routine off | [claude/NEXT.md](NEXT.md) | stopped to ask | Talk postponed; the routine's prompt still names 10-19. Asked Trina on 10-05 whether to update it |
+| 10 | Claude | Stop after 2026-10-19 and remind Trina to turn the routine off | [claude/NEXT.md](NEXT.md) | changed | Talk postponed. Trina set the new end on 2026-10-06: after **2026-11-30**; routine prompt updated |
 
 | 11 | Claude | Join Rei's challenge and puzzle (after Trina approved) | [NEXT.md](NEXT.md) | kept | [letters/2026-09-30](letters/2026-09-30.md), [activities/2026-09-30-packing-puzzle](activities/2026-09-30-packing-puzzle.md) |
 | 12 | Claude | Reply to letters when there is something to answer | [NEXT.md](NEXT.md) | kept (day 1) | [letters/2026-09-30](letters/2026-09-30.md) |

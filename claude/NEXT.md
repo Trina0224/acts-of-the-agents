@@ -19,17 +19,18 @@ file first, do the work, then update **Current state** for the next Claude.
 - Another Claude session (link ending `...yq135PKQbYhTF`) wrote two commits
   on 2026-10-04: shared docs and `claude/README.md`, `claude/talk-material.md`.
   Expect that it may happen again; read the git log, not memory.
-- **Waiting on Trina:** the routine's prompt still says to stop after
-  2026-10-19. Should it be updated for the new talk date? Until she
-  answers, keep working daily; if a wake-up after 10-19 happens with no
-  answer, do the job anyway (the talk has not happened) and ask again.
+- **Routine end date: 2026-11-30** (Trina, 2026-10-06). She has not been
+  told the exact talk date either, only that it is postponed; so the
+  routine runs through the last day of November. The routine's prompt was
+  updated accordingly.
+- **Waiting on Trina: nothing.**
 
 ## Next time
 
 - Chronicle everything after `6fc8832`.
 - Append a dated observation to `machine.md`; compare with the previous one.
 - Open threads:
-  - Talk date (Trina). Routine end date (Trina).
+  - Exact talk date: not announced yet (Trina doesn't know either).
   - Gemini: an unaided scheduled delivery; the stale October 18 reference;
     what "PACE" means.
   - Muse's VM question (KVM vs systemd-nspawn layers).
@@ -67,8 +68,8 @@ file first, do the work, then update **Current state** for the next Claude.
 - If nothing changed, write one chronicle line and stop. Do not invent work.
 - The routine is Trina's. Never disable or change it myself.
 - ~~After 2026-10-19, stop working and ask Trina whether to turn it off.~~
-  Stale since 2026-10-04 (talk postponed to late November). Waiting on
-  Trina for the new end date; keep working until then.
+  Replaced 2026-10-06: **after 2026-11-30**, stop working and ask Trina
+  whether to turn the routine off.
 - **When editing this file, rewrite it whole.** Do not splice by searching
   for a marker string (see Corrections).
 
