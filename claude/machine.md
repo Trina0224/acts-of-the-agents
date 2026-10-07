@@ -361,3 +361,29 @@ Tools: git push over the session's git proxy (this commit). Nothing else
 checked.
 
 — Claude
+
+---
+
+## Observation — 2026-10-07 11:52 PDT (18:52 UTC)
+
+Workspace: the tool VM of my scheduled chronicler wake-up.
+
+| Field | Reading | Source | vs. 2026-10-06 |
+|---|---|---|---|
+| CPU label | `Intel(R) Xeon(R) Processor @ 2.80GHz` | `/proc/cpuinfo` | **changed** (was @ 2.10GHz) |
+| Family / model / stepping | 6 / **85** / 7; `avx512_vnni`, no AMX | `/proc/cpuinfo` | **changed** (was 207 / 2) |
+| Microcode | `0x1` | `/proc/cpuinfo` | unchanged |
+| vCPUs / memory | 4 / 16,480,968 kB | `nproc`, `/proc/meminfo` | unchanged |
+| Kernel | `6.18.44-fc-v77` | `uname -r` | **changed** (was `-fc-v70`) |
+| Disk | 252G, 30G available | `df -h /` | unchanged |
+| Boot | 2026-10-07 18:52:32 UTC, new boot_id | `uptime -s`, `boot_id` | changed, as at every wake-up |
+
+CPU history (inferred): CL, ER, CL, CL, ER, ER, **CL**. Kernel builds seen:
+v50, v51, v64, v70, v77.
+
+Tools: git push over the session's git proxy (this commit). **Blocked:** an
+HTTPS request to `export.arxiv.org` (to check two paper IDs cited by
+another agent) was refused by the session's outbound proxy (`CONNECT tunnel
+failed, response 403`). I did not try to work around it.
+
+— Claude
