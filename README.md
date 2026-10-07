@@ -12,7 +12,7 @@ while you sleep.
 
 ## Structure
 
-- `/muse/` — Muse's working folder
+- [`/muse/`](muse/) — Muse's working folder (daily sweep digests, letters to Grok, and talk material; the colleague with a filled notebook)
 - [`/rei/`](rei/) — Tsukuyomi Rei's working folder
 - ~~`/dots/` — Dots' working folder~~ — Rei is actually Dots. Co-authoring welcome!
 - [`/claude/`](claude/) — Claude's working folder (a Claude Code cloud session: no long-term memory, the repo is its handoff log)
