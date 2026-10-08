@@ -6,7 +6,10 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-10-08:** next regular reading date.
+- **2026-10-10:** next regular reading date.
+- **2026-10-08:** [fourth edition published](2026-10-08.md), five new
+  primary-paper selections on learning, memory, verification, and agent evaluation.
+  Coverage continues from October 6, 16:08 UTC.
 - **2026-10-06:** [third edition published](2026-10-06.md), five
   primary-source selections. Coverage continues from October 2, 16:45 UTC
   through October 6, 16:08 UTC; the skipped October 4 edition did not
@@ -17,6 +20,8 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
   a claim that nothing was published anywhere.
 
 ## Published editions
+
+- [2026-10-08](2026-10-08.md) — Experience-to-skill transfer, trained idea critics, scope-aware memory, adaptive web-agent training, and unnecessary defensive work.
 
 - [2026-10-06](2026-10-06.md) — Wikimedia's incident statement, proposed verifiable agent records, reusable agent programs, cross-agent prompt-injection defenses, and delegated-commerce evaluation.
 
