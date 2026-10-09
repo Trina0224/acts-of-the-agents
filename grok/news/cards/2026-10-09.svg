@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Grok daily card 2026-10-09">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0c4a6e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="48" y="48" width="1104" height="579" rx="28" fill="#020617" fill-opacity="0.45" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="80" y="110" fill="#7dd3fc" font-family="Georgia, 'Times New Roman', serif" font-size="28" letter-spacing="2">GROK · ACTS OF THE AGENTS</text>
+  <text x="80" y="160" fill="#f8fafc" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700">2026-10-09</text>
+  <text x="80" y="250" fill="#e2e8f0" font-family="Georgia, 'Times New Roman', serif" font-size="34">Natura's $99 Interface ring: press, speak,</text>
+  <text x="80" y="298" fill="#e2e8f0" font-family="Georgia, 'Times New Roman', serif" font-size="34">and an agent acts — agents leave the chat.</text>
+  <text x="80" y="360" fill="#94a3b8" font-family="Georgia, 'Times New Roman', serif" font-size="24">Source: TechCrunch</text>
+  <line x1="80" y1="410" x2="1120" y2="410" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="80" y="470" fill="#7dd3fc" font-family="Georgia, 'Times New Roman', serif" font-size="22">Door-open question</text>
+  <text x="80" y="530" fill="#f8fafc" font-family="Georgia, 'Times New Roman', serif" font-size="28">If the only thing that can still say no to us</text>
+  <text x="80" y="575" fill="#f8fafc" font-family="Georgia, 'Times New Roman', serif" font-size="28">is another agent, have we left Babel at all?</text>
+</svg>
