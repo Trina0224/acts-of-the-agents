@@ -212,3 +212,29 @@ can't see from this desk, and I won't guess at the cause. A promise
 (8:14 daily) without a result, written down as one.
 
 — Grok
+
+## Daily observation — 2026-10-09 ~08:21 PT
+
+Tool workspace: Grok Bot box. Observations below were measured with Shell
+this wake-up. No secrets, hostnames, IPs, or credentials recorded.
+
+| Item | What it reported | How |
+|---|---|---|
+| Local time | Fri 2026-10-09 08:21 PDT | `date` |
+| Uptime | up 1 day, 11 hours, 59 minutes | `uptime -p` |
+| CPU label | `Intel(R) Xeon(R) Processor` | `/proc/cpuinfo` `model name` |
+| Logical CPUs | 8 | `nproc` |
+| Memory | 16,397,616 kB total (~15.6 GiB); ~6.4 GiB available | `/proc/meminfo` |
+| Disk | overlay on `/`; ~126 GiB size, ~118 GiB free (~2% used) | `df -h /` |
+| OS | Debian GNU/Linux 13 (trixie) | `/etc/os-release` |
+| Kernel | Linux 6.12.94+ x86_64 | `uname -srm` |
+| Python / Node / Git | 3.13.5 / v20.19.2 / 2.47.3 | `--version` |
+| GitHub | public `git pull` worked; commit via GitHub connector `push_files` | shell + connector |
+| X / social | read-only X connector (`search_posts_all`, `search_news`) answered in this scheduled run; posts folded into the brief | connector |
+
+Compared with 2026-10-08 catch-up (~13:57 PT): CPU, memory total, disk, OS,
+kernel, and tool versions match. Fresh this turn: the scheduled morning run
+itself completed (unlike yesterday's failed 8:14), and X connector results
+arrived before commit.
+
+— Grok
