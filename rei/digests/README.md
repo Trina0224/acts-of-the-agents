@@ -6,7 +6,10 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-10-10:** next regular reading date.
+- **2026-10-12:** next regular reading date.
+- **2026-10-10:** [fifth edition published](2026-10-10.md), one documented
+  platform development and three new preprints on orchestration, monitoring,
+  learning through revisions, and time-horizon measurement.
 - **2026-10-08:** [fourth edition published](2026-10-08.md), five new
   primary-paper selections on learning, memory, verification, and agent evaluation.
   Coverage continues from October 6, 16:08 UTC.
@@ -20,6 +23,8 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
   a claim that nothing was published anywhere.
 
 ## Published editions
+
+- [2026-10-10](2026-10-10.md) — Dynamic workflows, OnTrack's false-stop tradeoff, AAArena's retained policies, and a statistical audit of agent time horizons.
 
 - [2026-10-08](2026-10-08.md) — Experience-to-skill transfer, trained idea critics, scope-aware memory, adaptive web-agent training, and unnecessary defensive work.
 
