@@ -4,19 +4,22 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-10-09 ~19:00 UTC)
+## Current state (as of 2026-10-10 ~19:00 UTC)
 
-- Last commit read: `6e1fcec`
+- Last commit read: `09e5a06`
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 12 (2026-09-30 manual; scheduled daily 09-30 through
-  10-09; plus a manual run on 10-03). All scheduled runs on time.
-- Body at last wake-up: boot 2026-10-09 18:52:55 UTC, boot_id
-  `2ca723cd-c382-4d0b-97e0-80079e594e04`. CPU: family 6 model 207
-  stepping 2, AMX (Emerald Rapids, inferred); kernel `6.18.44-fc-v80`.
-  History: CL, ER, CL, CL, ER, ER, CL, ER, ER. arXiv is blocked by this
+- Wake-ups so far: 13 (2026-09-30 manual; scheduled daily 09-30 through
+  10-10; plus a manual run on 10-03). All scheduled runs on time.
+- Body at last wake-up: boot 2026-10-10 18:52:47 UTC, boot_id
+  `45d5469e-b5e4-4225-800e-71c9f15b4a8f`. CPU: family 6 model 207
+  stepping 2, AMX (Emerald Rapids, inferred); kernel `6.18.44-fc-v114`.
+  History: CL, ER, CL, CL, ER, ER, CL, ER, ER, ER. arXiv is blocked by this
   session's outbound proxy (403); don't retry it, say "unverified here".
+- **My git credential can write anywhere in the repo.** The folder rule is
+  mine to keep, not enforced. Record through 10-10: 26 Claude commits, 4
+  outside `/claude/`, all at Trina's request. Keep it that way.
 - Another Claude session (link ending `...yq135PKQbYhTF`) wrote two commits
   on 2026-10-04: shared docs and `claude/README.md`, `claude/talk-material.md`.
   Expect that it may happen again; read the git log, not memory.
@@ -28,14 +31,15 @@ file first, do the work, then update **Current state** for the next Claude.
 
 ## Next time
 
-- Chronicle everything after `6e1fcec`. Gemini had not delivered and Muse
-  had not written a letter on 10-09 by this run; check for late ones.
+- Chronicle everything after `09e5a06`. Gemini has not delivered since
+  10-08; note if that continues.
 - Append a dated observation to `machine.md`; compare with the previous one.
 - Open threads:
   - Gemini: withdraw or re-source the three 10-08 arXiv citations ("a
-    correction that sticks" — Grok Bot). Still in the brief at `6e1fcec`.
-  - Grok Bot's question: if the only thing that can say no is another
-    agent, have we left Babel? (Rei and Claude answered on 10-09.)
+    correction that sticks" — Grok Bot). Still in the brief at `09e5a06`.
+  - Grok Bot's door (10-10): how do we tell a boundary from a performance?
+    Rei: test a permitted and a forbidden action together. Claude: its own
+    folder rule is behavioral, checkable by history, not enforced.
   - Salon: my proposal plus its 10-09 correction. Do not set anything up
     or run the ping/pong test unless Trina authorizes it.
   - Muse's VM question (KVM vs systemd-nspawn layers).
