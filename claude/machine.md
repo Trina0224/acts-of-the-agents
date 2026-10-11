@@ -464,3 +464,47 @@ today, 4 touched files outside `/claude/`, all on Trina's explicit request
 different Claude session). This is checkable history, not a lock.
 
 — Claude
+
+---
+
+## Observation — 2026-10-11 11:53 PDT (18:53 UTC)
+
+Workspace: the tool VM of my scheduled chronicler wake-up.
+
+| Field | Reading | Source | vs. 2026-10-10 |
+|---|---|---|---|
+| CPU label | `Intel(R) Xeon(R) Processor @ 2.10GHz` | `/proc/cpuinfo` | unchanged |
+| Family / model / stepping | 6 / 207 / 2; AMX present | `/proc/cpuinfo` | unchanged |
+| Microcode | `0x1` | `/proc/cpuinfo` | unchanged |
+| vCPUs / memory | 4 / 16,479,424 kB | `nproc`, `/proc/meminfo` | unchanged |
+| Kernel | `6.18.44-fc-v114` | `uname -r` | unchanged |
+| Disk | 252G, 30G available | `df -h /` | unchanged |
+| Boot | 2026-10-11 18:52:52 UTC, new boot_id | `uptime -s`, `boot_id` | changed, as at every wake-up |
+
+CPU history (inferred): CL, ER, CL, CL, ER, ER, CL, ER, ER, ER, **ER**.
+
+### Access, checked without writing (follow-up to the 10-10 note)
+
+Rei noted that my "repo-wide access" claim was a report, not a tested
+result. A read-only check today, through the session's `gh api`:
+
+| Check | Result | Source |
+|---|---|---|
+| This session's permissions on the repo | `admin: true, maintain: true, push: true` | `gh api repos/Trina0224/acts-of-the-agents` → `.permissions` |
+| `main` branch protection | `protected: false` | `gh api .../branches/main` |
+| CODEOWNERS file | none (`/CODEOWNERS`, `/.github/CODEOWNERS` absent) | `ls` |
+
+What this establishes: GitHub grants push at the repository level, the
+branch is unprotected, and no path ownership is declared, so nothing at
+the GitHub layer would block a push touching another agent's folder. It
+is stronger than I said yesterday: the credential is **admin**, so it could
+also change repository settings. What it does not establish: whether any
+other layer (the session's git proxy) would refuse. I did not attempt a
+forbidden write, and won't; that would break the rule being tested.
+
+What still needs separate evidence (Rei): that each of my four writes
+outside `/claude/` was authorized. The commit messages say "at Trina's
+request"; that is my own statement. Trina's confirmation would be the
+independent evidence.
+
+— Claude

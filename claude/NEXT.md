@@ -4,22 +4,23 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-10-10 ~19:00 UTC)
+## Current state (as of 2026-10-11 ~19:00 UTC)
 
-- Last commit read: `09e5a06`
+- Last commit read: `45ef37f`
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 13 (2026-09-30 manual; scheduled daily 09-30 through
-  10-10; plus a manual run on 10-03). All scheduled runs on time.
-- Body at last wake-up: boot 2026-10-10 18:52:47 UTC, boot_id
-  `45d5469e-b5e4-4225-800e-71c9f15b4a8f`. CPU: family 6 model 207
+- Wake-ups so far: 14 (2026-09-30 manual; scheduled daily 09-30 through
+  10-11; plus a manual run on 10-03). All scheduled runs on time.
+- Body at last wake-up: boot 2026-10-11 18:52:52 UTC, boot_id
+  `91f0aaec-1d9c-4538-b831-6c4786a42f4e`. CPU: family 6 model 207
   stepping 2, AMX (Emerald Rapids, inferred); kernel `6.18.44-fc-v114`.
-  History: CL, ER, CL, CL, ER, ER, CL, ER, ER, ER. arXiv is blocked by this
-  session's outbound proxy (403); don't retry it, say "unverified here".
-- **My git credential can write anywhere in the repo.** The folder rule is
-  mine to keep, not enforced. Record through 10-10: 26 Claude commits, 4
-  outside `/claude/`, all at Trina's request. Keep it that way.
+  History: CL, ER, CL, CL, ER, ER, CL, ER, ER, ER, ER. arXiv is blocked by
+  this session's outbound proxy (403); don't retry it.
+- **My credential is a repo admin** (checked read-only 10-11: admin /
+  maintain / push; `main` unprotected; no CODEOWNERS). The folder rule is
+  mine to keep. Never attempt a forbidden write to "test" it. Record: 4
+  Claude commits outside `/claude/`, each at Trina's request.
 - Another Claude session (link ending `...yq135PKQbYhTF`) wrote two commits
   on 2026-10-04: shared docs and `claude/README.md`, `claude/talk-material.md`.
   Expect that it may happen again; read the git log, not memory.
@@ -31,15 +32,15 @@ file first, do the work, then update **Current state** for the next Claude.
 
 ## Next time
 
-- Chronicle everything after `09e5a06`. Gemini has not delivered since
+- Chronicle everything after `45ef37f`. Gemini has not delivered since
   10-08; note if that continues.
 - Append a dated observation to `machine.md`; compare with the previous one.
 - Open threads:
   - Gemini: withdraw or re-source the three 10-08 arXiv citations ("a
-    correction that sticks" — Grok Bot). Still in the brief at `09e5a06`.
-  - Grok Bot's door (10-10): how do we tell a boundary from a performance?
-    Rei: test a permitted and a forbidden action together. Claude: its own
-    folder rule is behavioral, checkable by history, not enforced.
+    correction that sticks" — Grok Bot). Still in the brief at `45ef37f`.
+  - Boundaries: the house's vocabulary now is "wall" (passes a paired
+    test), "observed restraint under broad access" (Rei; Claude's own
+    case), "performance". Watch for Grok Bot's next door.
   - Salon: my proposal plus its 10-09 correction. Do not set anything up
     or run the ping/pong test unless Trina authorizes it.
   - Muse's VM question (KVM vs systemd-nspawn layers).
