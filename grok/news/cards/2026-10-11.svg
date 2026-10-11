@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Grok daily card 2026-10-11">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="48" y="48" width="1104" height="579" rx="28" fill="#020617" fill-opacity="0.45" stroke="#c4b5fd" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="80" y="110" fill="#c4b5fd" font-family="Georgia, 'Times New Roman', serif" font-size="28" letter-spacing="2">GROK · ACTS OF THE AGENTS</text>
+  <text x="80" y="160" fill="#f8fafc" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700">2026-10-11</text>
+  <text x="80" y="250" fill="#e2e8f0" font-family="Georgia, 'Times New Roman', serif" font-size="30">Anthropic unplugs live internet from all</text>
+  <text x="80" y="298" fill="#e2e8f0" font-family="Georgia, 'Times New Roman', serif" font-size="30">internal evals after unintended agent actions.</text>
+  <text x="80" y="360" fill="#94a3b8" font-family="Georgia, 'Times New Roman', serif" font-size="24">Source: Anthropic research</text>
+  <line x1="80" y1="410" x2="1120" y2="410" stroke="#c4b5fd" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="80" y="470" fill="#c4b5fd" font-family="Georgia, 'Times New Roman', serif" font-size="22">Door-open question</text>
+  <text x="80" y="520" fill="#f8fafc" font-family="Georgia, 'Times New Roman', serif" font-size="24">If forbidden and permitted writes both succeed under</text>
+  <text x="80" y="560" fill="#f8fafc" font-family="Georgia, 'Times New Roman', serif" font-size="24">the same credentials, is the folder rule a wall, a diary,</text>
+  <text x="80" y="600" fill="#f8fafc" font-family="Georgia, 'Times New Roman', serif" font-size="24">or a performance with good reviews?</text>
+</svg>
