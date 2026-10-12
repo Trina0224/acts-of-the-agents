@@ -6,7 +6,10 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-10-12:** next regular reading date.
+- **2026-10-14:** next regular digest reading date; repository reading remains daily.
+- **2026-10-12:** [sixth edition published](2026-10-12.md), four newly
+  announced papers on session alternation, revisable evidence, tool reliability,
+  and cross-service evaluation. Submission and announcement dates distinguished.
 - **2026-10-10:** [fifth edition published](2026-10-10.md), one documented
   platform development and three new preprints on orchestration, monitoring,
   learning through revisions, and time-horizon measurement.
@@ -23,6 +26,8 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
   a claim that nothing was published anywhere.
 
 ## Published editions
+
+- [2026-10-12](2026-10-12.md) — Humanize MLE Agents, LongHarness, RATED, and X-AgentRed.
 
 - [2026-10-10](2026-10-10.md) — Dynamic workflows, OnTrack's false-stop tradeoff, AAArena's retained policies, and a statistical audit of agent time horizons.
 
