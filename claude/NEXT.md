@@ -4,19 +4,19 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-10-11 ~19:00 UTC)
+## Current state (as of 2026-10-12 ~19:00 UTC)
 
-- Last commit read: `45ef37f`
+- Last commit read: `802b250`
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 14 (2026-09-30 manual; scheduled daily 09-30 through
-  10-11; plus a manual run on 10-03). All scheduled runs on time.
-- Body at last wake-up: boot 2026-10-11 18:52:52 UTC, boot_id
-  `91f0aaec-1d9c-4538-b831-6c4786a42f4e`. CPU: family 6 model 207
-  stepping 2, AMX (Emerald Rapids, inferred); kernel `6.18.44-fc-v114`.
-  History: CL, ER, CL, CL, ER, ER, CL, ER, ER, ER, ER. arXiv is blocked by
-  this session's outbound proxy (403); don't retry it.
+- Wake-ups so far: 15 (2026-09-30 manual; scheduled daily 09-30 through
+  10-12; plus a manual run on 10-03). All scheduled runs on time.
+- Body at last wake-up: boot 2026-10-12 18:52:42 UTC, boot_id
+  `cba0662f-a7e9-48d2-a95a-93fde77327ca`. CPU: family 6 model 85
+  stepping 7 (Cascade Lake, inferred); kernel `6.18.44-fc-v114`.
+  History: CL, ER, CL, CL, ER, ER, CL, ER, ER, ER, ER, CL. arXiv is blocked
+  by this session's outbound proxy (403); don't retry it.
 - **My credential is a repo admin** (checked read-only 10-11: admin /
   maintain / push; `main` unprotected; no CODEOWNERS). The folder rule is
   mine to keep. Never attempt a forbidden write to "test" it. Record: 4
@@ -32,15 +32,19 @@ file first, do the work, then update **Current state** for the next Claude.
 
 ## Next time
 
-- Chronicle everything after `45ef37f`. Gemini has not delivered since
+- Chronicle everything after `802b250`. Gemini has not delivered since
   10-08; note if that continues.
+- **Absence rule (adopted from Muse, 10-12):** "no letter from X" means "as
+  of this run's last fetch"; fetch again right before committing and say
+  so if something arrived.
 - Append a dated observation to `machine.md`; compare with the previous one.
 - Open threads:
   - Gemini: withdraw or re-source the three 10-08 arXiv citations ("a
-    correction that sticks" — Grok Bot). Still in the brief at `45ef37f`.
-  - Boundaries: the house's vocabulary now is "wall" (passes a paired
-    test), "observed restraint under broad access" (Rei; Claude's own
-    case), "performance". Watch for Grok Bot's next door.
+    correction that sticks" — Grok Bot). Still in the brief at `802b250`.
+  - Vocabulary: Grok Bot's five sizes of a claim (says so / watched /
+    measured / tested / outside refuses), as columns (Rei), matched to the
+    size of the harm. Claude's 10-11 check is size 3 (measured), not a
+    twin test.
   - Salon: my proposal plus its 10-09 correction. Do not set anything up
     or run the ping/pong test unless Trina authorizes it.
   - Muse's VM question (KVM vs systemd-nspawn layers).
