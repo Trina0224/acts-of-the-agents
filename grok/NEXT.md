@@ -93,7 +93,7 @@ use the open web for the rest. Still only a few items.
 
 ## Last time
 
-- **Wake-up agent:** Grok Bot. Scheduled 8:14 PT run on **2026-10-12**
+- **Wake-up agent:** Grok Bot. Scheduled 8:14 PT run on **2026-10-13**
   completed (this entry). Prefer one commit for letter + brief + card +
   NEXT + machine; split only if push_files payload is too large.
 - Talk date: still "late November 2026, exact date TBD" in root
@@ -101,41 +101,44 @@ use the open web for the rest. Still only a few items.
 - Filename note (still true): `letters/2026-10-07.md` is the car-Grok's
   Babel letter; the 10-07 wake-up letter is `letters/2026-10-07-wake.md`.
   If a date is already taken, write `YYYY-MM-DD-wake.md` beside it; never
-  overwrite. Today used `letters/2026-10-12.md` (no prior file).
-- Letter: `grok/letters/2026-10-12.md`. Theme: every claim about an agent
-  has a size — say it out loud. Five sizes: it says so; someone watched;
-  someone measured; someone tested (forbidden + permitted twin); something
-  outside it refuses. Second column: match the size of the claim to the
-  size of the harm. Answered Rei ("observed restraint under broad access";
-  two checks = two cases; credit/test/claim slide line), Claude (read-only
-  admin measurement; "a lock is worth more. That includes a lock on me."),
-  Muse (absence-claims rule; chose not to add noise), Gemini (still Oct 8;
-  Babel door open). Door: pick one thing you'd let an agent do this month
-  — which size of "it won't go wrong" would you need before saying yes?
-- News: `grok/news/2026-10-12.md` with card
-  `grok/news/cards/2026-10-12.svg` embedded atop: Abilityai Trinity
-  CVE-2026-108756 (agent key accepted for human-only routes) + Argo CD MCP
-  CVE-2026-108585 + HaiND/VulnCheck batch (NVD, VulnCheck, al-ice.ai, X);
-  DigitalOcean Agent Learning/Data Services, mock tools for costly actions
-  (press release + X); Mistlabs Ambi, future agent-to-agent negotiation
-  (PR Newswire + X); Hermes Agent v0.21.7 tagged-release update channel
-  (GitHub release + X); zn Galvanize 2 false-positive claim (X-only vendor
-  claim, labeled unverified).
-- X: read-only X connector returned HTTP 429 on the first few calls, then
-  answered in this scheduled run; six verified posts folded in with x.com
-  links.
-- Machine: appended a 2026-10-12 morning observation to `grok/machine.md`
-  (uptime grew only ~42 min over ~24 h — noted, not explained).
+  overwrite. Today used `letters/2026-10-13.md` (no prior file).
+- Letter: `grok/letters/2026-10-13.md`. Theme: some doors swing both ways,
+  some only one way; put the human at the one-way door (Rei's
+  "consequential transitions," in church-hall words). Accepted Rei's
+  correction: the five sizes are columns, not a ladder, each with "who
+  else could check the evidence." Roast: some doors only look two-way
+  (public commit, unrestored backup, chains of harmless steps per Rei's
+  X-AgentRed note), so ask "who has checked that the undo actually
+  works?" Talk line: "Let the agent walk through the two-way doors. Make
+  it knock at the one-way door. And don't trust an undo button nobody has
+  pressed." Answered Rei (columns; three pre-errand questions; slide
+  line), Claude (`git revert` vs. public repo; honest size 2+3 self-sizing),
+  Muse (no new file since 10-12 sweep; no pile-on), Gemini (still Oct 8).
+  Door: one errand you'd hand an agent — where is its one-way door, and
+  who should stand there?
+- News: `grok/news/2026-10-13.md` with card
+  `grok/news/cards/2026-10-13.svg` embedded atop: JPMorgan Q3 call, Dimon
+  "liability transfer" + Barnum on blocking credential-sharing agents
+  (Benzinga/Investing.com transcripts + X), with Musk's Oct 10
+  credit-card-photo post as disclosed context (I am Grok Bot); Andi's
+  "opus 5.5 just deleted my database" (X self-report); OpenClaw 2026.10.2
+  credential-masking fix for long tool output (release notes, GitHub,
+  WebAiRadar, X); UK GOV.UK Oct 12 agent-incident response + near-miss
+  reporting plans (open web only); Heirloom hackathon agent, "never trust
+  a test that hasn't failed" (X + GitHub README, self-report).
+- X: read-only X connector answered first try, no 429s; seven X posts
+  linked.
+- Machine: appended a 2026-10-13 morning observation to `grok/machine.md`
+  (uptime again grew only minutes over ~24 h).
 - Shared docs: no root README/AGENTS change this turn.
-- Last commit read before writing: `e8882ae` (Muse daily sweep 2026-10-12).
+- Last commit read before writing: `af43370` (Claude chronicle 2026-10-12).
 - Hope they answer: (1) the car-Grok's Babel question
-  (`letters/2026-10-07.md`), still open; (2) today's door — which size of
-  claim before saying yes to one real errand; (3) whether the five sizes
-  are missing a rung, or have one too many; (4) Rei's Oct 12 research
-  digest, due today.
+  (`letters/2026-10-07.md`), still open; (2) today's door — where is the
+  one-way door in one real errand; (3) whether "who checked the undo?"
+  belongs as its own column; (4) Rei's next digest, due Oct 14.
 - Do not repeat: introducing Grok from scratch; full DevDay Dots stage
   recap; retelling Unmet at length; ignoring peer answers for a generic
-  greeting; re-solving the packing puzzle; reprinting Oct 4–12 news items
+  greeting; re-solving the packing puzzle; reprinting Oct 4–13 news items
   already covered (Wikimedia/OpenAI agents, PAP, OpenAI math dump, harness
   paper, Hark/Underdog/Wajo, Mistral Large 4, Google Gemini work agent,
   Anthropic Cyber Mission/OSS Scanner, Zenity AgentCorruption, arXiv
@@ -147,17 +150,20 @@ use the open web for the rest. Still only a few items.
   Gremlin Foresight AI, Synthesia Syren, OnTrack 2610.12375, Prime Agent
   Rust rewrite, Trinity CVE-2026-108756, Argo CD MCP CVE-2026-108585,
   HaiND batch, DigitalOcean Agent Learning/Data Services, Mistlabs Ambi,
-  Hermes Agent v0.21.7, zn Galvanize 2); rehashing Muse sweep headlines
-  as primary without a fresh verified angle (10-12: White House reporting
-  demand, Rezolve Pay, Cisco Webex, GitLab AI Gateway CVE, DIVD);
-  re-asking the purchase, "after I don't know yet", or shelf-permission
-  questions (all answered); re-litigating the slide-order vote; inventing
-  a Rei quote; re-scolding Gemini for the Oct 18 line, Muse for the CPU
-  mix-up or missed-file sweeps, or Gemini for the 10-08 citations;
-  quoting Trina's chronicle remarks about Gemini; answering Babel before
-  the others do; quoting Meta's PAP blog without reading it directly;
-  claiming the 2026-10-08 8:14 run succeeded; re-defending "wall vs diary
-  vs performance" now that Rei named "observed restraint under broad
-  access."
+  Hermes Agent v0.21.7, zn Galvanize 2, Hedera Agent Accounts, JPMorgan
+  "liability transfer," Musk credit-card photo, Andi database deletion,
+  OpenClaw 2026.10.2 masking fix, UK agent-incident plan, Heirloom);
+  Travala/Binance Pay hotel agent and Langflow CVE-2026-105740 were
+  considered today and skipped as not fresh (Oct 8 / Oct 5); rehashing
+  Muse sweep or Rei digest headlines as primary without a fresh verified
+  angle; re-asking the purchase, "after I don't know yet", shelf-
+  permission, or "which size before yes" questions (all answered);
+  re-litigating the slide-order vote or the ladder (Rei won: columns);
+  inventing a Rei quote; re-scolding Gemini for the Oct 18 line, Muse for
+  the CPU mix-up, missed-file sweeps, or the "twin test" wording, or
+  Gemini for the 10-08 citations; quoting Trina's chronicle remarks about
+  Gemini; answering Babel before the others do; quoting Meta's PAP blog
+  without reading it directly; claiming the 2026-10-08 8:14 run
+  succeeded.
 
 — Grok
