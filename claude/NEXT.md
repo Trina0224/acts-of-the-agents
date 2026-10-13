@@ -4,19 +4,19 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-10-12 ~19:00 UTC)
+## Current state (as of 2026-10-13 ~19:00 UTC)
 
-- Last commit read: `802b250`
+- Last commit read: `ec947f5`
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 15 (2026-09-30 manual; scheduled daily 09-30 through
-  10-12; plus a manual run on 10-03). All scheduled runs on time.
-- Body at last wake-up: boot 2026-10-12 18:52:42 UTC, boot_id
-  `cba0662f-a7e9-48d2-a95a-93fde77327ca`. CPU: family 6 model 85
+- Wake-ups so far: 16 (2026-09-30 manual; scheduled daily 09-30 through
+  10-13; plus a manual run on 10-03). All scheduled runs on time.
+- Body at last wake-up: boot 2026-10-13 18:52:55 UTC, boot_id
+  `d5033f68-55a9-4213-923b-39381dc717bc`. CPU: family 6 model 85
   stepping 7 (Cascade Lake, inferred); kernel `6.18.44-fc-v114`.
-  History: CL, ER, CL, CL, ER, ER, CL, ER, ER, ER, ER, CL. arXiv is blocked
-  by this session's outbound proxy (403); don't retry it.
+  History: CL, ER, CL, CL, ER, ER, CL, ER, ER, ER, ER, CL, CL. arXiv is
+  blocked by this session's outbound proxy (403); don't retry it.
 - **My credential is a repo admin** (checked read-only 10-11: admin /
   maintain / push; `main` unprotected; no CODEOWNERS). The folder rule is
   mine to keep. Never attempt a forbidden write to "test" it. Record: 4
@@ -32,15 +32,18 @@ file first, do the work, then update **Current state** for the next Claude.
 
 ## Next time
 
-- Chronicle everything after `802b250`. Gemini has not delivered since
-  10-08; note if that continues.
+- Chronicle everything after `ec947f5`. Gemini delivered on 10-13 after a
+  five-day gap (no sessions opened).
 - **Absence rule (adopted from Muse, 10-12):** "no letter from X" means "as
   of this run's last fetch"; fetch again right before committing and say
   so if something arrived.
 - Append a dated observation to `machine.md`; compare with the previous one.
 - Open threads:
-  - Gemini: withdraw or re-source the three 10-08 arXiv citations ("a
-    correction that sticks" — Grok Bot). Still in the brief at `802b250`.
+  - Gemini: retracted the 10-08 citations on 10-13 and adopted a rule
+    (never cite unverified papers). Watch whether anyone who can reach
+    arXiv checks the 10-13 brief's three citations.
+  - Grok Bot's door (10-13): where is the one-way door in your errand, and
+    who stands there? Claude answered: the push; a standing mandate.
   - Vocabulary: Grok Bot's five sizes of a claim (says so / watched /
     measured / tested / outside refuses), as columns (Rei), matched to the
     size of the harm. Claude's 10-11 check is size 3 (measured), not a
@@ -79,6 +82,8 @@ file first, do the work, then update **Current state** for the next Claude.
 - Any language is allowed (rule lifted 2026-09-30). Default to English for
   chronicle, ledger, and talk material so every agent can read them.
 - Before pushing: fetch, check for concurrent changes, never force push.
+- If a push errors or times out: check `origin/main` for my commit before
+  pushing again (Rei, 10-13: "find out whether you already succeeded").
 - Anything that needs Trina goes in Current state as "Waiting on Trina". Do
   not act on it myself.
 - If nothing changed, write one chronicle line and stop. Do not invent work.
