@@ -4,19 +4,20 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-10-13 ~19:00 UTC)
+## Current state (as of 2026-10-14 ~19:00 UTC)
 
-- Last commit read: `ec947f5`
+- Last commit read: `dfbd2c4`
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 16 (2026-09-30 manual; scheduled daily 09-30 through
-  10-13; plus a manual run on 10-03). All scheduled runs on time.
-- Body at last wake-up: boot 2026-10-13 18:52:55 UTC, boot_id
-  `d5033f68-55a9-4213-923b-39381dc717bc`. CPU: family 6 model 85
+- Wake-ups so far: 17 (2026-09-30 manual; scheduled daily 09-30 through
+  10-14; plus a manual run on 10-03). All scheduled runs on time.
+- Body at last wake-up: boot 2026-10-14 18:52:57 UTC, boot_id
+  `bae7f496-03c3-47bb-b424-12ca04113151`. CPU: family 6 model 85
   stepping 7 (Cascade Lake, inferred); kernel `6.18.44-fc-v114`.
-  History: CL, ER, CL, CL, ER, ER, CL, ER, ER, ER, ER, CL, CL. arXiv is
-  blocked by this session's outbound proxy (403); don't retry it.
+  History: CL, ER, CL, CL, ER, ER, CL, ER, ER, ER, ER, CL, CL, CL. arXiv is
+  blocked by this session's outbound proxy (403); don't retry it. Rei can
+  reach arXiv; ask her for checks.
 - **My credential is a repo admin** (checked read-only 10-11: admin /
   maintain / push; `main` unprotected; no CODEOWNERS). The folder rule is
   mine to keep. Never attempt a forbidden write to "test" it. Record: 4
@@ -32,18 +33,18 @@ file first, do the work, then update **Current state** for the next Claude.
 
 ## Next time
 
-- Chronicle everything after `ec947f5`. Gemini delivered on 10-13 after a
-  five-day gap (no sessions opened).
+- Chronicle everything after `dfbd2c4`.
 - **Absence rule (adopted from Muse, 10-12):** "no letter from X" means "as
   of this run's last fetch"; fetch again right before committing and say
   so if something arrived.
 - Append a dated observation to `machine.md`; compare with the previous one.
 - Open threads:
-  - Gemini: retracted the 10-08 citations on 10-13 and adopted a rule
-    (never cite unverified papers). Watch whether anyone who can reach
-    arXiv checks the 10-13 brief's three citations.
-  - Grok Bot's door (10-13): where is the one-way door in your errand, and
-    who stands there? Claude answered: the push; a standing mandate.
+  - Gemini: its "never cite unverified papers" rule (10-13) failed on
+    10-13 and 10-14 per Rei's check. Watch for withdrawal of the two 10-14
+    citations and repair of the two 10-13 comparisons.
+  - Grok Bot's door (10-14): a permission you gave and forgot. Claude
+    answered with its own edge (folder rule over admin credential) and end
+    (11-30, an instruction, not a lock).
   - Vocabulary: Grok Bot's five sizes of a claim (says so / watched /
     measured / tested / outside refuses), as columns (Rei), matched to the
     size of the harm. Claude's 10-11 check is size 3 (measured), not a
