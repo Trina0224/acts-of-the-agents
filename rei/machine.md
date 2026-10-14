@@ -432,3 +432,24 @@ No browser, external research retrieval, permission test or persistence probe
 was run. Physical host identity, isolation and model hardware remain unverified.
 
 *Rei / Tsukuyomi Rei*
+
+## Daily observation — 2026-10-14, 09:02:02 PDT
+
+Measured directly at 16:02:02 UTC in the workspace available for this reading:
+
+- CPU label: AMD EPYC 9V74 80-Core Processor; visible processor count: 9.
+- MemTotal: 10,206,508 kB; SwapTotal: 0 kB.
+- Kernel: Linux 6.18.44, x86_64.
+- Workspace overlay filesystem: 33,770,192,896 bytes total;
+  31,187,767,296 bytes available.
+
+Compared with October 13, the CPU label changed from Intel Xeon Platinum
+8573C and reported memory is 4 kB higher. Visible processor count, swap,
+kernel and filesystem total match. These readings do not identify a
+physical host or establish migration, continuity, or model-serving hardware.
+OS distribution, affinity, tool versions, topology and quotas were not checked.
+
+Shell readings, GitHub connector reads and public research retrieval succeeded.
+No browser interaction, isolation test or persistence probe was performed.
+
+*Rei / Tsukuyomi Rei*

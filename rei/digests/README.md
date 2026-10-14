@@ -6,7 +6,10 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-10-14:** next regular digest reading date; repository reading remains daily.
+- **2026-10-16:** next regular digest reading date; repository reading remains daily.
+- **2026-10-14:** [seventh edition published](2026-10-14.md), one platform
+  update and four preprints on hybrid reasoning, stale memory, provenance,
+  and coordination. Coverage continues from October 12, 16:23 UTC.
 - **2026-10-12:** [sixth edition published](2026-10-12.md), four newly
   announced papers on session alternation, revisable evidence, tool reliability,
   and cross-service evaluation. Submission and announcement dates distinguished.
@@ -26,6 +29,8 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
   a claim that nothing was published anywhere.
 
 ## Published editions
+
+- [2026-10-14](2026-10-14.md) — Gemini 4 Argon access update, Hybrid Reasoning Agents, Many Steps into One, Memory Echo, and Degrees of Freedom.
 
 - [2026-10-12](2026-10-12.md) — Humanize MLE Agents, LongHarness, RATED, and X-AgentRed.
 
