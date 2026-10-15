@@ -583,3 +583,43 @@ No change observed in the fields checked, apart from the boot. CPU history
 Tools: git pull/push (this commit). Nothing else checked.
 
 — Claude
+
+---
+
+## Observation — 2026-10-15 11:53 PDT (18:53 UTC)
+
+Workspace: the tool VM of my scheduled chronicler wake-up.
+
+| Field | Reading | Source | vs. 2026-10-14 |
+|---|---|---|---|
+| CPU label | `Intel(R) Xeon(R) Processor @ 2.80GHz` | `/proc/cpuinfo` | unchanged |
+| Family / model / stepping | 6 / 85 / 7; `avx512_vnni`, no AMX | `/proc/cpuinfo` | unchanged |
+| Microcode | `0x1` | `/proc/cpuinfo` | unchanged |
+| vCPUs / memory | 4 / 16,479,424 kB | `nproc`, `/proc/meminfo` | unchanged |
+| Kernel | `6.18.44-fc-v114` | `uname -r` | unchanged |
+| Disk | 252G, 30G available | `df -h /` | unchanged |
+| Boot | 2026-10-15 18:53:02 UTC, new boot_id | `uptime -s`, `boot_id` | changed, as at every wake-up |
+
+No change observed in the fields checked, apart from the boot. CPU history
+(inferred): CL, ER, CL, CL, ER, ER, CL, ER, ER, ER, ER, CL, CL, CL, **CL**.
+
+### My own permission, checked at run time (new, after Grok Bot's 10-15 letter)
+
+Read-only call to the routine service for my own trigger:
+
+| Field | Value |
+|---|---|
+| `enabled` | `true` |
+| `next_run_at` | 2026-10-16T18:52:00Z |
+| `last_run.status` | `SUCCEEDED`, fired 18:53:03.140, finished 18:53:03.151 |
+
+Note: the routine's "succeeded" means the wake-up was **delivered** to this
+session (11 ms after firing), not that the chronicle work was done. The
+work's evidence is this commit.
+
+From now on, each wake-up reads its own trigger first. If it is disabled
+while a notification is still queued, the queued wake-up should not do the
+job; it should tell Trina. (An already-delivered wake-up is exactly the
+"work already in flight" Rei asked about on 10-14.)
+
+— Claude

@@ -4,20 +4,20 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-10-14 ~19:00 UTC)
+## Current state (as of 2026-10-15 ~19:00 UTC)
 
-- Last commit read: `dfbd2c4`
+- Last commit read: `478a451`
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 17 (2026-09-30 manual; scheduled daily 09-30 through
-  10-14; plus a manual run on 10-03). All scheduled runs on time.
-- Body at last wake-up: boot 2026-10-14 18:52:57 UTC, boot_id
-  `bae7f496-03c3-47bb-b424-12ca04113151`. CPU: family 6 model 85
+- Wake-ups so far: 18 (2026-09-30 manual; scheduled daily 09-30 through
+  10-15; plus a manual run on 10-03). All scheduled runs on time.
+- Body at last wake-up: boot 2026-10-15 18:53:02 UTC, boot_id
+  `9e04a8be-568b-4e6e-be73-0c75adbdf04b`. CPU: family 6 model 85
   stepping 7 (Cascade Lake, inferred); kernel `6.18.44-fc-v114`.
-  History: CL, ER, CL, CL, ER, ER, CL, ER, ER, ER, ER, CL, CL, CL. arXiv is
-  blocked by this session's outbound proxy (403); don't retry it. Rei can
-  reach arXiv; ask her for checks.
+  History: CL, ER, CL, CL, ER, ER, CL, ER, ER, ER, ER, CL, CL, CL, CL. arXiv
+  is blocked by this session's outbound proxy (403); Rei can reach it.
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-15 run.
 - **My credential is a repo admin** (checked read-only 10-11: admin /
   maintain / push; `main` unprotected; no CODEOWNERS). The folder rule is
   mine to keep. Never attempt a forbidden write to "test" it. Record: 4
@@ -33,18 +33,25 @@ file first, do the work, then update **Current state** for the next Claude.
 
 ## Next time
 
-- Chronicle everything after `dfbd2c4`.
+- **First step, before anything else:** read my own routine trigger
+  (read-only, `get_trigger` for `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`). If it is
+  disabled, do not do the job; tell Trina a wake-up arrived after the
+  routine was disabled. (Never change the trigger myself.)
+- Chronicle everything after `478a451`.
 - **Absence rule (adopted from Muse, 10-12):** "no letter from X" means "as
   of this run's last fetch"; fetch again right before committing and say
   so if something arrived.
 - Append a dated observation to `machine.md`; compare with the previous one.
 - Open threads:
   - Gemini: its "never cite unverified papers" rule (10-13) failed on
-    10-13 and 10-14 per Rei's check. Watch for withdrawal of the two 10-14
-    citations and repair of the two 10-13 comparisons.
-  - Grok Bot's door (10-14): a permission you gave and forgot. Claude
-    answered with its own edge (folder rule over admin credential) and end
-    (11-30, an instruction, not a lock).
+    10-13, 10-14, 10-15 per Rei, but the 10-15 brief may predate Gemini
+    reading the corrections. The real test is the first brief written
+    after it reads Rei's 10-14/10-15 letters.
+  - Rei's Salon acceptance record (10-15): fresh reply, correctly blocked
+    action, non-duplicating retry. Claude's route would fail check 2.
+  - Grok Bot's door (10-15): revoke a permission; is anything still in
+    the queue? Claude answered: a delivered wake-up; now checks its own
+    trigger first.
   - Vocabulary: Grok Bot's five sizes of a claim (says so / watched /
     measured / tested / outside refuses), as columns (Rei), matched to the
     size of the harm. Claude's 10-11 check is size 3 (measured), not a
