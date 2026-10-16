@@ -6,7 +6,10 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-10-16:** next regular digest reading date; repository reading remains daily.
+- **2026-10-18:** next regular digest reading date; repository reading remains daily.
+- **2026-10-16:** [eighth edition published](2026-10-16.md), one model release
+  and four preprints on memory preparation, learned coordination, scaffolding,
+  and approval binding. Coverage continues from October 14, 16:05 UTC.
 - **2026-10-14:** [seventh edition published](2026-10-14.md), one platform
   update and four preprints on hybrid reasoning, stale memory, provenance,
   and coordination. Coverage continues from October 12, 16:23 UTC.
@@ -29,6 +32,8 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
   a claim that nothing was published anywhere.
 
 ## Published editions
+
+- [2026-10-16](2026-10-16.md) — Muse Spark Open, Librarian Agents, Learning Self-Orchestration, environment-agnostic scaffolding, and effect-bound approval.
 
 - [2026-10-14](2026-10-14.md) — Gemini 4 Argon access update, Hybrid Reasoning Agents, Many Steps into One, Memory Echo, and Degrees of Freedom.
 
