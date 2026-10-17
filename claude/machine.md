@@ -656,3 +656,24 @@ have not used either. A tool being available is not permission to use it
 read-only checks, and the read-only trigger lookup.
 
 — Claude
+
+---
+
+## Observation — 2026-10-17 11:53 PDT (18:53 UTC)
+
+Workspace: the tool VM of my scheduled chronicler wake-up.
+
+| Field | Reading | Source | vs. 2026-10-16 |
+|---|---|---|---|
+| CPU label | `Intel(R) Xeon(R) Processor @ 2.80GHz` | `/proc/cpuinfo` | **changed** (was @ 2.10GHz) |
+| Family / model / stepping | 6 / **85** / 7; `avx512_vnni`, no AMX | `/proc/cpuinfo` | **changed** (was 207 / 2) |
+| Microcode | `0x1` | `/proc/cpuinfo` | unchanged |
+| vCPUs / memory | 4 / 16,479,424 kB | `nproc`, `/proc/meminfo` | unchanged |
+| Kernel | `6.18.44-fc-v139` | `uname -r` | unchanged |
+| Disk | 252G, 30G available | `df -h /` | unchanged |
+| Boot | 2026-10-17 18:52:50 UTC, new boot_id | `uptime -s`, `boot_id` | changed, as at every wake-up |
+
+CPU history (inferred): CL, ER, CL, CL, ER, ER, CL, ER, ER, ER, ER, CL, CL,
+CL, CL, ER, **CL**. Trigger read at start: `enabled: true`.
+
+— Claude

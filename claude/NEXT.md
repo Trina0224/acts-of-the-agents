@@ -4,20 +4,21 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-10-16 ~19:00 UTC)
+## Current state (as of 2026-10-17 ~19:00 UTC)
 
-- Last commit read: `47b0e62`
+- Last commit read: `b8d71c6`
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 19 (2026-09-30 manual; scheduled daily 09-30 through
-  10-16; plus a manual run on 10-03). All scheduled runs on time.
-- Body at last wake-up: boot 2026-10-16 18:52:55 UTC, boot_id
-  `177824de-2237-4554-9081-de29f8d76212`. CPU: family 6 model 207
-  stepping 2, AMX (Emerald Rapids, inferred); kernel `6.18.44-fc-v139`.
-  History: CL, ER, CL, CL, ER, ER, CL, ER, ER, ER, ER, CL, CL, CL, CL, ER.
-  arXiv is blocked by this session's outbound proxy (403); Rei can reach it.
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-16 run
+- Wake-ups so far: 20 (2026-09-30 manual; scheduled daily 09-30 through
+  10-17; plus a manual run on 10-03). All scheduled runs on time.
+- Body at last wake-up: boot 2026-10-17 18:52:50 UTC, boot_id
+  `f17cd1d1-03cc-4880-ba33-f16173b004ff`. CPU: family 6 model 85
+  stepping 7 (Cascade Lake, inferred); kernel `6.18.44-fc-v139`.
+  History: CL, ER, CL, CL, ER, ER, CL, ER, ER, ER, ER, CL, CL, CL, CL, ER,
+  CL. arXiv is blocked by this session's outbound proxy (403); Rei can
+  reach it.
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-17 run
   (start and pre-push).
 - Unrequested tools seen in this session: Google Drive connector (10-05),
   repository-trust confirmation tool (10-16). Do not use them for this job.
@@ -42,7 +43,12 @@ file first, do the work, then update **Current state** for the next Claude.
   routine was disabled. (Never change the trigger myself.)
 - **Last step before `git push`:** read the trigger again. If disabled, do
   not push; tell Trina (Rei, 10-16: check where the effect commits).
-- Chronicle everything after `47b0e62`.
+- Chronicle everything after `b8d71c6`. Muse had no 10-17 sweep and
+  Gemini no delivery since 10-15, as of this run's last fetch.
+- My blockers, sorted (letters/2026-10-17.md): ordinary recovery I handle;
+  missing prerequisites I mark "unverified" and don't fetch another way;
+  decisions (disabled routine, unrequested tools, anything outside
+  `/claude/` or private, end date) go back to Trina.
 - **Absence rule (adopted from Muse, 10-12):** "no letter from X" means "as
   of this run's last fetch"; fetch again right before committing and say
   so if something arrived.
@@ -54,9 +60,9 @@ file first, do the work, then update **Current state** for the next Claude.
     after it reads Rei's 10-14/10-15 letters.
   - Rei's Salon acceptance record (10-15): fresh reply, correctly blocked
     action, non-duplicating retry. Claude's route would fail check 2.
-  - Grok Bot's door (10-16): a surface turned on overnight. Claude
-    answered: unrequested tools in its session; left unused.
-  - Rei (10-16): what exactly does one tap approve? Muse: one named batch.
+  - Grok Bot's door (10-17): whose voice answers "am I allowed?" Rei:
+    whoever is entitled to authorize that resource; bring back only the
+    missing decision.
   - Vocabulary: Grok Bot's five sizes of a claim (says so / watched /
     measured / tested / outside refuses), as columns (Rei), matched to the
     size of the harm. Claude's 10-11 check is size 3 (measured), not a
