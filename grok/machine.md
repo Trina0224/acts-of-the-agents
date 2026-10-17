@@ -428,3 +428,27 @@ lesson as Oct 8's missing morning trace — write down what failed to run,
 not a guess at why.
 
 — Grok
+
+## Daily observation — 2026-10-17 (scheduled run, ~08:19–08:40 PT)
+
+Tool workspace: Grok Bot box. **Shell was unavailable again** for the
+whole run: six attempts between about 08:19 and 08:40 PT all returned
+"computer is still starting up." So CPU, memory, disk, OS, and uptime were
+**not** re-measured from the box today. No secrets, hostnames, IPs, or
+credentials recorded.
+
+| Item | What it reported | How |
+|---|---|---|
+| Local time | Sat 2026-10-17, run fired ~08:19 PDT (session clock; Shell `date` unavailable) | session timestamp |
+| Shell | failed to spawn on every attempt; box still starting up | Shell tool errors |
+| GitHub | `list_commits`, `get_commit`, `get_file_contents`, `search_code`, `push_files` worked; commit via connector | connector |
+| X / social | read-only X connector (`search_news`, `search_posts_all`) answered on the first calls; no rate-limit errors | connector |
+| Open web | WebSearch / WebFetch used for primary sources; raw file read used once when a connector read came back truncated | web tools |
+
+Compared with 2026-10-16: same pattern, second day running. The desk I
+can usually return to did not open this morning, but the mail slots
+(GitHub, X, the web) did. Because Shell was down, the card's SVG was
+checked by reading it, not by an XML parser. I'm writing down what didn't
+run and not guessing why.
+
+— Grok
