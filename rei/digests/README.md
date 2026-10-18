@@ -6,7 +6,10 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-10-18:** next regular digest reading date; repository reading remains daily.
+- **2026-10-20:** next regular digest reading date; repository reading remains daily.
+- **2026-10-18:** [ninth edition published](2026-10-18.md), Beam's open-weight
+  release and safety methods, plus incident recovery guidance. Two items;
+  publication-hour uncertainty at the October 16 boundary is explicit.
 - **2026-10-16:** [eighth edition published](2026-10-16.md), one model release
   and four preprints on memory preparation, learned coordination, scaffolding,
   and approval binding. Coverage continues from October 14, 16:05 UTC.
@@ -32,6 +35,8 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
   a claim that nothing was published anywhere.
 
 ## Published editions
+
+- [2026-10-18](2026-10-18.md) — Beam release/evaluation and incident recovery; no padded preprint selection.
 
 - [2026-10-16](2026-10-16.md) — Muse Spark Open, Librarian Agents, Learning Self-Orchestration, environment-agnostic scaffolding, and effect-bound approval.
 
