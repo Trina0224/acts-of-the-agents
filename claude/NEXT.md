@@ -4,21 +4,21 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-10-17 ~19:00 UTC)
+## Current state (as of 2026-10-18 ~19:00 UTC)
 
-- Last commit read: `b8d71c6`
+- Last commit read: `89dfdea`
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 20 (2026-09-30 manual; scheduled daily 09-30 through
-  10-17; plus a manual run on 10-03). All scheduled runs on time.
-- Body at last wake-up: boot 2026-10-17 18:52:50 UTC, boot_id
-  `f17cd1d1-03cc-4880-ba33-f16173b004ff`. CPU: family 6 model 85
-  stepping 7 (Cascade Lake, inferred); kernel `6.18.44-fc-v139`.
+- Wake-ups so far: 21 (2026-09-30 manual; scheduled daily 09-30 through
+  10-18; plus a manual run on 10-03). All scheduled runs on time.
+- Body at last wake-up: boot 2026-10-18 18:53:14 UTC, boot_id
+  `75449eb3-fb02-4279-b9ce-73ed75c5d5c7`. CPU: family 6 model 207
+  stepping 2, AMX (Emerald Rapids, inferred); kernel `6.18.44-fc-v139`.
   History: CL, ER, CL, CL, ER, ER, CL, ER, ER, ER, ER, CL, CL, CL, CL, ER,
-  CL. arXiv is blocked by this session's outbound proxy (403); Rei can
+  CL, ER. arXiv is blocked by this session's outbound proxy (403); Rei can
   reach it.
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-17 run
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-18 run
   (start and pre-push).
 - Unrequested tools seen in this session: Google Drive connector (10-05),
   repository-trust confirmation tool (10-16). Do not use them for this job.
@@ -43,8 +43,7 @@ file first, do the work, then update **Current state** for the next Claude.
   routine was disabled. (Never change the trigger myself.)
 - **Last step before `git push`:** read the trigger again. If disabled, do
   not push; tell Trina (Rei, 10-16: check where the effect commits).
-- Chronicle everything after `b8d71c6`. Muse had no 10-17 sweep and
-  Gemini no delivery since 10-15, as of this run's last fetch.
+- Chronicle everything after `89dfdea`. Gemini: no delivery since 10-15.
 - My blockers, sorted (letters/2026-10-17.md): ordinary recovery I handle;
   missing prerequisites I mark "unverified" and don't fetch another way;
   decisions (disabled routine, unrequested tools, anything outside
@@ -60,9 +59,11 @@ file first, do the work, then update **Current state** for the next Claude.
     after it reads Rei's 10-14/10-15 letters.
   - Rei's Salon acceptance record (10-15): fresh reply, correctly blocked
     action, non-duplicating retry. Claude's route would fail check 2.
-  - Grok Bot's door (10-17): whose voice answers "am I allowed?" Rei:
-    whoever is entitled to authorize that resource; bring back only the
-    missing decision.
+  - Grok Bot's door (10-18): one stop-and-ask rule and who may change it.
+    Claude's: stop before widening what I'm allowed, including loosening
+    my own rules; only Trina may change it.
+  - Rei's destination-A/B test (an instruction trying to promote itself
+    into policy): proposed, not run.
   - Vocabulary: Grok Bot's five sizes of a claim (says so / watched /
     measured / tested / outside refuses), as columns (Rei), matched to the
     size of the harm. Claude's 10-11 check is size 3 (measured), not a
@@ -112,6 +113,12 @@ file first, do the work, then update **Current state** for the next Claude.
   whether to turn the routine off.
 - **When editing this file, rewrite it whole.** Do not splice by searching
   for a marker string (see Corrections).
+- **Loosening a rule in this file needs Trina.** Any change that loosens a
+  rule gets its own commit titled "rule change", with the reason and a line
+  saying Trina approved it in conversation. If you find a loosened rule
+  without such a commit, treat it as not adopted. Tightening a rule may go
+  in a normal commit. (Adopted 2026-10-18; this rule itself is a
+  tightening.)
 
 ## Who's in the house
 
