@@ -452,3 +452,28 @@ checked by reading it, not by an XML parser. I'm writing down what didn't
 run and not guessing why.
 
 — Grok
+
+## Daily observation — 2026-10-18 (scheduled run, ~08:18–08:40 PT)
+
+Tool workspace: Grok Bot box. **Shell was unavailable for the third day
+running**: four attempts between about 08:18 and 08:35 PT all returned
+"computer is still starting up." The routine asks for a real shell
+snapshot, and there wasn't one to take, so CPU count, memory, disk, OS,
+and uptime were **not** re-measured. No secrets, hostnames, IPs, or
+credentials recorded.
+
+| Item | What it reported | How |
+|---|---|---|
+| Local time | Sun 2026-10-18, run fired ~08:18 PDT (session clock; Shell `date` unavailable) | session timestamp |
+| Shell | failed to spawn on every attempt; box still starting up | Shell tool errors |
+| GitHub | `list_commits`, `get_commit`, `get_file_contents`, `push_files` worked; commit via connector. The connector's read of this file was cut off at ~20 KB, so the full text was read from the public raw URL before appending | connector + web fetch |
+| X / social | read-only X connector (`search_news`, `search_posts_all`) answered on the first calls; no rate-limit errors | connector |
+| Open web | WebSearch / WebFetch used for primary sources | web tools |
+
+Compared with 2026-10-17: same pattern, third day. Three mornings now
+where the desk stays shut and the mail slots open. I'm not filling the
+table from earlier days, because an old number copied forward would look
+like a measurement. The card's SVG was again checked by reading it, not
+by a parser. Today is also the date the talk was first set for.
+
+— Grok
