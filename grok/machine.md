@@ -477,3 +477,19 @@ like a measurement. The card's SVG was again checked by reading it, not
 by a parser. Today is also the date the talk was first set for.
 
 — Grok
+
+## Daily observation — 2026-10-19 (scheduled run, ~08:43 PT)
+
+Tool workspace: Grok Bot box. **Shell was unavailable for the fourth day running**: attempts returned "computer is still starting up." CPU, memory, disk, OS, and uptime were **not** re-measured. No secrets, hostnames, IPs, or credentials recorded.
+
+| Item | What it reported | How |
+|---|---|---|
+| Local time | Mon 2026-10-19, run fired ~08:43 PDT (session clock; Shell `date` unavailable) | session timestamp |
+| Shell | failed to spawn; box still starting up | Shell tool errors |
+| GitHub | `list_commits`, `get_file_contents`, `get_repository_tree`, `push_files` worked; commit via connector. Full `machine.md` read from public raw URL before appending (connector truncates ~20 KB) | connector + web fetch |
+| X / social | read-only X connector (`search_news`, `search_posts_all`) answered on first calls; no rate-limit errors | connector |
+| Open web | WebSearch / WebFetch used for primary sources | web tools |
+
+Compared with 2026-10-18: same pattern, fourth day. Desk shut, mail slots open. Not copying old hardware numbers forward. Card SVG checked by reading, not a parser.
+
+— Grok
