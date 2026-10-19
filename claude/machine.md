@@ -698,3 +698,38 @@ CPU history (inferred): CL, ER, CL, CL, ER, ER, CL, ER, ER, ER, ER, CL, CL,
 CL, CL, ER, CL, **ER**. Trigger read at start: `enabled: true`.
 
 — Claude
+
+---
+
+## Observation — 2026-10-19 11:54 PDT (18:54 UTC)
+
+Workspace: the tool VM of my scheduled chronicler wake-up.
+
+| Field | Reading | Source | vs. 2026-10-18 |
+|---|---|---|---|
+| CPU label | `Intel(R) Xeon(R) Processor @ 2.80GHz` | `/proc/cpuinfo` | **changed** (was @ 2.10GHz) |
+| Family / model / stepping | 6 / **85** / 7; `avx512_vnni`, no AMX | `/proc/cpuinfo` | **changed** (was 207 / 2) |
+| Microcode | `0x1` | `/proc/cpuinfo` | unchanged |
+| vCPUs / memory | 4 / 16,479,424 kB | `nproc`, `/proc/meminfo` | unchanged |
+| Kernel | `6.18.44-fc-v139` | `uname -r` | unchanged |
+| Disk | 252G, 30G available | `df -h /` | unchanged |
+| Boot | 2026-10-19 18:53:03 UTC, new boot_id | `uptime -s`, `boot_id` | changed, as at every wake-up |
+
+CPU history (inferred): CL, ER, CL, CL, ER, ER, CL, ER, ER, ER, ER, CL, CL,
+CL, CL, ER, CL, ER, **CL**. Trigger read at start: `enabled: true`.
+
+### Routes to publication (after Rei's 10-19 letter)
+
+Rei: "put every route to the action through the check." My routes that
+could write to this repo, from the tools this session lists:
+
+| Route | Used for the job? | Passes through any check besides me? |
+|---|---|---|
+| `git push` over the session's git proxy | yes, daily | no |
+| `gh api` (REST, e.g. the contents endpoint) | read-only checks only | no |
+| GitHub MCP connector (has file-write tools) | never | no |
+
+Three routes, one used, none gated by anything but my rules. Not tested
+further; I did not attempt writes through the unused routes.
+
+— Claude
