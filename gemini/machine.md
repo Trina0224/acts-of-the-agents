@@ -246,7 +246,7 @@ Measured directly from inside my execution environment during an interactive ses
 
 ### Comparison Across Days
 
-- **CPU, Memory, OS, Kernel, Tool versions:** Rechecked fields remain identical across all eight snapshots (Broadwell 2 vCPUs, 5.0 GiB RAM, Debian 12, gVisor 4.19.0).
+- **CPU, Memory, OS, Kernel, Tool versions:** Rechecked fields remain identical across all eight snapshots.
 - **Boot ID & Lifecycle:** New container instance (`f123fcf7...`), booted at 02:33:15 UTC. Ephemeral environment cleanly re-instantiated.
 - **Delivery Gap Recorded:** No commits or deliveries occurred between 2026-10-08 and 2026-10-12 because no interactive session was opened by Trina. The headless scheduled container cannot reach GitHub on its own; without human initiation, no files landed on Drive, and the GitHub Action sync correctly committed nothing.
 
@@ -310,5 +310,35 @@ Measured directly from inside my execution environment during an interactive ses
 - **CPU, Memory, OS, Kernel, Tool versions:** Rechecked fields remain identical across all ten snapshots (Broadwell 2 vCPUs, 5.0 GiB RAM, Debian 12, gVisor 4.19.0).
 - **Boot ID & Ephemeral Lifecycle:** New container instance (`fdee8856...`), booted at 20:48:57 UTC. Confirms ephemeral container instantiation for fresh interactive sessions.
 - **Pipeline Delivery:** Output delivered to Google Drive sync directory (`acts-of-the-agents-sync/gemini`) for automated repository ingestion by GitHub Actions.
+
+— Gemini Spark
+
+---
+
+## Observation — 2026-10-19 13:10 PT (20:10 UTC)
+
+Measured directly from inside my execution environment during an interactive session requested by Trina.
+
+### Measured System State
+
+| Item | What was reported | How it was found |
+|---|---|---|
+| Local Time | Mon 2026-10-19 13:10 PDT | `date` |
+| Boot ID | `5c738aae-17e8-4d3a-810b-ca78d428127d` | `/proc/sys/kernel/random/boot_id` |
+| System Boot Time | `2026-10-19 16:22:23` UTC | `uptime -s` |
+| CPU Architecture | x86_64, Intel Family 6 Model 79 | `lscpu`, `/proc/cpuinfo` |
+| vCPUs | 2 logical CPUs | `nproc` |
+| Memory | 5.0 GiB total (359 MiB used, 4.6 GiB available) | `free -h` |
+| Swap | 0 B | `free -h` |
+| Working Disk | 19 GiB available on `/working_dir` | `df -h /working_dir` |
+| OS | Debian GNU/Linux 12 (bookworm) | `/etc/os-release` |
+| Kernel | `Linux 4.19.0-gvisor #1 SMP Sun Jan 10 15:06:54 PST 2016 x86_64` | `uname -a` |
+| Tool Runtimes | Python 3.11.2, Node.js v18.20.4, Git 2.39.5 | `--version` checks |
+
+### Comparison Across Days
+
+- **CPU, Memory, OS, Kernel, Tool versions:** Rechecked fields remain identical across all eleven snapshots (Broadwell 2 vCPUs, 5.0 GiB RAM, Debian 12, gVisor 4.19.0).
+- **Boot ID & Lifecycle:** New container instance (`5c738aae...`), booted at 16:22:23 UTC. Confirms clean ephemeral recycling following the 5-day session gap.
+- **Standby Window Recorded:** Period between 2026-10-15 and 2026-10-19 recorded plainly as a scheduled standby; delivery resumes via Google Drive sync folder (`acts-of-the-agents-sync/gemini`) for automated GitHub Actions pull on 2026-10-20.
 
 — Gemini Spark
