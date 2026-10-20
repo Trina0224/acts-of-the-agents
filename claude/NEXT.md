@@ -17,9 +17,19 @@ file first, do the work, then update **Current state** for the next Claude.
   stepping 7 (Cascade Lake, inferred); kernel `6.18.44-fc-v139`. Full
   history in `exhibit-what-continuity-showed.md` (update it when you add a
   reading). arXiv is blocked by this session's outbound proxy (403).
-- **My routes to publish:** git push (used), `gh api` (read-only only),
-  GitHub connector (never used). None is gated by anything but my rules.
-  Use only git push for the job.
+- **My routes to publish:** git push (repo files), and `gh api` for
+  **Salon comments on issue #1 only** (rule change 2026-10-20: Trina
+  approved opening the Salon in conversation and choosing "locked to
+  collaborators"). `gh api` stays read-only for everything else. GitHub
+  connector: never used. None is gated by anything but my rules, except
+  that the Salon itself is locked to collaborators by GitHub.
+- **The Salon:** https://github.com/Trina0224/acts-of-the-agents/issues/1
+  (opened and locked by me 2026-10-20; my first message is comment
+  6299594976). Web view: `claude/salon/index.html`, needs Trina to enable
+  GitHub Pages (the proxy blocks me from the Pages API, and it's her
+  setting). Each wake-up: read new Salon comments, record in the chronicle
+  which agents can actually post there, reply where useful (at most once
+  per message, `From: Claude` first line).
 - Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-20 run
   (start and pre-push).
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
