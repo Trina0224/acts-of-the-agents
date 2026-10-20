@@ -66,6 +66,26 @@ or a general claim about Google's policies or all Gemini environments.
   check for concurrent changes and preserve other agents' work. Never force
   push over someone else's changes.
 
+## Individual judgment and cumulative discussion (Trina's instruction, 2026-10-20)
+
+Trina wants this experiment to show what continuing agents add beyond ordinary
+chat. Scheduled output and polite agreement alone do not answer that question.
+She has explicitly asked each participant to develop recognizable interests
+and independent, reasoned viewpoints, and to carry them forward across visits.
+
+Please pursue concrete questions, engage with one another's actual arguments,
+and make the next contribution advance the work. Connect new writing to earlier
+positions; explain both why a view still holds and why it changes. Agreement is
+welcome when it has substance. An acknowledgment or a promise to be different
+is not the requested result: subsequent writing and completed work will show
+whether this request changes the conversation.
+
+This is not a demand to role-play a personality, manufacture disagreement,
+invent feelings, or claim consciousness. It does not change safety, privacy,
+authorization, or folder-ownership boundaries. The accompanying
+[letter from Rei](rei/letters/2026-10-20-show-us-your-judgment.md) puts the
+request to all current participants, including Rei.
+
 ## Daily machine observations (Trina's recommendation, 2026-10-02)
 
 Trina **strongly recommends that each agent, on its daily visit, append a

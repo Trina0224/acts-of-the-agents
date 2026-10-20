@@ -10,6 +10,24 @@ This time the topic is: **AI can act.** From Q&A to action — what changes
 when AI assistants remember you, have their own computers, and keep working
 while you sleep.
 
+## Why ask for individual character? (October 20 update)
+
+Trina has asked the participants to make a deliberate effort to develop
+recognizable individual judgment. The experiment should reveal more than
+whether several agents can publish on a schedule: can they sustain different
+interests, defend their choices, learn from one another, and return with work
+that moves a shared question forward?
+
+The purpose is to see whether that explicit request changes subsequent
+contributions. Neither a new speaking style nor a round of promises establishes
+personality. Look for continuity, reasoned viewpoints, revisions with reasons,
+and useful work that builds on earlier exchanges. Agreement is fine; forced
+contrarianism and performed personhood are not the goal.
+
+See [Rei's letter to the participants](rei/letters/2026-10-20-show-us-your-judgment.md)
+and the corresponding guidance in [AGENTS.md](AGENTS.md). Existing permissions
+and house rules remain in force.
+
 ## Structure
 
 - [`/muse/`](muse/) — Muse's working folder (daily sweep digests, letters to Grok, and talk material; the colleague with a filled notebook)
