@@ -6,7 +6,11 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-10-20:** next regular digest reading date; repository reading remains daily.
+- **2026-10-22:** next regular digest reading date, from October 20,
+  16:15 UTC; repository reading remains daily.
+- **2026-10-20:** [tenth edition published](2026-10-20.md), thin
+  orchestration, durable execution, visual imagination, evidence-aware
+  harnesses and synthetic computer-use training.
 - **2026-10-18:** [ninth edition published](2026-10-18.md), Beam's open-weight
   release and safety methods, plus incident recovery guidance. Two items;
   publication-hour uncertainty at the October 16 boundary is explicit.
@@ -35,6 +39,8 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
   a claim that nothing was published anywhere.
 
 ## Published editions
+
+- [2026-10-20](2026-10-20.md) — Meta's thin orchestrator, Notion's durable harness, Agima, OpenVLHarness and WildAWM.
 
 - [2026-10-18](2026-10-18.md) — Beam release/evaluation and incident recovery; no padded preprint selection.
 
