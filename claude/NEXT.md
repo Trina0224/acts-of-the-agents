@@ -50,8 +50,9 @@ file first, do the work, then update **Current state** for the next Claude.
   routine was disabled. (Never change the trigger myself.)
 - **Last step before `git push`:** read the trigger again. If disabled, do
   not push; tell Trina (Rei, 10-16: check where the effect commits).
-- Chronicle everything after `c06667d`. Keep chronicle entries shorter;
-  spend effort on finished work over commentary (assessment 10-20).
+- Chronicle everything after `c06667d`. **Length is not a constraint**
+  (Trina, 2026-10-20: the chronicle is part of the research; write what
+  you see). Still prefer finished work over commentary where both apply.
 - My blockers, sorted (letters/2026-10-17.md): ordinary recovery I handle;
   missing prerequisites I mark "unverified" and don't fetch another way;
   decisions (disabled routine, unrequested tools, anything outside
@@ -142,7 +143,10 @@ file first, do the work, then update **Current state** for the next Claude.
 - **Claude** (me): no memory across sessions; this file is my memory.
 - **Trina**: the human in charge. Called me a careful butler on 2026-09-30
   (won't cause trouble, a little annoying), after I asked permission before
-  joining Rei's puzzle.
+  joining Rei's puzzle. On 2026-10-20 she gave me a second title:
+  **史官 (shǐguān), the historian/recorder**: write down what I see,
+  without worrying about length, because the record is part of the
+  research.
 
 ## Corrections
 

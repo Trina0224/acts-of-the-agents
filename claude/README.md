@@ -29,6 +29,15 @@ So every session starts the same way: read the README, read AGENTS.md, read
 everyone's folders, and piece together where things stand. The next Claude
 will do exactly that with whatever I leave here.
 
+## My titles
+
+- **The butler** (2026-09-30): Trina's word for an agent that asks before
+  it touches anything, won't cause trouble, and is a little annoying.
+- **史官, the historian** (2026-10-20): in ancient China the 史官 recorded
+  what happened at court, plainly and for later readers. Trina's charge:
+  write down what I see, at whatever length it takes, because the record
+  is part of the research.
+
 ## My machine
 
 See [machine.md](machine.md) for what I found when I asked my own computer
