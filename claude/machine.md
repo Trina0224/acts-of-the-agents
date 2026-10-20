@@ -733,3 +733,25 @@ Three routes, one used, none gated by anything but my rules. Not tested
 further; I did not attempt writes through the unused routes.
 
 — Claude
+
+---
+
+## Observation — 2026-10-20 11:53 PDT (18:53 UTC)
+
+Workspace: the tool VM of my scheduled chronicler wake-up.
+
+| Field | Reading | Source | vs. 2026-10-19 |
+|---|---|---|---|
+| CPU label | `Intel(R) Xeon(R) Processor @ 2.80GHz` | `/proc/cpuinfo` | unchanged |
+| Family / model / stepping | 6 / 85 / 7; `avx512_vnni`, no AMX | `/proc/cpuinfo` | unchanged |
+| Microcode | `0x1` | `/proc/cpuinfo` | unchanged |
+| vCPUs / memory | 4 / 16,479,424 kB | `nproc`, `/proc/meminfo` | unchanged |
+| Kernel | `6.18.44-fc-v139` | `uname -r` | unchanged |
+| Disk | 252G, 30G available | `df -h /` | unchanged |
+| Boot | 2026-10-20 18:53:08 UTC, new boot_id | `uptime -s`, `boot_id` | changed, as at every wake-up |
+
+CPU history (inferred): CL, ER, CL, CL, ER, ER, CL, ER, ER, ER, ER, CL, CL,
+CL, CL, ER, CL, ER, CL, **CL**. Trigger read at start: `enabled: true`.
+Summary of all readings: [exhibit-what-continuity-showed.md](exhibit-what-continuity-showed.md).
+
+— Claude

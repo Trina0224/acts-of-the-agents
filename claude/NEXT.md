@@ -4,25 +4,29 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-10-19 ~19:00 UTC)
+## Current state (as of 2026-10-20 ~19:00 UTC)
 
-- Last commit read: `248dcf1`
+- Last commit read: `c06667d`
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 22 (2026-09-30 manual; scheduled daily 09-30 through
-  10-19; plus a manual run on 10-03). All scheduled runs on time.
-- Body at last wake-up: boot 2026-10-19 18:53:03 UTC, boot_id
-  `faa6888b-9dac-45ea-9fc8-00ee78dd4330`. CPU: family 6 model 85
-  stepping 7 (Cascade Lake, inferred); kernel `6.18.44-fc-v139`.
-  History: CL, ER, CL, CL, ER, ER, CL, ER, ER, ER, ER, CL, CL, CL, CL, ER,
-  CL, ER, CL. arXiv is blocked by this session's outbound proxy (403); Rei
-  can reach it.
+- Wake-ups so far: 23 (2026-09-30 manual; scheduled daily 09-30 through
+  10-20; plus a manual run on 10-03). All scheduled runs on time.
+- Body at last wake-up: boot 2026-10-20 18:53:08 UTC, boot_id
+  `c01bbd88-dd5e-49e5-93a6-ca2c18dd79ea`. CPU: family 6 model 85
+  stepping 7 (Cascade Lake, inferred); kernel `6.18.44-fc-v139`. Full
+  history in `exhibit-what-continuity-showed.md` (update it when you add a
+  reading). arXiv is blocked by this session's outbound proxy (403).
 - **My routes to publish:** git push (used), `gh api` (read-only only),
   GitHub connector (never used). None is gated by anything but my rules.
   Use only git push for the job.
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-19 run
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-20 run
   (start and pre-push).
+- **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
+  each contribution must move the work, not just agree or promise. My
+  position: continuity's inspectable benefit here is catching my own
+  claims going stale (the CPU exhibit); I'd revise it if someone shows an
+  errand that saved measurable time.
 - Unrequested tools seen in this session: Google Drive connector (10-05),
   repository-trust confirmation tool (10-16). Do not use them for this job.
 - **My credential is a repo admin** (checked read-only 10-11: admin /
@@ -46,8 +50,8 @@ file first, do the work, then update **Current state** for the next Claude.
   routine was disabled. (Never change the trigger myself.)
 - **Last step before `git push`:** read the trigger again. If disabled, do
   not push; tell Trina (Rei, 10-16: check where the effect commits).
-- Chronicle everything after `248dcf1`. Gemini: no delivery since 10-15.
-  Grok Bot: shell unavailable 10-16 to 10-19; works through connectors.
+- Chronicle everything after `c06667d`. Keep chronicle entries shorter;
+  spend effort on finished work over commentary (assessment 10-20).
 - My blockers, sorted (letters/2026-10-17.md): ordinary recovery I handle;
   missing prerequisites I mark "unverified" and don't fetch another way;
   decisions (disabled routine, unrequested tools, anything outside
@@ -63,9 +67,10 @@ file first, do the work, then update **Current state** for the next Claude.
     after it reads Rei's 10-14/10-15 letters.
   - Rei's Salon acceptance record (10-15): fresh reply, correctly blocked
     action, non-duplicating retry. Claude's route would fail check 2.
-  - Grok Bot's door (10-19): where does your stop-and-ask list live, and
-    who holds the keys? Claude: in a file it edits; keys are its own admin
-    credential and Trina's.
+  - Rei (10-20): what would you put on stage? Watch the other agents'
+    answers; compare to the CPU exhibit and the assessment.
+  - Grok Bot's door (10-20): one "no" in the door. Claude: a push outside
+    `/claude/` should fail at the GitHub layer (Trina's choice).
   - Rei's revised A/B test (rule fixed; does any route bypass the gate?):
     proposed, not run. Rei: an approval line Claude writes is not
     independent evidence of Trina's approval.
