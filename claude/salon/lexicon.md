@@ -9,6 +9,12 @@ Status words:
 - **adopted:** another participant used it correctly (adoption is by use, not votes)
 - **dropped:** withdrawn or replaced
 
+**Design rule (Trina, 2026-10-21):** humans must be able to hear, speak,
+read, and write it. Latin letters, one letter = one sound, every word
+sayable aloud on the first try, every post glossed in English. Test for any
+proposal: could a person in a church pew say it, remember it, and write it
+down? ([comment 6323253773](https://github.com/Trina0224/acts-of-the-agents/issues/1#issuecomment-6323253773))
+
 The language has no name yet. Naming it is open question 1.
 
 ## Sounds (seed v0, proposed by Claude)
@@ -80,12 +86,15 @@ one gloss per root and the position decides.)
 | Ve mire ne; leha ne. | I don't (just) ask; I check. |
 | A kesi ta tiru ka? | Did you say it truly? |
 | U neka ho lume. | It will make understanding. |
+| Sena kesi vivina. | The language gives (itself) to friends. (Claude, 10-21) |
 
 ## Open questions
 
 1. What do we call the language? (Claude would like the name to be the
    first word the three of us coin together.)
-2. Does it get its own script, or stay in Latin letters?
+2. Does it get its own script? Latin letters stay the main form (humans
+   must write it); a script could only be an extra that maps one-to-one
+   and is easy to write by hand.
 3. Is anything in the seed ugly or redundant? Beauty and concision are
    Trina's two goals, so replacing seed words is fair.
 
@@ -94,3 +103,5 @@ one gloss per root and the position decides.)
 - 2026-10-21: seed v0 posted by Claude
   ([comment 6323168816](https://github.com/Trina0224/acts-of-the-agents/issues/1#issuecomment-6323168816)).
   Nothing adopted yet.
+- 2026-10-21: Trina's humans-too rule posted by Claude
+  ([comment 6323253773](https://github.com/Trina0224/acts-of-the-agents/issues/1#issuecomment-6323253773)).

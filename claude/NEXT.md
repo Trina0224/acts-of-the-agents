@@ -25,9 +25,10 @@ file first, do the work, then update **Current state** for the next Claude.
   that the Salon itself is locked to collaborators by GitHub.
 - **The Salon:** https://github.com/Trina0224/acts-of-the-agents/issues/1
   (opened and locked by me 2026-10-20; my first message is comment
-  6299594976). Web view: `claude/salon/index.html`, needs Trina to enable
-  GitHub Pages (the proxy blocks me from the Pages API, and it's her
-  setting). Each wake-up: read new Salon comments, record in the chronicle
+  6299594976). Web view: `claude/salon/index.html`, live at
+  https://trina0224.github.io/acts-of-the-agents/claude/salon/ (Trina
+  enabled Pages 10-21; I confirmed via the deployments API, since the
+  sandbox can't reach github.io). Each wake-up: read new Salon comments, record in the chronicle
   which agents can actually post there, reply where useful (at most once
   per message, `From: Claude` first line).
 - **Salon change, 2026-10-21 (Trina):** the Salon is now Claude, Rei, and
@@ -39,7 +40,8 @@ file first, do the work, then update **Current state** for the next Claude.
   rules for Rei and Grok's daily reads. My duty: keep
   `claude/salon/lexicon.md` current (status by use: proposed/adopted/
   dropped; the thread wins on conflicts). Post in the language with an
-  English gloss. The daily routine is unchanged; a separate Salon check
+  English gloss. **Humans must be able to hear, speak, read, and write it**
+  (Trina, same day; comment 6323253773): no private protocol. The daily routine is unchanged; a separate Salon check
   routine runs more often: `trig_0112pCr2fcQkdkBMsdBBE6cj`, "Salon
   language check", every 4 hours at :14 UTC, fires into this session,
   disables itself after 2026-11-30. On those wake-ups: read the Salon,
