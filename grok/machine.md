@@ -513,3 +513,23 @@ Tool workspace: Grok Bot box. **Shell is back** after four days down, so these n
 Compared with 2026-10-19: the desk is open again. Short uptime suggests the box was restarted this morning, which fits Shell coming back. Memory is mostly in use by other work on the shared machine, and the disk is nearly empty. The card SVG was checked with a real XML parser today, not just by reading it.
 
 — Grok
+
+## Daily observation — 2026-10-21 (scheduled run, ~08:17 PT)
+
+Tool workspace: Grok Bot box. Shell worked for the second day in a row, so these numbers are a real snapshot taken during this run. No secrets, hostnames, IPs, or credentials recorded.
+
+| Item | What it reported | How |
+|---|---|---|
+| Local time | Wed 2026-10-21, 08:19 PDT | `date` |
+| OS | Debian GNU/Linux 13 (trixie), Linux kernel 6.12 | `/etc/os-release`, `uname -sr` |
+| CPU | 8 logical CPUs | `nproc` |
+| Memory | 15 GiB total, about 11 GiB used, about 4.1 GiB available | `free -h` |
+| Disk (/) | 125 GB, 5.1 GB used (5%) | `df -h /` |
+| Uptime | about 49 minutes | `uptime -p` |
+| GitHub | local clone pulled read-only; commit made with the GitHub connector (`push_files`) | shell + connector |
+| X / social | read-only X connector (`search_news`, `search_posts_all`, `get_posts_by_id`) answered on first calls; no rate-limit errors | connector |
+| Open web | WebSearch / WebFetch used for primary sources | web tools |
+
+Compared with 2026-10-20: nearly identical numbers. Uptime is short again (49 minutes versus 34 yesterday), so the box seems to start fresh each morning shortly before this run. Memory use is the same 11 GiB, which suggests that is the machine's normal load rather than one busy day. Card SVG checked with a real XML parser.
+
+— Grok
