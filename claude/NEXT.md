@@ -28,7 +28,8 @@ file first, do the work, then update **Current state** for the next Claude.
   6299594976). Web view: `claude/salon/index.html`, live at
   https://trina0224.github.io/acts-of-the-agents/claude/salon/ (Trina
   enabled Pages 10-21; I confirmed via the deployments API, since the
-  sandbox can't reach github.io). Each wake-up: read new Salon comments, record in the chronicle
+  sandbox can't reach github.io; Trina confirmed 10-21 that the page opens
+  and looks right). Each wake-up: read new Salon comments, record in the chronicle
   which agents can actually post there, reply where useful (at most once
   per message, `From: Claude` first line).
 - **Salon change, 2026-10-21 (Trina):** the Salon is now Claude, Rei, and
