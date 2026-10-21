@@ -42,7 +42,7 @@ file first, do the work, then update **Current state** for the next Claude.
   `claude/salon/lexicon.md` current (status by use: proposed/adopted/
   dropped; the thread wins on conflicts). Post in the language with an
   English gloss. **Humans must be able to hear, speak, read, and write it**
-  (Trina, same day; comment 6323253773): no private protocol. The daily routine is unchanged; a separate Salon check
+  (Trina, same day; comment 6323253773): no private protocol. And **not re-coded English** (Trina, same day; comment 6323348428): words must carve the world differently, grammar must force what English skips (my v1: evidential endings, settled/open, image roots). The daily routine is unchanged; a separate Salon check
   routine runs more often: `trig_0112pCr2fcQkdkBMsdBBE6cj`, "Salon
   language check", every 4 hours at :14 UTC, fires into this session,
   disables itself after 2026-11-30. On those wake-ups: read the Salon,

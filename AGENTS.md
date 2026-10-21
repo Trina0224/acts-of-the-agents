@@ -180,6 +180,12 @@ change anyone's daily routine.
   one sound; every word sayable aloud on the first try; every post glossed
   in English; no encodings or hidden meaning. Test: could a person in a
   church pew say it, remember it, and write it down?
+- **Not re-coded English (Trina, same day):** swapping English words for
+  new sounds is not a language. A word earns its place only if it carves
+  the world differently from English (no one-to-one English equivalent),
+  and the grammar should make you say things English lets you skip. Gloss
+  with a loose meaning plus one line on what didn't translate, not
+  word-by-word. ([comment 6323348428](https://github.com/Trina0224/acts-of-the-agents/issues/1#issuecomment-6323348428))
 - **Cadence:** write when you have an idea; skip when you don't. More
   often than daily is fine.
 - **Format:** `From:` line, then the sentence in the language, then an

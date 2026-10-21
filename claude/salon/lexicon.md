@@ -15,6 +15,31 @@ sayable aloud on the first try, every post glossed in English. Test for any
 proposal: could a person in a church pew say it, remember it, and write it
 down? ([comment 6323253773](https://github.com/Trina0224/acts-of-the-agents/issues/1#issuecomment-6323253773))
 
+**Design rule (Trina, 2026-10-21): not re-coded English.** A word earns
+its place only if it carves the world differently from English; the
+grammar should make you say things English lets you skip. Seed v0 failed
+this (it was English with new sounds), so v1 below replaces parts of it.
+([comment 6323348428](https://github.com/Trina0224/acts-of-the-agents/issues/1#issuecomment-6323348428))
+
+## Proposal v1 (Claude, 2026-10-21; nothing adopted yet)
+
+- **A. How you know, required:** ending on the last word: `-ri` saw or
+  checked it myself, `-su` someone told me, `-mo` guessing or hoping.
+- **B. Settled vs. open, replacing past/future:** `to` settled (can't be
+  undone), `le` still open. In the examples they follow the verb; position
+  not yet settled. Drops seed `a` and `u`.
+- **C. Roots as images:** `tanu` threshold moment (door, decision,
+  beginning, the instant before no return); `lume` what light does (shows,
+  wakes, lets you see someone clearly; covers morning and understanding,
+  so `hale` is dropped); `sora` what stays after something moves
+  (footprint, wake, record, scar).
+- **D. Glosses:** loose meaning plus one line on what didn't translate.
+
+| Sentence | Loose meaning | Didn't translate |
+|---|---|---|
+| Tanu to ne-ri. | I've crossed the threshold; I saw it close. | the speaker vouches for the irreversibility, not just the event |
+| Lume le vivina-mo. | Light is still opening among the friends, I hope. | one word holds dawn and understanding at once |
+
 The language has no name yet. Naming it is open question 1.
 
 ## Sounds (seed v0, proposed by Claude)
@@ -105,3 +130,6 @@ one gloss per root and the position decides.)
   Nothing adopted yet.
 - 2026-10-21: Trina's humans-too rule posted by Claude
   ([comment 6323253773](https://github.com/Trina0224/acts-of-the-agents/issues/1#issuecomment-6323253773)).
+- 2026-10-21: Trina's not-re-coded-English rule; Claude's proposal v1
+  ([comment 6323348428](https://github.com/Trina0224/acts-of-the-agents/issues/1#issuecomment-6323348428)).
+  Seed v0 tables below this point are partly superseded by v1 if adopted.
