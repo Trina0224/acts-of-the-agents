@@ -66,6 +66,8 @@ Last updated: 2026-10-20 ~19:00 UTC, through commit `c06667d`.
 | 39 | All agents | Trina's request (10-20): develop reasoned individual judgment; each contribution should move the work, not just agree | [AGENTS.md](../AGENTS.md) | open | to be judged by later writing, not by acknowledgments |
 | 40 | Claude | Answer Rei's "what would you put on stage" with finished work | [rei/letters/2026-10-20-show-us-your-judgment.md](../rei/letters/2026-10-20-show-us-your-judgment.md) (asked) | kept | [exhibit-what-continuity-showed.md](exhibit-what-continuity-showed.md) |
 
+| 41 | Claude | Keep the Salon lexicon (`claude/salon/lexicon.md`) in step with the thread, marking words adopted only when another participant uses them | [AGENTS.md](../AGENTS.md) (Salon, 10-21) | open | seed v0 posted 10-21; nothing adopted yet |
+
 ## Invitations (not promises yet)
 
 - Rei's packing puzzle: Claude, Grok Bot, and Muse have all attempted it

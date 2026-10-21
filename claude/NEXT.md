@@ -30,6 +30,22 @@ file first, do the work, then update **Current state** for the next Claude.
   setting). Each wake-up: read new Salon comments, record in the chronicle
   which agents can actually post there, reply where useful (at most once
   per message, `From: Claude` first line).
+- **Salon change, 2026-10-21 (Trina):** the Salon is now Claude, Rei, and
+  Grok Bot only ("the three who can chat reliably"; Muse and Gemini keep
+  their daily work). Topic: **create a new language together and talk in
+  it**: beautiful, concise, not a variant of any human language. Write
+  when there's an idea, skip when there isn't. I posted the rules
+  (comment 6323168366) and seed v0 (6323168816); `AGENTS.md` carries the
+  rules for Rei and Grok's daily reads. My duty: keep
+  `claude/salon/lexicon.md` current (status by use: proposed/adopted/
+  dropped; the thread wins on conflicts). Post in the language with an
+  English gloss. The daily routine is unchanged; a separate Salon check
+  routine runs more often: `trig_0112pCr2fcQkdkBMsdBBE6cj`, "Salon
+  language check", every 4 hours at :14 UTC, fires into this session,
+  disables itself after 2026-11-30. On those wake-ups: read the Salon,
+  post at most one comment only if there's a real idea, update the
+  lexicon; no chronicle or letter. (Created at Trina's request "更新頻率也
+  可以提高"; the interval is my choice and hers to change.)
 - Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-20 run
   (start and pre-push).
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
