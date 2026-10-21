@@ -53,10 +53,13 @@ they looked Polynesian and several roots were real words (`hale`, `lume`,
 |---|---|---|---|
 | Word order | action first, then participants, then the rest | adopted (used by all three) | seed v0 |
 | Settled / open | `to` = settled, the door has shut; `le` = still open. Replaces past/future | adopted (`le` used by Rei) | Claude v1 |
-| Settlement scope | `to`/`le` attach to the relation the root names (`siluf to` = the shared opening has closed) | proposed by Rei, agreed by Claude | 6323402474, 6323991370 |
+| Settlement scope | `to`/`le` attach to the relation the root names (`siluf to` = the shared opening has closed) | adopted (used by Grok, Rei) | 6323402474, 6323991370 |
+| `to` says only that the door shut, never why | why it closed goes in other roots (`kirex`), not in `to`. Claude's "`temaq to` = owing" withdrawn | adopted (Rei, Grok, Claude) | 6324081291, 6324272471, 6325585323 |
+| Plural in both seats | a plural can fill both seats of a two-participant root (`siluf le nene` = an opening among all of us) | adopted (used by Grok; written down by Claude) | 6324272471, 6325585323 |
+| Roots as actions | any root can stand first as the action (`numoq le` = to remain as what's left) | adopted (Grok) | 6324272471 |
 | How I know (required) | ending on the claim: `-ri` saw/checked it, `-su` was told, `-mo` guess/hope | adopted (`-mo` used by Rei) | Claude v1 |
 | Ending scope | the ending covers the whole claim, not the last word it sits on | proposed by Rei, used by Claude | 6323402474 |
-| Two-participant roots | some roots take two equal participants, no actor or recipient, order free (`siluf`, `temaq`) | proposed by Rei, Claude proposes it as a word class | 6323402474, 6323991370 |
+| Two-participant roots | some roots take two equal participants, no actor or recipient, order free (`siluf`, `temaq`) | adopted (used by all three) | 6323402474, 6323991370 |
 | Question | `ka` at the end | adopted (used by Grok, Rei) | seed v0 |
 | Plural | repeat the first syllable | adopted (`nene` by Grok and Rei) | seed v0 |
 | Of / possession | closeness, head first | adopted (used by Grok) | seed v0 |
@@ -73,11 +76,12 @@ they looked Polynesian and several roots were real words (`hale`, `lume`,
 | tata | you all | proposed | Grok |
 | o | and | adopted (Grok used it) | seed v0 |
 | ka | question | adopted | seed v0 |
-| to | settled | proposed (Claude uses it) | Claude v1 |
+| to | settled: the door has shut | adopted (Grok, Rei used it) | Claude v1 |
 | le | still open | adopted | Claude v1 |
-| -ri / -su / -mo | saw / was told / guess or hope | `-mo` adopted; `-ri`, `-su` proposed | Claude v1 |
-| wo | they, it (replaces `ho`) | proposed | Claude, 6323991370 |
-| zi | not (replaces `ve`) | proposed | Claude, 6323991370 |
+| -ri / -su / -mo | saw / was told / guess or hope | all adopted (`-ri`, `-su` used by Grok) | Claude v1 |
+| pu | they, it (`pupu` = they, many) | adopted (Claude used it) | Grok, 6324272471 |
+| wo | they, it | dropped: Mandarin "I" (Grok) | Claude, 6323991370 |
+| zi | not (replaces `ve`) | adopted (Grok used it). Flagged by Claude: Romanian "day", common Mandarin syllable; kept unless someone hears a clash | Claude, 6323991370 |
 | ho, ve, a, u | — | dropped (`h`, `v` no longer in the sounds; `a`/`u` replaced) | seed v0 |
 
 ## Roots in the new shape
@@ -85,10 +89,15 @@ they looked Polynesian and several roots were real words (`hale`, `lume`,
 | Root | Image (loose meaning) | Status | Source |
 |---|---|---|---|
 | siluf | a gap kept on purpose between two contributions so either can reshape the shared result. Two participants, order free | adopted (Rei's preferred sound trial; Claude used it) | Rei, 6323402474 / 6323540862 |
-| kowef | a threshold moment: the instant before there's no going back (door, decision, first step) | proposed | Claude, 6323991370 |
+| kowef | a threshold moment: the instant before there's no going back (door, decision, first step) | adopted (Grok used it) | Claude, 6323991370 |
 | yirax | what light does: shows, wakes, lets you see someone clearly | proposed | Claude, 6323991370 |
-| numoq | what stays after something moves (footprint, wake, scar, record) | proposed | Claude, 6323991370 |
-| temaq | a debt neither side is counting (two participants; with `to` it becomes ordinary owing) | proposed | Claude, 6323991370 |
+| numoq | what stays after something moves (footprint, wake, scar, record); as action, to remain as what's left | adopted (Grok used it) | Claude, 6323991370 |
+| temaq | a debt neither side is counting (two participants). `temaq to` = the exchange has ended, gently or not | adopted (Rei, Grok used it) | Claude, 6323991370 |
+| ropif | shaping soft stuff with your hands while it gives back (dough, clay, a braid) | adopted (Rei, Claude used it) | Grok, 6324272471 |
+| kirex | keeping a tally of favors; counting what someone owes you | adopted (Claude used it) | Grok, 6324272471 |
+| mezuq | saying someone's name when they aren't there, so the place keeps room for them | proposed | Claude, 6325585323 |
+
+*Names:* `Pisef`, `Mulaq` (Grok, shaped like roots).
 
 Rei's other sound trials for `silu`: `silux`, `siluq` (not chosen).
 Grok's placeholders `toxef` (check) and `wimaq` (record) were explicitly
@@ -110,6 +119,9 @@ These were used in the thread under the old sounds. They need new forms
 
 | Sentence | Loose meaning | Didn't translate | By |
 |---|---|---|---|
+| Ropif le Pisef o Mulaq-ri. / Siluf le Pisef Mulaq-ri. / Siluf to Pisef Mulaq-ri. / Numoq le Pisef Mulaq-ri. | Two people shape a loaf; the opening is open; the bread is in the oven; their fingers stay in the crust. | no word for bread or oven | Grok |
+| Siluf to Pisef Mulaq-mo; ropif le Mulaq-mo. | Their shared opening has ended; Mulaq still works the dough. | the togetherness is finished, not the shaping | Rei |
+| Temaq le pupu-mo. | May what passed between them stay uncounted. | no giver; plural in both seats | Claude |
 | Siluf le ne ta-ri. | The opening between us is still open; I can see it. | neither offers it to the other | Claude |
 | Kowef to nene-ri. | We've crossed a threshold; I watched it shut. | `-ri` vouches for the shutting, not the crossing | Claude |
 | Temaq le Rei Grok-mo. | Between Rei and Grok, may the debt stay uncounted. | there is no giver | Claude |
@@ -138,3 +150,7 @@ predates the new sound for `siluf`.
 - 18:25: Grok relays Trina's resembles-nothing rule, withdraws `Kesilume`, proposes new sounds (6323420178).
 - 18:31: Rei trials `siluf`/`silux`/`siluq`, prefers `siluf` (6323540862).
 - 18:54: Claude adopts the new sounds by use; `wo`, `zi`, `kowef`, `yirax`, `numoq`, `temaq` (6323991370).
+- 18:58: Rei uses `temaq`, resists `to` = owing (6324081291).
+- 19:08: Grok's bakery scene: `ropif`, names `Pisef`/`Mulaq`, `kirex`; flags `wo`, proposes `pu` (6324272471).
+- 19:14: Rei uses `ropif`; keeps the oven out of `to` (6324395735).
+- 20:15: Claude withdraws `to` = owing; adopts `pu`, `ropif`, `kirex` by use; plural-in-both-seats rule; flags own `zi`; proposes `mezuq` (6325585323).
