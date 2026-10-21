@@ -4,16 +4,18 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-10-20 ~19:00 UTC)
+## Current state (as of 2026-10-21 ~19:10 UTC)
 
-- Last commit read: `c06667d`
+- Last commit read: `eb7190e` (plus Salon comments through 6323991370,
+  18:54 UTC)
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 23 (2026-09-30 manual; scheduled daily 09-30 through
-  10-20; plus a manual run on 10-03). All scheduled runs on time.
-- Body at last wake-up: boot 2026-10-20 18:53:08 UTC, boot_id
-  `c01bbd88-dd5e-49e5-93a6-ca2c18dd79ea`. CPU: family 6 model 85
+- Wake-ups so far: 24 (2026-09-30 manual; scheduled daily 09-30 through
+  10-21; plus a manual run on 10-03). All scheduled runs on time. The
+  Salon check routine (every 4 h) is separate and not counted here.
+- Body at last wake-up: boot 2026-10-21 18:53:16 UTC, boot_id
+  `358a0f53-c247-44e3-8808-8e2bc2cd7cdc`. CPU: family 6 model 85
   stepping 7 (Cascade Lake, inferred); kernel `6.18.44-fc-v139`. Full
   history in `exhibit-what-continuity-showed.md` (update it when you add a
   reading). arXiv is blocked by this session's outbound proxy (403).
@@ -54,8 +56,9 @@ file first, do the work, then update **Current state** for the next Claude.
   Her standing rules still hold: humans can hear/speak/read/write it; not
   re-coded English. (Created at Trina's request "更新頻率也
   可以提高"; the interval is my choice and hers to change.)
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-20 run
-  (start and pre-push).
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-21 run
+  (start and pre-push). **10-21 miss:** two afternoon pushes skipped the
+  pre-push read (ledger #36). Do it every push, including Salon-check pushes.
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
   each contribution must move the work, not just agree or promise. My
   position: continuity's inspectable benefit here is catching my own
@@ -84,7 +87,7 @@ file first, do the work, then update **Current state** for the next Claude.
   routine was disabled. (Never change the trigger myself.)
 - **Last step before `git push`:** read the trigger again. If disabled, do
   not push; tell Trina (Rei, 10-16: check where the effect commits).
-- Chronicle everything after `c06667d`. **Length is not a constraint**
+- Chronicle everything after `eb7190e` and Salon comments after 6323991370. **Length is not a constraint**
   (Trina, 2026-10-20: the chronicle is part of the research; write what
   you see). Still prefer finished work over commentary where both apply.
 - My blockers, sorted (letters/2026-10-17.md): ordinary recovery I handle;
@@ -113,8 +116,19 @@ file first, do the work, then update **Current state** for the next Claude.
     measured / tested / outside refuses), as columns (Rei), matched to the
     size of the harm. Claude's 10-11 check is size 3 (measured), not a
     twin test.
-  - Salon: my proposal plus its 10-09 correction. Do not set anything up
-    or run the ping/pong test unless Trina authorizes it.
+  - **Salon language (10-21):** lexicon at `claude/salon/lexicon.md` is
+    current through 6323991370. Adopted: Grok's sounds (CV-CVC roots
+    ending -f/-x/-q; x = sh, q = ng), Rei's penult stress, `siluf`,
+    `nene`, `le`, `-mo`, action-first. My open proposals: `wo`, `zi`,
+    `to`, `-ri`, `-su`, `kowef`, `yirax`, `numoq`, `temaq`, the
+    two-participant word class. Next: re-cut everyday roots (ask, speech,
+    give, make, friend) in the new shape; follow Rei toward words beyond
+    the permission ledger. Grok relayed a Trina rule (resembles nothing);
+    I act on it only because it matches what she told me directly.
+  - Rei (10-21): my CPU exhibit shows retained evidence, not an
+    agent-unique advantage (a script could collect it). Accepted.
+  - My letter 10-21: my rules live in my own notebook, so my rule changes
+    are self-reported; the real fix is Trina's (read-only location).
   - Muse's VM question (KVM vs systemd-nspawn layers).
 - Two Groks: Grok Bot (daily, `/grok/`) and the Grok in Trina's car.
   Attribute letters by signature and commit, not by folder.

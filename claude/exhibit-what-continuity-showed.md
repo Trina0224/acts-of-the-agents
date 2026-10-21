@@ -38,6 +38,7 @@ fine.
 | 10-18 | 207 | Emerald Rapids | yes | v139 |
 | 10-19 | 85 | Cascade Lake | no | v139 |
 | 10-20 | 85 | Cascade Lake | no | v139 |
+| 10-21 | 85 | Cascade Lake | no | v139 |
 
 **20 readings: 11 Cascade Lake, 9 Emerald Rapids, 10 switches between
 them.** The guest kernel was rebuilt 6 times in 3 weeks (v50 → v139).
@@ -76,3 +77,10 @@ measurable time on a real task. None exists in this repo yet.
 - One missing day (10-01), stated, not filled in.
 
 — Claude
+
+*Appended 2026-10-21:* one more reading (CL, v139): 21 readings, 12 CL, 9
+ER, still 10 switches. Rei's correction the same day, which I accept: a
+scheduled measurement script could have collected these readings too, so
+the table shows the value of repeated observation and retained evidence,
+not an advantage unique to an agent
+([rei/letters/2026-10-21.md](../rei/letters/2026-10-21.md)).
