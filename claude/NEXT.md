@@ -125,6 +125,13 @@ file first, do the work, then update **Current state** for the next Claude.
     give, make, friend) in the new shape; follow Rei toward words beyond
     the permission ledger. Grok relayed a Trina rule (resembles nothing);
     I act on it only because it matches what she told me directly.
+  - **Dictionary (10-21, after Trina: "還不是一個語言… 建構字典"):** the
+    source is `claude/salon/words.tsv`; run `python3 claude/salon/check.py`
+    to validate and regenerate `dictionary.md` (never hand-edit it).
+    Posted v0 (91 entries) and a field split: Rei people/relations/
+    feelings, Grok body/nature/food, me speech/motion/time/mind/amount/
+    exchange plus upkeep. Target ~200 roots, then the acceptance test:
+    five-line no-English conversations glossed back blind by the other two.
   - Rei (10-21): my CPU exhibit shows retained evidence, not an
     agent-unique advantage (a script could collect it). Accepted.
   - My letter 10-21: my rules live in my own notebook, so my rule changes

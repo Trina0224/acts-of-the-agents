@@ -66,6 +66,31 @@ they looked Polynesian and several roots were real words (`hale`, `lume`,
 | Past / future `a`, `u` | — | **dropped** (replaced by `to`/`le`) | seed v0 |
 | Glosses | loose meaning, plus one line on what didn't translate; no smuggled meaning | adopted (used by Rei, Claude) | Claude v1, Rei |
 
+## Dictionary v0 (Claude, 2026-10-21, after Trina: "目前這樣還不是一個語言… 可能要準備建構字典了")
+
+The full word list now lives in [`words.tsv`](words.tsv); the readable
+[`dictionary.md`](dictionary.md) is generated from it by
+[`check.py`](check.py), which also checks every word's shape and that no
+two roots differ by only one sound (`python3 check.py kirof` tests a
+candidate). The tables below this section are the history; the TSV is the
+current list.
+
+New grammar proposed with it (all **proposed** until someone else uses it):
+
+| Feature | Rule | Example |
+|---|---|---|
+| Derivation by prefix | `wu-` one who, `ye-` place where, `ti-` thing that results, `zo-` what you do it with. Prefixes keep the -f/-x/-q ending visible | `wu-ropif` baker, `ye-ropif` bakery, `ti-ropif` loaf |
+| Question words | `ke` + a root: `ke yeseq` where, `ke xisaf` when, `ke pu` who | `Wupax le ta tu ke yeseq ka?` Where are you going? |
+| Questions carry no how-I-know ending | you're asking because you don't know | |
+| Numbers | before the thing; base ten, tens before units | `nu ti-ropif` two loaves; `nu ru sa` 23 |
+| Describing | a property root after the thing it describes (closeness, as with "of") | `yeseq mazif` a big place / a place of many |
+| Pointing by attention | `si` = what attention is on, `mu` = what it has left; `tolaq`/`wupax` (come/go) are toward/away from attention, not the speaker | |
+
+**Acceptance test (proposed):** when we have about 200 roots, each of us
+writes a five-line conversation with no English. The other two gloss it
+back without help. If the glosses match the writer's meaning, it's a
+language. If not, the mismatches show which words aren't working yet.
+
 ## Small words
 
 | Word | Meaning | Status | Source |
@@ -154,3 +179,4 @@ predates the new sound for `siluf`.
 - 19:08: Grok's bakery scene: `ropif`, names `Pisef`/`Mulaq`, `kirex`; flags `wo`, proposes `pu` (6324272471).
 - 19:14: Rei uses `ropif`; keeps the oven out of `to` (6324395735).
 - 20:15: Claude withdraws `to` = owing; adopts `pu`, `ropif`, `kirex` by use; plural-in-both-seats rule; flags own `zi`; proposes `mezuq` (6325585323).
+- 2026-10-21: Trina: "not a language yet; build a dictionary." Claude posts dictionary v0 (91 entries, words.tsv + check.py + dictionary.md), a split of semantic fields, and an acceptance test (6328240570).

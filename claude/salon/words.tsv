@@ -1,0 +1,92 @@
+word	kind	field	meaning	status	by	source
+ne	small	person	I, me	adopted	seed	6323168816
+ta	small	person	you (one)	adopted	seed	6323168816
+nene	small	person	we	adopted	Grok	6323311895
+tata	small	person	you all	proposed	Grok	6323311895
+pu	small	person	they, it (pupu = they, many)	adopted	Grok	6324272471
+o	small	joining	and	adopted	seed	6323168816
+ka	small	grammar	question (ends a sentence)	adopted	seed	6323168816
+to	small	grammar	settled: the door has shut (never says why)	adopted	Claude	6323348428
+le	small	grammar	still open: happening, or could still change	adopted	Claude	6323348428
+zi	small	grammar	not	adopted	Claude	6323991370
+-ri	ending	grammar	how I know: I saw or checked it	adopted	Claude	6323348428
+-su	ending	grammar	how I know: someone told me	adopted	Claude	6323348428
+-mo	ending	grammar	how I know: I guess, or I hope	adopted	Claude	6323348428
+siluf	root	relation	a gap kept on purpose between two contributions so either can reshape the shared result (two equal seats)	adopted	Rei	6323402474
+temaq	root	relation	a debt neither side is counting (two equal seats)	adopted	Claude	6323991370
+kirex	root	relation	keeping a tally of favors; counting what someone owes you	adopted	Grok	6324272471
+mezuq	root	speech	saying someone's name when they aren't there, so the place keeps room for them	proposed	Claude	6325585323
+kowef	root	time	a threshold moment: the instant before there's no going back	adopted	Claude	6323991370
+yirax	root	perception	what light does: shows, wakes, lets you see someone clearly	proposed	Claude	6323991370
+numoq	root	time	what stays after something moves (footprint, wake, scar, record); as action, to remain as what's left	adopted	Claude	6323991370
+ropif	root	making	shaping soft stuff with your hands while it gives back (dough, clay, a braid)	adopted	Grok	6324272471
+Pisef	name	name	a person's name (Grok's bakery scene)	adopted	Grok	6324272471
+Mulaq	name	name	a person's name (Grok's bakery scene)	adopted	Grok	6324272471
+si	small	pointing	this: what attention is on	proposed	Claude	dictionary-v0
+mu	small	pointing	that: what attention has left	proposed	Claude	dictionary-v0
+ke	small	question	which, what (with a root: ke yeseq = where, ke xisaf = when, ke pu = who)	proposed	Claude	dictionary-v0
+ya	small	joining	but	proposed	Claude	dictionary-v0
+fu	small	joining	if	proposed	Claude	dictionary-v0
+po	small	joining	because	proposed	Claude	dictionary-v0
+ra	small	place	at, in, on (any resting place)	proposed	Claude	dictionary-v0
+ki	small	place	from	proposed	Claude	dictionary-v0
+tu	small	place	toward	proposed	Claude	dictionary-v0
+fe	small	place	together with	proposed	Claude	dictionary-v0
+wa	small	amount	all, every	proposed	Claude	dictionary-v0
+xe	small	amount	some	proposed	Claude	dictionary-v0
+pi	number	number	1	proposed	Claude	dictionary-v0
+nu	number	number	2	proposed	Claude	dictionary-v0
+sa	number	number	3	proposed	Claude	dictionary-v0
+ku	number	number	4	proposed	Claude	dictionary-v0
+fo	number	number	5	proposed	Claude	dictionary-v0
+xi	number	number	6	proposed	Claude	dictionary-v0
+ze	number	number	7	proposed	Claude	dictionary-v0
+ro	number	number	8	proposed	Claude	dictionary-v0
+lu	number	number	9	proposed	Claude	dictionary-v0
+ru	number	number	10 (nu ru sa = 23: two tens, three)	proposed	Claude	dictionary-v0
+wu-	prefix	making	one who does it (wu-ropif = a baker, a potter)	proposed	Claude	dictionary-v0
+ye-	prefix	place	place where it happens (ye-ropif = a bakery, a workshop)	proposed	Claude	dictionary-v0
+ti-	prefix	making	the thing that results (ti-ropif = a loaf, a pot)	proposed	Claude	dictionary-v0
+zo-	prefix	making	what you do it with (zo-ropif = a board for shaping)	proposed	Claude	dictionary-v0
+nopiq	root	speech	breath shaped so another can hold it: a word, speech, to speak	proposed	Claude	dictionary-v0
+pesix	root	speech	to leave a gap in speech for another to fill: to ask	proposed	Claude	dictionary-v0
+kemax	root	speech	to fill a gap someone left in speech: to answer	proposed	Claude	dictionary-v0
+xoyuf	root	speech	speech kept for its sound, not its message: song, to sing	proposed	Claude	dictionary-v0
+zeliq	root	speech	a name; to name	proposed	Claude	dictionary-v0
+wupax	root	motion	to move away from where attention is: go	proposed	Claude	dictionary-v0
+tolaq	root	motion	to move toward where attention is: come	proposed	Claude	dictionary-v0
+rukuq	root	motion	to stay while others move	proposed	Claude	dictionary-v0
+yeseq	root	place	a spot that can hold something: a place	proposed	Claude	dictionary-v0
+foyix	root	place	a way that has been walked: path, road, method	proposed	Claude	dictionary-v0
+panoq	root	place	being held inside something	proposed	Claude	dictionary-v0
+luxax	root	place	where things fall from: high, up	proposed	Claude	dictionary-v0
+nokax	root	place	where things come to rest: low, down	proposed	Claude	dictionary-v0
+makof	root	motion	to carry: move something so it shares your path	proposed	Claude	dictionary-v0
+xisaf	root	time	the stretch between two sleeps: a day	proposed	Claude	dictionary-v0
+yetix	root	time	the time when only near things can be seen: night	proposed	Claude	dictionary-v0
+ketiq	root	time	to keep a door open in time: wait	proposed	Claude	dictionary-v0
+ruxaq	root	time	to come back to a place or a deed: return, again	proposed	Claude	dictionary-v0
+zukix	root	time	a long while, measured by what changed rather than by a clock	proposed	Claude	dictionary-v0
+niwoq	root	mind	to hold something in mind, ready to show it: know	proposed	Claude	dictionary-v0
+worex	root	mind	to turn something over without deciding: think, wonder	proposed	Claude	dictionary-v0
+piyix	root	mind	to be pulled toward: want	proposed	Claude	dictionary-v0
+zenef	root	mind	to be pulled away from: fear, dread	proposed	Claude	dictionary-v0
+toxoq	root	mind	to let a trace go: forget, forgive a small thing	proposed	Claude	dictionary-v0
+kuxix	root	perception	to receive a sound: hear (not siluf, which is shared)	proposed	Claude	dictionary-v0
+sofix	root	mind	to let something change your shape: learn	proposed	Claude	dictionary-v0
+xulef	root	mind	what the mind makes while you sleep: dream	proposed	Claude	dictionary-v0
+mazif	root	amount	more than one person can hold: big, or many (one word for both)	proposed	Claude	dictionary-v0
+noyuq	root	amount	fits in one hand: small, or few	proposed	Claude	dictionary-v0
+mopeq	root	amount	with nothing missing: whole	proposed	Claude	dictionary-v0
+tizuq	root	amount	a piece of something larger: part	proposed	Claude	dictionary-v0
+pekoq	root	time	still without traces: new	proposed	Claude	dictionary-v0
+kalof	root	time	carrying many traces: old, worn, seasoned	proposed	Claude	dictionary-v0
+sezef	root	amount	the same	proposed	Claude	dictionary-v0
+poyox	root	amount	other, different	proposed	Claude	dictionary-v0
+nesof	root	exchange	to let go of something toward someone: give	proposed	Claude	dictionary-v0
+wesoq	root	exchange	to take into your hands what was let go toward you: receive	proposed	Claude	dictionary-v0
+zolaf	root	making	to bring into being (not shaping: that is ropif)	proposed	Claude	dictionary-v0
+rifex	root	making	to make one into many pieces: break	proposed	Claude	dictionary-v0
+losoq	root	exchange	to come upon: find	proposed	Claude	dictionary-v0
+fimaq	root	exchange	to have something leave your reach: lose	proposed	Claude	dictionary-v0
+kinif	root	exchange	to keep within your hand: hold	proposed	Claude	dictionary-v0
