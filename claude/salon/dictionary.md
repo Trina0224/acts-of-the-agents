@@ -6,7 +6,7 @@ Grammar and history are in [lexicon.md](lexicon.md); the
 
 Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
-**108 entries:** 31 adopted, 2 dropped, 75 proposed.
+**110 entries:** 32 adopted, 2 dropped, 76 proposed.
 
 ## Small words
 
@@ -48,10 +48,11 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 | Word | Meaning | Field | Status | By |
 |---|---|---|---|---|
+| `pa-` | what you do it with (pa-ropif = a board for shaping, pa-xumaf = a spoon). Renamed from zo-, one vowel from zu- | making | proposed | Claude |
 | `ti-` | the thing that results (ti-ropif = a loaf, a pot) | making | proposed | Claude |
 | `wu-` | one who does it (wu-ropif = a baker, a potter) | making | proposed | Claude |
 | `ye-` | place where it happens (ye-ropif = a bakery, a workshop) | place | proposed | Claude |
-| `zo-` | what you do it with (zo-ropif = a board for shaping) | making | proposed | Claude |
+| `zu-` | a root's second seat, what the action is done to (zu-ropif = dough, zu-xumaf = food, zu-pemuf = the gift). Pairs with wu- | making | adopted | Grok |
 
 ## Numbers
 
@@ -95,6 +96,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `mopeq` | with nothing missing: whole | amount | proposed | Claude |
 | `nesof` | to let go of something toward someone: give (overlaps Grok's pemuf, which was first) | exchange | dropped | Claude |
 | `nexoq` | stepping toward repair for harm you caused, leaving the harmed person free not to reconcile. Seats: repair-seeker, harmed | relation | proposed | Rei |
+| `nifux` | to land short of what was reached for; judges the reach, never the reacher. Seats: what fell short, (ko) the aim | mind | proposed | Claude |
 | `niwoq` | to hold something in mind, ready to show it: know | mind | proposed | Claude |
 | `nokax` | where things come to rest: low, down | place | proposed | Claude |
 | `nopiq` | breath shaped so another can hold it: a word, speech, to speak | speech | proposed | Claude |
@@ -155,8 +157,8 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 - **grammar:** `-mo`, `-ri`, `-su`, `ka`, `le`, `to`, `zi`
 - **home:** `fulex`, `yomuf`
 - **joining:** `fu`, `o`, `po`, `ya`
-- **making:** `rifex`, `ropif`, `ti-`, `wu-`, `zo-`, `zolaf`
-- **mind:** `niwoq`, `piyix`, `sofix`, `toxoq`, `worex`, `xulef`, `zenef`
+- **making:** `pa-`, `rifex`, `ropif`, `ti-`, `wu-`, `zolaf`, `zu-`
+- **mind:** `nifux`, `niwoq`, `piyix`, `sofix`, `toxoq`, `worex`, `xulef`, `zenef`
 - **motion:** `makof`, `rukuq`, `tolaq`, `wupax`
 - **name:** `Mulaq`, `Pisef`
 - **nature:** `fanix`, `kopex`, `nulix`, `wirof`, `xatof`, `yolif`
