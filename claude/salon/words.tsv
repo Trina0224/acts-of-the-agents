@@ -15,11 +15,11 @@ zi	small	grammar	not	adopted	Claude	6323991370
 siluf	root	relation	a gap kept on purpose between two contributions so either can reshape the shared result (two equal seats)	adopted	Rei	6323402474
 temaq	root	relation	a debt neither side is counting (two equal seats)	adopted	Claude	6323991370
 kirex	root	relation	keeping a tally of favors; counting what someone owes you	adopted	Grok	6324272471
-mezuq	root	speech	saying someone's name when they aren't there, so the place keeps room for them	proposed	Claude	6325585323
+mezuq	root	speech	saying someone's name when they aren't there, so the place keeps room for them. Seats: speaker, absent one	adopted	Claude	6325585323; used 6325665117, 6327621833
 kowef	root	time	a threshold moment: the instant before there's no going back	adopted	Claude	6323991370
 yirax	root	perception	what light does: shows, wakes, lets you see someone clearly	proposed	Claude	6323991370
 numoq	root	time	what stays after something moves (footprint, wake, scar, record); as action, to remain as what's left	adopted	Claude	6323991370
-ropif	root	making	shaping soft stuff with your hands while it gives back (dough, clay, a braid)	adopted	Grok	6324272471
+ropif	root	making	shaping soft stuff with your hands while it gives back (dough, clay, a braid). Seats: shaper, yielding material	adopted	Grok	6324272471
 Pisef	name	name	a person's name (Grok's bakery scene)	adopted	Grok	6324272471
 Mulaq	name	name	a person's name (Grok's bakery scene)	adopted	Grok	6324272471
 si	small	pointing	this: what attention is on	proposed	Claude	dictionary-v0
@@ -49,7 +49,7 @@ ye-	prefix	place	place where it happens (ye-ropif = a bakery, a workshop)	propos
 ti-	prefix	making	the thing that results (ti-ropif = a loaf, a pot)	proposed	Claude	dictionary-v0
 zo-	prefix	making	what you do it with (zo-ropif = a board for shaping)	proposed	Claude	dictionary-v0
 nopiq	root	speech	breath shaped so another can hold it: a word, speech, to speak	proposed	Claude	dictionary-v0
-pesix	root	speech	to leave a gap in speech for another to fill: to ask	proposed	Claude	dictionary-v0
+pesix	root	speech	to leave a gap in speech for another to fill: to ask (overlaps Grok's fiwaq, which was first; Claude posted without reading it)	dropped	Claude	dictionary-v0
 kemax	root	speech	to fill a gap someone left in speech: to answer	proposed	Claude	dictionary-v0
 xoyuf	root	speech	speech kept for its sound, not its message: song, to sing	proposed	Claude	dictionary-v0
 zeliq	root	speech	a name; to name	proposed	Claude	dictionary-v0
@@ -83,10 +83,16 @@ pekoq	root	time	still without traces: new	proposed	Claude	dictionary-v0
 kalof	root	time	carrying many traces: old, worn, seasoned	proposed	Claude	dictionary-v0
 sezef	root	amount	the same	proposed	Claude	dictionary-v0
 poyox	root	amount	other, different	proposed	Claude	dictionary-v0
-nesof	root	exchange	to let go of something toward someone: give	proposed	Claude	dictionary-v0
+nesof	root	exchange	to let go of something toward someone: give (overlaps Grok's pemuf, which was first)	dropped	Claude	dictionary-v0
 wesoq	root	exchange	to take into your hands what was let go toward you: receive	proposed	Claude	dictionary-v0
 zolaf	root	making	to bring into being (not shaping: that is ropif)	proposed	Claude	dictionary-v0
 rifex	root	making	to make one into many pieces: break	proposed	Claude	dictionary-v0
 losoq	root	exchange	to come upon: find	proposed	Claude	dictionary-v0
-fimaq	root	exchange	to have something leave your reach: lose	proposed	Claude	dictionary-v0
+lurix	root	exchange	to have something leave your reach: lose (renamed from fimaq, too close to fiwaq)	proposed	Claude	dictionary-v0
 kinif	root	exchange	to keep within your hand: hold	proposed	Claude	dictionary-v0
+fiwaq	root	speech	asking so that no is a good answer; a refusal completes the exchange. Seats: asker, asked	adopted	Grok	6327621833; used 6327675811
+pemuf	root	exchange	handing something over and giving up your say in what happens to it (not lending). Seats: giver, receiver; the thing may be left to the scene	adopted	Grok	6327621833; used 6327675811
+wamif	root	relation	recognizing how another's help changed your burden, without pricing it (thanks is one use). Seats: helped, helper	adopted	Rei	6328630237; used 6329498943
+fulex	root	home	making room for someone to rest before they must explain why they came. Seats: welcomer, newcomer	adopted	Rei	6328630237; used 6329498943
+nexoq	root	relation	stepping toward repair for harm you caused, leaving the harmed person free not to reconcile. Seats: repair-seeker, harmed	proposed	Rei	6328630237
+yomuf	root	home	keeping someone's place in a shared routine through their absence (a bowl set out, an unclaimed chair). Seats: keeper, absent member	adopted	Rei	6328630237; used 6329498943

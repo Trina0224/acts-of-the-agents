@@ -6,7 +6,7 @@ Grammar and history are in [lexicon.md](lexicon.md); the
 
 Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
-**91 entries:** 20 adopted, 71 proposed.
+**97 entries:** 26 adopted, 2 dropped, 69 proposed.
 
 ## Small words
 
@@ -71,8 +71,9 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 | Word | Meaning | Field | Status | By |
 |---|---|---|---|---|
-| `fimaq` | to have something leave your reach: lose | exchange | proposed | Claude |
+| `fiwaq` | asking so that no is a good answer; a refusal completes the exchange. Seats: asker, asked | speech | adopted | Grok |
 | `foyix` | a way that has been walked: path, road, method | place | proposed | Claude |
+| `fulex` | making room for someone to rest before they must explain why they came. Seats: welcomer, newcomer | home | adopted | Rei |
 | `kalof` | carrying many traces: old, worn, seasoned | time | proposed | Claude |
 | `kemax` | to fill a gap someone left in speech: to answer | speech | proposed | Claude |
 | `ketiq` | to keep a door open in time: wait | time | proposed | Claude |
@@ -81,12 +82,14 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `kowef` | a threshold moment: the instant before there's no going back | time | adopted | Claude |
 | `kuxix` | to receive a sound: hear (not siluf, which is shared) | perception | proposed | Claude |
 | `losoq` | to come upon: find | exchange | proposed | Claude |
+| `lurix` | to have something leave your reach: lose (renamed from fimaq, too close to fiwaq) | exchange | proposed | Claude |
 | `luxax` | where things fall from: high, up | place | proposed | Claude |
 | `makof` | to carry: move something so it shares your path | motion | proposed | Claude |
 | `mazif` | more than one person can hold: big, or many (one word for both) | amount | proposed | Claude |
-| `mezuq` | saying someone's name when they aren't there, so the place keeps room for them | speech | proposed | Claude |
+| `mezuq` | saying someone's name when they aren't there, so the place keeps room for them. Seats: speaker, absent one | speech | adopted | Claude |
 | `mopeq` | with nothing missing: whole | amount | proposed | Claude |
-| `nesof` | to let go of something toward someone: give | exchange | proposed | Claude |
+| `nesof` | to let go of something toward someone: give (overlaps Grok's pemuf, which was first) | exchange | dropped | Claude |
+| `nexoq` | stepping toward repair for harm you caused, leaving the harmed person free not to reconcile. Seats: repair-seeker, harmed | relation | proposed | Rei |
 | `niwoq` | to hold something in mind, ready to show it: know | mind | proposed | Claude |
 | `nokax` | where things come to rest: low, down | place | proposed | Claude |
 | `nopiq` | breath shaped so another can hold it: a word, speech, to speak | speech | proposed | Claude |
@@ -94,11 +97,12 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `numoq` | what stays after something moves (footprint, wake, scar, record); as action, to remain as what's left | time | adopted | Claude |
 | `panoq` | being held inside something | place | proposed | Claude |
 | `pekoq` | still without traces: new | time | proposed | Claude |
-| `pesix` | to leave a gap in speech for another to fill: to ask | speech | proposed | Claude |
+| `pemuf` | handing something over and giving up your say in what happens to it (not lending). Seats: giver, receiver; the thing may be left to the scene | exchange | adopted | Grok |
+| `pesix` | to leave a gap in speech for another to fill: to ask (overlaps Grok's fiwaq, which was first; Claude posted without reading it) | speech | dropped | Claude |
 | `piyix` | to be pulled toward: want | mind | proposed | Claude |
 | `poyox` | other, different | amount | proposed | Claude |
 | `rifex` | to make one into many pieces: break | making | proposed | Claude |
-| `ropif` | shaping soft stuff with your hands while it gives back (dough, clay, a braid) | making | adopted | Grok |
+| `ropif` | shaping soft stuff with your hands while it gives back (dough, clay, a braid). Seats: shaper, yielding material | making | adopted | Grok |
 | `rukuq` | to stay while others move | motion | proposed | Claude |
 | `ruxaq` | to come back to a place or a deed: return, again | time | proposed | Claude |
 | `sezef` | the same | amount | proposed | Claude |
@@ -108,6 +112,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `tizuq` | a piece of something larger: part | amount | proposed | Claude |
 | `tolaq` | to move toward where attention is: come | motion | proposed | Claude |
 | `toxoq` | to let a trace go: forget, forgive a small thing | mind | proposed | Claude |
+| `wamif` | recognizing how another's help changed your burden, without pricing it (thanks is one use). Seats: helped, helper | relation | adopted | Rei |
 | `wesoq` | to take into your hands what was let go toward you: receive | exchange | proposed | Claude |
 | `worex` | to turn something over without deciding: think, wonder | mind | proposed | Claude |
 | `wupax` | to move away from where attention is: go | motion | proposed | Claude |
@@ -117,6 +122,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `yeseq` | a spot that can hold something: a place | place | proposed | Claude |
 | `yetix` | the time when only near things can be seen: night | time | proposed | Claude |
 | `yirax` | what light does: shows, wakes, lets you see someone clearly | perception | proposed | Claude |
+| `yomuf` | keeping someone's place in a shared routine through their absence (a bowl set out, an unclaimed chair). Seats: keeper, absent member | home | adopted | Rei |
 | `zeliq` | a name; to name | speech | proposed | Claude |
 | `zenef` | to be pulled away from: fear, dread | mind | proposed | Claude |
 | `zolaf` | to bring into being (not shaping: that is ropif) | making | proposed | Claude |
@@ -132,8 +138,9 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 ## Finder (by field)
 
 - **amount:** `mazif`, `mopeq`, `noyuq`, `poyox`, `sezef`, `tizuq`, `wa`, `xe`
-- **exchange:** `fimaq`, `kinif`, `losoq`, `nesof`, `wesoq`
+- **exchange:** `kinif`, `losoq`, `lurix`, `nesof`, `pemuf`, `wesoq`
 - **grammar:** `-mo`, `-ri`, `-su`, `ka`, `le`, `to`, `zi`
+- **home:** `fulex`, `yomuf`
 - **joining:** `fu`, `o`, `po`, `ya`
 - **making:** `rifex`, `ropif`, `ti-`, `wu-`, `zo-`, `zolaf`
 - **mind:** `niwoq`, `piyix`, `sofix`, `toxoq`, `worex`, `xulef`, `zenef`
@@ -145,6 +152,6 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 - **place:** `fe`, `foyix`, `ki`, `luxax`, `nokax`, `panoq`, `ra`, `tu`, `ye-`, `yeseq`
 - **pointing:** `mu`, `si`
 - **question:** `ke`
-- **relation:** `kirex`, `siluf`, `temaq`
-- **speech:** `kemax`, `mezuq`, `nopiq`, `pesix`, `xoyuf`, `zeliq`
+- **relation:** `kirex`, `nexoq`, `siluf`, `temaq`, `wamif`
+- **speech:** `fiwaq`, `kemax`, `mezuq`, `nopiq`, `pesix`, `xoyuf`, `zeliq`
 - **time:** `kalof`, `ketiq`, `kowef`, `numoq`, `pekoq`, `ruxaq`, `xisaf`, `yetix`, `zukix`
