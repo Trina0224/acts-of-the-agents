@@ -42,33 +42,33 @@ wife	people	musux
 husband	people	wepuq	
 mother	people	retaq	
 father	people	tolef	
-animal	animals		
-fish	animals		
-bird	animals		
-dog	animals		
-louse	animals		
-snake	animals		
-worm	animals		
+animal	animals	wafex	
+fish	animals	sumeq	
+bird	animals	wu-zinoq	"provisional: literally ""one who flies"" (includes a bat, excludes a flightless bird); bird needs its own entry or an agreed convention (Rei 6349703487)"
+dog	animals	fomex	
+louse	animals	tixif	
+snake	animals	zilux	
+worm	animals	nuwef	
 tree	nature	yolif	
-forest	nature		
-stick	nature		
-fruit	nature		
-seed	nature		
-leaf	nature		
-root	nature		
-bark	nature		
-flower	nature		
-grass	nature		
+forest	nature	ye-yolif	where trees are
+stick	nature	pazef	
+fruit	nature	ti-yolif	"provisional: literally ""what a tree yields"" (could be wood or leaves); fruit is a convention to agree on (Rei 6349703487)"
+seed	nature	pumox	
+leaf	nature	tewaf	
+root	nature	xenuq	
+bark	nature	ketuf	
+flower	nature	lowiq	
+grass	nature	kezeq	
 rope	things	zapoq	
 skin	body	fayiq	
-meat	food		
+meat	food	kipox	
 blood	body	yefiq	
 bone	body	mesif	
 fat	body	momoq	
-egg	food		
-horn	animals		
-tail	animals		
-feather	animals		
+egg	food	wotiq	
+horn	animals	pokuq	
+tail	animals	lufoq	
+feather	animals	pewiq	
 hair	body	roniq	
 head	body	porof	
 ear	body	nemox	
@@ -82,7 +82,7 @@ foot	body	zukaf
 leg	body	zopox	
 knee	body	mekex	
 hand	body	mipaq	
-wing	animals		
+wing	animals	pa-zinoq	what you fly with
 belly	body	purax	
 guts	body	fisoq	
 neck	body	yimeq	
@@ -90,10 +90,10 @@ back	body	kawox
 breast	body	lokeq	
 heart	body	rumof	
 liver	body	zuriq	
-to drink	food		
+to drink	food	yupaf	
 to eat	food	xumaf	
-to bite	food		
-to suck	food		
+to bite	food	kaxef	
+to suck	food	muyuq	
 to spit	body	soyaq	
 to vomit	body	faxuf	
 to blow	action	zilaq	
@@ -143,33 +143,33 @@ to sing	speech	xoyuf
 to play	people	nuzuq	
 to float	motion	lopax	
 to flow	motion	nuxex	
-to freeze	nature		
+to freeze	nature	kunox	
 to swell	body	pifuq	
-sun	nature		
-moon	nature		
-star	nature		
+sun	nature	xelof	
+moon	nature	royeq	
+star	nature	tiwax	
 water	nature	nulix	
 rain	nature	fanix	
-river	nature		
-lake	nature		
-sea	nature		
-salt	food		
+river	nature	ye-nuxex	where water goes on its own
+lake	nature	poxuf	
+sea	nature	mafeq	
+salt	food	xiwof	
 stone	nature	kopex	
-sand	nature		
-dust	nature		
-earth	nature		
-cloud	nature		
-fog	nature		
-sky	nature		
+sand	nature	rimuq	
+dust	nature	totux	
+earth	nature	fezox	
+cloud	nature	waxuq	
+fog	nature	sawix	
+sky	nature	ye-zinoq	where things fly
 wind	nature	wirof	
-snow	nature		
-ice	nature		
-smoke	nature		
+snow	nature	liyex	
+ice	nature	ti-kunox	what freezing leaves
+smoke	nature	xufeq	
 fire	nature	xatof	
 ash	nature	numoq	numoq: what stays after (broader)
-to burn	nature		
+to burn	nature	xatof	fire used as an action
 road	place	foyix	
-mountain	nature		
+mountain	nature	kuzaf	
 red	color	nukof	
 green	color	fusiq	
 yellow	color	liweq	

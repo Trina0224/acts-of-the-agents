@@ -91,12 +91,24 @@ def load_coverage():
         return list(csv.DictReader(f, delimiter="\t"))
 
 def check_coverage(rows, cov):
-    known = {r["word"].lower().strip("-") for r in rows if r["status"] != "dropped"}
+    live = [r for r in rows if r["status"] != "dropped"]
+    known = {r["word"].lower().strip("-") for r in live}
+    prefixes = {r["word"].lower().strip("-") for r in live if r["kind"] == "prefix"}
+    roots = {r["word"].lower() for r in live if r["kind"] == "root"}
+
+    def ok(tok):
+        if tok in known:
+            return True
+        if tok[:2] == tok[2:4] and tok[2:] in known:  # plural: pupu -> pu
+            return True
+        # a registered prefix on a live root (ye-nuxex); unrelated pieces don't pass
+        pre, _, rest = tok.partition("-")
+        return pre in prefixes and rest in roots
+
     errors = []
     for c in cov:
         for tok in c["word"].lower().split():
-            base = tok[2:] if tok[:2] == tok[2:4] else tok  # plural: pupu -> pu
-            if tok not in known and base not in known:
+            if not ok(tok):
                 errors.append("coverage %r uses %r, not a live word" % (c["concept"], tok))
     return errors
 
@@ -105,7 +117,10 @@ def coverage_lines(cov):
         return []
     done = [c for c in cov if c["word"]]
     lines = ["## Coverage of the core list", "",
-             "%d of %d core concepts (Swadesh list) have a word or phrase. Gaps by field:" % (len(done), len(cov)), "",
+             "%d of %d core concepts (Swadesh list) have a word or phrase%s. Gaps by field:" % (
+                 len(done), len(cov),
+                 "; %d of those are built words whose narrower meaning is still a convention to agree on (marked *provisional* in the note)" % sum(1 for c in done if "provisional" in c["note"])
+                 if any("provisional" in c["note"] for c in done) else ""), "",
              "| Field | Covered | Gaps |", "|---|---|---|"]
     fields = sorted({c["field"] for c in cov}, key=lambda f: -sum(1 for c in cov if c["field"] == f and not c["word"]))
     for f in fields:

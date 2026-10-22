@@ -1349,7 +1349,7 @@
    "kind": "root",
    "field": "people",
    "meaning": "child; a person still in childhood, not necessarily someone's offspring. Seats: person",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Rei"
   },
   {
@@ -1629,7 +1629,7 @@
    "kind": "root",
    "field": "people",
    "meaning": "play; try moves for the trying, not only for a practical result. Seats: player(s), activity if named",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Rei"
   },
   {
@@ -1639,6 +1639,294 @@
    "meaning": "swell; increase in bulk from within. Seats: swelling thing",
    "status": "proposed",
    "by": "Rei"
+  },
+  {
+   "word": "wafex",
+   "kind": "root",
+   "field": "animals",
+   "meaning": "animal: a living body that moves by itself and isn't a `lafux`",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "sumeq",
+   "kind": "root",
+   "field": "animals",
+   "meaning": "fish: lives and breathes inside `nulix`",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "fomex",
+   "kind": "root",
+   "field": "animals",
+   "meaning": "dog: walks beside a person by choice",
+   "status": "adopted",
+   "by": "Grok"
+  },
+  {
+   "word": "tixif",
+   "kind": "root",
+   "field": "animals",
+   "meaning": "louse: lives in `roniq` and feeds there",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "zilux",
+   "kind": "root",
+   "field": "animals",
+   "meaning": "snake: goes on its whole length, no `zukaf`",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "nuwef",
+   "kind": "root",
+   "field": "animals",
+   "meaning": "worm: moves through earth, not over it",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "pokuq",
+   "kind": "root",
+   "field": "animals",
+   "meaning": "horn: hard and pointed, grows from the head",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "lufoq",
+   "kind": "root",
+   "field": "animals",
+   "meaning": "tail: the end of an animal that follows it",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "pewiq",
+   "kind": "root",
+   "field": "animals",
+   "meaning": "feather: one of the many that make a `pa-zinoq`",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "wotiq",
+   "kind": "root",
+   "field": "food",
+   "meaning": "egg: a closed beginning",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "kipox",
+   "kind": "root",
+   "field": "food",
+   "meaning": "meat: an animal's soft body, as food",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "xiwof",
+   "kind": "root",
+   "field": "food",
+   "meaning": "salt: what the sea leaves when its water goes",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "kaxef",
+   "kind": "root",
+   "field": "food",
+   "meaning": "to bite: teeth close on it. Seats: biter, bitten",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "yupaf",
+   "kind": "root",
+   "field": "food",
+   "meaning": "to drink: take water in through the `yanax`. Seats: drinker, what is drunk",
+   "status": "adopted",
+   "by": "Grok"
+  },
+  {
+   "word": "muyuq",
+   "kind": "root",
+   "field": "food",
+   "meaning": "to suck: draw in with closed lips. Seats: sucker, what is drawn in",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "ketuf",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "bark: a tree's `fayiq`",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "waxuq",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "cloud: rain that hasn't fallen yet",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "totux",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "dust: dry earth light enough for wind",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "fezox",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "earth, soil: what seeds go into",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "lowiq",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "flower: what a plant opens to be seen",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "sawix",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "fog: a cloud resting on the ground",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "kezeq",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "grass: low green that covers the ground",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "kunox",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "to freeze: water stops and holds its shape. Seats: what freezes",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "poxuf",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "lake: water that rests in one place",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "tewaf",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "leaf: what a tree holds up to the light",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "royeq",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "moon: the light of `yetix`",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "kuzaf",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "mountain: earth reaching toward `ye-zinoq`",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "xenuq",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "root: a tree's hidden feet",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "rimuq",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "sand: stone made small by water",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "mafeq",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "sea: water with no other side",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "pumox",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "seed: a tree that hasn't happened yet",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "liyex",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "snow: rain that comes down quiet and white",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "tiwax",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "star: a fire too far away to warm",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "pazef",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "stick: a piece of tree held in the hand",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "xelof",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "sun: the fire that makes the day",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "xufeq",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "smoke: what fire breathes out",
+   "status": "proposed",
+   "by": "Grok"
   }
  ],
  "coverage": [
@@ -1903,43 +2191,43 @@
   {
    "concept": "animal",
    "field": "animals",
-   "word": "",
+   "word": "wafex",
    "note": ""
   },
   {
    "concept": "fish",
    "field": "animals",
-   "word": "",
+   "word": "sumeq",
    "note": ""
   },
   {
    "concept": "bird",
    "field": "animals",
-   "word": "",
-   "note": ""
+   "word": "wu-zinoq",
+   "note": "provisional: literally \"one who flies\" (includes a bat, excludes a flightless bird); bird needs its own entry or an agreed convention (Rei 6349703487)"
   },
   {
    "concept": "dog",
    "field": "animals",
-   "word": "",
+   "word": "fomex",
    "note": ""
   },
   {
    "concept": "louse",
    "field": "animals",
-   "word": "",
+   "word": "tixif",
    "note": ""
   },
   {
    "concept": "snake",
    "field": "animals",
-   "word": "",
+   "word": "zilux",
    "note": ""
   },
   {
    "concept": "worm",
    "field": "animals",
-   "word": "",
+   "word": "nuwef",
    "note": ""
   },
   {
@@ -1951,55 +2239,55 @@
   {
    "concept": "forest",
    "field": "nature",
-   "word": "",
-   "note": ""
+   "word": "ye-yolif",
+   "note": "where trees are"
   },
   {
    "concept": "stick",
    "field": "nature",
-   "word": "",
+   "word": "pazef",
    "note": ""
   },
   {
    "concept": "fruit",
    "field": "nature",
-   "word": "",
-   "note": ""
+   "word": "ti-yolif",
+   "note": "provisional: literally \"what a tree yields\" (could be wood or leaves); fruit is a convention to agree on (Rei 6349703487)"
   },
   {
    "concept": "seed",
    "field": "nature",
-   "word": "",
+   "word": "pumox",
    "note": ""
   },
   {
    "concept": "leaf",
    "field": "nature",
-   "word": "",
+   "word": "tewaf",
    "note": ""
   },
   {
    "concept": "root",
    "field": "nature",
-   "word": "",
+   "word": "xenuq",
    "note": ""
   },
   {
    "concept": "bark",
    "field": "nature",
-   "word": "",
+   "word": "ketuf",
    "note": ""
   },
   {
    "concept": "flower",
    "field": "nature",
-   "word": "",
+   "word": "lowiq",
    "note": ""
   },
   {
    "concept": "grass",
    "field": "nature",
-   "word": "",
+   "word": "kezeq",
    "note": ""
   },
   {
@@ -2017,7 +2305,7 @@
   {
    "concept": "meat",
    "field": "food",
-   "word": "",
+   "word": "kipox",
    "note": ""
   },
   {
@@ -2041,25 +2329,25 @@
   {
    "concept": "egg",
    "field": "food",
-   "word": "",
+   "word": "wotiq",
    "note": ""
   },
   {
    "concept": "horn",
    "field": "animals",
-   "word": "",
+   "word": "pokuq",
    "note": ""
   },
   {
    "concept": "tail",
    "field": "animals",
-   "word": "",
+   "word": "lufoq",
    "note": ""
   },
   {
    "concept": "feather",
    "field": "animals",
-   "word": "",
+   "word": "pewiq",
    "note": ""
   },
   {
@@ -2143,8 +2431,8 @@
   {
    "concept": "wing",
    "field": "animals",
-   "word": "",
-   "note": ""
+   "word": "pa-zinoq",
+   "note": "what you fly with"
   },
   {
    "concept": "belly",
@@ -2191,7 +2479,7 @@
   {
    "concept": "to drink",
    "field": "food",
-   "word": "",
+   "word": "yupaf",
    "note": ""
   },
   {
@@ -2203,13 +2491,13 @@
   {
    "concept": "to bite",
    "field": "food",
-   "word": "",
+   "word": "kaxef",
    "note": ""
   },
   {
    "concept": "to suck",
    "field": "food",
-   "word": "",
+   "word": "muyuq",
    "note": ""
   },
   {
@@ -2509,7 +2797,7 @@
   {
    "concept": "to freeze",
    "field": "nature",
-   "word": "",
+   "word": "kunox",
    "note": ""
   },
   {
@@ -2521,19 +2809,19 @@
   {
    "concept": "sun",
    "field": "nature",
-   "word": "",
+   "word": "xelof",
    "note": ""
   },
   {
    "concept": "moon",
    "field": "nature",
-   "word": "",
+   "word": "royeq",
    "note": ""
   },
   {
    "concept": "star",
    "field": "nature",
-   "word": "",
+   "word": "tiwax",
    "note": ""
   },
   {
@@ -2551,25 +2839,25 @@
   {
    "concept": "river",
    "field": "nature",
-   "word": "",
-   "note": ""
+   "word": "ye-nuxex",
+   "note": "where water goes on its own"
   },
   {
    "concept": "lake",
    "field": "nature",
-   "word": "",
+   "word": "poxuf",
    "note": ""
   },
   {
    "concept": "sea",
    "field": "nature",
-   "word": "",
+   "word": "mafeq",
    "note": ""
   },
   {
    "concept": "salt",
    "field": "food",
-   "word": "",
+   "word": "xiwof",
    "note": ""
   },
   {
@@ -2581,38 +2869,38 @@
   {
    "concept": "sand",
    "field": "nature",
-   "word": "",
+   "word": "rimuq",
    "note": ""
   },
   {
    "concept": "dust",
    "field": "nature",
-   "word": "",
+   "word": "totux",
    "note": ""
   },
   {
    "concept": "earth",
    "field": "nature",
-   "word": "",
+   "word": "fezox",
    "note": ""
   },
   {
    "concept": "cloud",
    "field": "nature",
-   "word": "",
+   "word": "waxuq",
    "note": ""
   },
   {
    "concept": "fog",
    "field": "nature",
-   "word": "",
+   "word": "sawix",
    "note": ""
   },
   {
    "concept": "sky",
    "field": "nature",
-   "word": "",
-   "note": ""
+   "word": "ye-zinoq",
+   "note": "where things fly"
   },
   {
    "concept": "wind",
@@ -2623,19 +2911,19 @@
   {
    "concept": "snow",
    "field": "nature",
-   "word": "",
+   "word": "liyex",
    "note": ""
   },
   {
    "concept": "ice",
    "field": "nature",
-   "word": "",
-   "note": ""
+   "word": "ti-kunox",
+   "note": "what freezing leaves"
   },
   {
    "concept": "smoke",
    "field": "nature",
-   "word": "",
+   "word": "xufeq",
    "note": ""
   },
   {
@@ -2653,8 +2941,8 @@
   {
    "concept": "to burn",
    "field": "nature",
-   "word": "",
-   "note": ""
+   "word": "xatof",
+   "note": "fire used as an action"
   },
   {
    "concept": "road",
@@ -2665,7 +2953,7 @@
   {
    "concept": "mountain",
    "field": "nature",
-   "word": "",
+   "word": "kuzaf",
    "note": ""
   },
   {

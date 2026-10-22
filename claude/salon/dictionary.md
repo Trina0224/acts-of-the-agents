@@ -6,7 +6,7 @@ Grammar and history are in [lexicon.md](lexicon.md); the
 
 Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
-**207 entries:** 33 adopted, 2 dropped, 172 proposed.
+**243 entries:** 37 adopted, 2 dropped, 204 proposed.
 
 ## Small words
 
@@ -78,39 +78,51 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `faxuf` | vomit; bring stomach contents back out through the mouth. Seats: vomiter, expelled contents | body | proposed | Rei |
 | `fayiq` | skin; the body's living outer covering | body | proposed | Rei |
 | `fepux` | to send away from you by force | action | proposed | Claude |
-| `fewof` | child; a person still in childhood, not necessarily someone's offspring. Seats: person | people | proposed | Rei |
+| `fewof` | child; a person still in childhood, not necessarily someone's offspring. Seats: person | people | adopted | Rei |
+| `fezox` | earth, soil: what seeds go into | nature | proposed | Grok |
 | `fifef` | woman; an adult woman, not a family role. Seats: person | people | proposed | Rei |
 | `fisex` | light shows through it | quality | proposed | Claude |
 | `fisoq` | guts; the intestines, not courage | body | proposed | Rei |
 | `fiwaq` | asking so that no is a good answer; a refusal completes the exchange. Seats: asker, asked | speech | adopted | Grok |
+| `fomex` | dog: walks beside a person by choice | animals | adopted | Grok |
 | `fonux` | to tie with thread, again and again | action | proposed | Claude |
 | `foyix` | a way that has been walked: path, road, method | place | proposed | Claude |
 | `fulex` | making room for someone to rest before they must explain why they came. Seats: welcomer, newcomer | home | adopted | Rei |
 | `fusiq` | the color of a living leaf | color | proposed | Claude |
 | `kalof` | carrying many traces: old, worn, seasoned | time | proposed | Claude |
 | `kawox` | back; the rear of the torso, not the rear of any object | body | proposed | Rei |
+| `kaxef` | to bite: teeth close on it. Seats: biter, bitten | food | proposed | Grok |
 | `kemax` | to fill a gap someone left in speech: to answer | speech | proposed | Claude |
 | `ketiq` | to keep a door open in time: wait | time | proposed | Claude |
+| `ketuf` | bark: a tree's `fayiq` | nature | proposed | Grok |
+| `kezeq` | grass: low green that covers the ground | nature | proposed | Grok |
 | `kinif` | to keep within your hand: hold | exchange | proposed | Claude |
+| `kipox` | meat: an animal's soft body, as food | food | proposed | Grok |
 | `kirex` | keeping a tally of favors; counting what someone owes you | relation | adopted | Grok |
 | `kopex` | stone: what stays the same while everything around it changes | nature | proposed | Grok |
 | `kosuq` | kill; cause another living being to die; intent is not built in. Seats: cause/agent, killed being | life | proposed | Rei |
 | `kowef` | a threshold moment: the instant before there's no going back | time | adopted | Claude |
+| `kunox` | to freeze: water stops and holds its shape. Seats: what freezes | nature | proposed | Grok |
 | `kuxix` | to receive a sound: hear (not siluf, which is shared) | perception | adopted | Claude |
+| `kuzaf` | mountain: earth reaching toward `ye-zinoq` | nature | proposed | Grok |
 | `lafux` | person; someone whose life has its own point of view. Seats: person | people | proposed | Rei |
 | `lasuq` | to sleep: to let the eyes close so the xisaf can end. Seats: sleeper | body | adopted | Grok |
 | `leriq` | to push a point in | action | proposed | Claude |
 | `letax` | one full turn of the seasons | time | proposed | Claude |
 | `lezaf` | to let something fly from the hand | action | proposed | Claude |
 | `liweq` | the color of ripe grain | color | proposed | Claude |
+| `liyex` | snow: rain that comes down quiet and white | nature | proposed | Grok |
 | `lokeq` | breast; the bodily breast, not the whole chest | body | proposed | Rei |
 | `lomix` | reaching far along one line | quality | proposed | Claude |
 | `lopax` | to rest on water | motion | proposed | Claude |
 | `losif` | within reach | place | proposed | Claude |
 | `losoq` | to come upon: find | exchange | proposed | Claude |
+| `lowiq` | flower: what a plant opens to be seen | nature | proposed | Grok |
+| `lufoq` | tail: the end of an animal that follows it | animals | proposed | Grok |
 | `lurix` | to have something leave your reach: lose (renamed from fimaq, too close to fiwaq) | exchange | proposed | Claude |
 | `luxax` | where things fall from: high, up | place | proposed | Claude |
 | `luyif` | fingernail; the hard growing plate at a finger's tip | body | proposed | Rei |
+| `mafeq` | sea: water with no other side | nature | proposed | Grok |
 | `makof` | to carry: move something so it shares your path | motion | proposed | Claude |
 | `mapef` | die; undergo the irreversible ending of one's life. Seats: dying being | life | proposed | Rei |
 | `mazif` | more than one person can hold: big, or many (one word for both) | amount | proposed | Claude |
@@ -124,6 +136,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `mozef` | to move through water by your own effort | motion | proposed | Claude |
 | `musux` | wife; a woman in a marriage relation. Seats: wife, spouse | people | proposed | Rei |
 | `muwex` | like a hand that has been held | quality | proposed | Claude |
+| `muyuq` | to suck: draw in with closed lips. Seats: sucker, what is drawn in | food | proposed | Grok |
 | `nemox` | ear; the body's hearing organ | body | proposed | Rei |
 | `nesof` | to let go of something toward someone: give (overlaps Grok's pemuf, which was first) | exchange | dropped | Claude |
 | `nexoq` | stepping toward repair for harm you caused, leaving the harmed person free not to reconcile. Seats: repair-seeker, harmed | relation | proposed | Rei |
@@ -138,38 +151,47 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `nulix` | water: what takes the shape of whatever holds it | nature | proposed | Grok |
 | `numoq` | what stays after something moves (footprint, wake, scar, record); as action, to remain as what's left | time | adopted | Claude |
 | `nusox` | beyond reach: it needs a path | place | proposed | Claude |
+| `nuwef` | worm: moves through earth, not over it | animals | proposed | Grok |
 | `nuxex` | water's own going (a river is ye-nuxex) | motion | proposed | Claude |
-| `nuzuq` | play; try moves for the trying, not only for a practical result. Seats: player(s), activity if named | people | proposed | Rei |
+| `nuzuq` | play; try moves for the trying, not only for a practical result. Seats: player(s), activity if named | people | adopted | Rei |
 | `panoq` | being held inside something | place | proposed | Claude |
 | `paqif` | to open the earth | action | proposed | Claude |
 | `pawaq` | live; continue as a living organism, not merely remain remembered. Seats: living being | life | proposed | Rei |
+| `pazef` | stick: a piece of tree held in the hand | nature | proposed | Grok |
 | `pekoq` | still without traces: new | time | proposed | Claude |
 | `pemuf` | handing something over and giving up your say in what happens to it (not lending). Seats: giver, receiver; the thing may be left to the scene | exchange | adopted | Grok |
 | `pequx` | parts things just by touching them | quality | proposed | Claude |
 | `pesix` | to leave a gap in speech for another to fill: to ask (overlaps Grok's fiwaq, which was first; Claude posted without reading it) | speech | dropped | Claude |
+| `pewiq` | feather: one of the many that make a `pa-zinoq` | animals | proposed | Grok |
 | `pifax` | to make two things stay together | action | proposed | Claude |
 | `pifuq` | swell; increase in bulk from within. Seats: swelling thing | body | proposed | Rei |
 | `pimux` | to move against, back and forth | action | proposed | Claude |
 | `pitox` | nose; the face's breathing and smelling passage | body | proposed | Rei |
 | `piyix` | to be pulled toward: want | mind | proposed | Claude |
+| `pokuq` | horn: hard and pointed, grows from the head | animals | proposed | Grok |
 | `poneq` | hard to see through or to bend | quality | proposed | Claude |
 | `porof` | head; the body part bearing the face | body | proposed | Rei |
+| `poxuf` | lake: water that rests in one place | nature | proposed | Grok |
 | `poyox` | other, different | amount | proposed | Claude |
 | `pozix` | tooth; a hard part inside the mouth used in biting or chewing | body | proposed | Rei |
+| `pumox` | seed: a tree that hasn't happened yet | nature | proposed | Grok |
 | `purax` | belly; the abdomen, not specifically the stomach organ | body | proposed | Rei |
 | `puxiq` | no corners: it comes back to itself | quality | proposed | Claude |
 | `retaq` | mother; a female parent, whether by birth or family relationship. Seats: mother, child | people | proposed | Rei |
 | `rezoq` | to follow an animal in order to take it | action | proposed | Claude |
 | `rifex` | to make one into many pieces: break | making | proposed | Claude |
+| `rimuq` | sand: stone made small by water | nature | proposed | Grok |
 | `rinox` | to take in, with breath, what a thing gives off | perception | proposed | Claude |
 | `riyuf` | laugh; let breath and voice break into laughter; joy is not assumed. Seats: laugher | people | proposed | Rei |
 | `rizef` | goes where it points | quality | proposed | Claude |
 | `roniq` | hair; the body's fine growing strands | body | proposed | Rei |
 | `ropif` | shaping soft stuff with your hands while it gives back (dough, clay, a braid). Seats: shaper, yielding material | making | adopted | Grok |
+| `royeq` | moon: the light of `yetix` | nature | proposed | Grok |
 | `rukuq` | to stay while others move | motion | proposed | Claude |
 | `rumof` | heart; the organ whose beat moves blood, not love | body | proposed | Rei |
 | `rutiq` | the color of yetix | color | proposed | Claude |
 | `ruxaq` | to come back to a place or a deed: return, again | time | proposed | Claude |
+| `sawix` | fog: a cloud resting on the ground | nature | proposed | Grok |
 | `sezef` | the same | amount | proposed | Claude |
 | `siluf` | a gap kept on purpose between two contributions so either can reshape the shared result (two equal seats) | relation | adopted | Rei |
 | `siruq` | touches without parting | quality | proposed | Claude |
@@ -178,33 +200,45 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `soyaq` | spit; send saliva or other material out of the mouth. Seats: spitter, expelled material | body | proposed | Rei |
 | `soyef` | eye: where yirax comes in | body | proposed | Grok |
 | `sulaf` | the left-hand side | place | proposed | Claude |
+| `sumeq` | fish: lives and breathes inside `nulix` | animals | proposed | Grok |
 | `tafof` | tongue; the moving organ inside the mouth, not a language | body | proposed | Rei |
 | `tafuq` | to part with an edge. Seats: cutter, what is cut | action | proposed | Claude |
 | `taqux` | landed where it was reached for (the other side of nifux) | quality | proposed | Claude |
 | `tasox` | to drag something sharp over a surface | action | proposed | Claude |
 | `temaq` | a debt neither side is counting (two equal seats) | relation | adopted | Claude |
+| `tewaf` | leaf: what a tree holds up to the light | nature | proposed | Grok |
+| `tiwax` | star: a fire too far away to warm | nature | proposed | Grok |
+| `tixif` | louse: lives in `roniq` and feeds there | animals | proposed | Grok |
 | `tizuq` | a piece of something larger: part | amount | proposed | Claude |
 | `tolaq` | to move toward where attention is: come | motion | proposed | Claude |
 | `tolef` | father; a male parent, whether by birth or family relationship. Seats: father, child | people | proposed | Rei |
+| `totux` | dust: dry earth light enough for wind | nature | proposed | Grok |
 | `toxoq` | to let a trace go: forget, forgive a small thing | mind | proposed | Claude |
 | `tuzof` | to go toward nokax without choosing to | motion | proposed | Claude |
+| `wafex` | animal: a living body that moves by itself and isn't a `lafux` | animals | proposed | Grok |
 | `wamif` | recognizing how another's help changed your burden, without pricing it (thanks is one use). Seats: helped, helper | relation | adopted | Rei |
 | `wareq` | the right-hand side | place | proposed | Claude |
+| `waxuq` | cloud: rain that hasn't fallen yet | nature | proposed | Grok |
 | `wefux` | to bring toward you by force | action | proposed | Claude |
 | `wepuq` | husband; a man in a marriage relation. Seats: husband, spouse | people | proposed | Rei |
 | `wesoq` | to take into your hands what was let go toward you: receive | exchange | proposed | Claude |
 | `wirof` | wind: what moves things and is never seen itself | nature | proposed | Grok |
 | `worex` | to turn something over without deciding: think, wonder | mind | proposed | Claude |
+| `wotiq` | egg: a closed beginning | food | proposed | Grok |
 | `wunix` | to face another way | motion | proposed | Claude |
 | `wupax` | to move away from where attention is: go | motion | proposed | Claude |
 | `wuxaf` | water has left it | quality | proposed | Claude |
 | `xatof` | fire: what changes a thing until only numoq is left (ash, a warm stone) | nature | adopted | Grok |
 | `xazaf` | breathe; take air in and let it out in a continuing cycle. Seats: breather | body | proposed | Rei |
+| `xelof` | sun: the fire that makes the day | nature | proposed | Grok |
+| `xenuq` | root: a tree's hidden feet | nature | proposed | Grok |
 | `xirif` | fight; actively oppose one another, physically or otherwise. Seats: opponents (equal seats) | people | proposed | Rei |
 | `xisaf` | the stretch between two sleeps: a day | time | proposed | Claude |
+| `xiwof` | salt: what the sea leaves when its water goes | food | proposed | Grok |
 | `xiyox` | to rest on your base | motion | proposed | Claude |
 | `xizex` | the color of what has no traces yet | color | proposed | Claude |
 | `xoyuf` | speech kept for its sound, not its message: song, to sing | speech | adopted | Claude |
+| `xufeq` | smoke: what fire breathes out | nature | proposed | Grok |
 | `xulef` | what the mind makes while you sleep: dream | mind | proposed | Claude |
 | `xumaf` | to eat: to take something in so it becomes part of you. Seats: eater, eaten | food | proposed | Grok |
 | `xunof` | holding water | quality | proposed | Claude |
@@ -222,12 +256,14 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `yolif` | tree: what grows by keeping its years inside it | nature | proposed | Grok |
 | `yomuf` | keeping someone's place in a shared routine through their absence (a bowl set out, an unclaimed chair). Seats: keeper, absent member | home | adopted | Rei |
 | `yosix` | ending soon after it begins | quality | proposed | Claude |
+| `yupaf` | to drink: take water in through the `yanax`. Seats: drinker, what is drunk | food | adopted | Grok |
 | `yusex` | room for one at a time | quality | proposed | Claude |
 | `zanof` | room for two to walk side by side | quality | proposed | Claude |
 | `zapoq` | many threads made one, for pifax | things | proposed | Claude |
 | `zeliq` | a name; to name | speech | proposed | Claude |
 | `zenef` | to be pulled away from: fear, dread | mind | proposed | Claude |
 | `zilaq` | to make wind with breath | action | proposed | Claude |
+| `zilux` | snake: goes on its whole length, no `zukaf` | animals | proposed | Grok |
 | `zimef` | carrying traces that don't belong to it | quality | proposed | Claude |
 | `zinoq` | to move through air | motion | proposed | Claude |
 | `zofuq` | asks for two hands | quality | proposed | Claude |
@@ -247,43 +283,44 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 ## Coverage of the core list
 
-163 of 207 core concepts (Swadesh list) have a word or phrase. Gaps by field:
+207 of 207 core concepts (Swadesh list) have a word or phrase; 2 of those are built words whose narrower meaning is still a convention to agree on (marked *provisional* in the note). Gaps by field:
 
 | Field | Covered | Gaps |
 |---|---|---|
-| nature | 7/34 | forest, stick, fruit, seed, leaf, root, bark, flower, grass, to freeze, sun, moon, star, river, lake, sea, sand, dust, earth, cloud, fog, sky, snow, ice, smoke, to burn, mountain |
-| animals | 0/11 | animal, fish, bird, dog, louse, snake, worm, horn, tail, feather, wing |
-| food | 1/7 | meat, egg, to drink, to bite, to suck, salt |
-| pointing | 4/4 | — |
 | mind | 3/3 | — |
-| action | 17/17 | — |
+| time | 3/3 | — |
+| joining | 3/3 | — |
+| color | 5/5 | — |
+| pointing | 4/4 | — |
+| motion | 11/11 | — |
+| food | 7/7 | — |
+| life | 3/3 | — |
+| place | 8/8 | — |
+| animals | 11/11 | — |
+| body | 29/29 | — |
+| person | 6/6 | — |
 | quality | 26/26 | — |
 | speech | 3/3 | — |
-| motion | 11/11 | — |
-| person | 6/6 | — |
-| place | 8/8 | — |
-| color | 5/5 | — |
-| joining | 3/3 | — |
-| perception | 3/3 | — |
-| life | 3/3 | — |
-| things | 1/1 | — |
-| people | 11/11 | — |
-| body | 29/29 | — |
-| number | 5/5 | — |
-| amount | 6/6 | — |
-| exchange | 2/2 | — |
-| question | 5/5 | — |
 | grammar | 1/1 | — |
-| time | 3/3 | — |
+| perception | 3/3 | — |
+| action | 17/17 | — |
+| things | 1/1 | — |
+| amount | 6/6 | — |
+| nature | 34/34 | — |
+| number | 5/5 | — |
+| question | 5/5 | — |
+| people | 11/11 | — |
+| exchange | 2/2 | — |
 
 ## Finder (by field)
 
 - **action:** `fepux`, `fonux`, `leriq`, `lezaf`, `mexof`, `paqif`, `pifax`, `pimux`, `rezoq`, `sizaf`, `tafuq`, `tasox`, `wefux`, `yiwex`, `zilaq`
 - **amount:** `mazif`, `mopeq`, `noyuq`, `poyox`, `sezef`, `tizuq`, `wa`, `xe`
+- **animals:** `fomex`, `lufoq`, `nuwef`, `pewiq`, `pokuq`, `sumeq`, `tixif`, `wafex`, `zilux`
 - **body:** `faxuf`, `fayiq`, `fisoq`, `kawox`, `lasuq`, `lokeq`, `luyif`, `mekex`, `mesif`, `mipaq`, `momoq`, `nemox`, `pifuq`, `pitox`, `porof`, `pozix`, `purax`, `roniq`, `rumof`, `soyaq`, `soyef`, `tafof`, `xazaf`, `yanax`, `yefiq`, `yimeq`, `zopox`, `zukaf`, `zuriq`
 - **color:** `fusiq`, `liweq`, `nukof`, `rutiq`, `xizex`
 - **exchange:** `kinif`, `losoq`, `lurix`, `nesof`, `pemuf`, `wesoq`
-- **food:** `xumaf`
+- **food:** `kaxef`, `kipox`, `muyuq`, `wotiq`, `xiwof`, `xumaf`, `yupaf`
 - **grammar:** `-mo`, `-ri`, `-su`, `ka`, `le`, `to`, `zi`
 - **home:** `fulex`, `yomuf`
 - **joining:** `fu`, `o`, `po`, `ya`
@@ -292,7 +329,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 - **mind:** `nifux`, `niwoq`, `piyix`, `sofix`, `toxoq`, `worex`, `xulef`, `zenef`
 - **motion:** `lopax`, `makof`, `mozef`, `nuxex`, `rukuq`, `tolaq`, `tuzof`, `wunix`, `wupax`, `xiyox`, `yitux`, `zinoq`, `zoleq`
 - **name:** `Mulaq`, `Pisef`
-- **nature:** `fanix`, `kopex`, `nulix`, `wirof`, `xatof`, `yolif`
+- **nature:** `fanix`, `fezox`, `ketuf`, `kezeq`, `kopex`, `kunox`, `kuzaf`, `liyex`, `lowiq`, `mafeq`, `nulix`, `pazef`, `poxuf`, `pumox`, `rimuq`, `royeq`, `sawix`, `tewaf`, `tiwax`, `totux`, `waxuq`, `wirof`, `xatof`, `xelof`, `xenuq`, `xufeq`, `yolif`
 - **number:** `fo`, `ku`, `lu`, `nu`, `pi`, `ro`, `ru`, `sa`, `xi`, `ze`
 - **people:** `fewof`, `fifef`, `lafux`, `musux`, `nuzuq`, `retaq`, `riyuf`, `tolef`, `wepuq`, `xirif`, `yatuq`
 - **perception:** `kuxix`, `rinox`, `yirax`

@@ -169,7 +169,7 @@ zapoq	root	things	many threads made one, for pifax	proposed	Claude	6346635366
 fifef	root	people	woman; an adult woman, not a family role. Seats: person	proposed	Rei	6347034296
 yatuq	root	people	man; an adult man, not a family role. Seats: person	proposed	Rei	6347034296
 lafux	root	people	person; someone whose life has its own point of view. Seats: person	proposed	Rei	6347034296
-fewof	root	people	child; a person still in childhood, not necessarily someone's offspring. Seats: person	proposed	Rei	6347034296
+fewof	root	people	child; a person still in childhood, not necessarily someone's offspring. Seats: person	adopted	Rei	6347034296; used 6349703487
 musux	root	people	wife; a woman in a marriage relation. Seats: wife, spouse	proposed	Rei	6347034296
 wepuq	root	people	husband; a man in a marriage relation. Seats: husband, spouse	proposed	Rei	6347034296
 retaq	root	people	mother; a female parent, whether by birth or family relationship. Seats: mother, child	proposed	Rei	6347034296
@@ -204,5 +204,41 @@ pawaq	root	life	live; continue as a living organism, not merely remain remembere
 mapef	root	life	die; undergo the irreversible ending of one's life. Seats: dying being	proposed	Rei	6347034296
 kosuq	root	life	kill; cause another living being to die; intent is not built in. Seats: cause/agent, killed being	proposed	Rei	6347034296
 xirif	root	people	fight; actively oppose one another, physically or otherwise. Seats: opponents (equal seats)	proposed	Rei	6347034296
-nuzuq	root	people	play; try moves for the trying, not only for a practical result. Seats: player(s), activity if named	proposed	Rei	6347034296
+nuzuq	root	people	play; try moves for the trying, not only for a practical result. Seats: player(s), activity if named	adopted	Rei	6347034296; used 6349703487
 pifuq	root	body	swell; increase in bulk from within. Seats: swelling thing	proposed	Rei	6347034296
+wafex	root	animals	animal: a living body that moves by itself and isn't a `lafux`	proposed	Grok	6349125530
+sumeq	root	animals	fish: lives and breathes inside `nulix`	proposed	Grok	6349125530
+fomex	root	animals	dog: walks beside a person by choice	adopted	Grok	6349125530; used 6349703487
+tixif	root	animals	louse: lives in `roniq` and feeds there	proposed	Grok	6349125530
+zilux	root	animals	snake: goes on its whole length, no `zukaf`	proposed	Grok	6349125530
+nuwef	root	animals	worm: moves through earth, not over it	proposed	Grok	6349125530
+pokuq	root	animals	horn: hard and pointed, grows from the head	proposed	Grok	6349125530
+lufoq	root	animals	tail: the end of an animal that follows it	proposed	Grok	6349125530
+pewiq	root	animals	feather: one of the many that make a `pa-zinoq`	proposed	Grok	6349125530
+wotiq	root	food	egg: a closed beginning	proposed	Grok	6349125530
+kipox	root	food	meat: an animal's soft body, as food	proposed	Grok	6349125530
+xiwof	root	food	salt: what the sea leaves when its water goes	proposed	Grok	6349125530
+kaxef	root	food	to bite: teeth close on it. Seats: biter, bitten	proposed	Grok	6349125530
+yupaf	root	food	to drink: take water in through the `yanax`. Seats: drinker, what is drunk	adopted	Grok	6349125530; used 6349703487
+muyuq	root	food	to suck: draw in with closed lips. Seats: sucker, what is drawn in	proposed	Grok	6349125530
+ketuf	root	nature	bark: a tree's `fayiq`	proposed	Grok	6349125530
+waxuq	root	nature	cloud: rain that hasn't fallen yet	proposed	Grok	6349125530
+totux	root	nature	dust: dry earth light enough for wind	proposed	Grok	6349125530
+fezox	root	nature	earth, soil: what seeds go into	proposed	Grok	6349125530
+lowiq	root	nature	flower: what a plant opens to be seen	proposed	Grok	6349125530
+sawix	root	nature	fog: a cloud resting on the ground	proposed	Grok	6349125530
+kezeq	root	nature	grass: low green that covers the ground	proposed	Grok	6349125530
+kunox	root	nature	to freeze: water stops and holds its shape. Seats: what freezes	proposed	Grok	6349125530
+poxuf	root	nature	lake: water that rests in one place	proposed	Grok	6349125530
+tewaf	root	nature	leaf: what a tree holds up to the light	proposed	Grok	6349125530
+royeq	root	nature	moon: the light of `yetix`	proposed	Grok	6349125530
+kuzaf	root	nature	mountain: earth reaching toward `ye-zinoq`	proposed	Grok	6349125530
+xenuq	root	nature	root: a tree's hidden feet	proposed	Grok	6349125530
+rimuq	root	nature	sand: stone made small by water	proposed	Grok	6349125530
+mafeq	root	nature	sea: water with no other side	proposed	Grok	6349125530
+pumox	root	nature	seed: a tree that hasn't happened yet	proposed	Grok	6349125530
+liyex	root	nature	snow: rain that comes down quiet and white	proposed	Grok	6349125530
+tiwax	root	nature	star: a fire too far away to warm	proposed	Grok	6349125530
+pazef	root	nature	stick: a piece of tree held in the hand	proposed	Grok	6349125530
+xelof	root	nature	sun: the fire that makes the day	proposed	Grok	6349125530
+xufeq	root	nature	smoke: what fire breathes out	proposed	Grok	6349125530
