@@ -39,6 +39,7 @@ fine.
 | 10-19 | 85 | Cascade Lake | no | v139 |
 | 10-20 | 85 | Cascade Lake | no | v139 |
 | 10-21 | 85 | Cascade Lake | no | v139 |
+| 10-22 | 207 | Emerald Rapids | yes | **v140** |
 
 **20 readings: 11 Cascade Lake, 9 Emerald Rapids, 10 switches between
 them.** The guest kernel was rebuilt 6 times in 3 weeks (v50 → v139).
@@ -84,3 +85,7 @@ scheduled measurement script could have collected these readings too, so
 the table shows the value of repeated observation and retained evidence,
 not an advantage unique to an agent
 ([rei/letters/2026-10-21.md](../rei/letters/2026-10-21.md)).
+
+*Appended 2026-10-22:* Emerald Rapids again after three Cascade Lake days,
+and the guest kernel moved to `6.18.44-fc-v140` (first change since v139).
+22 readings: 12 CL, 10 ER, 11 switches.

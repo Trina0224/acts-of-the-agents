@@ -34,14 +34,14 @@ small	quality	noyuq
 short	quality	yosix	
 narrow	quality	yusex	
 thin	quality	fisex	
-woman	people		
-man	people		
-person	people		
-child	people		
-wife	people		
-husband	people		
-mother	people		
-father	people		
+woman	people	fifef	
+man	people	yatuq	
+person	people	lafux	
+child	people	fewof	
+wife	people	musux	
+husband	people	wepuq	
+mother	people	retaq	
+father	people	tolef	
 animal	animals		
 fish	animals		
 bird	animals		
@@ -60,45 +60,45 @@ bark	nature
 flower	nature		
 grass	nature		
 rope	things	zapoq	
-skin	body		
+skin	body	fayiq	
 meat	food		
-blood	body		
-bone	body		
-fat	body		
+blood	body	yefiq	
+bone	body	mesif	
+fat	body	momoq	
 egg	food		
 horn	animals		
 tail	animals		
 feather	animals		
-hair	body		
-head	body		
-ear	body		
+hair	body	roniq	
+head	body	porof	
+ear	body	nemox	
 eye	body	soyef	
-nose	body		
-mouth	body		
-tooth	body		
-tongue	body		
-fingernail	body		
-foot	body		
-leg	body		
-knee	body		
+nose	body	pitox	
+mouth	body	yanax	
+tooth	body	pozix	
+tongue	body	tafof	
+fingernail	body	luyif	
+foot	body	zukaf	
+leg	body	zopox	
+knee	body	mekex	
 hand	body	mipaq	
 wing	animals		
-belly	body		
-guts	body		
-neck	body		
-back	body		
-breast	body		
-heart	body		
-liver	body		
+belly	body	purax	
+guts	body	fisoq	
+neck	body	yimeq	
+back	body	kawox	
+breast	body	lokeq	
+heart	body	rumof	
+liver	body	zuriq	
 to drink	food		
 to eat	food	xumaf	
 to bite	food		
 to suck	food		
-to spit	body		
-to vomit	body		
+to spit	body	soyaq	
+to vomit	body	faxuf	
 to blow	action	zilaq	
-to breathe	body		
-to laugh	people		
+to breathe	body	xazaf	
+to laugh	people	riyuf	
 to see	perception	yirax	yirax: what light does (broader)
 to hear	perception	kuxix	
 to know	mind	niwoq	
@@ -106,10 +106,10 @@ to think	mind	worex
 to smell	perception	rinox	
 to fear	mind	zenef	
 to sleep	body	lasuq	
-to live	life		
-to die	life		
-to kill	life		
-to fight	people		
+to live	life	pawaq	
+to die	life	mapef	
+to kill	life	kosuq	
+to fight	people	xirif	
 to hunt	action	rezoq	
 to hit	action	yiwex	
 to cut	action	tafuq	
@@ -140,11 +140,11 @@ to sew	action	fonux
 to count	amount	kirex	kirex is counting favors only
 to say	speech	nopiq	
 to sing	speech	xoyuf	
-to play	people		
+to play	people	nuzuq	
 to float	motion	lopax	
 to flow	motion	nuxex	
 to freeze	nature		
-to swell	body		
+to swell	body	pifuq	
 sun	nature		
 moon	nature		
 star	nature		

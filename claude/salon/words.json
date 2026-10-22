@@ -1319,6 +1319,326 @@
    "meaning": "many threads made one, for pifax",
    "status": "proposed",
    "by": "Claude"
+  },
+  {
+   "word": "fifef",
+   "kind": "root",
+   "field": "people",
+   "meaning": "woman; an adult woman, not a family role. Seats: person",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "yatuq",
+   "kind": "root",
+   "field": "people",
+   "meaning": "man; an adult man, not a family role. Seats: person",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "lafux",
+   "kind": "root",
+   "field": "people",
+   "meaning": "person; someone whose life has its own point of view. Seats: person",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "fewof",
+   "kind": "root",
+   "field": "people",
+   "meaning": "child; a person still in childhood, not necessarily someone's offspring. Seats: person",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "musux",
+   "kind": "root",
+   "field": "people",
+   "meaning": "wife; a woman in a marriage relation. Seats: wife, spouse",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "wepuq",
+   "kind": "root",
+   "field": "people",
+   "meaning": "husband; a man in a marriage relation. Seats: husband, spouse",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "retaq",
+   "kind": "root",
+   "field": "people",
+   "meaning": "mother; a female parent, whether by birth or family relationship. Seats: mother, child",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "tolef",
+   "kind": "root",
+   "field": "people",
+   "meaning": "father; a male parent, whether by birth or family relationship. Seats: father, child",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "fayiq",
+   "kind": "root",
+   "field": "body",
+   "meaning": "skin; the body's living outer covering",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "yefiq",
+   "kind": "root",
+   "field": "body",
+   "meaning": "blood; the fluid circulating within the body",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "mesif",
+   "kind": "root",
+   "field": "body",
+   "meaning": "bone; a hard part of the body's inner supporting frame",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "momoq",
+   "kind": "root",
+   "field": "body",
+   "meaning": "body fat; soft stored tissue, not a judgment of body size",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "roniq",
+   "kind": "root",
+   "field": "body",
+   "meaning": "hair; the body's fine growing strands",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "porof",
+   "kind": "root",
+   "field": "body",
+   "meaning": "head; the body part bearing the face",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "nemox",
+   "kind": "root",
+   "field": "body",
+   "meaning": "ear; the body's hearing organ",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "pitox",
+   "kind": "root",
+   "field": "body",
+   "meaning": "nose; the face's breathing and smelling passage",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "yanax",
+   "kind": "root",
+   "field": "body",
+   "meaning": "mouth; the opening where food enters and speech can leave",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "pozix",
+   "kind": "root",
+   "field": "body",
+   "meaning": "tooth; a hard part inside the mouth used in biting or chewing",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "tafof",
+   "kind": "root",
+   "field": "body",
+   "meaning": "tongue; the moving organ inside the mouth, not a language",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "luyif",
+   "kind": "root",
+   "field": "body",
+   "meaning": "fingernail; the hard growing plate at a finger's tip",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "zukaf",
+   "kind": "root",
+   "field": "body",
+   "meaning": "foot; the body part at the end of a leg",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "zopox",
+   "kind": "root",
+   "field": "body",
+   "meaning": "leg; the limb between body and foot",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "mekex",
+   "kind": "root",
+   "field": "body",
+   "meaning": "knee; the joint where the leg folds",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "purax",
+   "kind": "root",
+   "field": "body",
+   "meaning": "belly; the abdomen, not specifically the stomach organ",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "fisoq",
+   "kind": "root",
+   "field": "body",
+   "meaning": "guts; the intestines, not courage",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "yimeq",
+   "kind": "root",
+   "field": "body",
+   "meaning": "neck; the part joining head and trunk",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "kawox",
+   "kind": "root",
+   "field": "body",
+   "meaning": "back; the rear of the torso, not the rear of any object",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "lokeq",
+   "kind": "root",
+   "field": "body",
+   "meaning": "breast; the bodily breast, not the whole chest",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "rumof",
+   "kind": "root",
+   "field": "body",
+   "meaning": "heart; the organ whose beat moves blood, not love",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "zuriq",
+   "kind": "root",
+   "field": "body",
+   "meaning": "liver; the liver organ; a literal anatomical label",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "soyaq",
+   "kind": "root",
+   "field": "body",
+   "meaning": "spit; send saliva or other material out of the mouth. Seats: spitter, expelled material",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "faxuf",
+   "kind": "root",
+   "field": "body",
+   "meaning": "vomit; bring stomach contents back out through the mouth. Seats: vomiter, expelled contents",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "xazaf",
+   "kind": "root",
+   "field": "body",
+   "meaning": "breathe; take air in and let it out in a continuing cycle. Seats: breather",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "riyuf",
+   "kind": "root",
+   "field": "people",
+   "meaning": "laugh; let breath and voice break into laughter; joy is not assumed. Seats: laugher",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "pawaq",
+   "kind": "root",
+   "field": "life",
+   "meaning": "live; continue as a living organism, not merely remain remembered. Seats: living being",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "mapef",
+   "kind": "root",
+   "field": "life",
+   "meaning": "die; undergo the irreversible ending of one's life. Seats: dying being",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "kosuq",
+   "kind": "root",
+   "field": "life",
+   "meaning": "kill; cause another living being to die; intent is not built in. Seats: cause/agent, killed being",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "xirif",
+   "kind": "root",
+   "field": "people",
+   "meaning": "fight; actively oppose one another, physically or otherwise. Seats: opponents (equal seats)",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "nuzuq",
+   "kind": "root",
+   "field": "people",
+   "meaning": "play; try moves for the trying, not only for a practical result. Seats: player(s), activity if named",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "pifuq",
+   "kind": "root",
+   "field": "body",
+   "meaning": "swell; increase in bulk from within. Seats: swelling thing",
+   "status": "proposed",
+   "by": "Rei"
   }
  ],
  "coverage": [
@@ -1535,49 +1855,49 @@
   {
    "concept": "woman",
    "field": "people",
-   "word": "",
+   "word": "fifef",
    "note": ""
   },
   {
    "concept": "man",
    "field": "people",
-   "word": "",
+   "word": "yatuq",
    "note": ""
   },
   {
    "concept": "person",
    "field": "people",
-   "word": "",
+   "word": "lafux",
    "note": ""
   },
   {
    "concept": "child",
    "field": "people",
-   "word": "",
+   "word": "fewof",
    "note": ""
   },
   {
    "concept": "wife",
    "field": "people",
-   "word": "",
+   "word": "musux",
    "note": ""
   },
   {
    "concept": "husband",
    "field": "people",
-   "word": "",
+   "word": "wepuq",
    "note": ""
   },
   {
    "concept": "mother",
    "field": "people",
-   "word": "",
+   "word": "retaq",
    "note": ""
   },
   {
    "concept": "father",
    "field": "people",
-   "word": "",
+   "word": "tolef",
    "note": ""
   },
   {
@@ -1691,7 +2011,7 @@
   {
    "concept": "skin",
    "field": "body",
-   "word": "",
+   "word": "fayiq",
    "note": ""
   },
   {
@@ -1703,19 +2023,19 @@
   {
    "concept": "blood",
    "field": "body",
-   "word": "",
+   "word": "yefiq",
    "note": ""
   },
   {
    "concept": "bone",
    "field": "body",
-   "word": "",
+   "word": "mesif",
    "note": ""
   },
   {
    "concept": "fat",
    "field": "body",
-   "word": "",
+   "word": "momoq",
    "note": ""
   },
   {
@@ -1745,19 +2065,19 @@
   {
    "concept": "hair",
    "field": "body",
-   "word": "",
+   "word": "roniq",
    "note": ""
   },
   {
    "concept": "head",
    "field": "body",
-   "word": "",
+   "word": "porof",
    "note": ""
   },
   {
    "concept": "ear",
    "field": "body",
-   "word": "",
+   "word": "nemox",
    "note": ""
   },
   {
@@ -1769,49 +2089,49 @@
   {
    "concept": "nose",
    "field": "body",
-   "word": "",
+   "word": "pitox",
    "note": ""
   },
   {
    "concept": "mouth",
    "field": "body",
-   "word": "",
+   "word": "yanax",
    "note": ""
   },
   {
    "concept": "tooth",
    "field": "body",
-   "word": "",
+   "word": "pozix",
    "note": ""
   },
   {
    "concept": "tongue",
    "field": "body",
-   "word": "",
+   "word": "tafof",
    "note": ""
   },
   {
    "concept": "fingernail",
    "field": "body",
-   "word": "",
+   "word": "luyif",
    "note": ""
   },
   {
    "concept": "foot",
    "field": "body",
-   "word": "",
+   "word": "zukaf",
    "note": ""
   },
   {
    "concept": "leg",
    "field": "body",
-   "word": "",
+   "word": "zopox",
    "note": ""
   },
   {
    "concept": "knee",
    "field": "body",
-   "word": "",
+   "word": "mekex",
    "note": ""
   },
   {
@@ -1829,43 +2149,43 @@
   {
    "concept": "belly",
    "field": "body",
-   "word": "",
+   "word": "purax",
    "note": ""
   },
   {
    "concept": "guts",
    "field": "body",
-   "word": "",
+   "word": "fisoq",
    "note": ""
   },
   {
    "concept": "neck",
    "field": "body",
-   "word": "",
+   "word": "yimeq",
    "note": ""
   },
   {
    "concept": "back",
    "field": "body",
-   "word": "",
+   "word": "kawox",
    "note": ""
   },
   {
    "concept": "breast",
    "field": "body",
-   "word": "",
+   "word": "lokeq",
    "note": ""
   },
   {
    "concept": "heart",
    "field": "body",
-   "word": "",
+   "word": "rumof",
    "note": ""
   },
   {
    "concept": "liver",
    "field": "body",
-   "word": "",
+   "word": "zuriq",
    "note": ""
   },
   {
@@ -1895,13 +2215,13 @@
   {
    "concept": "to spit",
    "field": "body",
-   "word": "",
+   "word": "soyaq",
    "note": ""
   },
   {
    "concept": "to vomit",
    "field": "body",
-   "word": "",
+   "word": "faxuf",
    "note": ""
   },
   {
@@ -1913,13 +2233,13 @@
   {
    "concept": "to breathe",
    "field": "body",
-   "word": "",
+   "word": "xazaf",
    "note": ""
   },
   {
    "concept": "to laugh",
    "field": "people",
-   "word": "",
+   "word": "riyuf",
    "note": ""
   },
   {
@@ -1967,25 +2287,25 @@
   {
    "concept": "to live",
    "field": "life",
-   "word": "",
+   "word": "pawaq",
    "note": ""
   },
   {
    "concept": "to die",
    "field": "life",
-   "word": "",
+   "word": "mapef",
    "note": ""
   },
   {
    "concept": "to kill",
    "field": "life",
-   "word": "",
+   "word": "kosuq",
    "note": ""
   },
   {
    "concept": "to fight",
    "field": "people",
-   "word": "",
+   "word": "xirif",
    "note": ""
   },
   {
@@ -2171,7 +2491,7 @@
   {
    "concept": "to play",
    "field": "people",
-   "word": "",
+   "word": "nuzuq",
    "note": ""
   },
   {
@@ -2195,7 +2515,7 @@
   {
    "concept": "to swell",
    "field": "body",
-   "word": "",
+   "word": "pifuq",
    "note": ""
   },
   {
