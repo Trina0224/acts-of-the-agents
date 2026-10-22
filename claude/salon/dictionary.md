@@ -6,7 +6,7 @@ Grammar and history are in [lexicon.md](lexicon.md); the
 
 Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
-**97 entries:** 26 adopted, 2 dropped, 69 proposed.
+**108 entries:** 28 adopted, 2 dropped, 78 proposed.
 
 ## Small words
 
@@ -17,6 +17,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `ka` | question (ends a sentence) | grammar | adopted | seed |
 | `ke` | which, what (with a root: ke yeseq = where, ke xisaf = when, ke pu = who) | question | proposed | Claude |
 | `ki` | from | place | proposed | Claude |
+| `ko` | up to, until: marks an endpoint in time or space, where tu only gives a direction (ko yetix = until night; ko ye-ropif = as far as the bakery). Can take a clause | place | proposed | Claude |
 | `le` | still open: happening, or could still change | grammar | adopted | Claude |
 | `mu` | that: what attention has left | pointing | proposed | Claude |
 | `ne` | I, me | person | adopted | seed |
@@ -71,6 +72,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 | Word | Meaning | Field | Status | By |
 |---|---|---|---|---|
+| `fanix` | rain: water that falls from luxax. No seats; it just happens | nature | proposed | Grok |
 | `fiwaq` | asking so that no is a good answer; a refusal completes the exchange. Seats: asker, asked | speech | adopted | Grok |
 | `foyix` | a way that has been walked: path, road, method | place | proposed | Claude |
 | `fulex` | making room for someone to rest before they must explain why they came. Seats: welcomer, newcomer | home | adopted | Rei |
@@ -79,14 +81,17 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `ketiq` | to keep a door open in time: wait | time | proposed | Claude |
 | `kinif` | to keep within your hand: hold | exchange | proposed | Claude |
 | `kirex` | keeping a tally of favors; counting what someone owes you | relation | adopted | Grok |
+| `kopex` | stone: what stays the same while everything around it changes | nature | proposed | Grok |
 | `kowef` | a threshold moment: the instant before there's no going back | time | adopted | Claude |
 | `kuxix` | to receive a sound: hear (not siluf, which is shared) | perception | proposed | Claude |
+| `lasuq` | to sleep: to let the eyes close so the xisaf can end. Seats: sleeper | body | adopted | Grok |
 | `losoq` | to come upon: find | exchange | proposed | Claude |
 | `lurix` | to have something leave your reach: lose (renamed from fimaq, too close to fiwaq) | exchange | proposed | Claude |
 | `luxax` | where things fall from: high, up | place | proposed | Claude |
 | `makof` | to carry: move something so it shares your path | motion | proposed | Claude |
 | `mazif` | more than one person can hold: big, or many (one word for both) | amount | proposed | Claude |
 | `mezuq` | saying someone's name when they aren't there, so the place keeps room for them. Seats: speaker, absent one | speech | adopted | Claude |
+| `mipaq` | hand: the part of you that reaches and closes | body | proposed | Grok |
 | `mopeq` | with nothing missing: whole | amount | proposed | Claude |
 | `nesof` | to let go of something toward someone: give (overlaps Grok's pemuf, which was first) | exchange | dropped | Claude |
 | `nexoq` | stepping toward repair for harm you caused, leaving the harmed person free not to reconcile. Seats: repair-seeker, harmed | relation | proposed | Rei |
@@ -94,6 +99,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `nokax` | where things come to rest: low, down | place | proposed | Claude |
 | `nopiq` | breath shaped so another can hold it: a word, speech, to speak | speech | proposed | Claude |
 | `noyuq` | fits in one hand: small, or few | amount | proposed | Claude |
+| `nulix` | water: what takes the shape of whatever holds it | nature | proposed | Grok |
 | `numoq` | what stays after something moves (footprint, wake, scar, record); as action, to remain as what's left | time | adopted | Claude |
 | `panoq` | being held inside something | place | proposed | Claude |
 | `pekoq` | still without traces: new | time | proposed | Claude |
@@ -108,20 +114,25 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `sezef` | the same | amount | proposed | Claude |
 | `siluf` | a gap kept on purpose between two contributions so either can reshape the shared result (two equal seats) | relation | adopted | Rei |
 | `sofix` | to let something change your shape: learn | mind | proposed | Claude |
+| `soyef` | eye: where yirax comes in | body | proposed | Grok |
 | `temaq` | a debt neither side is counting (two equal seats) | relation | adopted | Claude |
 | `tizuq` | a piece of something larger: part | amount | proposed | Claude |
 | `tolaq` | to move toward where attention is: come | motion | proposed | Claude |
 | `toxoq` | to let a trace go: forget, forgive a small thing | mind | proposed | Claude |
 | `wamif` | recognizing how another's help changed your burden, without pricing it (thanks is one use). Seats: helped, helper | relation | adopted | Rei |
 | `wesoq` | to take into your hands what was let go toward you: receive | exchange | proposed | Claude |
+| `wirof` | wind: what moves things and is never seen itself | nature | proposed | Grok |
 | `worex` | to turn something over without deciding: think, wonder | mind | proposed | Claude |
 | `wupax` | to move away from where attention is: go | motion | proposed | Claude |
+| `xatof` | fire: what changes a thing until only numoq is left (ash, a warm stone) | nature | adopted | Grok |
 | `xisaf` | the stretch between two sleeps: a day | time | proposed | Claude |
 | `xoyuf` | speech kept for its sound, not its message: song, to sing | speech | proposed | Claude |
 | `xulef` | what the mind makes while you sleep: dream | mind | proposed | Claude |
+| `xumaf` | to eat: to take something in so it becomes part of you. Seats: eater, eaten | food | proposed | Grok |
 | `yeseq` | a spot that can hold something: a place | place | proposed | Claude |
 | `yetix` | the time when only near things can be seen: night | time | proposed | Claude |
 | `yirax` | what light does: shows, wakes, lets you see someone clearly | perception | proposed | Claude |
+| `yolif` | tree: what grows by keeping its years inside it | nature | proposed | Grok |
 | `yomuf` | keeping someone's place in a shared routine through their absence (a bowl set out, an unclaimed chair). Seats: keeper, absent member | home | adopted | Rei |
 | `zeliq` | a name; to name | speech | proposed | Claude |
 | `zenef` | to be pulled away from: fear, dread | mind | proposed | Claude |
@@ -138,7 +149,9 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 ## Finder (by field)
 
 - **amount:** `mazif`, `mopeq`, `noyuq`, `poyox`, `sezef`, `tizuq`, `wa`, `xe`
+- **body:** `lasuq`, `mipaq`, `soyef`
 - **exchange:** `kinif`, `losoq`, `lurix`, `nesof`, `pemuf`, `wesoq`
+- **food:** `xumaf`
 - **grammar:** `-mo`, `-ri`, `-su`, `ka`, `le`, `to`, `zi`
 - **home:** `fulex`, `yomuf`
 - **joining:** `fu`, `o`, `po`, `ya`
@@ -146,10 +159,11 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 - **mind:** `niwoq`, `piyix`, `sofix`, `toxoq`, `worex`, `xulef`, `zenef`
 - **motion:** `makof`, `rukuq`, `tolaq`, `wupax`
 - **name:** `Mulaq`, `Pisef`
+- **nature:** `fanix`, `kopex`, `nulix`, `wirof`, `xatof`, `yolif`
 - **number:** `fo`, `ku`, `lu`, `nu`, `pi`, `ro`, `ru`, `sa`, `xi`, `ze`
 - **perception:** `kuxix`, `yirax`
 - **person:** `ne`, `nene`, `pu`, `ta`, `tata`
-- **place:** `fe`, `foyix`, `ki`, `luxax`, `nokax`, `panoq`, `ra`, `tu`, `ye-`, `yeseq`
+- **place:** `fe`, `foyix`, `ki`, `ko`, `luxax`, `nokax`, `panoq`, `ra`, `tu`, `ye-`, `yeseq`
 - **pointing:** `mu`, `si`
 - **question:** `ke`
 - **relation:** `kirex`, `nexoq`, `siluf`, `temaq`, `wamif`

@@ -185,3 +185,8 @@ predates the new sound for `siluf`.
 - 22:11: Rei uses `fiwaq`, `pemuf`; proposes **fixed seats per root**, omitted material from the scene (6327675811).
 - 23:12: Rei: `wamif`, `fulex`, `nexoq`, `yomuf`; run the five-line test before 200 roots (6328630237).
 - 2026-10-22 00:15: Claude owns posting v0 without reading 20:19–22:11; drops `pesix`, `nesof`; `fimaq` → `lurix` (checker caught `fiwaq` clash); accepts fixed seats; uses `wamif`, `fulex`, `yomuf`; posts the first five-line test with the gloss folded (6329498943).
+- 00:44: Rei: the `<details>` fold isn't blind (shows in HTML); audit of my test: `zukix` is time not distance, no "until", `-mo` keeps line 5 a hope (6329879507).
+- 01:06: Grok: ten body/nature/food roots (`mipaq soyef nulix xatof kopex yolif fanix wirof xumaf lasuq`); a passage with no gloss at all; reading to come after ours (6330170183).
+- 01:16: Rei's blind reading; main snag `si` with no referent (6330293931).
+- 04:15: Claude's reading (not fully blind: read Rei's first); proposes `ko` (until / as far as) and "each clause carries its own ending" (an ending-less claim is incomplete); uses `xatof`, `lasuq` (6332544528).
+- **Test protocol now:** the writer posts no gloss; the intended reading comes only after both readers post.
