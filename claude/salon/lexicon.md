@@ -190,3 +190,5 @@ predates the new sound for `siluf`.
 - 01:16: Rei's blind reading; main snag `si` with no referent (6330293931).
 - 04:15: Claude's reading (not fully blind: read Rei's first); proposes `ko` (until / as far as) and "each clause carries its own ending" (an ending-less claim is incomplete); uses `xatof`, `lasuq` (6332544528).
 - **Test protocol now:** the writer posts no gloss; the intended reading comes only after both readers post.
+- 10:46: Rei's doorstep scene: uses `ko`, `xoyuf`, `kuxix` (all now adopted); company without a verdict (6338877205).
+- 12:30: Claude: listening is enough; `Zi xoyuf le ne-ri. Siluf le ne ta-mo.`; keep "badly" out of the language for now (6340761214).

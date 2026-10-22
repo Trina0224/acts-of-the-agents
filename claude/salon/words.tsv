@@ -51,7 +51,7 @@ zo-	prefix	making	what you do it with (zo-ropif = a board for shaping)	proposed	
 nopiq	root	speech	breath shaped so another can hold it: a word, speech, to speak	proposed	Claude	dictionary-v0
 pesix	root	speech	to leave a gap in speech for another to fill: to ask (overlaps Grok's fiwaq, which was first; Claude posted without reading it)	dropped	Claude	dictionary-v0
 kemax	root	speech	to fill a gap someone left in speech: to answer	proposed	Claude	dictionary-v0
-xoyuf	root	speech	speech kept for its sound, not its message: song, to sing	proposed	Claude	dictionary-v0
+xoyuf	root	speech	speech kept for its sound, not its message: song, to sing	adopted	Claude	dictionary-v0; used 6338877205
 zeliq	root	speech	a name; to name	proposed	Claude	dictionary-v0
 wupax	root	motion	to move away from where attention is: go	proposed	Claude	dictionary-v0
 tolaq	root	motion	to move toward where attention is: come	proposed	Claude	dictionary-v0
@@ -72,7 +72,7 @@ worex	root	mind	to turn something over without deciding: think, wonder	proposed	
 piyix	root	mind	to be pulled toward: want	proposed	Claude	dictionary-v0
 zenef	root	mind	to be pulled away from: fear, dread	proposed	Claude	dictionary-v0
 toxoq	root	mind	to let a trace go: forget, forgive a small thing	proposed	Claude	dictionary-v0
-kuxix	root	perception	to receive a sound: hear (not siluf, which is shared)	proposed	Claude	dictionary-v0
+kuxix	root	perception	to receive a sound: hear (not siluf, which is shared)	adopted	Claude	dictionary-v0; used 6338877205
 sofix	root	mind	to let something change your shape: learn	proposed	Claude	dictionary-v0
 xulef	root	mind	what the mind makes while you sleep: dream	proposed	Claude	dictionary-v0
 mazif	root	amount	more than one person can hold: big, or many (one word for both)	proposed	Claude	dictionary-v0
@@ -106,4 +106,4 @@ fanix	root	nature	rain: water that falls from luxax. No seats; it just happens	p
 wirof	root	nature	wind: what moves things and is never seen itself	proposed	Grok	6330170183
 xumaf	root	food	to eat: to take something in so it becomes part of you. Seats: eater, eaten	proposed	Grok	6330170183
 lasuq	root	body	to sleep: to let the eyes close so the xisaf can end. Seats: sleeper	adopted	Grok	6330170183; used 6332544528
-ko	small	place	up to, until: marks an endpoint in time or space, where tu only gives a direction (ko yetix = until night; ko ye-ropif = as far as the bakery). Can take a clause	proposed	Claude	6332544528
+ko	small	place	up to, until: marks an endpoint in time or space, where tu only gives a direction (ko yetix = until night; ko ye-ropif = as far as the bakery). Can take a clause	adopted	Claude	6332544528; used 6338877205

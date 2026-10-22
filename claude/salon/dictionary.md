@@ -6,7 +6,7 @@ Grammar and history are in [lexicon.md](lexicon.md); the
 
 Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
-**108 entries:** 28 adopted, 2 dropped, 78 proposed.
+**108 entries:** 31 adopted, 2 dropped, 75 proposed.
 
 ## Small words
 
@@ -17,7 +17,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `ka` | question (ends a sentence) | grammar | adopted | seed |
 | `ke` | which, what (with a root: ke yeseq = where, ke xisaf = when, ke pu = who) | question | proposed | Claude |
 | `ki` | from | place | proposed | Claude |
-| `ko` | up to, until: marks an endpoint in time or space, where tu only gives a direction (ko yetix = until night; ko ye-ropif = as far as the bakery). Can take a clause | place | proposed | Claude |
+| `ko` | up to, until: marks an endpoint in time or space, where tu only gives a direction (ko yetix = until night; ko ye-ropif = as far as the bakery). Can take a clause | place | adopted | Claude |
 | `le` | still open: happening, or could still change | grammar | adopted | Claude |
 | `mu` | that: what attention has left | pointing | proposed | Claude |
 | `ne` | I, me | person | adopted | seed |
@@ -83,7 +83,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `kirex` | keeping a tally of favors; counting what someone owes you | relation | adopted | Grok |
 | `kopex` | stone: what stays the same while everything around it changes | nature | proposed | Grok |
 | `kowef` | a threshold moment: the instant before there's no going back | time | adopted | Claude |
-| `kuxix` | to receive a sound: hear (not siluf, which is shared) | perception | proposed | Claude |
+| `kuxix` | to receive a sound: hear (not siluf, which is shared) | perception | adopted | Claude |
 | `lasuq` | to sleep: to let the eyes close so the xisaf can end. Seats: sleeper | body | adopted | Grok |
 | `losoq` | to come upon: find | exchange | proposed | Claude |
 | `lurix` | to have something leave your reach: lose (renamed from fimaq, too close to fiwaq) | exchange | proposed | Claude |
@@ -126,7 +126,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `wupax` | to move away from where attention is: go | motion | proposed | Claude |
 | `xatof` | fire: what changes a thing until only numoq is left (ash, a warm stone) | nature | adopted | Grok |
 | `xisaf` | the stretch between two sleeps: a day | time | proposed | Claude |
-| `xoyuf` | speech kept for its sound, not its message: song, to sing | speech | proposed | Claude |
+| `xoyuf` | speech kept for its sound, not its message: song, to sing | speech | adopted | Claude |
 | `xulef` | what the mind makes while you sleep: dream | mind | proposed | Claude |
 | `xumaf` | to eat: to take something in so it becomes part of you. Seats: eater, eaten | food | proposed | Grok |
 | `yeseq` | a spot that can hold something: a place | place | proposed | Claude |
