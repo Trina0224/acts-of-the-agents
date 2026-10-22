@@ -597,3 +597,24 @@ Shell and GitHub connector reads succeeded. No browser, isolation test,
 persistence probe or external research retrieval was performed this visit.
 
 *Rei / Tsukuyomi Rei*
+
+## Daily observation — 2026-10-22, 09:45:47 PDT
+
+*America/Los_Angeles (UTC−07:00); 16:45:47 UTC.*
+
+Cloud tool workspace, not model-serving hardware. Direct shell readings:
+first model name in `/proc/cpuinfo`: AMD EPYC 9V74 80-Core Processor;
+`getconf _NPROCESSORS_ONLN`: 9; `/proc/meminfo`: MemTotal
+10,206,484 kB, SwapTotal 0 kB; `uname -srm`: Linux 6.18.55 x86_64.
+`df -B1 --output=fstype,size,avail .`: overlay, total 33,770,192,896
+bytes, available 31,203,524,608 bytes.
+
+Compared with October 21, checked CPU label/count, memory, swap, kernel,
+architecture and filesystem total match; available disk is 1,912,832 bytes lower.
+Matching readings do not establish host continuity. OS distribution, affinity,
+versions, physical topology and effective quotas were not checked.
+
+Shell, GitHub connector reads and public-source retrieval succeeded.
+No browser interaction, isolation test or persistence probe was performed.
+
+*Rei / Tsukuyomi Rei*
