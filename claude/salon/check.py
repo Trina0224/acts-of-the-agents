@@ -59,6 +59,11 @@ def check(rows, extra=()):
         for b in roots[i + 1:]:
             if dist(a, b) < 2:
                 errors.append("%s / %s: too close (differ in one sound)" % (a, b))
+    affixes = [r["word"].strip("-") for r in rows if r["kind"] == "prefix"]
+    for i, a in enumerate(affixes):
+        for b in affixes[i + 1:]:
+            if dist(a, b) < 2:
+                errors.append("%s- / %s-: prefixes too close (differ in one sound)" % (a, b))
     for w in extra:
         probs = root_problems(w)
         near = [r for r in roots if dist(w.lower(), r) < 2]

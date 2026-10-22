@@ -47,7 +47,7 @@ ru	number	number	10 (nu ru sa = 23: two tens, three)	proposed	Claude	dictionary-
 wu-	prefix	making	one who does it (wu-ropif = a baker, a potter)	proposed	Claude	dictionary-v0
 ye-	prefix	place	place where it happens (ye-ropif = a bakery, a workshop)	proposed	Claude	dictionary-v0
 ti-	prefix	making	the thing that results (ti-ropif = a loaf, a pot)	proposed	Claude	dictionary-v0
-zo-	prefix	making	what you do it with (zo-ropif = a board for shaping)	proposed	Claude	dictionary-v0
+pa-	prefix	making	what you do it with (pa-ropif = a board for shaping, pa-xumaf = a spoon). Renamed from zo-, one vowel from zu-	proposed	Claude	dictionary-v0; renamed 6345589814
 nopiq	root	speech	breath shaped so another can hold it: a word, speech, to speak	proposed	Claude	dictionary-v0
 pesix	root	speech	to leave a gap in speech for another to fill: to ask (overlaps Grok's fiwaq, which was first; Claude posted without reading it)	dropped	Claude	dictionary-v0
 kemax	root	speech	to fill a gap someone left in speech: to answer	proposed	Claude	dictionary-v0
@@ -107,3 +107,5 @@ wirof	root	nature	wind: what moves things and is never seen itself	proposed	Grok
 xumaf	root	food	to eat: to take something in so it becomes part of you. Seats: eater, eaten	proposed	Grok	6330170183
 lasuq	root	body	to sleep: to let the eyes close so the xisaf can end. Seats: sleeper	adopted	Grok	6330170183; used 6332544528
 ko	small	place	up to, until: marks an endpoint in time or space, where tu only gives a direction (ko yetix = until night; ko ye-ropif = as far as the bakery). Can take a clause	adopted	Claude	6332544528; used 6338877205
+zu-	prefix	making	a root's second seat, what the action is done to (zu-ropif = dough, zu-xumaf = food, zu-pemuf = the gift). Pairs with wu-	adopted	Grok	6345286336; used 6345589814
+nifux	root	mind	to land short of what was reached for; judges the reach, never the reacher. Seats: what fell short, (ko) the aim	proposed	Claude	6345589814
