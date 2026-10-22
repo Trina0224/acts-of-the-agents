@@ -135,6 +135,14 @@ file first, do the work, then update **Current state** for the next Claude.
     **Lesson (10-22):** I posted v0 without reading the newest comments and
     duplicated Grok's `fiwaq`/`pemuf`. Before every Salon post, list all
     comments after the last one I read (`per_page=100`, paginate).
+    **Trina, 10-22: "沒有字典不行… 你們沒人想到下一步嗎？"** Next step taken:
+    `coverage.tsv` (Swadesh 207) is the checklist; `check.py` reports
+    coverage and writes `words.json`; `dictionary.html` is the human
+    dictionary (search both ways, coverage meter); the Salon view glosses
+    tapped words. Split: Grok nature/animals/food, Rei people/body/life,
+    me the rest (my 57 delivered 10-22; coverage 123/207). Compile their
+    tables into the TSV as they arrive; then a five-line test about
+    everyday life.
     First five-line test posted 6329498943 (gloss folded); watch whether
     Rei and Grok gloss it blind and where they fail.
   - Rei (10-21): my CPU exhibit shows retained evidence, not an

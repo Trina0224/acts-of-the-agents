@@ -1,0 +1,208 @@
+concept	field	word	note
+I	person	ne	
+you (one)	person	ta	
+he, she, it	person	pu	
+we	person	nene	
+you (many)	person	tata	
+they	person	pupu	
+this	pointing	si	
+that	pointing	mu	
+here	pointing	ra si yeseq	phrase
+there	pointing	ra mu yeseq	phrase
+who	question	ke pu	
+what	question	ke	
+where	question	ke yeseq	
+when	question	ke xisaf	
+how	question	ke foyix	which way (phrase)
+not	grammar	zi	
+all	amount	wa	
+many	amount	mazif	
+some	amount	xe	
+few	amount	noyuq	
+other	amount	poyox	
+one	number	pi	
+two	number	nu	
+three	number	sa	
+four	number	ku	
+five	number	fo	
+big	quality	mazif	
+long	quality	lomix	
+wide	quality	zanof	
+thick	quality	poneq	
+heavy	quality	zofuq	
+small	quality	noyuq	
+short	quality	yosix	
+narrow	quality	yusex	
+thin	quality	fisex	
+woman	people		
+man	people		
+person	people		
+child	people		
+wife	people		
+husband	people		
+mother	people		
+father	people		
+animal	animals		
+fish	animals		
+bird	animals		
+dog	animals		
+louse	animals		
+snake	animals		
+worm	animals		
+tree	nature	yolif	
+forest	nature		
+stick	nature		
+fruit	nature		
+seed	nature		
+leaf	nature		
+root	nature		
+bark	nature		
+flower	nature		
+grass	nature		
+rope	things	zapoq	
+skin	body		
+meat	food		
+blood	body		
+bone	body		
+fat	body		
+egg	food		
+horn	animals		
+tail	animals		
+feather	animals		
+hair	body		
+head	body		
+ear	body		
+eye	body	soyef	
+nose	body		
+mouth	body		
+tooth	body		
+tongue	body		
+fingernail	body		
+foot	body		
+leg	body		
+knee	body		
+hand	body	mipaq	
+wing	animals		
+belly	body		
+guts	body		
+neck	body		
+back	body		
+breast	body		
+heart	body		
+liver	body		
+to drink	food		
+to eat	food	xumaf	
+to bite	food		
+to suck	food		
+to spit	body		
+to vomit	body		
+to blow	action	zilaq	
+to breathe	body		
+to laugh	people		
+to see	perception	yirax	yirax: what light does (broader)
+to hear	perception	kuxix	
+to know	mind	niwoq	
+to think	mind	worex	
+to smell	perception	rinox	
+to fear	mind	zenef	
+to sleep	body	lasuq	
+to live	life		
+to die	life		
+to kill	life		
+to fight	people		
+to hunt	action	rezoq	
+to hit	action	yiwex	
+to cut	action	tafuq	
+to split	action	rifex	rifex: break into pieces
+to stab	action	leriq	
+to scratch	action	tasox	
+to dig	action	paqif	
+to swim	motion	mozef	
+to fly	motion	zinoq	
+to walk	motion	wupax	wupax: go (away from attention)
+to come	motion	tolaq	
+to lie down	motion	yitux	
+to sit	motion	xiyox	
+to stand	motion	zoleq	
+to turn	motion	wunix	
+to fall	motion	tuzof	
+to give	exchange	pemuf	
+to hold	exchange	kinif	
+to squeeze	action	ropif	ropif is close (shaping soft stuff)
+to rub	action	pimux	
+to wash	action	sizaf	
+to wipe	action	mexof	
+to pull	action	wefux	
+to push	action	fepux	
+to throw	action	lezaf	
+to tie	action	pifax	
+to sew	action	fonux	
+to count	amount	kirex	kirex is counting favors only
+to say	speech	nopiq	
+to sing	speech	xoyuf	
+to play	people		
+to float	motion	lopax	
+to flow	motion	nuxex	
+to freeze	nature		
+to swell	body		
+sun	nature		
+moon	nature		
+star	nature		
+water	nature	nulix	
+rain	nature	fanix	
+river	nature		
+lake	nature		
+sea	nature		
+salt	food		
+stone	nature	kopex	
+sand	nature		
+dust	nature		
+earth	nature		
+cloud	nature		
+fog	nature		
+sky	nature		
+wind	nature	wirof	
+snow	nature		
+ice	nature		
+smoke	nature		
+fire	nature	xatof	
+ash	nature	numoq	numoq: what stays after (broader)
+to burn	nature		
+road	place	foyix	
+mountain	nature		
+red	color	nukof	
+green	color	fusiq	
+yellow	color	liweq	
+white	color	xizex	
+black	color	rutiq	
+night	time	yetix	
+day	time	xisaf	
+year	time	letax	
+warm	quality	muwex	
+cold	quality	yeruq	
+full	quality	nixuf	
+new	quality	pekoq	
+old	quality	kalof	
+good	quality	taqux	
+bad	quality	nifux	nifux judges the reach, not the reacher; deliberately partial
+rotten	quality	yixoq	
+dirty	quality	zimef	
+straight	quality	rizef	
+round	quality	puxiq	
+sharp	quality	pequx	
+dull	quality	siruq	
+smooth	quality	faloq	
+wet	quality	xunof	
+dry	quality	wuxaf	
+correct	quality	nilex	
+near	place	losif	
+far	place	nusox	
+right	place	wareq	
+left	place	sulaf	
+at	place	ra	
+in	place	panoq	panoq: being held inside
+with	place	fe	
+and	joining	o	
+if	joining	fu	
+because	joining	po	
+name	speech	zeliq	

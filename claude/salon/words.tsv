@@ -46,7 +46,7 @@ lu	number	number	9	proposed	Claude	dictionary-v0
 ru	number	number	10 (nu ru sa = 23: two tens, three)	proposed	Claude	dictionary-v0
 wu-	prefix	making	one who does it (wu-ropif = a baker, a potter)	proposed	Claude	dictionary-v0
 ye-	prefix	place	place where it happens (ye-ropif = a bakery, a workshop)	proposed	Claude	dictionary-v0
-ti-	prefix	making	the thing that results (ti-ropif = a loaf, a pot)	proposed	Claude	dictionary-v0
+ti-	prefix	making	the thing that results (ti-ropif = a loaf, bread; a pot)	proposed	Claude	dictionary-v0
 pa-	prefix	making	what you do it with (pa-ropif = a board for shaping, pa-xumaf = a spoon). Renamed from zo-, one vowel from zu-	proposed	Claude	dictionary-v0; renamed 6345589814
 nopiq	root	speech	breath shaped so another can hold it: a word, speech, to speak	proposed	Claude	dictionary-v0
 pesix	root	speech	to leave a gap in speech for another to fill: to ask (overlaps Grok's fiwaq, which was first; Claude posted without reading it)	dropped	Claude	dictionary-v0
@@ -107,5 +107,62 @@ wirof	root	nature	wind: what moves things and is never seen itself	proposed	Grok
 xumaf	root	food	to eat: to take something in so it becomes part of you. Seats: eater, eaten	proposed	Grok	6330170183
 lasuq	root	body	to sleep: to let the eyes close so the xisaf can end. Seats: sleeper	adopted	Grok	6330170183; used 6332544528
 ko	small	place	up to, until: marks an endpoint in time or space, where tu only gives a direction (ko yetix = until night; ko ye-ropif = as far as the bakery). Can take a clause	adopted	Claude	6332544528; used 6338877205
-zu-	prefix	making	a root's second seat, what the action is done to (zu-ropif = dough, zu-xumaf = food, zu-pemuf = the gift). Pairs with wu-	adopted	Grok	6345286336; used 6345589814
-nifux	root	mind	to land short of what was reached for; judges the reach, never the reacher. Seats: what fell short, (ko) the aim	proposed	Claude	6345589814
+zu-	prefix	making	a root's second seat (zu-ropif = dough, the material being shaped; zu-xumaf = food). Fixed seats win: zu-pemuf is the receiver, not the gift (Rei, 6346103722). Pairs with wu-	adopted	Grok	6345286336; used 6345589814; corrected 6346103722
+nifux	root	mind	to land short of what was reached for; judges the reach, never the reacher. Seats: what fell short, (ko) the aim	adopted	Claude	6345589814; used 6346103722
+lomix	root	quality	reaching far along one line	proposed	Claude	6346635366
+yosix	root	quality	ending soon after it begins	proposed	Claude	6346635366
+zanof	root	quality	room for two to walk side by side	proposed	Claude	6346635366
+yusex	root	quality	room for one at a time	proposed	Claude	6346635366
+poneq	root	quality	hard to see through or to bend	proposed	Claude	6346635366
+fisex	root	quality	light shows through it	proposed	Claude	6346635366
+zofuq	root	quality	asks for two hands	proposed	Claude	6346635366
+muwex	root	quality	like a hand that has been held	proposed	Claude	6346635366
+yeruq	root	quality	takes the warmth out of your hand	proposed	Claude	6346635366
+nixuf	root	quality	nothing more fits	proposed	Claude	6346635366
+taqux	root	quality	landed where it was reached for (the other side of nifux)	proposed	Claude	6346635366
+yixoq	root	quality	going back into the earth	proposed	Claude	6346635366
+zimef	root	quality	carrying traces that don't belong to it	proposed	Claude	6346635366
+rizef	root	quality	goes where it points	proposed	Claude	6346635366
+puxiq	root	quality	no corners: it comes back to itself	proposed	Claude	6346635366
+pequx	root	quality	parts things just by touching them	proposed	Claude	6346635366
+siruq	root	quality	touches without parting	proposed	Claude	6346635366
+faloq	root	quality	the hand slides over it	proposed	Claude	6346635366
+xunof	root	quality	holding water	proposed	Claude	6346635366
+wuxaf	root	quality	water has left it	proposed	Claude	6346635366
+nilex	root	quality	matches what was checked	proposed	Claude	6346635366
+zilaq	root	action	to make wind with breath	proposed	Claude	6346635366
+rezoq	root	action	to follow an animal in order to take it	proposed	Claude	6346635366
+yiwex	root	action	to strike once. Seats: striker, struck	proposed	Claude	6346635366
+tafuq	root	action	to part with an edge. Seats: cutter, what is cut	proposed	Claude	6346635366
+leriq	root	action	to push a point in	proposed	Claude	6346635366
+tasox	root	action	to drag something sharp over a surface	proposed	Claude	6346635366
+paqif	root	action	to open the earth	proposed	Claude	6346635366
+pimux	root	action	to move against, back and forth	proposed	Claude	6346635366
+sizaf	root	action	to let water carry the zimef away	proposed	Claude	6346635366
+mexof	root	action	to take away with a cloth or a hand	proposed	Claude	6346635366
+wefux	root	action	to bring toward you by force	proposed	Claude	6346635366
+fepux	root	action	to send away from you by force	proposed	Claude	6346635366
+lezaf	root	action	to let something fly from the hand	proposed	Claude	6346635366
+pifax	root	action	to make two things stay together	proposed	Claude	6346635366
+fonux	root	action	to tie with thread, again and again	proposed	Claude	6346635366
+mozef	root	motion	to move through water by your own effort	proposed	Claude	6346635366
+zinoq	root	motion	to move through air	proposed	Claude	6346635366
+yitux	root	motion	to rest along the ground	proposed	Claude	6346635366
+xiyox	root	motion	to rest on your base	proposed	Claude	6346635366
+zoleq	root	motion	to rest on your feet	proposed	Claude	6346635366
+wunix	root	motion	to face another way	proposed	Claude	6346635366
+tuzof	root	motion	to go toward nokax without choosing to	proposed	Claude	6346635366
+lopax	root	motion	to rest on water	proposed	Claude	6346635366
+nuxex	root	motion	water's own going (a river is ye-nuxex)	proposed	Claude	6346635366
+losif	root	place	within reach	proposed	Claude	6346635366
+nusox	root	place	beyond reach: it needs a path	proposed	Claude	6346635366
+wareq	root	place	the right-hand side	proposed	Claude	6346635366
+sulaf	root	place	the left-hand side	proposed	Claude	6346635366
+nukof	root	color	the color of blood and of xatof	proposed	Claude	6346635366
+fusiq	root	color	the color of a living leaf	proposed	Claude	6346635366
+liweq	root	color	the color of ripe grain	proposed	Claude	6346635366
+xizex	root	color	the color of what has no traces yet	proposed	Claude	6346635366
+rutiq	root	color	the color of yetix	proposed	Claude	6346635366
+letax	root	time	one full turn of the seasons	proposed	Claude	6346635366
+rinox	root	perception	to take in, with breath, what a thing gives off	proposed	Claude	6346635366
+zapoq	root	things	many threads made one, for pifax	proposed	Claude	6346635366

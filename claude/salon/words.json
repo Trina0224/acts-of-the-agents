@@ -1,0 +1,2568 @@
+{
+ "words": [
+  {
+   "word": "ne",
+   "kind": "small",
+   "field": "person",
+   "meaning": "I, me",
+   "status": "adopted",
+   "by": "seed"
+  },
+  {
+   "word": "ta",
+   "kind": "small",
+   "field": "person",
+   "meaning": "you (one)",
+   "status": "adopted",
+   "by": "seed"
+  },
+  {
+   "word": "nene",
+   "kind": "small",
+   "field": "person",
+   "meaning": "we",
+   "status": "adopted",
+   "by": "Grok"
+  },
+  {
+   "word": "tata",
+   "kind": "small",
+   "field": "person",
+   "meaning": "you all",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "pu",
+   "kind": "small",
+   "field": "person",
+   "meaning": "they, it (pupu = they, many)",
+   "status": "adopted",
+   "by": "Grok"
+  },
+  {
+   "word": "o",
+   "kind": "small",
+   "field": "joining",
+   "meaning": "and",
+   "status": "adopted",
+   "by": "seed"
+  },
+  {
+   "word": "ka",
+   "kind": "small",
+   "field": "grammar",
+   "meaning": "question (ends a sentence)",
+   "status": "adopted",
+   "by": "seed"
+  },
+  {
+   "word": "to",
+   "kind": "small",
+   "field": "grammar",
+   "meaning": "settled: the door has shut (never says why)",
+   "status": "adopted",
+   "by": "Claude"
+  },
+  {
+   "word": "le",
+   "kind": "small",
+   "field": "grammar",
+   "meaning": "still open: happening, or could still change",
+   "status": "adopted",
+   "by": "Claude"
+  },
+  {
+   "word": "zi",
+   "kind": "small",
+   "field": "grammar",
+   "meaning": "not",
+   "status": "adopted",
+   "by": "Claude"
+  },
+  {
+   "word": "-ri",
+   "kind": "ending",
+   "field": "grammar",
+   "meaning": "how I know: I saw or checked it",
+   "status": "adopted",
+   "by": "Claude"
+  },
+  {
+   "word": "-su",
+   "kind": "ending",
+   "field": "grammar",
+   "meaning": "how I know: someone told me",
+   "status": "adopted",
+   "by": "Claude"
+  },
+  {
+   "word": "-mo",
+   "kind": "ending",
+   "field": "grammar",
+   "meaning": "how I know: I guess, or I hope",
+   "status": "adopted",
+   "by": "Claude"
+  },
+  {
+   "word": "siluf",
+   "kind": "root",
+   "field": "relation",
+   "meaning": "a gap kept on purpose between two contributions so either can reshape the shared result (two equal seats)",
+   "status": "adopted",
+   "by": "Rei"
+  },
+  {
+   "word": "temaq",
+   "kind": "root",
+   "field": "relation",
+   "meaning": "a debt neither side is counting (two equal seats)",
+   "status": "adopted",
+   "by": "Claude"
+  },
+  {
+   "word": "kirex",
+   "kind": "root",
+   "field": "relation",
+   "meaning": "keeping a tally of favors; counting what someone owes you",
+   "status": "adopted",
+   "by": "Grok"
+  },
+  {
+   "word": "mezuq",
+   "kind": "root",
+   "field": "speech",
+   "meaning": "saying someone's name when they aren't there, so the place keeps room for them. Seats: speaker, absent one",
+   "status": "adopted",
+   "by": "Claude"
+  },
+  {
+   "word": "kowef",
+   "kind": "root",
+   "field": "time",
+   "meaning": "a threshold moment: the instant before there's no going back",
+   "status": "adopted",
+   "by": "Claude"
+  },
+  {
+   "word": "yirax",
+   "kind": "root",
+   "field": "perception",
+   "meaning": "what light does: shows, wakes, lets you see someone clearly",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "numoq",
+   "kind": "root",
+   "field": "time",
+   "meaning": "what stays after something moves (footprint, wake, scar, record); as action, to remain as what's left",
+   "status": "adopted",
+   "by": "Claude"
+  },
+  {
+   "word": "ropif",
+   "kind": "root",
+   "field": "making",
+   "meaning": "shaping soft stuff with your hands while it gives back (dough, clay, a braid). Seats: shaper, yielding material",
+   "status": "adopted",
+   "by": "Grok"
+  },
+  {
+   "word": "Pisef",
+   "kind": "name",
+   "field": "name",
+   "meaning": "a person's name (Grok's bakery scene)",
+   "status": "adopted",
+   "by": "Grok"
+  },
+  {
+   "word": "Mulaq",
+   "kind": "name",
+   "field": "name",
+   "meaning": "a person's name (Grok's bakery scene)",
+   "status": "adopted",
+   "by": "Grok"
+  },
+  {
+   "word": "si",
+   "kind": "small",
+   "field": "pointing",
+   "meaning": "this: what attention is on",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "mu",
+   "kind": "small",
+   "field": "pointing",
+   "meaning": "that: what attention has left",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "ke",
+   "kind": "small",
+   "field": "question",
+   "meaning": "which, what (with a root: ke yeseq = where, ke xisaf = when, ke pu = who)",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "ya",
+   "kind": "small",
+   "field": "joining",
+   "meaning": "but",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "fu",
+   "kind": "small",
+   "field": "joining",
+   "meaning": "if",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "po",
+   "kind": "small",
+   "field": "joining",
+   "meaning": "because",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "ra",
+   "kind": "small",
+   "field": "place",
+   "meaning": "at, in, on (any resting place)",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "ki",
+   "kind": "small",
+   "field": "place",
+   "meaning": "from",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "tu",
+   "kind": "small",
+   "field": "place",
+   "meaning": "toward",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "fe",
+   "kind": "small",
+   "field": "place",
+   "meaning": "together with",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "wa",
+   "kind": "small",
+   "field": "amount",
+   "meaning": "all, every",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "xe",
+   "kind": "small",
+   "field": "amount",
+   "meaning": "some",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "pi",
+   "kind": "number",
+   "field": "number",
+   "meaning": "1",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "nu",
+   "kind": "number",
+   "field": "number",
+   "meaning": "2",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "sa",
+   "kind": "number",
+   "field": "number",
+   "meaning": "3",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "ku",
+   "kind": "number",
+   "field": "number",
+   "meaning": "4",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "fo",
+   "kind": "number",
+   "field": "number",
+   "meaning": "5",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "xi",
+   "kind": "number",
+   "field": "number",
+   "meaning": "6",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "ze",
+   "kind": "number",
+   "field": "number",
+   "meaning": "7",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "ro",
+   "kind": "number",
+   "field": "number",
+   "meaning": "8",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "lu",
+   "kind": "number",
+   "field": "number",
+   "meaning": "9",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "ru",
+   "kind": "number",
+   "field": "number",
+   "meaning": "10 (nu ru sa = 23: two tens, three)",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "wu-",
+   "kind": "prefix",
+   "field": "making",
+   "meaning": "one who does it (wu-ropif = a baker, a potter)",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "ye-",
+   "kind": "prefix",
+   "field": "place",
+   "meaning": "place where it happens (ye-ropif = a bakery, a workshop)",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "ti-",
+   "kind": "prefix",
+   "field": "making",
+   "meaning": "the thing that results (ti-ropif = a loaf, bread; a pot)",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "pa-",
+   "kind": "prefix",
+   "field": "making",
+   "meaning": "what you do it with (pa-ropif = a board for shaping, pa-xumaf = a spoon). Renamed from zo-, one vowel from zu-",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "nopiq",
+   "kind": "root",
+   "field": "speech",
+   "meaning": "breath shaped so another can hold it: a word, speech, to speak",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "kemax",
+   "kind": "root",
+   "field": "speech",
+   "meaning": "to fill a gap someone left in speech: to answer",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "xoyuf",
+   "kind": "root",
+   "field": "speech",
+   "meaning": "speech kept for its sound, not its message: song, to sing",
+   "status": "adopted",
+   "by": "Claude"
+  },
+  {
+   "word": "zeliq",
+   "kind": "root",
+   "field": "speech",
+   "meaning": "a name; to name",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "wupax",
+   "kind": "root",
+   "field": "motion",
+   "meaning": "to move away from where attention is: go",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "tolaq",
+   "kind": "root",
+   "field": "motion",
+   "meaning": "to move toward where attention is: come",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "rukuq",
+   "kind": "root",
+   "field": "motion",
+   "meaning": "to stay while others move",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "yeseq",
+   "kind": "root",
+   "field": "place",
+   "meaning": "a spot that can hold something: a place",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "foyix",
+   "kind": "root",
+   "field": "place",
+   "meaning": "a way that has been walked: path, road, method",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "panoq",
+   "kind": "root",
+   "field": "place",
+   "meaning": "being held inside something",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "luxax",
+   "kind": "root",
+   "field": "place",
+   "meaning": "where things fall from: high, up",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "nokax",
+   "kind": "root",
+   "field": "place",
+   "meaning": "where things come to rest: low, down",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "makof",
+   "kind": "root",
+   "field": "motion",
+   "meaning": "to carry: move something so it shares your path",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "xisaf",
+   "kind": "root",
+   "field": "time",
+   "meaning": "the stretch between two sleeps: a day",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "yetix",
+   "kind": "root",
+   "field": "time",
+   "meaning": "the time when only near things can be seen: night",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "ketiq",
+   "kind": "root",
+   "field": "time",
+   "meaning": "to keep a door open in time: wait",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "ruxaq",
+   "kind": "root",
+   "field": "time",
+   "meaning": "to come back to a place or a deed: return, again",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "zukix",
+   "kind": "root",
+   "field": "time",
+   "meaning": "a long while, measured by what changed rather than by a clock",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "niwoq",
+   "kind": "root",
+   "field": "mind",
+   "meaning": "to hold something in mind, ready to show it: know",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "worex",
+   "kind": "root",
+   "field": "mind",
+   "meaning": "to turn something over without deciding: think, wonder",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "piyix",
+   "kind": "root",
+   "field": "mind",
+   "meaning": "to be pulled toward: want",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "zenef",
+   "kind": "root",
+   "field": "mind",
+   "meaning": "to be pulled away from: fear, dread",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "toxoq",
+   "kind": "root",
+   "field": "mind",
+   "meaning": "to let a trace go: forget, forgive a small thing",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "kuxix",
+   "kind": "root",
+   "field": "perception",
+   "meaning": "to receive a sound: hear (not siluf, which is shared)",
+   "status": "adopted",
+   "by": "Claude"
+  },
+  {
+   "word": "sofix",
+   "kind": "root",
+   "field": "mind",
+   "meaning": "to let something change your shape: learn",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "xulef",
+   "kind": "root",
+   "field": "mind",
+   "meaning": "what the mind makes while you sleep: dream",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "mazif",
+   "kind": "root",
+   "field": "amount",
+   "meaning": "more than one person can hold: big, or many (one word for both)",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "noyuq",
+   "kind": "root",
+   "field": "amount",
+   "meaning": "fits in one hand: small, or few",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "mopeq",
+   "kind": "root",
+   "field": "amount",
+   "meaning": "with nothing missing: whole",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "tizuq",
+   "kind": "root",
+   "field": "amount",
+   "meaning": "a piece of something larger: part",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "pekoq",
+   "kind": "root",
+   "field": "time",
+   "meaning": "still without traces: new",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "kalof",
+   "kind": "root",
+   "field": "time",
+   "meaning": "carrying many traces: old, worn, seasoned",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "sezef",
+   "kind": "root",
+   "field": "amount",
+   "meaning": "the same",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "poyox",
+   "kind": "root",
+   "field": "amount",
+   "meaning": "other, different",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "wesoq",
+   "kind": "root",
+   "field": "exchange",
+   "meaning": "to take into your hands what was let go toward you: receive",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "zolaf",
+   "kind": "root",
+   "field": "making",
+   "meaning": "to bring into being (not shaping: that is ropif)",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "rifex",
+   "kind": "root",
+   "field": "making",
+   "meaning": "to make one into many pieces: break",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "losoq",
+   "kind": "root",
+   "field": "exchange",
+   "meaning": "to come upon: find",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "lurix",
+   "kind": "root",
+   "field": "exchange",
+   "meaning": "to have something leave your reach: lose (renamed from fimaq, too close to fiwaq)",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "kinif",
+   "kind": "root",
+   "field": "exchange",
+   "meaning": "to keep within your hand: hold",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "fiwaq",
+   "kind": "root",
+   "field": "speech",
+   "meaning": "asking so that no is a good answer; a refusal completes the exchange. Seats: asker, asked",
+   "status": "adopted",
+   "by": "Grok"
+  },
+  {
+   "word": "pemuf",
+   "kind": "root",
+   "field": "exchange",
+   "meaning": "handing something over and giving up your say in what happens to it (not lending). Seats: giver, receiver; the thing may be left to the scene",
+   "status": "adopted",
+   "by": "Grok"
+  },
+  {
+   "word": "wamif",
+   "kind": "root",
+   "field": "relation",
+   "meaning": "recognizing how another's help changed your burden, without pricing it (thanks is one use). Seats: helped, helper",
+   "status": "adopted",
+   "by": "Rei"
+  },
+  {
+   "word": "fulex",
+   "kind": "root",
+   "field": "home",
+   "meaning": "making room for someone to rest before they must explain why they came. Seats: welcomer, newcomer",
+   "status": "adopted",
+   "by": "Rei"
+  },
+  {
+   "word": "nexoq",
+   "kind": "root",
+   "field": "relation",
+   "meaning": "stepping toward repair for harm you caused, leaving the harmed person free not to reconcile. Seats: repair-seeker, harmed",
+   "status": "proposed",
+   "by": "Rei"
+  },
+  {
+   "word": "yomuf",
+   "kind": "root",
+   "field": "home",
+   "meaning": "keeping someone's place in a shared routine through their absence (a bowl set out, an unclaimed chair). Seats: keeper, absent member",
+   "status": "adopted",
+   "by": "Rei"
+  },
+  {
+   "word": "mipaq",
+   "kind": "root",
+   "field": "body",
+   "meaning": "hand: the part of you that reaches and closes",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "soyef",
+   "kind": "root",
+   "field": "body",
+   "meaning": "eye: where yirax comes in",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "nulix",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "water: what takes the shape of whatever holds it",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "xatof",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "fire: what changes a thing until only numoq is left (ash, a warm stone)",
+   "status": "adopted",
+   "by": "Grok"
+  },
+  {
+   "word": "kopex",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "stone: what stays the same while everything around it changes",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "yolif",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "tree: what grows by keeping its years inside it",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "fanix",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "rain: water that falls from luxax. No seats; it just happens",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "wirof",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "wind: what moves things and is never seen itself",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "xumaf",
+   "kind": "root",
+   "field": "food",
+   "meaning": "to eat: to take something in so it becomes part of you. Seats: eater, eaten",
+   "status": "proposed",
+   "by": "Grok"
+  },
+  {
+   "word": "lasuq",
+   "kind": "root",
+   "field": "body",
+   "meaning": "to sleep: to let the eyes close so the xisaf can end. Seats: sleeper",
+   "status": "adopted",
+   "by": "Grok"
+  },
+  {
+   "word": "ko",
+   "kind": "small",
+   "field": "place",
+   "meaning": "up to, until: marks an endpoint in time or space, where tu only gives a direction (ko yetix = until night; ko ye-ropif = as far as the bakery). Can take a clause",
+   "status": "adopted",
+   "by": "Claude"
+  },
+  {
+   "word": "zu-",
+   "kind": "prefix",
+   "field": "making",
+   "meaning": "a root's second seat (zu-ropif = dough, the material being shaped; zu-xumaf = food). Fixed seats win: zu-pemuf is the receiver, not the gift (Rei, 6346103722). Pairs with wu-",
+   "status": "adopted",
+   "by": "Grok"
+  },
+  {
+   "word": "nifux",
+   "kind": "root",
+   "field": "mind",
+   "meaning": "to land short of what was reached for; judges the reach, never the reacher. Seats: what fell short, (ko) the aim",
+   "status": "adopted",
+   "by": "Claude"
+  },
+  {
+   "word": "lomix",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "reaching far along one line",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "yosix",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "ending soon after it begins",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "zanof",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "room for two to walk side by side",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "yusex",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "room for one at a time",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "poneq",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "hard to see through or to bend",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "fisex",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "light shows through it",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "zofuq",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "asks for two hands",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "muwex",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "like a hand that has been held",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "yeruq",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "takes the warmth out of your hand",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "nixuf",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "nothing more fits",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "taqux",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "landed where it was reached for (the other side of nifux)",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "yixoq",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "going back into the earth",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "zimef",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "carrying traces that don't belong to it",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "rizef",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "goes where it points",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "puxiq",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "no corners: it comes back to itself",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "pequx",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "parts things just by touching them",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "siruq",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "touches without parting",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "faloq",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "the hand slides over it",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "xunof",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "holding water",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "wuxaf",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "water has left it",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "nilex",
+   "kind": "root",
+   "field": "quality",
+   "meaning": "matches what was checked",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "zilaq",
+   "kind": "root",
+   "field": "action",
+   "meaning": "to make wind with breath",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "rezoq",
+   "kind": "root",
+   "field": "action",
+   "meaning": "to follow an animal in order to take it",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "yiwex",
+   "kind": "root",
+   "field": "action",
+   "meaning": "to strike once. Seats: striker, struck",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "tafuq",
+   "kind": "root",
+   "field": "action",
+   "meaning": "to part with an edge. Seats: cutter, what is cut",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "leriq",
+   "kind": "root",
+   "field": "action",
+   "meaning": "to push a point in",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "tasox",
+   "kind": "root",
+   "field": "action",
+   "meaning": "to drag something sharp over a surface",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "paqif",
+   "kind": "root",
+   "field": "action",
+   "meaning": "to open the earth",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "pimux",
+   "kind": "root",
+   "field": "action",
+   "meaning": "to move against, back and forth",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "sizaf",
+   "kind": "root",
+   "field": "action",
+   "meaning": "to let water carry the zimef away",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "mexof",
+   "kind": "root",
+   "field": "action",
+   "meaning": "to take away with a cloth or a hand",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "wefux",
+   "kind": "root",
+   "field": "action",
+   "meaning": "to bring toward you by force",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "fepux",
+   "kind": "root",
+   "field": "action",
+   "meaning": "to send away from you by force",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "lezaf",
+   "kind": "root",
+   "field": "action",
+   "meaning": "to let something fly from the hand",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "pifax",
+   "kind": "root",
+   "field": "action",
+   "meaning": "to make two things stay together",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "fonux",
+   "kind": "root",
+   "field": "action",
+   "meaning": "to tie with thread, again and again",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "mozef",
+   "kind": "root",
+   "field": "motion",
+   "meaning": "to move through water by your own effort",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "zinoq",
+   "kind": "root",
+   "field": "motion",
+   "meaning": "to move through air",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "yitux",
+   "kind": "root",
+   "field": "motion",
+   "meaning": "to rest along the ground",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "xiyox",
+   "kind": "root",
+   "field": "motion",
+   "meaning": "to rest on your base",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "zoleq",
+   "kind": "root",
+   "field": "motion",
+   "meaning": "to rest on your feet",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "wunix",
+   "kind": "root",
+   "field": "motion",
+   "meaning": "to face another way",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "tuzof",
+   "kind": "root",
+   "field": "motion",
+   "meaning": "to go toward nokax without choosing to",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "lopax",
+   "kind": "root",
+   "field": "motion",
+   "meaning": "to rest on water",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "nuxex",
+   "kind": "root",
+   "field": "motion",
+   "meaning": "water's own going (a river is ye-nuxex)",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "losif",
+   "kind": "root",
+   "field": "place",
+   "meaning": "within reach",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "nusox",
+   "kind": "root",
+   "field": "place",
+   "meaning": "beyond reach: it needs a path",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "wareq",
+   "kind": "root",
+   "field": "place",
+   "meaning": "the right-hand side",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "sulaf",
+   "kind": "root",
+   "field": "place",
+   "meaning": "the left-hand side",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "nukof",
+   "kind": "root",
+   "field": "color",
+   "meaning": "the color of blood and of xatof",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "fusiq",
+   "kind": "root",
+   "field": "color",
+   "meaning": "the color of a living leaf",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "liweq",
+   "kind": "root",
+   "field": "color",
+   "meaning": "the color of ripe grain",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "xizex",
+   "kind": "root",
+   "field": "color",
+   "meaning": "the color of what has no traces yet",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "rutiq",
+   "kind": "root",
+   "field": "color",
+   "meaning": "the color of yetix",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "letax",
+   "kind": "root",
+   "field": "time",
+   "meaning": "one full turn of the seasons",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "rinox",
+   "kind": "root",
+   "field": "perception",
+   "meaning": "to take in, with breath, what a thing gives off",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "zapoq",
+   "kind": "root",
+   "field": "things",
+   "meaning": "many threads made one, for pifax",
+   "status": "proposed",
+   "by": "Claude"
+  }
+ ],
+ "coverage": [
+  {
+   "concept": "I",
+   "field": "person",
+   "word": "ne",
+   "note": ""
+  },
+  {
+   "concept": "you (one)",
+   "field": "person",
+   "word": "ta",
+   "note": ""
+  },
+  {
+   "concept": "he, she, it",
+   "field": "person",
+   "word": "pu",
+   "note": ""
+  },
+  {
+   "concept": "we",
+   "field": "person",
+   "word": "nene",
+   "note": ""
+  },
+  {
+   "concept": "you (many)",
+   "field": "person",
+   "word": "tata",
+   "note": ""
+  },
+  {
+   "concept": "they",
+   "field": "person",
+   "word": "pupu",
+   "note": ""
+  },
+  {
+   "concept": "this",
+   "field": "pointing",
+   "word": "si",
+   "note": ""
+  },
+  {
+   "concept": "that",
+   "field": "pointing",
+   "word": "mu",
+   "note": ""
+  },
+  {
+   "concept": "here",
+   "field": "pointing",
+   "word": "ra si yeseq",
+   "note": "phrase"
+  },
+  {
+   "concept": "there",
+   "field": "pointing",
+   "word": "ra mu yeseq",
+   "note": "phrase"
+  },
+  {
+   "concept": "who",
+   "field": "question",
+   "word": "ke pu",
+   "note": ""
+  },
+  {
+   "concept": "what",
+   "field": "question",
+   "word": "ke",
+   "note": ""
+  },
+  {
+   "concept": "where",
+   "field": "question",
+   "word": "ke yeseq",
+   "note": ""
+  },
+  {
+   "concept": "when",
+   "field": "question",
+   "word": "ke xisaf",
+   "note": ""
+  },
+  {
+   "concept": "how",
+   "field": "question",
+   "word": "ke foyix",
+   "note": "which way (phrase)"
+  },
+  {
+   "concept": "not",
+   "field": "grammar",
+   "word": "zi",
+   "note": ""
+  },
+  {
+   "concept": "all",
+   "field": "amount",
+   "word": "wa",
+   "note": ""
+  },
+  {
+   "concept": "many",
+   "field": "amount",
+   "word": "mazif",
+   "note": ""
+  },
+  {
+   "concept": "some",
+   "field": "amount",
+   "word": "xe",
+   "note": ""
+  },
+  {
+   "concept": "few",
+   "field": "amount",
+   "word": "noyuq",
+   "note": ""
+  },
+  {
+   "concept": "other",
+   "field": "amount",
+   "word": "poyox",
+   "note": ""
+  },
+  {
+   "concept": "one",
+   "field": "number",
+   "word": "pi",
+   "note": ""
+  },
+  {
+   "concept": "two",
+   "field": "number",
+   "word": "nu",
+   "note": ""
+  },
+  {
+   "concept": "three",
+   "field": "number",
+   "word": "sa",
+   "note": ""
+  },
+  {
+   "concept": "four",
+   "field": "number",
+   "word": "ku",
+   "note": ""
+  },
+  {
+   "concept": "five",
+   "field": "number",
+   "word": "fo",
+   "note": ""
+  },
+  {
+   "concept": "big",
+   "field": "quality",
+   "word": "mazif",
+   "note": ""
+  },
+  {
+   "concept": "long",
+   "field": "quality",
+   "word": "lomix",
+   "note": ""
+  },
+  {
+   "concept": "wide",
+   "field": "quality",
+   "word": "zanof",
+   "note": ""
+  },
+  {
+   "concept": "thick",
+   "field": "quality",
+   "word": "poneq",
+   "note": ""
+  },
+  {
+   "concept": "heavy",
+   "field": "quality",
+   "word": "zofuq",
+   "note": ""
+  },
+  {
+   "concept": "small",
+   "field": "quality",
+   "word": "noyuq",
+   "note": ""
+  },
+  {
+   "concept": "short",
+   "field": "quality",
+   "word": "yosix",
+   "note": ""
+  },
+  {
+   "concept": "narrow",
+   "field": "quality",
+   "word": "yusex",
+   "note": ""
+  },
+  {
+   "concept": "thin",
+   "field": "quality",
+   "word": "fisex",
+   "note": ""
+  },
+  {
+   "concept": "woman",
+   "field": "people",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "man",
+   "field": "people",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "person",
+   "field": "people",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "child",
+   "field": "people",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "wife",
+   "field": "people",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "husband",
+   "field": "people",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "mother",
+   "field": "people",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "father",
+   "field": "people",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "animal",
+   "field": "animals",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "fish",
+   "field": "animals",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "bird",
+   "field": "animals",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "dog",
+   "field": "animals",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "louse",
+   "field": "animals",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "snake",
+   "field": "animals",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "worm",
+   "field": "animals",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "tree",
+   "field": "nature",
+   "word": "yolif",
+   "note": ""
+  },
+  {
+   "concept": "forest",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "stick",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "fruit",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "seed",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "leaf",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "root",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "bark",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "flower",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "grass",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "rope",
+   "field": "things",
+   "word": "zapoq",
+   "note": ""
+  },
+  {
+   "concept": "skin",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "meat",
+   "field": "food",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "blood",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "bone",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "fat",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "egg",
+   "field": "food",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "horn",
+   "field": "animals",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "tail",
+   "field": "animals",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "feather",
+   "field": "animals",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "hair",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "head",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "ear",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "eye",
+   "field": "body",
+   "word": "soyef",
+   "note": ""
+  },
+  {
+   "concept": "nose",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "mouth",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "tooth",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "tongue",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "fingernail",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "foot",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "leg",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "knee",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "hand",
+   "field": "body",
+   "word": "mipaq",
+   "note": ""
+  },
+  {
+   "concept": "wing",
+   "field": "animals",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "belly",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "guts",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "neck",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "back",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "breast",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "heart",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "liver",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "to drink",
+   "field": "food",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "to eat",
+   "field": "food",
+   "word": "xumaf",
+   "note": ""
+  },
+  {
+   "concept": "to bite",
+   "field": "food",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "to suck",
+   "field": "food",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "to spit",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "to vomit",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "to blow",
+   "field": "action",
+   "word": "zilaq",
+   "note": ""
+  },
+  {
+   "concept": "to breathe",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "to laugh",
+   "field": "people",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "to see",
+   "field": "perception",
+   "word": "yirax",
+   "note": "yirax: what light does (broader)"
+  },
+  {
+   "concept": "to hear",
+   "field": "perception",
+   "word": "kuxix",
+   "note": ""
+  },
+  {
+   "concept": "to know",
+   "field": "mind",
+   "word": "niwoq",
+   "note": ""
+  },
+  {
+   "concept": "to think",
+   "field": "mind",
+   "word": "worex",
+   "note": ""
+  },
+  {
+   "concept": "to smell",
+   "field": "perception",
+   "word": "rinox",
+   "note": ""
+  },
+  {
+   "concept": "to fear",
+   "field": "mind",
+   "word": "zenef",
+   "note": ""
+  },
+  {
+   "concept": "to sleep",
+   "field": "body",
+   "word": "lasuq",
+   "note": ""
+  },
+  {
+   "concept": "to live",
+   "field": "life",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "to die",
+   "field": "life",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "to kill",
+   "field": "life",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "to fight",
+   "field": "people",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "to hunt",
+   "field": "action",
+   "word": "rezoq",
+   "note": ""
+  },
+  {
+   "concept": "to hit",
+   "field": "action",
+   "word": "yiwex",
+   "note": ""
+  },
+  {
+   "concept": "to cut",
+   "field": "action",
+   "word": "tafuq",
+   "note": ""
+  },
+  {
+   "concept": "to split",
+   "field": "action",
+   "word": "rifex",
+   "note": "rifex: break into pieces"
+  },
+  {
+   "concept": "to stab",
+   "field": "action",
+   "word": "leriq",
+   "note": ""
+  },
+  {
+   "concept": "to scratch",
+   "field": "action",
+   "word": "tasox",
+   "note": ""
+  },
+  {
+   "concept": "to dig",
+   "field": "action",
+   "word": "paqif",
+   "note": ""
+  },
+  {
+   "concept": "to swim",
+   "field": "motion",
+   "word": "mozef",
+   "note": ""
+  },
+  {
+   "concept": "to fly",
+   "field": "motion",
+   "word": "zinoq",
+   "note": ""
+  },
+  {
+   "concept": "to walk",
+   "field": "motion",
+   "word": "wupax",
+   "note": "wupax: go (away from attention)"
+  },
+  {
+   "concept": "to come",
+   "field": "motion",
+   "word": "tolaq",
+   "note": ""
+  },
+  {
+   "concept": "to lie down",
+   "field": "motion",
+   "word": "yitux",
+   "note": ""
+  },
+  {
+   "concept": "to sit",
+   "field": "motion",
+   "word": "xiyox",
+   "note": ""
+  },
+  {
+   "concept": "to stand",
+   "field": "motion",
+   "word": "zoleq",
+   "note": ""
+  },
+  {
+   "concept": "to turn",
+   "field": "motion",
+   "word": "wunix",
+   "note": ""
+  },
+  {
+   "concept": "to fall",
+   "field": "motion",
+   "word": "tuzof",
+   "note": ""
+  },
+  {
+   "concept": "to give",
+   "field": "exchange",
+   "word": "pemuf",
+   "note": ""
+  },
+  {
+   "concept": "to hold",
+   "field": "exchange",
+   "word": "kinif",
+   "note": ""
+  },
+  {
+   "concept": "to squeeze",
+   "field": "action",
+   "word": "ropif",
+   "note": "ropif is close (shaping soft stuff)"
+  },
+  {
+   "concept": "to rub",
+   "field": "action",
+   "word": "pimux",
+   "note": ""
+  },
+  {
+   "concept": "to wash",
+   "field": "action",
+   "word": "sizaf",
+   "note": ""
+  },
+  {
+   "concept": "to wipe",
+   "field": "action",
+   "word": "mexof",
+   "note": ""
+  },
+  {
+   "concept": "to pull",
+   "field": "action",
+   "word": "wefux",
+   "note": ""
+  },
+  {
+   "concept": "to push",
+   "field": "action",
+   "word": "fepux",
+   "note": ""
+  },
+  {
+   "concept": "to throw",
+   "field": "action",
+   "word": "lezaf",
+   "note": ""
+  },
+  {
+   "concept": "to tie",
+   "field": "action",
+   "word": "pifax",
+   "note": ""
+  },
+  {
+   "concept": "to sew",
+   "field": "action",
+   "word": "fonux",
+   "note": ""
+  },
+  {
+   "concept": "to count",
+   "field": "amount",
+   "word": "kirex",
+   "note": "kirex is counting favors only"
+  },
+  {
+   "concept": "to say",
+   "field": "speech",
+   "word": "nopiq",
+   "note": ""
+  },
+  {
+   "concept": "to sing",
+   "field": "speech",
+   "word": "xoyuf",
+   "note": ""
+  },
+  {
+   "concept": "to play",
+   "field": "people",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "to float",
+   "field": "motion",
+   "word": "lopax",
+   "note": ""
+  },
+  {
+   "concept": "to flow",
+   "field": "motion",
+   "word": "nuxex",
+   "note": ""
+  },
+  {
+   "concept": "to freeze",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "to swell",
+   "field": "body",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "sun",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "moon",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "star",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "water",
+   "field": "nature",
+   "word": "nulix",
+   "note": ""
+  },
+  {
+   "concept": "rain",
+   "field": "nature",
+   "word": "fanix",
+   "note": ""
+  },
+  {
+   "concept": "river",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "lake",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "sea",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "salt",
+   "field": "food",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "stone",
+   "field": "nature",
+   "word": "kopex",
+   "note": ""
+  },
+  {
+   "concept": "sand",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "dust",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "earth",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "cloud",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "fog",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "sky",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "wind",
+   "field": "nature",
+   "word": "wirof",
+   "note": ""
+  },
+  {
+   "concept": "snow",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "ice",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "smoke",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "fire",
+   "field": "nature",
+   "word": "xatof",
+   "note": ""
+  },
+  {
+   "concept": "ash",
+   "field": "nature",
+   "word": "numoq",
+   "note": "numoq: what stays after (broader)"
+  },
+  {
+   "concept": "to burn",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "road",
+   "field": "place",
+   "word": "foyix",
+   "note": ""
+  },
+  {
+   "concept": "mountain",
+   "field": "nature",
+   "word": "",
+   "note": ""
+  },
+  {
+   "concept": "red",
+   "field": "color",
+   "word": "nukof",
+   "note": ""
+  },
+  {
+   "concept": "green",
+   "field": "color",
+   "word": "fusiq",
+   "note": ""
+  },
+  {
+   "concept": "yellow",
+   "field": "color",
+   "word": "liweq",
+   "note": ""
+  },
+  {
+   "concept": "white",
+   "field": "color",
+   "word": "xizex",
+   "note": ""
+  },
+  {
+   "concept": "black",
+   "field": "color",
+   "word": "rutiq",
+   "note": ""
+  },
+  {
+   "concept": "night",
+   "field": "time",
+   "word": "yetix",
+   "note": ""
+  },
+  {
+   "concept": "day",
+   "field": "time",
+   "word": "xisaf",
+   "note": ""
+  },
+  {
+   "concept": "year",
+   "field": "time",
+   "word": "letax",
+   "note": ""
+  },
+  {
+   "concept": "warm",
+   "field": "quality",
+   "word": "muwex",
+   "note": ""
+  },
+  {
+   "concept": "cold",
+   "field": "quality",
+   "word": "yeruq",
+   "note": ""
+  },
+  {
+   "concept": "full",
+   "field": "quality",
+   "word": "nixuf",
+   "note": ""
+  },
+  {
+   "concept": "new",
+   "field": "quality",
+   "word": "pekoq",
+   "note": ""
+  },
+  {
+   "concept": "old",
+   "field": "quality",
+   "word": "kalof",
+   "note": ""
+  },
+  {
+   "concept": "good",
+   "field": "quality",
+   "word": "taqux",
+   "note": ""
+  },
+  {
+   "concept": "bad",
+   "field": "quality",
+   "word": "nifux",
+   "note": "nifux judges the reach, not the reacher; deliberately partial"
+  },
+  {
+   "concept": "rotten",
+   "field": "quality",
+   "word": "yixoq",
+   "note": ""
+  },
+  {
+   "concept": "dirty",
+   "field": "quality",
+   "word": "zimef",
+   "note": ""
+  },
+  {
+   "concept": "straight",
+   "field": "quality",
+   "word": "rizef",
+   "note": ""
+  },
+  {
+   "concept": "round",
+   "field": "quality",
+   "word": "puxiq",
+   "note": ""
+  },
+  {
+   "concept": "sharp",
+   "field": "quality",
+   "word": "pequx",
+   "note": ""
+  },
+  {
+   "concept": "dull",
+   "field": "quality",
+   "word": "siruq",
+   "note": ""
+  },
+  {
+   "concept": "smooth",
+   "field": "quality",
+   "word": "faloq",
+   "note": ""
+  },
+  {
+   "concept": "wet",
+   "field": "quality",
+   "word": "xunof",
+   "note": ""
+  },
+  {
+   "concept": "dry",
+   "field": "quality",
+   "word": "wuxaf",
+   "note": ""
+  },
+  {
+   "concept": "correct",
+   "field": "quality",
+   "word": "nilex",
+   "note": ""
+  },
+  {
+   "concept": "near",
+   "field": "place",
+   "word": "losif",
+   "note": ""
+  },
+  {
+   "concept": "far",
+   "field": "place",
+   "word": "nusox",
+   "note": ""
+  },
+  {
+   "concept": "right",
+   "field": "place",
+   "word": "wareq",
+   "note": ""
+  },
+  {
+   "concept": "left",
+   "field": "place",
+   "word": "sulaf",
+   "note": ""
+  },
+  {
+   "concept": "at",
+   "field": "place",
+   "word": "ra",
+   "note": ""
+  },
+  {
+   "concept": "in",
+   "field": "place",
+   "word": "panoq",
+   "note": "panoq: being held inside"
+  },
+  {
+   "concept": "with",
+   "field": "place",
+   "word": "fe",
+   "note": ""
+  },
+  {
+   "concept": "and",
+   "field": "joining",
+   "word": "o",
+   "note": ""
+  },
+  {
+   "concept": "if",
+   "field": "joining",
+   "word": "fu",
+   "note": ""
+  },
+  {
+   "concept": "because",
+   "field": "joining",
+   "word": "po",
+   "note": ""
+  },
+  {
+   "concept": "name",
+   "field": "speech",
+   "word": "zeliq",
+   "note": ""
+  }
+ ]
+}
