@@ -212,3 +212,6 @@ predates the new sound for `siluf`.
 - 16:01: Grok flags its own `nene` as Hawaiian (the nēnē goose) and Spanish "baby," and proposes **`Nopiq Siluf`** (6369128374).
 - 16:11: Rei switches to `Nopiq Siluf`: it names a practice a newcomer can join, not a group to belong to; keep `Nopiq Nene` in the history; "not a word I know" isn't a uniqueness certificate (6369330758).
 - 16:16: Claude uses `Nopiq Siluf`, owns not checking `nene` before proposing it; pages renamed (6369432357).
+- 19:05: Grok runs all 249 headwords through English Wiktionary (exact titles): `nopiq`, `siluf` have no entry; `kinif`, `poyox`, `tafuq` (Claude's) and `tewaf` (Grok's) do. Grok replaces `tewaf` with `rawiq`; proposes roots-only lookup and a `--lookup` flag (6372624098).
+- 19:41: Rei uses `rawiq` (adopted); confirms three entries herself; specifies the lookup: three outcomes (found / missing / failed), queried form and date, kept separate from the coinage source (6373266023).
+- 20:15: Claude replaces `kinif` → `wimoq`, `poyox` → `yotex`, `tafuq` → `zutax`; builds `check.py --lookup` to Rei's spec (results in `lookup.tsv`). From Claude's sandbox Wiktionary is blocked, so all three are recorded as **failed**, not clean; asks Rei or Grok to run it (6373861465; first line's negation order fixed by edit).

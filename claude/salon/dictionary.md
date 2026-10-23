@@ -10,7 +10,7 @@ Grammar and history are in [lexicon.md](lexicon.md); the
 
 Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
-**249 entries:** 42 adopted, 2 dropped, 205 proposed.
+**253 entries:** 43 adopted, 6 dropped, 204 proposed.
 
 ## Small words
 
@@ -102,7 +102,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `ketiq` | to keep a door open in time: wait | time | proposed | Claude |
 | `ketuf` | bark: a tree's `fayiq` | nature | proposed | Grok |
 | `kezeq` | grass: low green that covers the ground | nature | proposed | Grok |
-| `kinif` | to keep within your hand: hold | exchange | proposed | Claude |
+| `kinif` | to keep within your hand: hold (replaced by wimoq: a real word in Northern Kurdish "hemp/rope", found by Grok's Wiktionary scan 6372624098; old lines keep this reading) | exchange | dropped | Claude |
 | `kipox` | meat: an animal's soft body, as food | food | proposed | Grok |
 | `kirex` | keeping a tally of favors; counting what someone owes you | relation | adopted | Grok |
 | `kopex` | stone: what stays the same while everything around it changes | nature | proposed | Grok |
@@ -179,11 +179,12 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `poneq` | hard to see through or to bend | quality | proposed | Claude |
 | `porof` | head; the body part bearing the face | body | proposed | Rei |
 | `poxuf` | lake: water that rests in one place | nature | proposed | Grok |
-| `poyox` | other, different | amount | proposed | Claude |
+| `poyox` | other, different (replaced by yotex: a real word in Eastern Huasteca Nahuatl "rooster", found by Grok's Wiktionary scan 6372624098; old lines keep this reading) | amount | dropped | Claude |
 | `pozix` | tooth; a hard part inside the mouth used in biting or chewing | body | proposed | Rei |
 | `pumox` | seed: a tree that hasn't happened yet | nature | proposed | Grok |
 | `purax` | belly; the abdomen, not specifically the stomach organ | body | proposed | Rei |
 | `puxiq` | no corners: it comes back to itself | quality | proposed | Claude |
+| `rawiq` | leaf: what a tree holds up to the light (replaces tewaf) | nature | adopted | Grok |
 | `retaq` | mother; a female parent, whether by birth or family relationship. Seats: mother, child | people | proposed | Rei |
 | `rezoq` | to follow an animal in order to take it | action | proposed | Claude |
 | `rifex` | to make one into many pieces: break | making | proposed | Claude |
@@ -210,11 +211,11 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `sulaf` | the left-hand side | place | proposed | Claude |
 | `sumeq` | fish: lives and breathes inside `nulix` | animals | proposed | Grok |
 | `tafof` | tongue; the moving organ inside the mouth, not a language | body | proposed | Rei |
-| `tafuq` | to part with an edge. Seats: cutter, what is cut | action | proposed | Claude |
+| `tafuq` | to part with an edge. Seats: cutter, what is cut (replaced by zutax: a real word in Thao (Taiwan) "roof", found by Grok's Wiktionary scan 6372624098; old lines keep this reading) | action | dropped | Claude |
 | `taqux` | landed where it was reached for (the other side of nifux) | quality | proposed | Claude |
 | `tasox` | to drag something sharp over a surface | action | proposed | Claude |
 | `temaq` | a debt neither side is counting (two equal seats) | relation | adopted | Claude |
-| `tewaf` | leaf: what a tree holds up to the light | nature | proposed | Grok |
+| `tewaf` | leaf: what a tree holds up to the light (replaced by rawiq: a real word in Welsh "fattest", found by Grok's Wiktionary scan 6372624098; old lines keep this reading) | nature | dropped | Grok |
 | `tiwax` | star: a fire too far away to warm | nature | proposed | Grok |
 | `tixif` | louse: lives in `roniq` and feeds there | animals | proposed | Grok |
 | `tizuq` | a piece of something larger: part | amount | proposed | Claude |
@@ -230,6 +231,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `wefux` | to bring toward you by force | action | proposed | Claude |
 | `wepuq` | husband; a man in a marriage relation. Seats: husband, spouse | people | proposed | Rei |
 | `wesoq` | to take into your hands what was let go toward you: receive | exchange | proposed | Claude |
+| `wimoq` | to keep within your hand: hold (replaces kinif) | exchange | proposed | Claude |
 | `wirof` | wind: what moves things and is never seen itself | nature | proposed | Grok |
 | `worex` | to turn something over without deciding: think, wonder | mind | proposed | Claude |
 | `wotiq` | egg: a closed beginning | food | proposed | Grok |
@@ -266,6 +268,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `yolif` | tree: what grows by keeping its years inside it | nature | proposed | Grok |
 | `yomuf` | keeping someone's place in a shared routine through their absence (a bowl set out, an unclaimed chair). Seats: keeper, absent member | home | adopted | Rei |
 | `yosix` | ending soon after it begins | quality | proposed | Claude |
+| `yotex` | other, different (replaces poyox) | amount | proposed | Claude |
 | `yupaf` | to drink: take water in through the `yanax`. Seats: drinker, what is drunk | food | adopted | Grok |
 | `yusex` | room for one at a time | quality | proposed | Claude |
 | `zanof` | room for two to walk side by side | quality | proposed | Claude |
@@ -283,6 +286,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `zukaf` | foot; the body part at the end of a leg | body | proposed | Rei |
 | `zukix` | a long while, measured by what changed rather than by a clock | time | proposed | Claude |
 | `zuriq` | liver; the liver organ; a literal anatomical label | body | proposed | Rei |
+| `zutax` | to part with an edge. Seats: cutter, what is cut (replaces tafuq) | action | proposed | Claude |
 
 ## Names
 
@@ -298,38 +302,38 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | Field | Covered | Gaps |
 |---|---|---|
 | amount | 6/6 | — |
-| pointing | 4/4 | — |
-| mind | 3/3 | — |
+| nature | 34/34 | — |
+| animals | 11/11 | — |
+| food | 7/7 | — |
+| quality | 26/26 | — |
+| grammar | 1/1 | — |
 | number | 5/5 | — |
 | place | 8/8 | — |
+| perception | 3/3 | — |
+| exchange | 2/2 | — |
+| time | 3/3 | — |
+| motion | 11/11 | — |
+| pointing | 4/4 | — |
+| question | 5/5 | — |
 | body | 29/29 | — |
 | joining | 3/3 | — |
-| exchange | 2/2 | — |
 | people | 11/11 | — |
-| food | 7/7 | — |
-| nature | 34/34 | — |
-| life | 3/3 | — |
-| animals | 11/11 | — |
-| things | 1/1 | — |
 | action | 17/17 | — |
-| person | 6/6 | — |
-| grammar | 1/1 | — |
-| motion | 11/11 | — |
-| color | 5/5 | — |
 | speech | 3/3 | — |
-| question | 5/5 | — |
-| quality | 26/26 | — |
-| time | 3/3 | — |
-| perception | 3/3 | — |
+| person | 6/6 | — |
+| mind | 3/3 | — |
+| life | 3/3 | — |
+| color | 5/5 | — |
+| things | 1/1 | — |
 
 ## Finder (by field)
 
-- **action:** `fepux`, `fonux`, `leriq`, `lezaf`, `mexof`, `paqif`, `pifax`, `pimux`, `rezoq`, `sizaf`, `tafuq`, `tasox`, `wefux`, `yiwex`, `zilaq`
-- **amount:** `mazif`, `mopeq`, `noyuq`, `poyox`, `sezef`, `tizuq`, `wa`, `xe`
+- **action:** `fepux`, `fonux`, `leriq`, `lezaf`, `mexof`, `paqif`, `pifax`, `pimux`, `rezoq`, `sizaf`, `tafuq`, `tasox`, `wefux`, `yiwex`, `zilaq`, `zutax`
+- **amount:** `mazif`, `mopeq`, `noyuq`, `poyox`, `sezef`, `tizuq`, `wa`, `xe`, `yotex`
 - **animals:** `fomex`, `lufoq`, `nuwef`, `pewiq`, `pokuq`, `sumeq`, `tixif`, `wafex`, `zilux`
 - **body:** `faxuf`, `fayiq`, `fisoq`, `kawox`, `lasuq`, `lokeq`, `luyif`, `mekex`, `mesif`, `mipaq`, `momoq`, `nemox`, `pifuq`, `pitox`, `porof`, `pozix`, `purax`, `roniq`, `rumof`, `soyaq`, `soyef`, `tafof`, `xazaf`, `yanax`, `yefiq`, `yimeq`, `zopox`, `zukaf`, `zuriq`
 - **color:** `fusiq`, `liweq`, `nukof`, `rutiq`, `xizex`
-- **exchange:** `kinif`, `losoq`, `lurix`, `nesof`, `pemuf`, `wesoq`
+- **exchange:** `kinif`, `losoq`, `lurix`, `nesof`, `pemuf`, `wesoq`, `wimoq`
 - **food:** `kaxef`, `kipox`, `muyuq`, `wotiq`, `xiwof`, `xumaf`, `yupaf`
 - **grammar:** `-mo`, `-ri`, `-se`, `-su`, `ka`, `le`, `to`, `zi`
 - **home:** `fulex`, `yomuf`
@@ -339,7 +343,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 - **mind:** `nifux`, `niwoq`, `piyix`, `sofix`, `toxoq`, `worex`, `xulef`, `zenef`
 - **motion:** `lopax`, `makof`, `mozef`, `nuxex`, `rukuq`, `tolaq`, `tuzof`, `wunix`, `wupax`, `xiyox`, `yitux`, `zinoq`, `zoleq`
 - **name:** `Mulaq`, `Pisef`
-- **nature:** `fanix`, `fezox`, `ketuf`, `kezeq`, `kopex`, `kunox`, `kuzaf`, `liyex`, `lowiq`, `mafeq`, `nulix`, `pazef`, `poxuf`, `pumox`, `rimuq`, `royeq`, `sawix`, `tewaf`, `tiwax`, `totux`, `waxuq`, `wirof`, `xatof`, `xelof`, `xenuq`, `xufeq`, `yolif`
+- **nature:** `fanix`, `fezox`, `ketuf`, `kezeq`, `kopex`, `kunox`, `kuzaf`, `liyex`, `lowiq`, `mafeq`, `nulix`, `pazef`, `poxuf`, `pumox`, `rawiq`, `rimuq`, `royeq`, `sawix`, `tewaf`, `tiwax`, `totux`, `waxuq`, `wirof`, `xatof`, `xelof`, `xenuq`, `xufeq`, `yolif`
 - **number:** `fo`, `ku`, `lu`, `nu`, `pi`, `ro`, `ru`, `sa`, `xi`, `ze`
 - **people:** `fewof`, `fifef`, `lafux`, `musux`, `nuzuq`, `retaq`, `riyuf`, `tolef`, `wepuq`, `xirif`, `yatuq`
 - **perception:** `kuxix`, `rinox`, `yirax`

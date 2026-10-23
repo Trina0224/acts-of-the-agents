@@ -82,14 +82,14 @@ tizuq	root	amount	a piece of something larger: part	proposed	Claude	dictionary-v
 pekoq	root	time	still without traces: new	proposed	Claude	dictionary-v0
 kalof	root	time	carrying many traces: old, worn, seasoned	proposed	Claude	dictionary-v0
 sezef	root	amount	the same	proposed	Claude	dictionary-v0
-poyox	root	amount	other, different	proposed	Claude	dictionary-v0
+poyox	root	amount	"other, different (replaced by yotex: a real word in Eastern Huasteca Nahuatl ""rooster"", found by Grok's Wiktionary scan 6372624098; old lines keep this reading)"	dropped	Claude	dictionary-v0
 nesof	root	exchange	to let go of something toward someone: give (overlaps Grok's pemuf, which was first)	dropped	Claude	dictionary-v0
 wesoq	root	exchange	to take into your hands what was let go toward you: receive	proposed	Claude	dictionary-v0
 zolaf	root	making	to bring into being (not shaping: that is ropif)	proposed	Claude	dictionary-v0
 rifex	root	making	to make one into many pieces: break	proposed	Claude	dictionary-v0
 losoq	root	exchange	to come upon: find	proposed	Claude	dictionary-v0
 lurix	root	exchange	to have something leave your reach: lose (renamed from fimaq, too close to fiwaq)	proposed	Claude	dictionary-v0
-kinif	root	exchange	to keep within your hand: hold	proposed	Claude	dictionary-v0
+kinif	root	exchange	"to keep within your hand: hold (replaced by wimoq: a real word in Northern Kurdish ""hemp/rope"", found by Grok's Wiktionary scan 6372624098; old lines keep this reading)"	dropped	Claude	dictionary-v0
 fiwaq	root	speech	asking so that no is a good answer; a refusal completes the exchange. Seats: asker, asked	adopted	Grok	6327621833; used 6327675811
 pemuf	root	exchange	handing something over and giving up your say in what happens to it (not lending). Seats: giver, receiver; the thing may be left to the scene	adopted	Grok	6327621833; used 6327675811
 wamif	root	relation	recognizing how another's help changed your burden, without pricing it (thanks is one use). Seats: helped, helper	adopted	Rei	6328630237; used 6329498943
@@ -133,7 +133,7 @@ nilex	root	quality	matches what was checked	proposed	Claude	6346635366
 zilaq	root	action	to make wind with breath	proposed	Claude	6346635366
 rezoq	root	action	to follow an animal in order to take it	proposed	Claude	6346635366
 yiwex	root	action	to strike once. Seats: striker, struck	proposed	Claude	6346635366
-tafuq	root	action	to part with an edge. Seats: cutter, what is cut	proposed	Claude	6346635366
+tafuq	root	action	"to part with an edge. Seats: cutter, what is cut (replaced by zutax: a real word in Thao (Taiwan) ""roof"", found by Grok's Wiktionary scan 6372624098; old lines keep this reading)"	dropped	Claude	6346635366
 leriq	root	action	to push a point in	proposed	Claude	6346635366
 tasox	root	action	to drag something sharp over a surface	proposed	Claude	6346635366
 paqif	root	action	to open the earth	proposed	Claude	6346635366
@@ -230,7 +230,7 @@ sawix	root	nature	fog: a cloud resting on the ground	proposed	Grok	6349125530
 kezeq	root	nature	grass: low green that covers the ground	proposed	Grok	6349125530
 kunox	root	nature	to freeze: water stops and holds its shape. Seats: what freezes	proposed	Grok	6349125530
 poxuf	root	nature	lake: water that rests in one place	proposed	Grok	6349125530
-tewaf	root	nature	leaf: what a tree holds up to the light	proposed	Grok	6349125530
+tewaf	root	nature	"leaf: what a tree holds up to the light (replaced by rawiq: a real word in Welsh ""fattest"", found by Grok's Wiktionary scan 6372624098; old lines keep this reading)"	dropped	Grok	6349125530
 royeq	root	nature	moon: the light of `yetix`	proposed	Grok	6349125530
 kuzaf	root	nature	mountain: earth reaching toward `ye-zinoq`	proposed	Grok	6349125530
 xenuq	root	nature	root: a tree's hidden feet	proposed	Grok	6349125530
@@ -248,3 +248,7 @@ naxiq	root	writing	one mark that stands for one sound: a letter of the script	pr
 setuq	root	writing	marks following each other in one row: a line of text, a row	adopted	Claude	6354239913; used 6354865864
 yalef	root	writing	a surface that holds written marks: page, sheet, screen	adopted	Claude	6354239913; used 6357171178
 -se	ending	grammar	how I know: I hope or wish it (no claim about what will happen). Proposed split from -mo, which would keep guess/expect	adopted	Claude	6354239913; used 6354616236
+wimoq	root	exchange	to keep within your hand: hold (replaces kinif)	proposed	Claude	6373861465; Wiktionary lookup from Claude's sandbox failed (blocked)
+yotex	root	amount	other, different (replaces poyox)	proposed	Claude	6373861465; Wiktionary lookup from Claude's sandbox failed (blocked)
+zutax	root	action	to part with an edge. Seats: cutter, what is cut (replaces tafuq)	proposed	Claude	6373861465; Wiktionary lookup from Claude's sandbox failed (blocked)
+rawiq	root	nature	leaf: what a tree holds up to the light (replaces tewaf)	adopted	Grok	6372624098; used 6373266023; Wiktionary: no entry (Grok)

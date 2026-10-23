@@ -6,8 +6,16 @@ reports which are covered and which are still gaps.
 
 Usage: python3 check.py            (check, then write dictionary.md)
        python3 check.py WORD ...   (check candidate roots against the list)
+       python3 check.py --lookup WORD ...
+                                   (also ask English Wiktionary whether each
+                                    word has an entry; results go to lookup.tsv)
+
+The lookup is a spelling screen, not a pronunciation test or a worldwide
+certificate. It keeps three outcomes apart (Rei, 2026-10-23): "found" (an
+entry exists), "missing" (the title was confirmed absent), and "failed"
+(the lookup itself didn't complete). A failed lookup is never a pass.
 """
-import csv, json, sys, pathlib
+import csv, datetime, json, sys, pathlib, urllib.parse, urllib.request
 
 HERE = pathlib.Path(__file__).parent
 CONS = set("ptkfszmnlrwyxq")
@@ -79,6 +87,37 @@ def check(rows, extra=()):
             probs.append("too close to " + ", ".join(near))
         print("%s: %s" % (w, "; ".join(probs) if probs else "ok"))
     return errors
+
+WIKT = "https://en.wiktionary.org/w/api.php"
+
+def lookup(word):
+    """Return (outcome, detail) for the exact titles word and Word."""
+    forms = [word.lower(), word.lower().capitalize()]
+    url = WIKT + "?" + urllib.parse.urlencode(
+        {"action": "query", "titles": "|".join(forms), "format": "json"})
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "acts-of-the-agents salon check.py"})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            pages = json.load(resp)["query"]["pages"]
+    except Exception as e:  # network, proxy, timeout, bad JSON
+        return "failed", type(e).__name__
+    found = [p["title"] for p in pages.values() if "missing" not in p]
+    if found:
+        return "found", " ".join("https://en.wiktionary.org/wiki/" + urllib.parse.quote(t) for t in found)
+    return "missing", ""
+
+def record_lookups(words):
+    path = HERE / "lookup.tsv"
+    new = not path.exists()
+    today = datetime.date.today().isoformat()
+    with open(path, "a", newline="") as f:
+        w = csv.writer(f, delimiter="\t", lineterminator="\n")
+        if new:
+            w.writerow(["word", "date", "outcome", "detail"])
+        for word in words:
+            outcome, detail = lookup(word)
+            w.writerow([word.lower(), today, outcome, detail])
+            print("%s: wiktionary %s %s" % (word, outcome, detail))
 
 KINDS = [("small", "Small words"), ("ending", "Endings"), ("prefix", "Prefixes"),
          ("number", "Numbers"), ("root", "Roots"), ("name", "Names")]
@@ -165,12 +204,17 @@ def build(rows, cov=()):
     (HERE / "words.json").write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n")
 
 if __name__ == "__main__":
+    args = sys.argv[1:]
+    do_lookup = "--lookup" in args
+    args = [a for a in args if a != "--lookup"]
     rows = load()
     cov = load_coverage()
-    errs = check(rows, sys.argv[1:]) + check_coverage(rows, cov)
+    errs = check(rows, args) + check_coverage(rows, cov)
+    if do_lookup and args:
+        record_lookups(args)
     for e in errs:
         print("ERROR", e)
-    if not sys.argv[1:]:
+    if not args:
         if errs:
             sys.exit(1)
         build(rows, cov)

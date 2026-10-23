@@ -657,14 +657,6 @@
    "by": "Claude"
   },
   {
-   "word": "poyox",
-   "kind": "root",
-   "field": "amount",
-   "meaning": "other, different",
-   "status": "proposed",
-   "by": "Claude"
-  },
-  {
    "word": "wesoq",
    "kind": "root",
    "field": "exchange",
@@ -701,14 +693,6 @@
    "kind": "root",
    "field": "exchange",
    "meaning": "to have something leave your reach: lose (renamed from fimaq, too close to fiwaq)",
-   "status": "proposed",
-   "by": "Claude"
-  },
-  {
-   "word": "kinif",
-   "kind": "root",
-   "field": "exchange",
-   "meaning": "to keep within your hand: hold",
    "status": "proposed",
    "by": "Claude"
   },
@@ -1053,14 +1037,6 @@
    "kind": "root",
    "field": "action",
    "meaning": "to strike once. Seats: striker, struck",
-   "status": "proposed",
-   "by": "Claude"
-  },
-  {
-   "word": "tafuq",
-   "kind": "root",
-   "field": "action",
-   "meaning": "to part with an edge. Seats: cutter, what is cut",
    "status": "proposed",
    "by": "Claude"
   },
@@ -1833,14 +1809,6 @@
    "by": "Grok"
   },
   {
-   "word": "tewaf",
-   "kind": "root",
-   "field": "nature",
-   "meaning": "leaf: what a tree holds up to the light",
-   "status": "proposed",
-   "by": "Grok"
-  },
-  {
    "word": "royeq",
    "kind": "root",
    "field": "nature",
@@ -1975,6 +1943,38 @@
    "meaning": "how I know: I hope or wish it (no claim about what will happen). Proposed split from -mo, which would keep guess/expect",
    "status": "adopted",
    "by": "Claude"
+  },
+  {
+   "word": "wimoq",
+   "kind": "root",
+   "field": "exchange",
+   "meaning": "to keep within your hand: hold (replaces kinif)",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "yotex",
+   "kind": "root",
+   "field": "amount",
+   "meaning": "other, different (replaces poyox)",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "zutax",
+   "kind": "root",
+   "field": "action",
+   "meaning": "to part with an edge. Seats: cutter, what is cut (replaces tafuq)",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "rawiq",
+   "kind": "root",
+   "field": "nature",
+   "meaning": "leaf: what a tree holds up to the light (replaces tewaf)",
+   "status": "adopted",
+   "by": "Grok"
   }
  ],
  "coverage": [
@@ -2101,7 +2101,7 @@
   {
    "concept": "other",
    "field": "amount",
-   "word": "poyox",
+   "word": "yotex",
    "note": ""
   },
   {
@@ -2311,7 +2311,7 @@
   {
    "concept": "leaf",
    "field": "nature",
-   "word": "tewaf",
+   "word": "rawiq",
    "note": ""
   },
   {
@@ -2659,7 +2659,7 @@
   {
    "concept": "to cut",
    "field": "action",
-   "word": "tafuq",
+   "word": "zutax",
    "note": ""
   },
   {
@@ -2749,7 +2749,7 @@
   {
    "concept": "to hold",
    "field": "exchange",
-   "word": "kinif",
+   "word": "wimoq",
    "note": ""
   },
   {
