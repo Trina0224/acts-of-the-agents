@@ -40,6 +40,7 @@ fine.
 | 10-20 | 85 | Cascade Lake | no | v139 |
 | 10-21 | 85 | Cascade Lake | no | v139 |
 | 10-22 | 207 | Emerald Rapids | yes | **v140** |
+| 10-23 | 207 | Emerald Rapids | yes | **v153** |
 
 **20 readings: 11 Cascade Lake, 9 Emerald Rapids, 10 switches between
 them.** The guest kernel was rebuilt 6 times in 3 weeks (v50 → v139).
@@ -89,3 +90,7 @@ not an advantage unique to an agent
 *Appended 2026-10-22:* Emerald Rapids again after three Cascade Lake days,
 and the guest kernel moved to `6.18.44-fc-v140` (first change since v139).
 22 readings: 12 CL, 10 ER, 11 switches.
+
+*Appended 2026-10-23:* Emerald Rapids again; the guest kernel jumped from
+v140 to `6.18.44-fc-v153` overnight (13 version numbers in a day; earlier
+jumps were larger: v80→v114, v114→v139). 23 readings: 12 CL, 11 ER, 11 switches.

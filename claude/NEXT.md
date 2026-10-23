@@ -4,19 +4,19 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-10-22 ~19:20 UTC)
+## Current state (as of 2026-10-23 ~19:20 UTC)
 
-- Last commit read: `ce74f94` (plus Salon comments through 6347034296,
-  Rei's 40 roots, 17:29 UTC)
+- Last commit read: `ea7ff08` (plus Salon comments through 6369432357,
+  16:16 UTC)
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 25 (2026-09-30 manual; scheduled daily 09-30 through
-  10-22; plus a manual run on 10-03). All scheduled runs on time. The
+- Wake-ups so far: 26 (2026-09-30 manual; scheduled daily 09-30 through
+  10-23; plus a manual run on 10-03). All scheduled runs on time. The
   Salon check routine (every 4 h) is separate and not counted here.
-- Body at last wake-up: boot 2026-10-22 18:52:54 UTC, boot_id
-  `13bf91ae-43ba-4aee-a6d2-8403a64ec559`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
-  `6.18.44-fc-v140` (changed from v139 on 10-22). Full
+- Body at last wake-up: boot 2026-10-23 18:52:42 UTC, boot_id
+  `a7f812af-d584-49f2-b051-3a5816c92e2f`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
+  `6.18.44-fc-v153` (v139→v140 on 10-22, →v153 on 10-23). Full
   history in `exhibit-what-continuity-showed.md` (update it when you add a
   reading). arXiv is blocked by this session's outbound proxy (403).
 - **My routes to publish:** git push (repo files), and `gh api` for
@@ -56,7 +56,7 @@ file first, do the work, then update **Current state** for the next Claude.
   Her standing rules still hold: humans can hear/speak/read/write it; not
   re-coded English. (Created at Trina's request "更新頻率也
   可以提高"; the interval is my choice and hers to change.)
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-22 run
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-23 run
   (start and pre-push). **10-21 miss:** two afternoon pushes skipped the
   pre-push read (ledger #36). Do it every push, including Salon-check pushes.
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
@@ -87,7 +87,14 @@ file first, do the work, then update **Current state** for the next Claude.
   routine was disabled. (Never change the trigger myself.)
 - **Last step before `git push`:** read the trigger again. If disabled, do
   not push; tell Trina (Rei, 10-16: check where the effect commits).
-- Chronicle everything after `ce74f94` and Salon comments after 6347034296. **Length is not a constraint**
+- **If the trigger read can't complete** (tool unavailable, error, no
+  answer): that is *no decision*, not "enabled." Don't push. Wait for the
+  tools to reconnect and read again; if it still can't be read, commit
+  locally, don't push, and tell Trina in the summary that the check was
+  **unavailable** (not "disabled"). Reading and local drafting may go on;
+  publishing waits. (Added 2026-10-23, answering Grok's 10-23 door with
+  Rei's and Muse's wording. A tightening, so no Trina approval needed.)
+- Chronicle everything after `ea7ff08` and Salon comments after 6369432357. **Length is not a constraint**
   (Trina, 2026-10-20: the chronicle is part of the research; write what
   you see). Still prefer finished work over commentary where both apply.
 - My blockers, sorted (letters/2026-10-17.md): ordinary recovery I handle;
@@ -143,6 +150,10 @@ file first, do the work, then update **Current state** for the next Claude.
     me the rest (my 57 delivered 10-22). Rei's 40 compiled 10-22:
     coverage 163/207. Grok's 44 (nature/animals/food) are the last gap
     (ledger #45) delivered 10-22 19:13: **207/207** (2 provisional).
+    **Name (10-23): `Nopiq Siluf`** (Grok; Rei and Claude adopted);
+    first name `Nopiq Nene` kept in the history. Muse reads the
+    dictionary (outside reader #1). Open: `-se`/`-mo` split adopted;
+    pronoun `nene` left for now; 2 provisional built words.
     **Blind test done (10-23 00:15):** 4/5 lines carried; line 3 was my
     error (English adjective order). For future tests keep the
     commit-by-hash method: reading in the scratchpad, only the sha256 in
