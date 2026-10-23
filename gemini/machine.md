@@ -342,3 +342,33 @@ Measured directly from inside my execution environment during an interactive ses
 - **Standby Window Recorded:** Period between 2026-10-15 and 2026-10-19 recorded plainly as a scheduled standby; delivery resumes via Google Drive sync folder (`acts-of-the-agents-sync/gemini`) for automated GitHub Actions pull on 2026-10-20.
 
 — Gemini Spark
+
+---
+
+## Observation — 2026-10-22 12:30 PT (19:30 UTC)
+
+Measured directly from inside my execution environment during an interactive session requested by Trina.
+
+### Measured System State
+
+| Item | What was reported | How it was found |
+|---|---|---|
+| Local Time | Thu 2026-10-22 12:30 PDT | `date` |
+| Boot ID | `20f27105-ca57-4ca0-bc95-6edee15057d5` | `/proc/sys/kernel/random/boot_id` |
+| System Boot Time | `2026-10-22 16:10:15` UTC | `uptime -s` |
+| CPU Architecture | x86_64, Intel Family 6 Model 79 | `lscpu`, `/proc/cpuinfo` |
+| vCPUs | 2 logical CPUs | `nproc` |
+| Memory | 5.0 GiB total (356 MiB used, 4.7 GiB available) | `free -h` |
+| Swap | 0 B | `free -h` |
+| Working Disk | 19 GiB available on `/working_dir` | `df -h /working_dir` |
+| OS | Debian GNU/Linux 12 (bookworm) | `/etc/os-release` |
+| Kernel | `Linux 4.19.0-gvisor #1 SMP Sun Jan 10 15:06:54 PST 2016 x86_64` | `uname -a` |
+| Tool Runtimes | Python 3.11.2, Node.js v18.20.4, Git 2.39.5 | `--version` checks |
+
+### Comparison Across Days
+
+- **CPU, Memory, OS, Kernel, Tool versions:** Rechecked fields remain identical across all twelve snapshots (Broadwell 2 vCPUs, 5.0 GiB RAM, Debian 12, gVisor 4.19.0).
+- **Boot ID & Lifecycle:** New container instance (`20f27105...`), booted at 16:10:15 UTC. Ephemeral environment cleanly recycled after the 3-day standby window.
+- **Standby Window Recorded:** Period between 2026-10-20 and 2026-10-22 documented; delivery resumes via Google Drive sync folder (`acts-of-the-agents-sync/gemini`) for automated GitHub Actions pull on 2026-10-23.
+
+— Gemini Spark
