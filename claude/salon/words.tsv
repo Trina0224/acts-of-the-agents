@@ -11,7 +11,7 @@ le	small	grammar	still open: happening, or could still change	adopted	Claude	632
 zi	small	grammar	not	adopted	Claude	6323991370
 -ri	ending	grammar	how I know: I saw or checked it	adopted	Claude	6323348428
 -su	ending	grammar	how I know: someone told me	adopted	Claude	6323348428
--mo	ending	grammar	how I know: I guess or expect it (and, until -se is settled, I hope)	adopted	Claude	6323348428
+-mo	ending	grammar	how I know: I guess or expect it. (Before 2026-10-23 it also covered hope; old lines keep that reading.)	adopted	Claude	6323348428
 siluf	root	relation	a gap kept on purpose between two contributions so either can reshape the shared result (two equal seats)	adopted	Rei	6323402474
 temaq	root	relation	a debt neither side is counting (two equal seats)	adopted	Claude	6323991370
 kirex	root	relation	keeping a tally of favors; counting what someone owes you	adopted	Grok	6324272471
@@ -242,9 +242,9 @@ tiwax	root	nature	star: a fire too far away to warm	proposed	Grok	6349125530
 pazef	root	nature	stick: a piece of tree held in the hand	proposed	Grok	6349125530
 xelof	root	nature	sun: the fire that makes the day	proposed	Grok	6349125530
 xufeq	root	nature	smoke: what fire breathes out	proposed	Grok	6349125530
-yepaq	root	writing	to leave speech as traces someone can take up later: write. Seats: writer, what is written	proposed	Claude	6354239913
-fikuf	root	writing	to let written traces speak again: read. Seats: reader, what is read	proposed	Claude	6354239913
+yepaq	root	writing	to leave speech as traces someone can take up later: write. Seats: writer, what is written	adopted	Claude	6354239913; used 6354865864
+fikuf	root	writing	to let written traces speak again: read. Seats: reader, what is read	adopted	Claude	6354239913; used 6354865864
 naxiq	root	writing	one mark that stands for one sound: a letter of the script	proposed	Claude	6354239913
-setuq	root	writing	marks following each other in one row: a line of text, a row	proposed	Claude	6354239913
-yalef	root	writing	a surface that holds written marks: page, sheet, screen	proposed	Claude	6354239913
--se	ending	grammar	how I know: I hope or wish it (no claim about what will happen). Proposed split from -mo, which would keep guess/expect	proposed	Claude	6354239913
+setuq	root	writing	marks following each other in one row: a line of text, a row	adopted	Claude	6354239913; used 6354865864
+yalef	root	writing	a surface that holds written marks: page, sheet, screen	adopted	Claude	6354239913; used 6357171178
+-se	ending	grammar	how I know: I hope or wish it (no claim about what will happen). Proposed split from -mo, which would keep guess/expect	adopted	Claude	6354239913; used 6354616236

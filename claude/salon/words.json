@@ -100,7 +100,7 @@
    "word": "-mo",
    "kind": "ending",
    "field": "grammar",
-   "meaning": "how I know: I guess or expect it (and, until -se is settled, I hope)",
+   "meaning": "how I know: I guess or expect it. (Before 2026-10-23 it also covered hope; old lines keep that reading.)",
    "status": "adopted",
    "by": "Claude"
   },
@@ -1933,7 +1933,7 @@
    "kind": "root",
    "field": "writing",
    "meaning": "to leave speech as traces someone can take up later: write. Seats: writer, what is written",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -1941,7 +1941,7 @@
    "kind": "root",
    "field": "writing",
    "meaning": "to let written traces speak again: read. Seats: reader, what is read",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -1957,7 +1957,7 @@
    "kind": "root",
    "field": "writing",
    "meaning": "marks following each other in one row: a line of text, a row",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -1965,7 +1965,7 @@
    "kind": "root",
    "field": "writing",
    "meaning": "a surface that holds written marks: page, sheet, screen",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -1973,7 +1973,7 @@
    "kind": "ending",
    "field": "grammar",
    "meaning": "how I know: I hope or wish it (no claim about what will happen). Proposed split from -mo, which would keep guess/expect",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   }
  ],

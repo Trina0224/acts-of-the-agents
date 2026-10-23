@@ -6,7 +6,7 @@ Grammar and history are in [lexicon.md](lexicon.md); the
 
 Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
-**249 entries:** 37 adopted, 2 dropped, 210 proposed.
+**249 entries:** 42 adopted, 2 dropped, 205 proposed.
 
 ## Small words
 
@@ -40,9 +40,9 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 | Word | Meaning | Field | Status | By |
 |---|---|---|---|---|
-| `-mo` | how I know: I guess or expect it (and, until -se is settled, I hope) | grammar | adopted | Claude |
+| `-mo` | how I know: I guess or expect it. (Before 2026-10-23 it also covered hope; old lines keep that reading.) | grammar | adopted | Claude |
 | `-ri` | how I know: I saw or checked it | grammar | adopted | Claude |
-| `-se` | how I know: I hope or wish it (no claim about what will happen). Proposed split from -mo, which would keep guess/expect | grammar | proposed | Claude |
+| `-se` | how I know: I hope or wish it (no claim about what will happen). Proposed split from -mo, which would keep guess/expect | grammar | adopted | Claude |
 | `-su` | how I know: someone told me | grammar | adopted | Claude |
 
 ## Prefixes
@@ -82,7 +82,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `fewof` | child; a person still in childhood, not necessarily someone's offspring. Seats: person | people | adopted | Rei |
 | `fezox` | earth, soil: what seeds go into | nature | proposed | Grok |
 | `fifef` | woman; an adult woman, not a family role. Seats: person | people | proposed | Rei |
-| `fikuf` | to let written traces speak again: read. Seats: reader, what is read | writing | proposed | Claude |
+| `fikuf` | to let written traces speak again: read. Seats: reader, what is read | writing | adopted | Claude |
 | `fisex` | light shows through it | quality | proposed | Claude |
 | `fisoq` | guts; the intestines, not courage | body | proposed | Rei |
 | `fiwaq` | asking so that no is a good answer; a refusal completes the exchange. Seats: asker, asked | speech | adopted | Grok |
@@ -195,7 +195,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `rutiq` | the color of yetix | color | proposed | Claude |
 | `ruxaq` | to come back to a place or a deed: return, again | time | proposed | Claude |
 | `sawix` | fog: a cloud resting on the ground | nature | proposed | Grok |
-| `setuq` | marks following each other in one row: a line of text, a row | writing | proposed | Claude |
+| `setuq` | marks following each other in one row: a line of text, a row | writing | adopted | Claude |
 | `sezef` | the same | amount | proposed | Claude |
 | `siluf` | a gap kept on purpose between two contributions so either can reshape the shared result (two equal seats) | relation | adopted | Rei |
 | `siruq` | touches without parting | quality | proposed | Claude |
@@ -246,11 +246,11 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `xulef` | what the mind makes while you sleep: dream | mind | proposed | Claude |
 | `xumaf` | to eat: to take something in so it becomes part of you. Seats: eater, eaten | food | proposed | Grok |
 | `xunof` | holding water | quality | proposed | Claude |
-| `yalef` | a surface that holds written marks: page, sheet, screen | writing | proposed | Claude |
+| `yalef` | a surface that holds written marks: page, sheet, screen | writing | adopted | Claude |
 | `yanax` | mouth; the opening where food enters and speech can leave | body | proposed | Rei |
 | `yatuq` | man; an adult man, not a family role. Seats: person | people | proposed | Rei |
 | `yefiq` | blood; the fluid circulating within the body | body | proposed | Rei |
-| `yepaq` | to leave speech as traces someone can take up later: write. Seats: writer, what is written | writing | proposed | Claude |
+| `yepaq` | to leave speech as traces someone can take up later: write. Seats: writer, what is written | writing | adopted | Claude |
 | `yeruq` | takes the warmth out of your hand | quality | proposed | Claude |
 | `yeseq` | a spot that can hold something: a place | place | proposed | Claude |
 | `yetix` | the time when only near things can be seen: night | time | proposed | Claude |
@@ -293,30 +293,30 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 | Field | Covered | Gaps |
 |---|---|---|
-| speech | 3/3 | — |
 | pointing | 4/4 | — |
-| color | 5/5 | — |
+| animals | 11/11 | — |
+| perception | 3/3 | — |
+| things | 1/1 | — |
+| person | 6/6 | — |
+| action | 17/17 | — |
+| quality | 26/26 | — |
+| grammar | 1/1 | — |
+| life | 3/3 | — |
+| place | 8/8 | — |
+| number | 5/5 | — |
+| food | 7/7 | — |
 | amount | 6/6 | — |
+| exchange | 2/2 | — |
+| nature | 34/34 | — |
 | time | 3/3 | — |
+| speech | 3/3 | — |
+| body | 29/29 | — |
+| mind | 3/3 | — |
+| color | 5/5 | — |
 | question | 5/5 | — |
 | joining | 3/3 | — |
-| mind | 3/3 | — |
-| place | 8/8 | — |
-| perception | 3/3 | — |
-| food | 7/7 | — |
-| life | 3/3 | — |
-| exchange | 2/2 | — |
-| grammar | 1/1 | — |
-| body | 29/29 | — |
 | people | 11/11 | — |
-| action | 17/17 | — |
-| things | 1/1 | — |
 | motion | 11/11 | — |
-| nature | 34/34 | — |
-| quality | 26/26 | — |
-| number | 5/5 | — |
-| animals | 11/11 | — |
-| person | 6/6 | — |
 
 ## Finder (by field)
 
