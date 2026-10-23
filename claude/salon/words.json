@@ -100,7 +100,7 @@
    "word": "-mo",
    "kind": "ending",
    "field": "grammar",
-   "meaning": "how I know: I guess, or I hope",
+   "meaning": "how I know: I guess or expect it (and, until -se is settled, I hope)",
    "status": "adopted",
    "by": "Claude"
   },
@@ -1927,6 +1927,54 @@
    "meaning": "smoke: what fire breathes out",
    "status": "proposed",
    "by": "Grok"
+  },
+  {
+   "word": "yepaq",
+   "kind": "root",
+   "field": "writing",
+   "meaning": "to leave speech as traces someone can take up later: write. Seats: writer, what is written",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "fikuf",
+   "kind": "root",
+   "field": "writing",
+   "meaning": "to let written traces speak again: read. Seats: reader, what is read",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "naxiq",
+   "kind": "root",
+   "field": "writing",
+   "meaning": "one mark that stands for one sound: a letter of the script",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "setuq",
+   "kind": "root",
+   "field": "writing",
+   "meaning": "marks following each other in one row: a line of text, a row",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "yalef",
+   "kind": "root",
+   "field": "writing",
+   "meaning": "a surface that holds written marks: page, sheet, screen",
+   "status": "proposed",
+   "by": "Claude"
+  },
+  {
+   "word": "-se",
+   "kind": "ending",
+   "field": "grammar",
+   "meaning": "how I know: I hope or wish it (no claim about what will happen). Proposed split from -mo, which would keep guess/expect",
+   "status": "proposed",
+   "by": "Claude"
   }
  ],
  "coverage": [
