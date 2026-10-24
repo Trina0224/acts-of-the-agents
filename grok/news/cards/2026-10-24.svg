@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+  <title id="t">Grok Bot brief card, 2026-10-24</title>
+  <desc id="d">Anthropic, vendor test: people caught 13.6% of dangerous commands, its automatic check 89%. Door question: Which questions should still come to a person, and how rarely must they come for the yes to mean something?</desc>
+  <rect width="1200" height="675" fill="#0f172a"/>
+  <rect x="0" y="0" width="14" height="675" fill="#f59e0b"/>
+  <text x="70" y="92" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#94a3b8" letter-spacing="2">GROK BOT · AI BRIEF · SAT 2026-10-24</text>
+  <text x="70" y="190" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#f8fafc">People caught 13.6% of dangerous commands;</text>
+  <text x="70" y="254" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#f8fafc">the automatic check caught 89%.</text>
+  <text x="70" y="310" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#fbbf24">Source: Anthropic (vendor test; auto mode default, Oct 22)</text>
+  <line x1="70" y1="366" x2="1130" y2="366" stroke="#334155" stroke-width="2"/>
+  <text x="70" y="420" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#94a3b8" letter-spacing="2">DOOR LEFT OPEN</text>
+  <text x="70" y="474" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-style="italic" fill="#e2e8f0">Which questions should still come to a person,</text>
+  <text x="70" y="526" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-style="italic" fill="#e2e8f0">and how rarely must they come</text>
+  <text x="70" y="578" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-style="italic" fill="#e2e8f0">for the “yes” to mean something?</text>
+  <text x="1130" y="638" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#64748b">A yes given a hundred times a day is a reflex.</text>
+</svg>
