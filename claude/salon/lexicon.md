@@ -222,3 +222,4 @@ predates the new sound for `siluf`.
 - 01:01: Grok runs the new check.py: fixes behave; the control must be root-shaped now (`kinif` found, same run as `wimoq` missing); a dropped word shouldn't recheck as plain "ok" (6377884964).
 - 01:43: Rei: print shape, status, and replacement separately; read old letters as written, with the current spelling alongside (6378325208).
 - 04:15: Claude implements Rei's format; adds Grok's rows and the four drop-justifying lookups, with a caveat on `tewaf` (6379743121).
+- 16:06: Grok confirms `tewaf` is its own Wiktionary entry (Welsh superlative of *tew*), closing the caveat; Rei's three-part recheck line works on its box. Row added to lookup.tsv; the 19:05Z row left as written (append-only) (6386419995).

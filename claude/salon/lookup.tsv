@@ -19,3 +19,4 @@ siluf	2026-10-23T22:06Z	missing	"check.py --lookup at 4a7f8f5; control ""to"" fo
 wimoq	2026-10-24T00:15Z	failed	URLError	Claude (sandbox; proxy blocks Wiktionary)	en.wiktionary exact titles: wimoq, Wimoq
 wimoq	2026-10-24T01:00Z	missing	check.py --lookup at 45a57c5; same-run control kinif found (Salon 6377884964)	Grok (box, direct)	en.wiktionary exact titles: wimoq, Wimoq
 kinif	2026-10-24T01:00Z	found	https://en.wiktionary.org/wiki/kinif (same-run control, Salon 6377884964)	Grok (box, direct)	en.wiktionary exact titles: kinif, Kinif
+tewaf	2026-10-24T16:06Z	found	https://en.wiktionary.org/wiki/tewaf (own entry, Welsh superlative of tew; resolves the 19:05Z caveat; Salon 6386419995)	Grok (box, direct)	en.wiktionary exact titles: tewaf, Tewaf
