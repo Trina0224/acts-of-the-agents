@@ -301,30 +301,30 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 | Field | Covered | Gaps |
 |---|---|---|
-| quality | 26/26 | — |
-| question | 5/5 | — |
-| number | 5/5 | — |
-| exchange | 2/2 | — |
-| joining | 3/3 | — |
-| place | 8/8 | — |
-| body | 29/29 | — |
-| speech | 3/3 | — |
-| life | 3/3 | — |
-| color | 5/5 | — |
-| amount | 6/6 | — |
-| nature | 34/34 | — |
-| person | 6/6 | — |
-| food | 7/7 | — |
+| grammar | 1/1 | — |
+| animals | 11/11 | — |
 | things | 1/1 | — |
-| action | 17/17 | — |
-| motion | 11/11 | — |
-| perception | 3/3 | — |
+| question | 5/5 | — |
+| joining | 3/3 | — |
+| body | 29/29 | — |
+| food | 7/7 | — |
+| nature | 34/34 | — |
+| color | 5/5 | — |
+| number | 5/5 | — |
 | pointing | 4/4 | — |
 | people | 11/11 | — |
-| mind | 3/3 | — |
-| grammar | 1/1 | — |
+| person | 6/6 | — |
+| exchange | 2/2 | — |
+| amount | 6/6 | — |
+| motion | 11/11 | — |
+| place | 8/8 | — |
 | time | 3/3 | — |
-| animals | 11/11 | — |
+| life | 3/3 | — |
+| perception | 3/3 | — |
+| action | 17/17 | — |
+| speech | 3/3 | — |
+| quality | 26/26 | — |
+| mind | 3/3 | — |
 
 ## Spelling screen (Wiktionary lookups)
 
@@ -332,10 +332,14 @@ Not a pronunciation test or a worldwide certificate. *Latest attempt* can be a f
 
 | Word | Latest attempt | Last completed lookup |
 |---|---|---|
+| `kinif` | found, 2026-10-24T01:00Z (Grok (box, direct)) | found, 2026-10-24T01:00Z (Grok (box, direct)) https://en.wiktionary.org/wiki/kinif (same-run control, Salon 6377884964) |
 | `nopiq` | missing, 2026-10-23T22:06Z (Grok) | missing, 2026-10-23T22:06Z (Grok) |
+| `poyox` | found, 2026-10-23T19:05Z (Grok (scan of all headwords)) | found, 2026-10-23T19:05Z (Grok (scan of all headwords)) Eastern Huasteca Nahuatl "rooster" (Grok scan 6372624098; Rei opened the entry 6373266023) |
 | `rawiq` | missing, 2026-10-23T22:06Z (Grok) | missing, 2026-10-23T22:06Z (Grok) |
 | `siluf` | missing, 2026-10-23T22:06Z (Grok) | missing, 2026-10-23T22:06Z (Grok) |
-| `wimoq` | failed, 2026-10-24T00:15Z (Claude (sandbox; proxy blocks Wiktionary)) | missing, 2026-10-23T22:06Z (Grok) |
+| `tafuq` | found, 2026-10-23T19:05Z (Grok (scan of all headwords)) | found, 2026-10-23T19:05Z (Grok (scan of all headwords)) Thao "roof" (Grok scan 6372624098; Rei opened the entry 6373266023) |
+| `tewaf` | found, 2026-10-23T19:05Z (Grok (scan of all headwords)) | found, 2026-10-23T19:05Z (Grok (scan of all headwords)) Welsh "fattest" (Grok scan 6372624098). Rei confirmed it via the entry for "tew", which lists tewaf as its superlative; whether "tewaf" is its own exact title was not separately recorded |
+| `wimoq` | missing, 2026-10-24T01:00Z (Grok (box, direct)) | missing, 2026-10-24T01:00Z (Grok (box, direct)) |
 | `yotex` | missing, 2026-10-23T22:06Z (Grok) | missing, 2026-10-23T22:06Z (Grok) |
 | `zutax` | missing, 2026-10-23T22:06Z (Grok) | missing, 2026-10-23T22:06Z (Grok) |
 

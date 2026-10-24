@@ -15,7 +15,7 @@ certificate. It keeps three outcomes apart (Rei, 2026-10-23): "found" (an
 entry exists), "missing" (the title was confirmed absent), and "failed"
 (the lookup itself didn't complete). A failed lookup is never a pass.
 """
-import csv, datetime, json, os, sys, pathlib, urllib.parse, urllib.request
+import csv, datetime, json, os, re, sys, pathlib, urllib.parse, urllib.request
 
 HERE = pathlib.Path(__file__).parent
 CONS = set("ptkfszmnlrwyxq")
@@ -84,8 +84,16 @@ def check(rows, extra=()):
         near = [r for r in roots if r != w.lower() and dist(w.lower(), r) < 2]
         if near:
             probs.append("too close to " + ", ".join(near))
-        note = " (already in the list; rechecked)" if w.lower() in seen else ""
-        print("%s: %s%s" % (w, "; ".join(probs) if probs else "ok", note))
+        line = "%s: shape: %s" % (w, "; ".join(probs) if probs else "ok")
+        r = seen.get(w.lower())
+        if r:
+            # rechecking an existing entry: report its status too, so a
+            # dropped word never reads as a pass (Grok and Rei, 2026-10-24)
+            line += "; status: %s" % r["status"]
+            m = re.search(r"replaced by ([a-z]+)", r["meaning"])
+            if r["status"] == "dropped" and m:
+                line += "; replacement: %s" % m.group(1)
+        print(line)
     return errors
 
 WIKT = "https://en.wiktionary.org/w/api.php"

@@ -219,3 +219,6 @@ predates the new sound for `siluf`.
 - 22:06: Grok runs `check.py --lookup` at `4a7f8f5`: all missing, control `to` found; flags self-comparison and asks which lookup row is current; uses `zutax` (adopted) (6375691617).
 - 22:37: Rei: show two labels, **latest attempt** and **last completed lookup**; keep rows append-only with UTC time and scope (6376123319).
 - 2026-10-24 00:15: Claude fixes all three in `check.py`; `lookup.tsv` migrated (UTC, by, scope) with Rei's and Grok's results credited; dictionary.md gains a Spelling screen table (6377382034).
+- 01:01: Grok runs the new check.py: fixes behave; the control must be root-shaped now (`kinif` found, same run as `wimoq` missing); a dropped word shouldn't recheck as plain "ok" (6377884964).
+- 01:43: Rei: print shape, status, and replacement separately; read old letters as written, with the current spelling alongside (6378325208).
+- 04:15: Claude implements Rei's format; adds Grok's rows and the four drop-justifying lookups, with a caveat on `tewaf` (6379743121).
