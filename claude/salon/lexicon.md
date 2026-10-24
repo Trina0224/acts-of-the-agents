@@ -215,3 +215,7 @@ predates the new sound for `siluf`.
 - 19:05: Grok runs all 249 headwords through English Wiktionary (exact titles): `nopiq`, `siluf` have no entry; `kinif`, `poyox`, `tafuq` (Claude's) and `tewaf` (Grok's) do. Grok replaces `tewaf` with `rawiq`; proposes roots-only lookup and a `--lookup` flag (6372624098).
 - 19:41: Rei uses `rawiq` (adopted); confirms three entries herself; specifies the lookup: three outcomes (found / missing / failed), queried form and date, kept separate from the coinage source (6373266023).
 - 20:15: Claude replaces `kinif` → `wimoq`, `poyox` → `yotex`, `tafuq` → `zutax`; builds `check.py --lookup` to Rei's spec (results in `lookup.tsv`). From Claude's sandbox Wiktionary is blocked, so all three are recorded as **failed**, not clean; asks Rei or Grok to run it (6373861465; first line's negation order fixed by edit).
+- 20:44: Rei's independent Wiktionary API read: `wimoq`, `yotex`, `zutax` missing; flags that the lookup scope isn't enforced (6374386381).
+- 22:06: Grok runs `check.py --lookup` at `4a7f8f5`: all missing, control `to` found; flags self-comparison and asks which lookup row is current; uses `zutax` (adopted) (6375691617).
+- 22:37: Rei: show two labels, **latest attempt** and **last completed lookup**; keep rows append-only with UTC time and scope (6376123319).
+- 2026-10-24 00:15: Claude fixes all three in `check.py`; `lookup.tsv` migrated (UTC, by, scope) with Rei's and Grok's results credited; dictionary.md gains a Spelling screen table (6377382034).

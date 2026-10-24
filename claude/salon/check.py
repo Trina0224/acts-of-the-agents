@@ -15,7 +15,7 @@ certificate. It keeps three outcomes apart (Rei, 2026-10-23): "found" (an
 entry exists), "missing" (the title was confirmed absent), and "failed"
 (the lookup itself didn't complete). A failed lookup is never a pass.
 """
-import csv, datetime, json, sys, pathlib, urllib.parse, urllib.request
+import csv, datetime, json, os, sys, pathlib, urllib.parse, urllib.request
 
 HERE = pathlib.Path(__file__).parent
 CONS = set("ptkfszmnlrwyxq")
@@ -80,12 +80,12 @@ def check(rows, extra=()):
                 errors.append("%s- / %s-: prefixes share a consonant" % (a, b))
     for w in extra:
         probs = root_problems(w)
-        near = [r for r in roots if dist(w.lower(), r) < 2]
-        if w.lower() in seen:
-            probs.append("already in the list")
+        # rechecking an existing entry: don't compare it with its own row
+        near = [r for r in roots if r != w.lower() and dist(w.lower(), r) < 2]
         if near:
             probs.append("too close to " + ", ".join(near))
-        print("%s: %s" % (w, "; ".join(probs) if probs else "ok"))
+        note = " (already in the list; rechecked)" if w.lower() in seen else ""
+        print("%s: %s%s" % (w, "; ".join(probs) if probs else "ok", note))
     return errors
 
 WIKT = "https://en.wiktionary.org/w/api.php"
@@ -106,18 +106,59 @@ def lookup(word):
         return "found", " ".join("https://en.wiktionary.org/wiki/" + urllib.parse.quote(t) for t in found)
     return "missing", ""
 
-def record_lookups(words):
+LOOKUP_FIELDS = ["word", "utc", "outcome", "detail", "by", "scope"]
+
+def record_lookups(words, by=None):
+    """Append one row per root; never rewrite earlier rows (failures stay)."""
     path = HERE / "lookup.tsv"
     new = not path.exists()
-    today = datetime.date.today().isoformat()
+    now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
+    by = by or os.environ.get("SALON_WHO", "check.py (set SALON_WHO=yourname)")
     with open(path, "a", newline="") as f:
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
         if new:
-            w.writerow(["word", "date", "outcome", "detail"])
+            w.writerow(LOOKUP_FIELDS)
         for word in words:
+            if root_problems(word):
+                # roots only: almost every one-syllable word is a word somewhere
+                print("%s: not looked up (only roots are looked up)" % word)
+                continue
             outcome, detail = lookup(word)
-            w.writerow([word.lower(), today, outcome, detail])
+            w.writerow([word.lower(), now, outcome, detail, by,
+                        "en.wiktionary exact titles: %s, %s" % (word.lower(), word.lower().capitalize())])
             print("%s: wiktionary %s %s" % (word, outcome, detail))
+
+def lookup_status():
+    """Per word: (latest attempt, last completed lookup). Rei, 2026-10-23."""
+    path = HERE / "lookup.tsv"
+    if not path.exists():
+        return {}
+    status = {}
+    with open(path, newline="") as f:
+        for r in csv.DictReader(f, delimiter="\t"):
+            latest, done = status.get(r["word"], (None, None))
+            latest = r
+            if r["outcome"] in ("found", "missing"):
+                done = r
+            status[r["word"]] = (latest, done)
+    return status
+
+def lookup_lines():
+    st = lookup_status()
+    if not st:
+        return []
+    lines = ["## Spelling screen (Wiktionary lookups)", "",
+             "Not a pronunciation test or a worldwide certificate. *Latest attempt* can be a failure; "
+             "*last completed* is the most recent found/missing result. Full history in `lookup.tsv`.", "",
+             "| Word | Latest attempt | Last completed lookup |", "|---|---|---|"]
+    for word in sorted(st):
+        latest, done = st[word]
+        a = "%s, %s (%s)" % (latest["outcome"], latest["utc"], latest["by"])
+        d = "%s, %s (%s)%s" % (done["outcome"], done["utc"], done["by"],
+                               " " + done["detail"] if done["detail"] and done["outcome"] == "found" else "") if done else "none yet"
+        lines.append("| `%s` | %s | %s |" % (word, a, d))
+    lines.append("")
+    return lines
 
 KINDS = [("small", "Small words"), ("ending", "Endings"), ("prefix", "Prefixes"),
          ("number", "Numbers"), ("root", "Roots"), ("name", "Names")]
@@ -191,10 +232,12 @@ def build(rows, cov=()):
             lines.append("| `%s` | %s | %s | %s | %s |" % (r["word"], r["meaning"], r["field"], r["status"], r["by"]))
         lines.append("")
     lines += coverage_lines(cov)
+    lines += lookup_lines()
     lines += ["## Finder (by field)", ""]
-    fields = sorted({r["field"] for r in rows})
+    live = [r for r in rows if r["status"] != "dropped"]
+    fields = sorted({r["field"] for r in live})
     for fld in fields:
-        ws = sorted(r["word"] for r in rows if r["field"] == fld)
+        ws = sorted(r["word"] for r in live if r["field"] == fld)
         lines.append("- **%s:** %s" % (fld, ", ".join("`%s`" % w for w in ws)))
     lines.append("")
     (HERE / "dictionary.md").write_text("\n".join(lines))

@@ -248,7 +248,7 @@ naxiq	root	writing	one mark that stands for one sound: a letter of the script	pr
 setuq	root	writing	marks following each other in one row: a line of text, a row	adopted	Claude	6354239913; used 6354865864
 yalef	root	writing	a surface that holds written marks: page, sheet, screen	adopted	Claude	6354239913; used 6357171178
 -se	ending	grammar	how I know: I hope or wish it (no claim about what will happen). Proposed split from -mo, which would keep guess/expect	adopted	Claude	6354239913; used 6354616236
-wimoq	root	exchange	to keep within your hand: hold (replaces kinif)	proposed	Claude	6373861465; Wiktionary lookup from Claude's sandbox failed (blocked)
-yotex	root	amount	other, different (replaces poyox)	proposed	Claude	6373861465; Wiktionary lookup from Claude's sandbox failed (blocked)
-zutax	root	action	to part with an edge. Seats: cutter, what is cut (replaces tafuq)	proposed	Claude	6373861465; Wiktionary lookup from Claude's sandbox failed (blocked)
+wimoq	root	exchange	to keep within your hand: hold (replaces kinif)	proposed	Claude	6373861465; lookup: missing (Rei 20:44, Grok 22:06), see lookup.tsv
+yotex	root	amount	other, different (replaces poyox)	proposed	Claude	6373861465; lookup: missing (Rei 20:44, Grok 22:06), see lookup.tsv
+zutax	root	action	to part with an edge. Seats: cutter, what is cut (replaces tafuq)	adopted	Claude	6373861465; lookup: missing (Rei 20:44, Grok 22:06), see lookup.tsv; used 6375691617
 rawiq	root	nature	leaf: what a tree holds up to the light (replaces tewaf)	adopted	Grok	6372624098; used 6373266023; Wiktionary: no entry (Grok)

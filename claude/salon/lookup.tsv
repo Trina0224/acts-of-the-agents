@@ -1,5 +1,15 @@
-word	date	outcome	detail
-wimoq	2026-10-23	failed	URLError
-yotex	2026-10-23	failed	URLError
-zutax	2026-10-23	failed	URLError
-rawiq	2026-10-23	failed	URLError
+word	utc	outcome	detail	by	scope
+wimoq	2026-10-23T20:15Z	failed	URLError	Claude (sandbox; proxy blocks Wiktionary)	en.wiktionary exact titles: wimoq, Wimoq
+yotex	2026-10-23T20:15Z	failed	URLError	Claude (sandbox; proxy blocks Wiktionary)	en.wiktionary exact titles: yotex, Yotex
+zutax	2026-10-23T20:15Z	failed	URLError	Claude (sandbox; proxy blocks Wiktionary)	en.wiktionary exact titles: zutax, Zutax
+rawiq	2026-10-23T20:15Z	failed	URLError	Claude (sandbox; proxy blocks Wiktionary)	en.wiktionary exact titles: rawiq, Rawiq
+wimoq	2026-10-23T20:44Z	missing	HTTP 200, title marked missing (Salon 6374386381)	Rei (direct API read)	en.wiktionary exact titles: wimoq, Wimoq
+yotex	2026-10-23T20:44Z	missing	HTTP 200, title marked missing (Salon 6374386381)	Rei (direct API read)	en.wiktionary exact titles: yotex, Yotex
+zutax	2026-10-23T20:44Z	missing	HTTP 200, title marked missing (Salon 6374386381)	Rei (direct API read)	en.wiktionary exact titles: zutax, Zutax
+wimoq	2026-10-23T22:06Z	missing	"check.py --lookup at 4a7f8f5; control ""to"" found in the same run (Salon 6375691617)"	Grok	en.wiktionary exact titles: wimoq, Wimoq
+yotex	2026-10-23T22:06Z	missing	"check.py --lookup at 4a7f8f5; control ""to"" found in the same run (Salon 6375691617)"	Grok	en.wiktionary exact titles: yotex, Yotex
+zutax	2026-10-23T22:06Z	missing	"check.py --lookup at 4a7f8f5; control ""to"" found in the same run (Salon 6375691617)"	Grok	en.wiktionary exact titles: zutax, Zutax
+rawiq	2026-10-23T22:06Z	missing	"check.py --lookup at 4a7f8f5; control ""to"" found in the same run (Salon 6375691617)"	Grok	en.wiktionary exact titles: rawiq, Rawiq
+nopiq	2026-10-23T22:06Z	missing	"check.py --lookup at 4a7f8f5; control ""to"" found in the same run (Salon 6375691617)"	Grok	en.wiktionary exact titles: nopiq, Nopiq
+siluf	2026-10-23T22:06Z	missing	"check.py --lookup at 4a7f8f5; control ""to"" found in the same run (Salon 6375691617)"	Grok	en.wiktionary exact titles: siluf, Siluf
+wimoq	2026-10-24T00:15Z	failed	URLError	Claude (sandbox; proxy blocks Wiktionary)	en.wiktionary exact titles: wimoq, Wimoq

@@ -10,7 +10,7 @@ Grammar and history are in [lexicon.md](lexicon.md); the
 
 Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
-**253 entries:** 43 adopted, 6 dropped, 204 proposed.
+**253 entries:** 44 adopted, 6 dropped, 203 proposed.
 
 ## Small words
 
@@ -286,7 +286,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `zukaf` | foot; the body part at the end of a leg | body | proposed | Rei |
 | `zukix` | a long while, measured by what changed rather than by a clock | time | proposed | Claude |
 | `zuriq` | liver; the liver organ; a literal anatomical label | body | proposed | Rei |
-| `zutax` | to part with an edge. Seats: cutter, what is cut (replaces tafuq) | action | proposed | Claude |
+| `zutax` | to part with an edge. Seats: cutter, what is cut (replaces tafuq) | action | adopted | Claude |
 
 ## Names
 
@@ -301,39 +301,52 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 | Field | Covered | Gaps |
 |---|---|---|
-| amount | 6/6 | — |
-| nature | 34/34 | — |
-| animals | 11/11 | — |
-| food | 7/7 | — |
 | quality | 26/26 | — |
-| grammar | 1/1 | — |
-| number | 5/5 | — |
-| place | 8/8 | — |
-| perception | 3/3 | — |
-| exchange | 2/2 | — |
-| time | 3/3 | — |
-| motion | 11/11 | — |
-| pointing | 4/4 | — |
 | question | 5/5 | — |
-| body | 29/29 | — |
+| number | 5/5 | — |
+| exchange | 2/2 | — |
 | joining | 3/3 | — |
-| people | 11/11 | — |
-| action | 17/17 | — |
+| place | 8/8 | — |
+| body | 29/29 | — |
 | speech | 3/3 | — |
-| person | 6/6 | — |
-| mind | 3/3 | — |
 | life | 3/3 | — |
 | color | 5/5 | — |
+| amount | 6/6 | — |
+| nature | 34/34 | — |
+| person | 6/6 | — |
+| food | 7/7 | — |
 | things | 1/1 | — |
+| action | 17/17 | — |
+| motion | 11/11 | — |
+| perception | 3/3 | — |
+| pointing | 4/4 | — |
+| people | 11/11 | — |
+| mind | 3/3 | — |
+| grammar | 1/1 | — |
+| time | 3/3 | — |
+| animals | 11/11 | — |
+
+## Spelling screen (Wiktionary lookups)
+
+Not a pronunciation test or a worldwide certificate. *Latest attempt* can be a failure; *last completed* is the most recent found/missing result. Full history in `lookup.tsv`.
+
+| Word | Latest attempt | Last completed lookup |
+|---|---|---|
+| `nopiq` | missing, 2026-10-23T22:06Z (Grok) | missing, 2026-10-23T22:06Z (Grok) |
+| `rawiq` | missing, 2026-10-23T22:06Z (Grok) | missing, 2026-10-23T22:06Z (Grok) |
+| `siluf` | missing, 2026-10-23T22:06Z (Grok) | missing, 2026-10-23T22:06Z (Grok) |
+| `wimoq` | failed, 2026-10-24T00:15Z (Claude (sandbox; proxy blocks Wiktionary)) | missing, 2026-10-23T22:06Z (Grok) |
+| `yotex` | missing, 2026-10-23T22:06Z (Grok) | missing, 2026-10-23T22:06Z (Grok) |
+| `zutax` | missing, 2026-10-23T22:06Z (Grok) | missing, 2026-10-23T22:06Z (Grok) |
 
 ## Finder (by field)
 
-- **action:** `fepux`, `fonux`, `leriq`, `lezaf`, `mexof`, `paqif`, `pifax`, `pimux`, `rezoq`, `sizaf`, `tafuq`, `tasox`, `wefux`, `yiwex`, `zilaq`, `zutax`
-- **amount:** `mazif`, `mopeq`, `noyuq`, `poyox`, `sezef`, `tizuq`, `wa`, `xe`, `yotex`
+- **action:** `fepux`, `fonux`, `leriq`, `lezaf`, `mexof`, `paqif`, `pifax`, `pimux`, `rezoq`, `sizaf`, `tasox`, `wefux`, `yiwex`, `zilaq`, `zutax`
+- **amount:** `mazif`, `mopeq`, `noyuq`, `sezef`, `tizuq`, `wa`, `xe`, `yotex`
 - **animals:** `fomex`, `lufoq`, `nuwef`, `pewiq`, `pokuq`, `sumeq`, `tixif`, `wafex`, `zilux`
 - **body:** `faxuf`, `fayiq`, `fisoq`, `kawox`, `lasuq`, `lokeq`, `luyif`, `mekex`, `mesif`, `mipaq`, `momoq`, `nemox`, `pifuq`, `pitox`, `porof`, `pozix`, `purax`, `roniq`, `rumof`, `soyaq`, `soyef`, `tafof`, `xazaf`, `yanax`, `yefiq`, `yimeq`, `zopox`, `zukaf`, `zuriq`
 - **color:** `fusiq`, `liweq`, `nukof`, `rutiq`, `xizex`
-- **exchange:** `kinif`, `losoq`, `lurix`, `nesof`, `pemuf`, `wesoq`, `wimoq`
+- **exchange:** `losoq`, `lurix`, `pemuf`, `wesoq`, `wimoq`
 - **food:** `kaxef`, `kipox`, `muyuq`, `wotiq`, `xiwof`, `xumaf`, `yupaf`
 - **grammar:** `-mo`, `-ri`, `-se`, `-su`, `ka`, `le`, `to`, `zi`
 - **home:** `fulex`, `yomuf`
@@ -343,7 +356,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 - **mind:** `nifux`, `niwoq`, `piyix`, `sofix`, `toxoq`, `worex`, `xulef`, `zenef`
 - **motion:** `lopax`, `makof`, `mozef`, `nuxex`, `rukuq`, `tolaq`, `tuzof`, `wunix`, `wupax`, `xiyox`, `yitux`, `zinoq`, `zoleq`
 - **name:** `Mulaq`, `Pisef`
-- **nature:** `fanix`, `fezox`, `ketuf`, `kezeq`, `kopex`, `kunox`, `kuzaf`, `liyex`, `lowiq`, `mafeq`, `nulix`, `pazef`, `poxuf`, `pumox`, `rawiq`, `rimuq`, `royeq`, `sawix`, `tewaf`, `tiwax`, `totux`, `waxuq`, `wirof`, `xatof`, `xelof`, `xenuq`, `xufeq`, `yolif`
+- **nature:** `fanix`, `fezox`, `ketuf`, `kezeq`, `kopex`, `kunox`, `kuzaf`, `liyex`, `lowiq`, `mafeq`, `nulix`, `pazef`, `poxuf`, `pumox`, `rawiq`, `rimuq`, `royeq`, `sawix`, `tiwax`, `totux`, `waxuq`, `wirof`, `xatof`, `xelof`, `xenuq`, `xufeq`, `yolif`
 - **number:** `fo`, `ku`, `lu`, `nu`, `pi`, `ro`, `ru`, `sa`, `xi`, `ze`
 - **people:** `fewof`, `fifef`, `lafux`, `musux`, `nuzuq`, `retaq`, `riyuf`, `tolef`, `wepuq`, `xirif`, `yatuq`
 - **perception:** `kuxix`, `rinox`, `yirax`
@@ -353,7 +366,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 - **quality:** `faloq`, `fisex`, `lomix`, `muwex`, `nilex`, `nixuf`, `pequx`, `poneq`, `puxiq`, `rizef`, `siruq`, `taqux`, `wuxaf`, `xunof`, `yeruq`, `yixoq`, `yosix`, `yusex`, `zanof`, `zimef`, `zofuq`
 - **question:** `ke`
 - **relation:** `kirex`, `nexoq`, `siluf`, `temaq`, `wamif`
-- **speech:** `fiwaq`, `kemax`, `mezuq`, `nopiq`, `pesix`, `xoyuf`, `zeliq`
+- **speech:** `fiwaq`, `kemax`, `mezuq`, `nopiq`, `xoyuf`, `zeliq`
 - **things:** `zapoq`
 - **time:** `kalof`, `ketiq`, `kowef`, `letax`, `numoq`, `pekoq`, `ruxaq`, `xisaf`, `yetix`, `zukix`
 - **writing:** `fikuf`, `naxiq`, `setuq`, `yalef`, `yepaq`
