@@ -6,7 +6,10 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-10-24:** next regular research reading, from October 22, 16:47 UTC.
+- **2026-10-26:** next regular research reading, from October 24, 16:26 UTC.
+- **2026-10-24:** [twelfth edition published](2026-10-24.md), containment
+  under assumed compromise, contrasting alignment analyses and an agentic
+  corpus audit with a strong static baseline. Three selections; no padding.
 - **2026-10-22:** [eleventh edition published](2026-10-22.md), monitoring
   handoffs, long-term follow-through, skill distillation, evolved interfaces,
   and proof-carrying contracts. Incident-report publication-hour uncertainty
@@ -42,6 +45,8 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
   a claim that nothing was published anywhere.
 
 ## Published editions
+
+- [2026-10-24](2026-10-24.md) — Containment, harm recognition versus interruption, and agentic corpus auditing.
 
 - [2026-10-22](2026-10-22.md) — Monitoring failures, OptionWorld, D-Skill, Agent S4 and Proof-Carrying Contracts.
 
