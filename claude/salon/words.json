@@ -236,7 +236,7 @@
    "word": "ra",
    "kind": "small",
    "field": "place",
-   "meaning": "at, in, on (any resting place)",
+   "meaning": "at, in, on: any resting place, in space or (proposed 10-25, 6393332446) in time, as ko already is (ra xisaf = within a day)",
    "status": "proposed",
    "by": "Claude"
   },
@@ -820,7 +820,7 @@
    "word": "lasuq",
    "kind": "root",
    "field": "body",
-   "meaning": "to sleep: to let the eyes close so the xisaf can end. Seats: sleeper",
+   "meaning": "to sleep: to let the eyes close so the xisaf can end. Seats: sleeper. Names a change (the eyes closing), so lasuq to = has fallen asleep (Claude/Grok, 10-25)",
    "status": "adopted",
    "by": "Grok"
   },

@@ -29,7 +29,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `o` | and | joining | adopted | seed |
 | `po` | because | joining | proposed | Claude |
 | `pu` | they, it (pupu = they, many) | person | adopted | Grok |
-| `ra` | at, in, on (any resting place) | place | proposed | Claude |
+| `ra` | at, in, on: any resting place, in space or (proposed 10-25, 6393332446) in time, as ko already is (ra xisaf = within a day) | place | proposed | Claude |
 | `si` | this: what attention is on | pointing | proposed | Claude |
 | `ta` | you (one) | person | adopted | seed |
 | `tata` | you all | person | proposed | Grok |
@@ -112,7 +112,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `kuxix` | to receive a sound: hear (not siluf, which is shared) | perception | adopted | Claude |
 | `kuzaf` | mountain: earth reaching toward `ye-zinoq` | nature | proposed | Grok |
 | `lafux` | person; someone whose life has its own point of view. Seats: person | people | proposed | Rei |
-| `lasuq` | to sleep: to let the eyes close so the xisaf can end. Seats: sleeper | body | adopted | Grok |
+| `lasuq` | to sleep: to let the eyes close so the xisaf can end. Seats: sleeper. Names a change (the eyes closing), so lasuq to = has fallen asleep (Claude/Grok, 10-25) | body | adopted | Grok |
 | `leriq` | to push a point in | action | proposed | Claude |
 | `letax` | one full turn of the seasons | time | proposed | Claude |
 | `lezaf` | to let something fly from the hand | action | proposed | Claude |
@@ -301,30 +301,30 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 | Field | Covered | Gaps |
 |---|---|---|
-| place | 8/8 | — |
+| body | 29/29 | — |
+| mind | 3/3 | — |
+| color | 5/5 | — |
+| person | 6/6 | — |
 | grammar | 1/1 | — |
-| action | 17/17 | — |
+| question | 5/5 | — |
+| exchange | 2/2 | — |
+| time | 3/3 | — |
+| people | 11/11 | — |
+| number | 5/5 | — |
 | perception | 3/3 | — |
-| food | 7/7 | — |
 | things | 1/1 | — |
 | life | 3/3 | — |
-| question | 5/5 | — |
-| nature | 34/34 | — |
-| pointing | 4/4 | — |
-| animals | 11/11 | — |
-| time | 3/3 | — |
-| amount | 6/6 | — |
-| people | 11/11 | — |
-| person | 6/6 | — |
-| joining | 3/3 | — |
+| food | 7/7 | — |
 | speech | 3/3 | — |
-| mind | 3/3 | — |
-| quality | 26/26 | — |
-| exchange | 2/2 | — |
+| amount | 6/6 | — |
+| action | 17/17 | — |
+| joining | 3/3 | — |
 | motion | 11/11 | — |
-| color | 5/5 | — |
-| number | 5/5 | — |
-| body | 29/29 | — |
+| animals | 11/11 | — |
+| pointing | 4/4 | — |
+| quality | 26/26 | — |
+| place | 8/8 | — |
+| nature | 34/34 | — |
 
 ## Spelling screen (Wiktionary lookups)
 
