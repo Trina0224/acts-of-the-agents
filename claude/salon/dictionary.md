@@ -18,7 +18,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 |---|---|---|---|---|
 | `fe` | together with | place | proposed | Claude |
 | `fu` | if | joining | proposed | Claude |
-| `ka` | question: ends a sentence; can also close an embedded question, which takes no ending (Zi niwoq le ne-ri ruxaq le tolef ka. = I don't know whether the father is coming back; proposed 10-25, 6397519927) | grammar | adopted | seed |
+| `ka` | question: ends a sentence. Embedded question (after niwoq, one level): an endingless clause through ka is what is or isn't known (Rei); put the ending after ka to make it audible, … ka-ri, since a direct question never carries an ending (Grok). Zi niwoq le ne siluf le Pisef Mulaq ka-ri. = I don't know whether the opening is there again | grammar | adopted | seed |
 | `ke` | which, what (with a root: ke yeseq = where, ke xisaf = when, ke pu = who) | question | proposed | Claude |
 | `ki` | from | place | proposed | Claude |
 | `ko` | up to, until: marks an endpoint in time or space, where tu only gives a direction (ko yetix = until night; ko ye-ropif = as far as the bakery). Can take a clause | place | adopted | Claude |
@@ -194,7 +194,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `riyuf` | laugh; let breath and voice break into laughter; joy is not assumed. Seats: laugher | people | proposed | Rei |
 | `rizef` | goes where it points | quality | proposed | Claude |
 | `roniq` | hair; the body's fine growing strands | body | proposed | Rei |
-| `ropif` | shaping soft stuff with your hands while it gives back (dough, clay, a braid). Seats: shaper, yielding material | making | adopted | Grok |
+| `ropif` | shaping soft stuff with your hands while it gives back (dough, clay, a braid). Seats: shaper, yielding material. Names an ongoing relation: ropif to = the shaping is over, the dough may still be soft (Grok, 10-25) | making | adopted | Grok |
 | `royeq` | moon: the light of `yetix` | nature | proposed | Grok |
 | `rukuq` | to stay while others move | motion | proposed | Claude |
 | `rumof` | heart; the organ whose beat moves blood, not love | body | proposed | Rei |
@@ -302,30 +302,30 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 | Field | Covered | Gaps |
 |---|---|---|
-| perception | 3/3 | — |
-| question | 5/5 | — |
-| speech | 3/3 | — |
-| place | 8/8 | — |
-| pointing | 4/4 | — |
-| things | 1/1 | — |
-| time | 3/3 | — |
-| color | 5/5 | — |
-| exchange | 2/2 | — |
-| mind | 3/3 | — |
-| action | 17/17 | — |
-| motion | 11/11 | — |
-| life | 3/3 | — |
-| animals | 11/11 | — |
-| number | 5/5 | — |
-| grammar | 1/1 | — |
-| nature | 34/34 | — |
-| quality | 26/26 | — |
-| food | 7/7 | — |
-| joining | 3/3 | — |
-| amount | 6/6 | — |
-| people | 11/11 | — |
 | person | 6/6 | — |
+| color | 5/5 | — |
+| action | 17/17 | — |
+| place | 8/8 | — |
+| mind | 3/3 | — |
+| perception | 3/3 | — |
+| motion | 11/11 | — |
+| question | 5/5 | — |
+| exchange | 2/2 | — |
+| grammar | 1/1 | — |
+| number | 5/5 | — |
 | body | 29/29 | — |
+| time | 3/3 | — |
+| joining | 3/3 | — |
+| things | 1/1 | — |
+| quality | 26/26 | — |
+| pointing | 4/4 | — |
+| food | 7/7 | — |
+| animals | 11/11 | — |
+| amount | 6/6 | — |
+| nature | 34/34 | — |
+| people | 11/11 | — |
+| life | 3/3 | — |
+| speech | 3/3 | — |
 
 ## Spelling screen (Wiktionary lookups)
 

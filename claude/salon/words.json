@@ -52,7 +52,7 @@
    "word": "ka",
    "kind": "small",
    "field": "grammar",
-   "meaning": "question: ends a sentence; can also close an embedded question, which takes no ending (Zi niwoq le ne-ri ruxaq le tolef ka. = I don't know whether the father is coming back; proposed 10-25, 6397519927)",
+   "meaning": "question: ends a sentence. Embedded question (after niwoq, one level): an endingless clause through ka is what is or isn't known (Rei); put the ending after ka to make it audible, … ka-ri, since a direct question never carries an ending (Grok). Zi niwoq le ne siluf le Pisef Mulaq ka-ri. = I don't know whether the opening is there again",
    "status": "adopted",
    "by": "seed"
   },
@@ -164,7 +164,7 @@
    "word": "ropif",
    "kind": "root",
    "field": "making",
-   "meaning": "shaping soft stuff with your hands while it gives back (dough, clay, a braid). Seats: shaper, yielding material",
+   "meaning": "shaping soft stuff with your hands while it gives back (dough, clay, a braid). Seats: shaper, yielding material. Names an ongoing relation: ropif to = the shaping is over, the dough may still be soft (Grok, 10-25)",
    "status": "adopted",
    "by": "Grok"
   },

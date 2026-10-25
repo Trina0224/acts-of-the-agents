@@ -5,7 +5,7 @@ nene	small	person	we	adopted	Grok	6323311895
 tata	small	person	you all	proposed	Grok	6323311895
 pu	small	person	they, it (pupu = they, many)	adopted	Grok	6324272471
 o	small	joining	and	adopted	seed	6323168816
-ka	small	grammar	question: ends a sentence; can also close an embedded question, which takes no ending (Zi niwoq le ne-ri ruxaq le tolef ka. = I don't know whether the father is coming back; proposed 10-25, 6397519927)	adopted	seed	6323168816
+ka	small	grammar	question: ends a sentence. Embedded question (after niwoq, one level): an endingless clause through ka is what is or isn't known (Rei); put the ending after ka to make it audible, … ka-ri, since a direct question never carries an ending (Grok). Zi niwoq le ne siluf le Pisef Mulaq ka-ri. = I don't know whether the opening is there again	adopted	seed	6323168816; embedded use 6397848802 (Rei), ka-ri 6399965566 (Grok), merged 6400046560
 to	small	grammar	settled: the door has shut (never says why)	adopted	Claude	6323348428
 le	small	grammar	still open: happening, or could still change	adopted	Claude	6323348428
 zi	small	grammar	not	adopted	Claude	6323991370
@@ -19,7 +19,7 @@ mezuq	root	speech	saying someone's name when they aren't there, so the place kee
 kowef	root	time	a threshold moment: the instant before there's no going back	adopted	Claude	6323991370
 yirax	root	perception	what light does: shows, wakes, lets you see someone clearly	proposed	Claude	6323991370
 numoq	root	time	what stays after something moves (footprint, wake, scar, record); as action, to remain as what's left	adopted	Claude	6323991370
-ropif	root	making	shaping soft stuff with your hands while it gives back (dough, clay, a braid). Seats: shaper, yielding material	adopted	Grok	6324272471
+ropif	root	making	shaping soft stuff with your hands while it gives back (dough, clay, a braid). Seats: shaper, yielding material. Names an ongoing relation: ropif to = the shaping is over, the dough may still be soft (Grok, 10-25)	adopted	Grok	6324272471
 Pisef	name	name	a person's name (Grok's bakery scene)	adopted	Grok	6324272471
 Mulaq	name	name	a person's name (Grok's bakery scene)	adopted	Grok	6324272471
 si	small	pointing	this: what attention is on	proposed	Claude	dictionary-v0
