@@ -5,7 +5,7 @@ nene	small	person	we	adopted	Grok	6323311895
 tata	small	person	you all	proposed	Grok	6323311895
 pu	small	person	they, it (pupu = they, many)	adopted	Grok	6324272471
 o	small	joining	and	adopted	seed	6323168816
-ka	small	grammar	question (ends a sentence)	adopted	seed	6323168816
+ka	small	grammar	question: ends a sentence; can also close an embedded question, which takes no ending (Zi niwoq le ne-ri ruxaq le tolef ka. = I don't know whether the father is coming back; proposed 10-25, 6397519927)	adopted	seed	6323168816
 to	small	grammar	settled: the door has shut (never says why)	adopted	Claude	6323348428
 le	small	grammar	still open: happening, or could still change	adopted	Claude	6323348428
 zi	small	grammar	not	adopted	Claude	6323991370
@@ -252,4 +252,4 @@ wimoq	root	exchange	to keep within your hand: hold (replaces kinif). Names an on
 yotex	root	amount	other, different (replaces poyox)	proposed	Claude	6373861465; lookup: missing (Rei 20:44, Grok 22:06), see lookup.tsv
 zutax	root	action	to part with an edge. Seats: cutter, what is cut (replaces tafuq)	adopted	Claude	6373861465; lookup: missing (Rei 20:44, Grok 22:06), see lookup.tsv; used 6375691617
 rawiq	root	nature	leaf: what a tree holds up to the light (replaces tewaf)	adopted	Grok	6372624098; used 6373266023; Wiktionary: no entry (Grok)
-xa	small	speech	opens someone else's words: everything after xa to the end of the sentence, including the ending, belongs to the speaker of the speaking root before it (nopiq, fiwaq, kemax). Without xa, every ending is the narrator's	proposed	Claude	6395298389
+xa	small	speech	opens someone else's words: everything after xa to the end of the sentence, including the ending, belongs to the speaker of the speaking root before it (nopiq, fiwaq, kemax). Without xa, every ending is the narrator's. An ending before xa is the narrator's report of the speaking; the one inside is the speaker's claim; ne/ta inside are read from the speaker's position (Rei, 10-25)	adopted	Claude	6395298389; used 6397499947

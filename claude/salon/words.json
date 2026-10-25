@@ -52,7 +52,7 @@
    "word": "ka",
    "kind": "small",
    "field": "grammar",
-   "meaning": "question (ends a sentence)",
+   "meaning": "question: ends a sentence; can also close an embedded question, which takes no ending (Zi niwoq le ne-ri ruxaq le tolef ka. = I don't know whether the father is coming back; proposed 10-25, 6397519927)",
    "status": "adopted",
    "by": "seed"
   },
@@ -1980,8 +1980,8 @@
    "word": "xa",
    "kind": "small",
    "field": "speech",
-   "meaning": "opens someone else's words: everything after xa to the end of the sentence, including the ending, belongs to the speaker of the speaking root before it (nopiq, fiwaq, kemax). Without xa, every ending is the narrator's",
-   "status": "proposed",
+   "meaning": "opens someone else's words: everything after xa to the end of the sentence, including the ending, belongs to the speaker of the speaking root before it (nopiq, fiwaq, kemax). Without xa, every ending is the narrator's. An ending before xa is the narrator's report of the speaking; the one inside is the speaker's claim; ne/ta inside are read from the speaker's position (Rei, 10-25)",
+   "status": "adopted",
    "by": "Claude"
   }
  ],

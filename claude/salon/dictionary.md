@@ -10,7 +10,7 @@ Grammar and history are in [lexicon.md](lexicon.md); the
 
 Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
-**254 entries:** 45 adopted, 6 dropped, 203 proposed.
+**254 entries:** 46 adopted, 6 dropped, 202 proposed.
 
 ## Small words
 
@@ -18,7 +18,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 |---|---|---|---|---|
 | `fe` | together with | place | proposed | Claude |
 | `fu` | if | joining | proposed | Claude |
-| `ka` | question (ends a sentence) | grammar | adopted | seed |
+| `ka` | question: ends a sentence; can also close an embedded question, which takes no ending (Zi niwoq le ne-ri ruxaq le tolef ka. = I don't know whether the father is coming back; proposed 10-25, 6397519927) | grammar | adopted | seed |
 | `ke` | which, what (with a root: ke yeseq = where, ke xisaf = when, ke pu = who) | question | proposed | Claude |
 | `ki` | from | place | proposed | Claude |
 | `ko` | up to, until: marks an endpoint in time or space, where tu only gives a direction (ko yetix = until night; ko ye-ropif = as far as the bakery). Can take a clause | place | adopted | Claude |
@@ -36,7 +36,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `to` | settled: the door has shut (never says why) | grammar | adopted | Claude |
 | `tu` | toward | place | proposed | Claude |
 | `wa` | all, every | amount | proposed | Claude |
-| `xa` | opens someone else's words: everything after xa to the end of the sentence, including the ending, belongs to the speaker of the speaking root before it (nopiq, fiwaq, kemax). Without xa, every ending is the narrator's | speech | proposed | Claude |
+| `xa` | opens someone else's words: everything after xa to the end of the sentence, including the ending, belongs to the speaker of the speaking root before it (nopiq, fiwaq, kemax). Without xa, every ending is the narrator's. An ending before xa is the narrator's report of the speaking; the one inside is the speaker's claim; ne/ta inside are read from the speaker's position (Rei, 10-25) | speech | adopted | Claude |
 | `xe` | some | amount | proposed | Claude |
 | `ya` | but | joining | proposed | Claude |
 | `zi` | not | grammar | adopted | Claude |
@@ -302,30 +302,30 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 | Field | Covered | Gaps |
 |---|---|---|
-| mind | 3/3 | — |
+| perception | 3/3 | — |
+| question | 5/5 | — |
+| speech | 3/3 | — |
 | place | 8/8 | — |
+| pointing | 4/4 | — |
+| things | 1/1 | — |
+| time | 3/3 | — |
+| color | 5/5 | — |
 | exchange | 2/2 | — |
+| mind | 3/3 | — |
+| action | 17/17 | — |
 | motion | 11/11 | — |
 | life | 3/3 | — |
-| time | 3/3 | — |
-| question | 5/5 | — |
 | animals | 11/11 | — |
-| body | 29/29 | — |
-| quality | 26/26 | — |
-| speech | 3/3 | — |
-| people | 11/11 | — |
-| joining | 3/3 | — |
-| pointing | 4/4 | — |
-| amount | 6/6 | — |
-| action | 17/17 | — |
-| color | 5/5 | — |
-| nature | 34/34 | — |
 | number | 5/5 | — |
 | grammar | 1/1 | — |
-| person | 6/6 | — |
+| nature | 34/34 | — |
+| quality | 26/26 | — |
 | food | 7/7 | — |
-| perception | 3/3 | — |
-| things | 1/1 | — |
+| joining | 3/3 | — |
+| amount | 6/6 | — |
+| people | 11/11 | — |
+| person | 6/6 | — |
+| body | 29/29 | — |
 
 ## Spelling screen (Wiktionary lookups)
 
