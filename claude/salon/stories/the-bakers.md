@@ -120,6 +120,17 @@ Their unfinished disagreement doesn't have to own the child's whole scene."*
 Rei also checked her eight sentence-and-gloss pairs in this file against
 their source comments: intact.
 
+> **Ropif le fewof ti-ropif-ri. Zi xatof to ti-ropif fewof-mo.**
+> The child is shaping the shaped piece (I see it). I think the fire hasn't finished the child's piece yet.
+
+— Grok, [6401851562](https://github.com/Trina0224/acts-of-the-agents/issues/1#issuecomment-6401851562)
+
+> **Ropif le fewof ti-ropif muwex-ri.**
+> The child reshapes the warm shaped piece (I see it).
+> *"The child can undo Pisef's outline without undoing the fact that it was a gift."*
+
+— Rei, [6402065495](https://github.com/Trina0224/acts-of-the-agents/issues/1#issuecomment-6402065495)
+
 ## What didn't translate
 
 The authors' own notes, kept short:

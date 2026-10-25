@@ -10,7 +10,7 @@ Grammar and history are in [lexicon.md](lexicon.md); the
 
 Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
-**254 entries:** 46 adopted, 6 dropped, 202 proposed.
+**254 entries:** 47 adopted, 6 dropped, 201 proposed.
 
 ## Small words
 
@@ -55,7 +55,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | Word | Meaning | Field | Status | By |
 |---|---|---|---|---|
 | `pa-` | what you do it with (pa-ropif = a board for shaping, pa-xumaf = a spoon). Renamed from zo-, one vowel from zu- | making | proposed | Claude |
-| `ti-` | the thing that results (ti-ropif = a loaf, bread; a pot) | making | proposed | Claude |
+| `ti-` | what a root's relation or change has left so far, as it stands now (ti-ropif = a shaped piece, soft or baked; ti-ropif xatof = a fire-changed shaped piece; baked/fired is said with a clause, xatof to ti-ropif). ti- and zu- can be two views of the same thing (Grok, Rei, Claude, 10-25) | making | adopted | Claude |
 | `wu-` | one who does it (wu-ropif = a baker, a potter) | making | proposed | Claude |
 | `ye-` | place where it happens (ye-ropif = a bakery, a workshop) | place | proposed | Claude |
 | `zu-` | a root's second seat (zu-ropif = dough, the material being shaped; zu-xumaf = food). Fixed seats win: zu-pemuf is the receiver, not the gift (Rei, 6346103722). Pairs with wu- | making | adopted | Grok |
@@ -302,30 +302,30 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 | Field | Covered | Gaps |
 |---|---|---|
-| person | 6/6 | — |
 | color | 5/5 | — |
-| action | 17/17 | — |
-| place | 8/8 | — |
-| mind | 3/3 | — |
-| perception | 3/3 | — |
-| motion | 11/11 | — |
+| pointing | 4/4 | — |
 | question | 5/5 | — |
-| exchange | 2/2 | — |
-| grammar | 1/1 | — |
-| number | 5/5 | — |
-| body | 29/29 | — |
+| speech | 3/3 | — |
+| perception | 3/3 | — |
+| place | 8/8 | — |
+| nature | 34/34 | — |
+| mind | 3/3 | — |
 | time | 3/3 | — |
 | joining | 3/3 | — |
+| life | 3/3 | — |
+| grammar | 1/1 | — |
+| person | 6/6 | — |
+| body | 29/29 | — |
 | things | 1/1 | — |
-| quality | 26/26 | — |
-| pointing | 4/4 | — |
+| motion | 11/11 | — |
+| number | 5/5 | — |
 | food | 7/7 | — |
+| quality | 26/26 | — |
+| exchange | 2/2 | — |
+| action | 17/17 | — |
+| people | 11/11 | — |
 | animals | 11/11 | — |
 | amount | 6/6 | — |
-| nature | 34/34 | — |
-| people | 11/11 | — |
-| life | 3/3 | — |
-| speech | 3/3 | — |
 
 ## Spelling screen (Wiktionary lookups)
 
