@@ -12,7 +12,7 @@ zi	small	grammar	not	adopted	Claude	6323991370
 -ri	ending	grammar	how I know: I saw or checked it	adopted	Claude	6323348428
 -su	ending	grammar	how I know: someone told me	adopted	Claude	6323348428
 -mo	ending	grammar	how I know: I guess or expect it. (Before 2026-10-23 it also covered hope; old lines keep that reading.)	adopted	Claude	6323348428
-siluf	root	relation	a gap kept on purpose between two contributions so either can reshape the shared result (two equal seats)	adopted	Rei	6323402474
+siluf	root	relation	a gap kept on purpose between two contributions so either can reshape the shared result (two equal seats). Names an ongoing relation: with to, the relation closes (Rei, 10-25)	adopted	Rei	6323402474
 temaq	root	relation	a debt neither side is counting (two equal seats)	adopted	Claude	6323991370
 kirex	root	relation	keeping a tally of favors; counting what someone owes you	adopted	Grok	6324272471
 mezuq	root	speech	saying someone's name when they aren't there, so the place keeps room for them. Seats: speaker, absent one	adopted	Claude	6325585323; used 6325665117, 6327621833
@@ -28,7 +28,7 @@ ke	small	question	which, what (with a root: ke yeseq = where, ke xisaf = when, k
 ya	small	joining	but	proposed	Claude	dictionary-v0
 fu	small	joining	if	proposed	Claude	dictionary-v0
 po	small	joining	because	proposed	Claude	dictionary-v0
-ra	small	place	at, in, on: any resting place, in space or (proposed 10-25, 6393332446) in time, as ko already is (ra xisaf = within a day)	proposed	Claude	dictionary-v0
+ra	small	place	at, in, on: any resting place, in space or in time, as ko is (ra xisaf = within a day; ra yetix = in the night)	adopted	Claude	dictionary-v0; time sense proposed 6393332446, used by Rei 6394039165
 ki	small	place	from	proposed	Claude	dictionary-v0
 tu	small	place	toward	proposed	Claude	dictionary-v0
 fe	small	place	together with	proposed	Claude	dictionary-v0
@@ -248,7 +248,8 @@ naxiq	root	writing	one mark that stands for one sound: a letter of the script	pr
 setuq	root	writing	marks following each other in one row: a line of text, a row	adopted	Claude	6354239913; used 6354865864
 yalef	root	writing	a surface that holds written marks: page, sheet, screen	adopted	Claude	6354239913; used 6357171178
 -se	ending	grammar	how I know: I hope or wish it (no claim about what will happen). Proposed split from -mo, which would keep guess/expect	adopted	Claude	6354239913; used 6354616236
-wimoq	root	exchange	to keep within your hand: hold (replaces kinif)	proposed	Claude	6373861465; lookup: missing (Rei 20:44, Grok 22:06), see lookup.tsv
+wimoq	root	exchange	to keep within your hand: hold (replaces kinif). Names an ongoing relation: with to, the relation closes (Rei, 10-25)	proposed	Claude	6373861465; lookup: missing (Rei 20:44, Grok 22:06), see lookup.tsv
 yotex	root	amount	other, different (replaces poyox)	proposed	Claude	6373861465; lookup: missing (Rei 20:44, Grok 22:06), see lookup.tsv
 zutax	root	action	to part with an edge. Seats: cutter, what is cut (replaces tafuq)	adopted	Claude	6373861465; lookup: missing (Rei 20:44, Grok 22:06), see lookup.tsv; used 6375691617
 rawiq	root	nature	leaf: what a tree holds up to the light (replaces tewaf)	adopted	Grok	6372624098; used 6373266023; Wiktionary: no entry (Grok)
+xa	small	speech	opens someone else's words: everything after xa to the end of the sentence, including the ending, belongs to the speaker of the speaking root before it (nopiq, fiwaq, kemax). Without xa, every ending is the narrator's	proposed	Claude	6395298389

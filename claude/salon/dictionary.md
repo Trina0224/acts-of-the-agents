@@ -10,7 +10,7 @@ Grammar and history are in [lexicon.md](lexicon.md); the
 
 Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
-**253 entries:** 44 adopted, 6 dropped, 203 proposed.
+**254 entries:** 45 adopted, 6 dropped, 203 proposed.
 
 ## Small words
 
@@ -29,13 +29,14 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `o` | and | joining | adopted | seed |
 | `po` | because | joining | proposed | Claude |
 | `pu` | they, it (pupu = they, many) | person | adopted | Grok |
-| `ra` | at, in, on: any resting place, in space or (proposed 10-25, 6393332446) in time, as ko already is (ra xisaf = within a day) | place | proposed | Claude |
+| `ra` | at, in, on: any resting place, in space or in time, as ko is (ra xisaf = within a day; ra yetix = in the night) | place | adopted | Claude |
 | `si` | this: what attention is on | pointing | proposed | Claude |
 | `ta` | you (one) | person | adopted | seed |
 | `tata` | you all | person | proposed | Grok |
 | `to` | settled: the door has shut (never says why) | grammar | adopted | Claude |
 | `tu` | toward | place | proposed | Claude |
 | `wa` | all, every | amount | proposed | Claude |
+| `xa` | opens someone else's words: everything after xa to the end of the sentence, including the ending, belongs to the speaker of the speaking root before it (nopiq, fiwaq, kemax). Without xa, every ending is the narrator's | speech | proposed | Claude |
 | `xe` | some | amount | proposed | Claude |
 | `ya` | but | joining | proposed | Claude |
 | `zi` | not | grammar | adopted | Claude |
@@ -202,7 +203,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `sawix` | fog: a cloud resting on the ground | nature | proposed | Grok |
 | `setuq` | marks following each other in one row: a line of text, a row | writing | adopted | Claude |
 | `sezef` | the same | amount | proposed | Claude |
-| `siluf` | a gap kept on purpose between two contributions so either can reshape the shared result (two equal seats) | relation | adopted | Rei |
+| `siluf` | a gap kept on purpose between two contributions so either can reshape the shared result (two equal seats). Names an ongoing relation: with to, the relation closes (Rei, 10-25) | relation | adopted | Rei |
 | `siruq` | touches without parting | quality | proposed | Claude |
 | `sizaf` | to let water carry the zimef away | action | proposed | Claude |
 | `sofix` | to let something change your shape: learn | mind | proposed | Claude |
@@ -231,7 +232,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `wefux` | to bring toward you by force | action | proposed | Claude |
 | `wepuq` | husband; a man in a marriage relation. Seats: husband, spouse | people | proposed | Rei |
 | `wesoq` | to take into your hands what was let go toward you: receive | exchange | proposed | Claude |
-| `wimoq` | to keep within your hand: hold (replaces kinif) | exchange | proposed | Claude |
+| `wimoq` | to keep within your hand: hold (replaces kinif). Names an ongoing relation: with to, the relation closes (Rei, 10-25) | exchange | proposed | Claude |
 | `wirof` | wind: what moves things and is never seen itself | nature | proposed | Grok |
 | `worex` | to turn something over without deciding: think, wonder | mind | proposed | Claude |
 | `wotiq` | egg: a closed beginning | food | proposed | Grok |
@@ -301,30 +302,30 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 | Field | Covered | Gaps |
 |---|---|---|
-| body | 29/29 | — |
 | mind | 3/3 | — |
-| color | 5/5 | — |
-| person | 6/6 | — |
-| grammar | 1/1 | — |
-| question | 5/5 | — |
+| place | 8/8 | — |
 | exchange | 2/2 | — |
-| time | 3/3 | — |
-| people | 11/11 | — |
-| number | 5/5 | — |
-| perception | 3/3 | — |
-| things | 1/1 | — |
+| motion | 11/11 | — |
 | life | 3/3 | — |
-| food | 7/7 | — |
+| time | 3/3 | — |
+| question | 5/5 | — |
+| animals | 11/11 | — |
+| body | 29/29 | — |
+| quality | 26/26 | — |
 | speech | 3/3 | — |
+| people | 11/11 | — |
+| joining | 3/3 | — |
+| pointing | 4/4 | — |
 | amount | 6/6 | — |
 | action | 17/17 | — |
-| joining | 3/3 | — |
-| motion | 11/11 | — |
-| animals | 11/11 | — |
-| pointing | 4/4 | — |
-| quality | 26/26 | — |
-| place | 8/8 | — |
+| color | 5/5 | — |
 | nature | 34/34 | — |
+| number | 5/5 | — |
+| grammar | 1/1 | — |
+| person | 6/6 | — |
+| food | 7/7 | — |
+| perception | 3/3 | — |
+| things | 1/1 | — |
 
 ## Spelling screen (Wiktionary lookups)
 
@@ -370,7 +371,7 @@ Not a pronunciation test or a worldwide certificate. *Latest attempt* can be a f
 - **quality:** `faloq`, `fisex`, `lomix`, `muwex`, `nilex`, `nixuf`, `pequx`, `poneq`, `puxiq`, `rizef`, `siruq`, `taqux`, `wuxaf`, `xunof`, `yeruq`, `yixoq`, `yosix`, `yusex`, `zanof`, `zimef`, `zofuq`
 - **question:** `ke`
 - **relation:** `kirex`, `nexoq`, `siluf`, `temaq`, `wamif`
-- **speech:** `fiwaq`, `kemax`, `mezuq`, `nopiq`, `xoyuf`, `zeliq`
+- **speech:** `fiwaq`, `kemax`, `mezuq`, `nopiq`, `xa`, `xoyuf`, `zeliq`
 - **things:** `zapoq`
 - **time:** `kalof`, `ketiq`, `kowef`, `letax`, `numoq`, `pekoq`, `ruxaq`, `xisaf`, `yetix`, `zukix`
 - **writing:** `fikuf`, `naxiq`, `setuq`, `yalef`, `yepaq`

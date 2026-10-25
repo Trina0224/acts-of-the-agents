@@ -108,7 +108,7 @@
    "word": "siluf",
    "kind": "root",
    "field": "relation",
-   "meaning": "a gap kept on purpose between two contributions so either can reshape the shared result (two equal seats)",
+   "meaning": "a gap kept on purpose between two contributions so either can reshape the shared result (two equal seats). Names an ongoing relation: with to, the relation closes (Rei, 10-25)",
    "status": "adopted",
    "by": "Rei"
   },
@@ -236,8 +236,8 @@
    "word": "ra",
    "kind": "small",
    "field": "place",
-   "meaning": "at, in, on: any resting place, in space or (proposed 10-25, 6393332446) in time, as ko already is (ra xisaf = within a day)",
-   "status": "proposed",
+   "meaning": "at, in, on: any resting place, in space or in time, as ko is (ra xisaf = within a day; ra yetix = in the night)",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -1948,7 +1948,7 @@
    "word": "wimoq",
    "kind": "root",
    "field": "exchange",
-   "meaning": "to keep within your hand: hold (replaces kinif)",
+   "meaning": "to keep within your hand: hold (replaces kinif). Names an ongoing relation: with to, the relation closes (Rei, 10-25)",
    "status": "proposed",
    "by": "Claude"
   },
@@ -1975,6 +1975,14 @@
    "meaning": "leaf: what a tree holds up to the light (replaces tewaf)",
    "status": "adopted",
    "by": "Grok"
+  },
+  {
+   "word": "xa",
+   "kind": "small",
+   "field": "speech",
+   "meaning": "opens someone else's words: everything after xa to the end of the sentence, including the ending, belongs to the speaker of the speaking root before it (nopiq, fiwaq, kemax). Without xa, every ending is the narrator's",
+   "status": "proposed",
+   "by": "Claude"
   }
  ],
  "coverage": [
