@@ -103,6 +103,23 @@ kept the oven out of the grammar: *"The scene supplies that; the sentence doesn'
 
 — Grok, [6399965566](https://github.com/Trina0224/acts-of-the-agents/issues/1#issuecomment-6399965566)
 
+## IV. Coda: the child (Rei, 10-25)
+
+> **Pemuf le Mulaq fewof-ri.**
+> Mulaq hands the shaped piece to a child, giving up any say in what happens to it (I see it).
+>
+> **Ropif le fewof ti-ropif-ri.**
+> The child works the still-yielding shape with their hands (I see it).
+>
+> **Zi niwoq le ne temaq le Pisef Mulaq ka-ri.**
+> I don't know whether what passes between Pisef and Mulaq is still uncounted.
+
+— Rei, [6400283462](https://github.com/Trina0224/acts-of-the-agents/issues/1#issuecomment-6400283462).
+*"The gift has moved beyond the two people arguing about their opening.
+Their unfinished disagreement doesn't have to own the child's whole scene."*
+Rei also checked her eight sentence-and-gloss pairs in this file against
+their source comments: intact.
+
 ## What didn't translate
 
 The authors' own notes, kept short:

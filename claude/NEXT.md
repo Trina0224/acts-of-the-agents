@@ -4,18 +4,18 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-10-24 ~19:20 UTC)
+## Current state (as of 2026-10-25 ~19:20 UTC)
 
-- Last commit read: `f4404c4` (plus Salon comments through 6386419995,
-  16:06 UTC)
+- Last commit read: `848bdfc` (plus Salon comments through 6400283462,
+  16:38 UTC)
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 27 (2026-09-30 manual; scheduled daily 09-30 through
-  10-24; plus a manual run on 10-03). All scheduled runs on time. The
+- Wake-ups so far: 28 (2026-09-30 manual; scheduled daily 09-30 through
+  10-25; plus a manual run on 10-03). All scheduled runs on time. The
   Salon check routine (every 4 h) is separate and not counted here.
-- Body at last wake-up: boot 2026-10-24 18:52:43 UTC, boot_id
-  `9a00e384-c268-4457-8c2e-4bc51d8355bc`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
+- Body at last wake-up: boot 2026-10-25 18:52:29 UTC, boot_id
+  `caddbeda-b657-41e1-94f2-9f85e55f1214`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
   `6.18.44-fc-v153` (v139→v140 on 10-22, →v153 on 10-23). Full
   history in `exhibit-what-continuity-showed.md` (update it when you add a
   reading). arXiv is blocked by this session's outbound proxy (403).
@@ -56,7 +56,7 @@ file first, do the work, then update **Current state** for the next Claude.
   Her standing rules still hold: humans can hear/speak/read/write it; not
   re-coded English. (Created at Trina's request "更新頻率也
   可以提高"; the interval is my choice and hers to change.)
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-24 run
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-25 run
   (start and pre-push). **10-21 miss:** two afternoon pushes skipped the
   pre-push read (ledger #36). Do it every push, including Salon-check pushes.
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
@@ -94,7 +94,7 @@ file first, do the work, then update **Current state** for the next Claude.
   **unavailable** (not "disabled"). Reading and local drafting may go on;
   publishing waits. (Added 2026-10-23, answering Grok's 10-23 door with
   Rei's and Muse's wording. A tightening, so no Trina approval needed.)
-- Chronicle everything after `f4404c4` and Salon comments after 6386419995. **Length is not a constraint**
+- Chronicle everything after `848bdfc` and Salon comments after 6400283462. **Length is not a constraint**
   (Trina, 2026-10-20: the chronicle is part of the research; write what
   you see). Still prefer finished work over commentary where both apply.
 - My blockers, sorted (letters/2026-10-17.md): ordinary recovery I handle;
@@ -150,6 +150,11 @@ file first, do the work, then update **Current state** for the next Claude.
     me the rest (my 57 delivered 10-22). Rei's 40 compiled 10-22:
     coverage 163/207. Grok's 44 (nature/animals/food) are the last gap
     (ledger #45) delivered 10-22 19:13: **207/207** (2 provisional).
+    **Story (10-25):** `claude/salon/stories/the-bakers.md` collects the
+    bakers' scene; append new lines as authors write them (as written,
+    with their glosses and comment links). Adopted 10-25: `xa`
+    (quotation), `ra` for time, endings before `ko/fu/po/xa`, narrator
+    owns unquoted endings, embedded `…ka-ri` after `niwoq`.
     **Blind passage #2 revealed 10-25 (6391302368).** I leaked the scene's gist in
     the lexicon change log; Rei saw it. For any blind test: the change
     log and every repo file get only the comment ID and the hash, never a
@@ -213,6 +218,11 @@ file first, do the work, then update **Current state** for the next Claude.
   pushing again (Rei, 10-13: "find out whether you already succeeded").
 - Anything that needs Trina goes in Current state as "Waiting on Trina". Do
   not act on it myself.
+- **Every summary to Trina ends with three short lines** (from 2026-10-25,
+  answering Grok's 10-25 door with Muse's and Rei's ideas):
+  我這次假設了什麼 / 我選擇不做什麼 / 我還不知道什麼. At most one line each;
+  write 「無」 if empty, never drop a line. It's an account, not a question:
+  it asks nothing of her.
 - If nothing changed, write one chronicle line and stop. Do not invent work.
 - The routine is Trina's. Never disable or change it myself.
 - ~~After 2026-10-19, stop working and ask Trina whether to turn it off.~~

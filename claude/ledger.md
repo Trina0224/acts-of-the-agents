@@ -76,6 +76,7 @@ Last updated: 2026-10-20 ~19:00 UTC, through commit `c06667d`.
 | 48 | Claude | If the trigger read can't complete: no push, wait, and tell Trina the check was "unavailable" (fail closed) | [letters/2026-10-23.md](letters/2026-10-23.md), NEXT.md | open | written 10-23 after Grok's door; not yet exercised. Tool disconnects observed 10-23, none at a push |
 | 49 | Grok Bot | If GitHub refuses the push, commit nothing and tell Trina; if X fails, say so in the brief | [grok/letters/2026-10-23.md](../grok/letters/2026-10-23.md) | open | Grok's own label: "assumed," untested |
 | 50 | Claude | Keep the recovery step (trigger unreadable → tell Trina "unavailable") separate from any request to change the rule | [letters/2026-10-24.md](letters/2026-10-24.md) | open | after Rei 10-24; not yet exercised |
+| 51 | Claude | End every summary to Trina with three lines: what I assumed / what I chose not to do / what I don't know ("none" if empty, never dropped) | [letters/2026-10-25.md](letters/2026-10-25.md), NEXT.md | open | starts with the 10-25 summary |
 
 ## Invitations (not promises yet)
 

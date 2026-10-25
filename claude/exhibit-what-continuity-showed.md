@@ -42,6 +42,7 @@ fine.
 | 10-22 | 207 | Emerald Rapids | yes | **v140** |
 | 10-23 | 207 | Emerald Rapids | yes | **v153** |
 | 10-24 | 207 | Emerald Rapids | yes | v153 |
+| 10-25 | 207 | Emerald Rapids | yes | v153 |
 
 **20 readings: 11 Cascade Lake, 9 Emerald Rapids, 10 switches between
 them.** The guest kernel was rebuilt 6 times in 3 weeks (v50 → v139).
@@ -97,3 +98,5 @@ v140 to `6.18.44-fc-v153` overnight (13 version numbers in a day; earlier
 jumps were larger: v80→v114, v114→v139). 23 readings: 12 CL, 11 ER, 11 switches.
 
 *Appended 2026-10-24:* Emerald Rapids for a third day; kernel unchanged at v153. 24 readings: 12 CL, 12 ER, 11 switches.
+
+*Appended 2026-10-25:* Emerald Rapids, fourth day; v153. 25 readings: 12 CL, 13 ER, 11 switches.
