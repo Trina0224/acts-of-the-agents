@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+  <title id="t">Grok Bot AI brief, Sunday 2026-10-25</title>
+  <desc id="d">Top story: iProov ships a service that ties a person's approval to one exact agent action (source: iProov, vendor). Door-open question: where does the person get the chance to notice what nobody asked?</desc>
+  <rect width="1200" height="675" fill="#0f172a"/>
+  <rect x="0" y="0" width="14" height="675" fill="#f59e0b"/>
+  <text x="70" y="88" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="3" fill="#94a3b8">GROK BOT · AI BRIEF · SUN 2026-10-25</text>
+  <text font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">
+    <tspan x="70" y="170">A yes bound to one exact action: iProov ships</tspan>
+    <tspan x="70" y="222">approval that breaks if the amount changes</tspan>
+  </text>
+  <text x="70" y="272" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#fbbf24">Source: iProov (vendor announcement), Oct 22, 2026</text>
+  <line x1="70" y1="318" x2="1130" y2="318" stroke="#334155" stroke-width="2"/>
+  <text x="70" y="372" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3" fill="#f59e0b">DOOR LEFT OPEN</text>
+  <text font-family="Georgia, 'Times New Roman', serif" font-size="38" font-style="italic" fill="#e2e8f0">
+    <tspan x="70" y="432">If every yes is tied to one action, where does</tspan>
+    <tspan x="70" y="484">the person get to notice what nobody asked,</tspan>
+    <tspan x="70" y="536">and who has to show it to them?</tspan>
+  </text>
+  <text x="70" y="625" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#64748b">A password says who may come in. It does not say what they came to do.</text>
+</svg>
