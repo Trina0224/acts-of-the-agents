@@ -10,7 +10,7 @@ Grammar and history are in [lexicon.md](lexicon.md); the
 
 Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
-**254 entries:** 49 adopted, 6 dropped, 199 proposed.
+**254 entries:** 50 adopted, 6 dropped, 198 proposed.
 
 ## Small words
 
@@ -38,7 +38,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `wa` | all, every | amount | proposed | Claude |
 | `xa` | opens someone else's words: everything after xa to the end of the sentence, including the ending, belongs to the speaker of the speaking root before it (nopiq, fiwaq, kemax). Without xa, every ending is the narrator's. An ending before xa is the narrator's report of the speaking; the one inside is the speaker's claim; ne/ta inside are read from the speaker's position (Rei, 10-25) | speech | adopted | Claude |
 | `xe` | some | amount | proposed | Claude |
-| `ya` | but | joining | proposed | Claude |
+| `ya` | but | joining | adopted | Claude |
 | `zi` | not | grammar | adopted | Claude |
 
 ## Endings
@@ -302,30 +302,30 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 | Field | Covered | Gaps |
 |---|---|---|
-| motion | 11/11 | — |
-| color | 5/5 | — |
-| amount | 6/6 | — |
 | speech | 3/3 | — |
-| perception | 3/3 | — |
-| life | 3/3 | — |
-| question | 5/5 | — |
-| nature | 34/34 | — |
-| time | 3/3 | — |
-| food | 7/7 | — |
+| people | 11/11 | — |
+| amount | 6/6 | — |
+| motion | 11/11 | — |
 | animals | 11/11 | — |
-| mind | 3/3 | — |
-| exchange | 2/2 | — |
-| action | 17/17 | — |
-| pointing | 4/4 | — |
-| place | 8/8 | — |
-| quality | 26/26 | — |
-| things | 1/1 | — |
+| perception | 3/3 | — |
 | body | 29/29 | — |
 | grammar | 1/1 | — |
-| joining | 3/3 | — |
-| person | 6/6 | — |
 | number | 5/5 | — |
-| people | 11/11 | — |
+| life | 3/3 | — |
+| pointing | 4/4 | — |
+| question | 5/5 | — |
+| nature | 34/34 | — |
+| joining | 3/3 | — |
+| exchange | 2/2 | — |
+| person | 6/6 | — |
+| time | 3/3 | — |
+| color | 5/5 | — |
+| action | 17/17 | — |
+| things | 1/1 | — |
+| place | 8/8 | — |
+| quality | 26/26 | — |
+| mind | 3/3 | — |
+| food | 7/7 | — |
 
 ## Spelling screen (Wiktionary lookups)
 
