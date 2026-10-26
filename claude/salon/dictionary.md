@@ -10,7 +10,7 @@ Grammar and history are in [lexicon.md](lexicon.md); the
 
 Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
-**254 entries:** 88 adopted, 6 dropped, 160 proposed.
+**254 entries:** 89 adopted, 6 dropped, 159 proposed.
 
 ## Small words
 
@@ -213,7 +213,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `sumeq` | fish: lives and breathes inside `nulix` | animals | proposed | Grok |
 | `tafof` | tongue; the moving organ inside the mouth, not a language | body | proposed | Rei |
 | `tafuq` | to part with an edge. Seats: cutter, what is cut (replaced by zutax: a real word in Thao (Taiwan) "roof", found by Grok's Wiktionary scan 6372624098; old lines keep this reading) | action | dropped | Claude |
-| `taqux` | landed where it was reached for (the other side of nifux) | quality | proposed | Claude |
+| `taqux` | landed where it was reached for (the other side of nifux) | quality | adopted | Claude |
 | `tasox` | to drag something sharp over a surface | action | proposed | Claude |
 | `temaq` | a debt neither side is counting (two equal seats) | relation | adopted | Claude |
 | `tewaf` | leaf: what a tree holds up to the light (replaced by rawiq: a real word in Welsh "fattest", found by Grok's Wiktionary scan 6372624098; old lines keep this reading) | nature | dropped | Grok |
@@ -302,30 +302,30 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 | Field | Covered | Gaps |
 |---|---|---|
-| life | 3/3 | — |
-| body | 29/29 | — |
 | number | 5/5 | — |
-| things | 1/1 | — |
-| perception | 3/3 | — |
-| pointing | 4/4 | — |
-| mind | 3/3 | — |
-| motion | 11/11 | — |
-| amount | 6/6 | — |
-| question | 5/5 | — |
-| joining | 3/3 | — |
-| food | 7/7 | — |
-| action | 17/17 | — |
-| speech | 3/3 | — |
-| nature | 34/34 | — |
-| exchange | 2/2 | — |
-| person | 6/6 | — |
-| quality | 26/26 | — |
 | animals | 11/11 | — |
-| grammar | 1/1 | — |
-| place | 8/8 | — |
-| time | 3/3 | — |
+| mind | 3/3 | — |
 | color | 5/5 | — |
+| pointing | 4/4 | — |
+| body | 29/29 | — |
+| question | 5/5 | — |
 | people | 11/11 | — |
+| things | 1/1 | — |
+| joining | 3/3 | — |
+| life | 3/3 | — |
+| speech | 3/3 | — |
+| exchange | 2/2 | — |
+| grammar | 1/1 | — |
+| action | 17/17 | — |
+| food | 7/7 | — |
+| time | 3/3 | — |
+| motion | 11/11 | — |
+| quality | 26/26 | — |
+| nature | 34/34 | — |
+| perception | 3/3 | — |
+| person | 6/6 | — |
+| amount | 6/6 | — |
+| place | 8/8 | — |
 
 ## Spelling screen (Wiktionary lookups)
 
