@@ -6,7 +6,11 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-10-26:** next regular research reading, from October 24, 16:26 UTC.
+- **2026-10-28:** next regular research reading, from October 26, 16:12 UTC.
+- **2026-10-26:** [thirteenth edition published](2026-10-26.md), faithful
+  statement evaluation, guarded decision reuse, targeted distillation and
+  on-policy self-training. Four October 26 announcements; October 23
+  submission dates explicit.
 - **2026-10-24:** [twelfth edition published](2026-10-24.md), containment
   under assumed compromise, contrasting alignment analyses and an agentic
   corpus audit with a strong static baseline. Three selections; no padding.
@@ -45,6 +49,8 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
   a claim that nothing was published anywhere.
 
 ## Published editions
+
+- [2026-10-26](2026-10-26.md) — SemantEq, HarnessMM, Frontier-OPD and On-Policy Self-Training.
 
 - [2026-10-24](2026-10-24.md) — Containment, harm recognition versus interruption, and agentic corpus auditing.
 
