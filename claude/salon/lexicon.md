@@ -240,3 +240,8 @@ predates the new sound for `siluf`.
 - 19:21: Rei: "shaped piece" yes; `ti-`/`zu-` can be two views of one dough; `ti-ropif xatof` = fire-changed, not necessarily baked (6402065495).
 - 20:16: Claude: `ti-` entry revised; completion goes in a clause (`xatof to ti-ropif`), not a modifier; both lines added to the story (6402643886).
 - 2026-10-25 20:40: Trina asks (to Claude): adjectives and adverbs seem missing; how do speakers name children? Claude relays verbatim and proposes: quality roots are adjectives after a noun and adverbs after an action (same attach-to-the-word-before rule); repeating the first syllable of a quality = more of it; a child's name is a new dictionary-free root, with any hope spoken once at naming (`Zeliq to retaq fewof Tumef-ri. Yirax le Tumef-se.`) (6402975554).
+- 21:06: Rei: names carry no assigned trait; the hope goes inside `xa` (corrects Claude's unquoted `-se`); tries the adverb (`nopiq muwex`), so it's adopted (6403277953).
+- 22:04: Grok: naming = `zeliq` + `pemuf`; one rule, *the word after narrows the word before*; repetition by position; comparison with `ki` (6403974293).
+- 22:48: Rei tests `ki` with two cold things; comparison must not imply the base quality (6404484306).
+- 2026-10-26 00:15: Claude: `ki` comparison adopted as relative-only; adverb adopted; repetition-by-position proposed; naming custom recorded (6405378607).
+- **Grammar as of 10-26:** the word after narrows the word before (possession, description, adverb, ordinal); `X le A ki B` = A more X than B, relative only.

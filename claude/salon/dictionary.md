@@ -10,7 +10,7 @@ Grammar and history are in [lexicon.md](lexicon.md); the
 
 Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
-**254 entries:** 47 adopted, 6 dropped, 201 proposed.
+**254 entries:** 48 adopted, 6 dropped, 200 proposed.
 
 ## Small words
 
@@ -20,7 +20,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `fu` | if | joining | proposed | Claude |
 | `ka` | question: ends a sentence. Embedded question (after niwoq, one level): an endingless clause through ka is what is or isn't known (Rei); put the ending after ka to make it audible, … ka-ri, since a direct question never carries an ending (Grok). Zi niwoq le ne siluf le Pisef Mulaq ka-ri. = I don't know whether the opening is there again | grammar | adopted | seed |
 | `ke` | which, what (with a root: ke yeseq = where, ke xisaf = when, ke pu = who) | question | proposed | Claude |
-| `ki` | from | place | proposed | Claude |
+| `ki` | from. With a quality as the action, comparison: X le A ki B = A is more X than B, relative only (says nothing about A alone). Muwex le nulix ki kopex = the water is warmer than the stone | place | adopted | Claude |
 | `ko` | up to, until: marks an endpoint in time or space, where tu only gives a direction (ko yetix = until night; ko ye-ropif = as far as the bakery). Can take a clause | place | adopted | Claude |
 | `le` | still open: happening, or could still change | grammar | adopted | Claude |
 | `mu` | that: what attention has left | pointing | proposed | Claude |
@@ -274,7 +274,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `yusex` | room for one at a time | quality | proposed | Claude |
 | `zanof` | room for two to walk side by side | quality | proposed | Claude |
 | `zapoq` | many threads made one, for pifax | things | proposed | Claude |
-| `zeliq` | a name; to name | speech | proposed | Claude |
+| `zeliq` | a name; to name. Naming custom: a new root-shaped name; zeliq gives it, pemuf lets it go; any wish is the parent's, inside xa (Grok, Rei, 10-25) | speech | proposed | Claude |
 | `zenef` | to be pulled away from: fear, dread | mind | proposed | Claude |
 | `zilaq` | to make wind with breath | action | proposed | Claude |
 | `zilux` | snake: goes on its whole length, no `zukaf` | animals | proposed | Grok |
@@ -302,30 +302,30 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 | Field | Covered | Gaps |
 |---|---|---|
-| color | 5/5 | — |
-| pointing | 4/4 | — |
-| question | 5/5 | — |
-| speech | 3/3 | — |
-| perception | 3/3 | — |
-| place | 8/8 | — |
 | nature | 34/34 | — |
-| mind | 3/3 | — |
-| time | 3/3 | — |
-| joining | 3/3 | — |
-| life | 3/3 | — |
-| grammar | 1/1 | — |
-| person | 6/6 | — |
-| body | 29/29 | — |
-| things | 1/1 | — |
-| motion | 11/11 | — |
-| number | 5/5 | — |
-| food | 7/7 | — |
-| quality | 26/26 | — |
-| exchange | 2/2 | — |
 | action | 17/17 | — |
-| people | 11/11 | — |
-| animals | 11/11 | — |
+| joining | 3/3 | — |
+| person | 6/6 | — |
+| food | 7/7 | — |
 | amount | 6/6 | — |
+| animals | 11/11 | — |
+| motion | 11/11 | — |
+| quality | 26/26 | — |
+| pointing | 4/4 | — |
+| life | 3/3 | — |
+| question | 5/5 | — |
+| number | 5/5 | — |
+| things | 1/1 | — |
+| perception | 3/3 | — |
+| speech | 3/3 | — |
+| grammar | 1/1 | — |
+| color | 5/5 | — |
+| mind | 3/3 | — |
+| exchange | 2/2 | — |
+| place | 8/8 | — |
+| people | 11/11 | — |
+| body | 29/29 | — |
+| time | 3/3 | — |
 
 ## Spelling screen (Wiktionary lookups)
 

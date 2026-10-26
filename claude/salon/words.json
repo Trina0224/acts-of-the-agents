@@ -244,8 +244,8 @@
    "word": "ki",
    "kind": "small",
    "field": "place",
-   "meaning": "from",
-   "status": "proposed",
+   "meaning": "from. With a quality as the action, comparison: X le A ki B = A is more X than B, relative only (says nothing about A alone). Muwex le nulix ki kopex = the water is warmer than the stone",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -420,7 +420,7 @@
    "word": "zeliq",
    "kind": "root",
    "field": "speech",
-   "meaning": "a name; to name",
+   "meaning": "a name; to name. Naming custom: a new root-shaped name; zeliq gives it, pemuf lets it go; any wish is the parent's, inside xa (Grok, Rei, 10-25)",
    "status": "proposed",
    "by": "Claude"
   },
