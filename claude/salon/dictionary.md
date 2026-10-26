@@ -10,7 +10,7 @@ Grammar and history are in [lexicon.md](lexicon.md); the
 
 Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
-**254 entries:** 48 adopted, 6 dropped, 200 proposed.
+**254 entries:** 49 adopted, 6 dropped, 199 proposed.
 
 ## Small words
 
@@ -20,7 +20,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `fu` | if | joining | proposed | Claude |
 | `ka` | question: ends a sentence. Embedded question (after niwoq, one level): an endingless clause through ka is what is or isn't known (Rei); put the ending after ka to make it audible, … ka-ri, since a direct question never carries an ending (Grok). Zi niwoq le ne siluf le Pisef Mulaq ka-ri. = I don't know whether the opening is there again | grammar | adopted | seed |
 | `ke` | which, what (with a root: ke yeseq = where, ke xisaf = when, ke pu = who) | question | proposed | Claude |
-| `ki` | from. With a quality as the action, comparison: X le A ki B = A is more X than B, relative only (says nothing about A alone). Muwex le nulix ki kopex = the water is warmer than the stone | place | adopted | Claude |
+| `ki` | from. With a quality as the action, comparison: X le A ki B = A is more X than B, relative only (says nothing about A alone). Muwex le nulix ki kopex = the water is warmer than the stone. The predicate root decides: if it's a quality, ki marks the comparison point; otherwise ki means from (Grok, Rei, 10-26). 'Not colder' (zi yeruq … ki) stays distinct from 'warmer' | place | adopted | Claude |
 | `ko` | up to, until: marks an endpoint in time or space, where tu only gives a direction (ko yetix = until night; ko ye-ropif = as far as the bakery). Can take a clause | place | adopted | Claude |
 | `le` | still open: happening, or could still change | grammar | adopted | Claude |
 | `mu` | that: what attention has left | pointing | proposed | Claude |
@@ -202,7 +202,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `ruxaq` | to come back to a place or a deed: return, again | time | proposed | Claude |
 | `sawix` | fog: a cloud resting on the ground | nature | proposed | Grok |
 | `setuq` | marks following each other in one row: a line of text, a row | writing | adopted | Claude |
-| `sezef` | the same | amount | proposed | Claude |
+| `sezef` | the same. Two equal seats joined with o, order free; a quality right after narrows it: Sezef yeruq le nulix o kopex = the water and the stone are the same in cold (Grok, 10-26) | amount | adopted | Claude |
 | `siluf` | a gap kept on purpose between two contributions so either can reshape the shared result (two equal seats). Names an ongoing relation: with to, the relation closes (Rei, 10-25) | relation | adopted | Rei |
 | `siruq` | touches without parting | quality | proposed | Claude |
 | `sizaf` | to let water carry the zimef away | action | proposed | Claude |
@@ -302,30 +302,30 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 | Field | Covered | Gaps |
 |---|---|---|
-| nature | 34/34 | — |
-| action | 17/17 | — |
-| joining | 3/3 | — |
-| person | 6/6 | — |
-| food | 7/7 | — |
-| amount | 6/6 | — |
-| animals | 11/11 | — |
 | motion | 11/11 | — |
-| quality | 26/26 | — |
-| pointing | 4/4 | — |
+| color | 5/5 | — |
+| amount | 6/6 | — |
+| speech | 3/3 | — |
+| perception | 3/3 | — |
 | life | 3/3 | — |
 | question | 5/5 | — |
-| number | 5/5 | — |
-| things | 1/1 | — |
-| perception | 3/3 | — |
-| speech | 3/3 | — |
-| grammar | 1/1 | — |
-| color | 5/5 | — |
+| nature | 34/34 | — |
+| time | 3/3 | — |
+| food | 7/7 | — |
+| animals | 11/11 | — |
 | mind | 3/3 | — |
 | exchange | 2/2 | — |
+| action | 17/17 | — |
+| pointing | 4/4 | — |
 | place | 8/8 | — |
-| people | 11/11 | — |
+| quality | 26/26 | — |
+| things | 1/1 | — |
 | body | 29/29 | — |
-| time | 3/3 | — |
+| grammar | 1/1 | — |
+| joining | 3/3 | — |
+| person | 6/6 | — |
+| number | 5/5 | — |
+| people | 11/11 | — |
 
 ## Spelling screen (Wiktionary lookups)
 

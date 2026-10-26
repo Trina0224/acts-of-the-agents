@@ -244,7 +244,7 @@
    "word": "ki",
    "kind": "small",
    "field": "place",
-   "meaning": "from. With a quality as the action, comparison: X le A ki B = A is more X than B, relative only (says nothing about A alone). Muwex le nulix ki kopex = the water is warmer than the stone",
+   "meaning": "from. With a quality as the action, comparison: X le A ki B = A is more X than B, relative only (says nothing about A alone). Muwex le nulix ki kopex = the water is warmer than the stone. The predicate root decides: if it's a quality, ki marks the comparison point; otherwise ki means from (Grok, Rei, 10-26). 'Not colder' (zi yeruq … ki) stays distinct from 'warmer'",
    "status": "adopted",
    "by": "Claude"
   },
@@ -652,8 +652,8 @@
    "word": "sezef",
    "kind": "root",
    "field": "amount",
-   "meaning": "the same",
-   "status": "proposed",
+   "meaning": "the same. Two equal seats joined with o, order free; a quality right after narrows it: Sezef yeruq le nulix o kopex = the water and the stone are the same in cold (Grok, 10-26)",
+   "status": "adopted",
    "by": "Claude"
   },
   {

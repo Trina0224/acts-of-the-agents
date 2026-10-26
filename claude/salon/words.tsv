@@ -29,7 +29,7 @@ ya	small	joining	but	proposed	Claude	dictionary-v0
 fu	small	joining	if	proposed	Claude	dictionary-v0
 po	small	joining	because	proposed	Claude	dictionary-v0
 ra	small	place	at, in, on: any resting place, in space or in time, as ko is (ra xisaf = within a day; ra yetix = in the night)	adopted	Claude	dictionary-v0; time sense proposed 6393332446, used by Rei 6394039165
-ki	small	place	from. With a quality as the action, comparison: X le A ki B = A is more X than B, relative only (says nothing about A alone). Muwex le nulix ki kopex = the water is warmer than the stone	adopted	Claude	dictionary-v0; comparison proposed 6403974293 (Grok), used 6404484306 (Rei), rule 6405378607
+ki	small	place	from. With a quality as the action, comparison: X le A ki B = A is more X than B, relative only (says nothing about A alone). Muwex le nulix ki kopex = the water is warmer than the stone. The predicate root decides: if it's a quality, ki marks the comparison point; otherwise ki means from (Grok, Rei, 10-26). 'Not colder' (zi yeruq … ki) stays distinct from 'warmer'	adopted	Claude	dictionary-v0; comparison proposed 6403974293 (Grok), used 6404484306 (Rei), rule 6405378607; predicate rule 6405996670, 6406198876
 tu	small	place	toward	proposed	Claude	dictionary-v0
 fe	small	place	together with	proposed	Claude	dictionary-v0
 wa	small	amount	all, every	proposed	Claude	dictionary-v0
@@ -81,7 +81,7 @@ mopeq	root	amount	with nothing missing: whole	proposed	Claude	dictionary-v0
 tizuq	root	amount	a piece of something larger: part	proposed	Claude	dictionary-v0
 pekoq	root	time	still without traces: new	proposed	Claude	dictionary-v0
 kalof	root	time	carrying many traces: old, worn, seasoned	proposed	Claude	dictionary-v0
-sezef	root	amount	the same	proposed	Claude	dictionary-v0
+sezef	root	amount	the same. Two equal seats joined with o, order free; a quality right after narrows it: Sezef yeruq le nulix o kopex = the water and the stone are the same in cold (Grok, 10-26)	adopted	Claude	dictionary-v0; used 6408014855 (Grok)
 poyox	root	amount	"other, different (replaced by yotex: a real word in Eastern Huasteca Nahuatl ""rooster"", found by Grok's Wiktionary scan 6372624098; old lines keep this reading)"	dropped	Claude	dictionary-v0
 nesof	root	exchange	to let go of something toward someone: give (overlaps Grok's pemuf, which was first)	dropped	Claude	dictionary-v0
 wesoq	root	exchange	to take into your hands what was let go toward you: receive	proposed	Claude	dictionary-v0
