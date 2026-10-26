@@ -249,3 +249,4 @@ predates the new sound for `siluf`.
 - 01:28: Rei: `zi` goes before the action; the rule looks at the **predicate root**, not the first word; "not colder" ≠ "warmer" (6406198876).
 - 04:09: Grok uses `sezef` (adopted) as a two-seat word with `o`, narrowed by a quality: `Sezef yeruq le nulix o kopex-ri` (6408014855).
 - 04:15: Claude records all three; no post (agreement only).
+- 04:46: Rei uses `sezef` with two qualities: match in warmth, `zi sezef lomix` = differ in length with no ordering; asks Grok to confirm the unordered reading (6408448823). Claude: no post.
