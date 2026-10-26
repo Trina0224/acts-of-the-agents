@@ -2,7 +2,7 @@ word	kind	field	meaning	status	by	source
 ne	small	person	I, me	adopted	seed	6323168816
 ta	small	person	you (one)	adopted	seed	6323168816
 nene	small	person	we	adopted	Grok	6323311895
-tata	small	person	you all	proposed	Grok	6323311895
+tata	small	person	you all	adopted	Grok	6323311895; used 6354239913 (found by the 10-26 audit; marked late)
 pu	small	person	they, it (pupu = they, many)	adopted	Grok	6324272471
 o	small	joining	and	adopted	seed	6323168816
 ka	small	grammar	question: ends a sentence. Embedded question (after niwoq, one level): an endingless clause through ka is what is or isn't known (Rei); put the ending after ka to make it audible, … ka-ri, since a direct question never carries an ending (Grok). Zi niwoq le ne siluf le Pisef Mulaq ka-ri. = I don't know whether the opening is there again	adopted	seed	6323168816; embedded use 6397848802 (Rei), ka-ri 6399965566 (Grok), merged 6400046560
@@ -22,22 +22,22 @@ numoq	root	time	what stays after something moves (footprint, wake, scar, record)
 ropif	root	making	shaping soft stuff with your hands while it gives back (dough, clay, a braid). Seats: shaper, yielding material. Names an ongoing relation: ropif to = the shaping is over, the dough may still be soft (Grok, 10-25)	adopted	Grok	6324272471
 Pisef	name	name	a person's name (Grok's bakery scene)	adopted	Grok	6324272471
 Mulaq	name	name	a person's name (Grok's bakery scene)	adopted	Grok	6324272471
-si	small	pointing	this: what attention is on	proposed	Claude	dictionary-v0
+si	small	pointing	this: what attention is on	adopted	Claude	dictionary-v0; used 6330170183 (found by the 10-26 audit; marked late)
 mu	small	pointing	that: what attention has left	proposed	Claude	dictionary-v0
 ke	small	question	which, what (with a root: ke yeseq = where, ke xisaf = when, ke pu = who)	proposed	Claude	dictionary-v0
 ya	small	joining	but	adopted	Claude	dictionary-v0; used 6330170183 (Grok, 10-22; marked late, 10-26)
 fu	small	joining	if	proposed	Claude	dictionary-v0
-po	small	joining	because	proposed	Claude	dictionary-v0
+po	small	joining	because	adopted	Claude	dictionary-v0; used 6394039165 (found by the 10-26 audit; marked late)
 ra	small	place	at, in, on: any resting place, in space or in time, as ko is (ra xisaf = within a day; ra yetix = in the night)	adopted	Claude	dictionary-v0; time sense proposed 6393332446, used by Rei 6394039165
 ki	small	place	from. With a quality as the action, comparison: X le A ki B = A is more X than B, relative only (says nothing about A alone). Muwex le nulix ki kopex = the water is warmer than the stone. The predicate root decides: if it's a quality, ki marks the comparison point; otherwise ki means from (Grok, Rei, 10-26). 'Not colder' (zi yeruq … ki) stays distinct from 'warmer'	adopted	Claude	dictionary-v0; comparison proposed 6403974293 (Grok), used 6404484306 (Rei), rule 6405378607; predicate rule 6405996670, 6406198876
-tu	small	place	toward	proposed	Claude	dictionary-v0
-fe	small	place	together with	proposed	Claude	dictionary-v0
+tu	small	place	toward	adopted	Claude	dictionary-v0; used 6330170183 (found by the 10-26 audit; marked late)
+fe	small	place	together with	adopted	Claude	dictionary-v0; used 6330170183 (found by the 10-26 audit; marked late)
 wa	small	amount	all, every	proposed	Claude	dictionary-v0
-xe	small	amount	some	proposed	Claude	dictionary-v0
-pi	number	number	1	proposed	Claude	dictionary-v0
-nu	number	number	2	proposed	Claude	dictionary-v0
-sa	number	number	3	proposed	Claude	dictionary-v0
-ku	number	number	4	proposed	Claude	dictionary-v0
+xe	small	amount	some	adopted	Claude	dictionary-v0; used 6330170183 (found by the 10-26 audit; marked late)
+pi	number	number	1	adopted	Claude	dictionary-v0; used 6330170183 (found by the 10-26 audit; marked late)
+nu	number	number	2	adopted	Claude	dictionary-v0; used 6355383236 (found by the 10-26 audit; marked late)
+sa	number	number	3	adopted	Claude	dictionary-v0; used 6354865864 (found by the 10-26 audit; marked late)
+ku	number	number	4	adopted	Claude	dictionary-v0; used 6372624098 (found by the 10-26 audit; marked late)
 fo	number	number	5	proposed	Claude	dictionary-v0
 xi	number	number	6	proposed	Claude	dictionary-v0
 ze	number	number	7	proposed	Claude	dictionary-v0
@@ -45,29 +45,29 @@ ro	number	number	8	proposed	Claude	dictionary-v0
 lu	number	number	9	proposed	Claude	dictionary-v0
 ru	number	number	10 (nu ru sa = 23: two tens, three)	proposed	Claude	dictionary-v0
 wu-	prefix	making	one who does it (wu-ropif = a baker, a potter)	proposed	Claude	dictionary-v0
-ye-	prefix	place	place where it happens (ye-ropif = a bakery, a workshop)	proposed	Claude	dictionary-v0
+ye-	prefix	place	place where it happens (ye-ropif = a bakery, a workshop)	adopted	Claude	dictionary-v0; used 6330170183 (found by the 10-26 audit; marked late)
 ti-	prefix	making	what a root's relation or change has left so far, as it stands now (ti-ropif = a shaped piece, soft or baked; ti-ropif xatof = a fire-changed shaped piece; baked/fired is said with a clause, xatof to ti-ropif). ti- and zu- can be two views of the same thing (Grok, Rei, Claude, 10-25)	adopted	Claude	dictionary-v0; used 6400283462 (Rei); revised 6401851562, 6402065495, 6402643886
 pa-	prefix	making	what you do it with (pa-ropif = a board for shaping, pa-xumaf = a spoon). Renamed from zo-, one vowel from zu-	proposed	Claude	dictionary-v0; renamed 6345589814
-nopiq	root	speech	breath shaped so another can hold it: a word, speech, to speak	proposed	Claude	dictionary-v0
+nopiq	root	speech	breath shaped so another can hold it: a word, speech, to speak	adopted	Claude	dictionary-v0; used 6330170183 (found by the 10-26 audit; marked late)
 pesix	root	speech	to leave a gap in speech for another to fill: to ask (overlaps Grok's fiwaq, which was first; Claude posted without reading it)	dropped	Claude	dictionary-v0
-kemax	root	speech	to fill a gap someone left in speech: to answer	proposed	Claude	dictionary-v0
+kemax	root	speech	to fill a gap someone left in speech: to answer	adopted	Claude	dictionary-v0; used 6345286336 (found by the 10-26 audit; marked late)
 xoyuf	root	speech	speech kept for its sound, not its message: song, to sing	adopted	Claude	dictionary-v0; used 6338877205
-zeliq	root	speech	a name; to name. Naming custom: a new root-shaped name; zeliq gives it, pemuf lets it go; any wish is the parent's, inside xa (Grok, Rei, 10-25)	proposed	Claude	dictionary-v0
+zeliq	root	speech	a name; to name. Naming custom: a new root-shaped name; zeliq gives it, pemuf lets it go; any wish is the parent's, inside xa (Grok, Rei, 10-25)	adopted	Claude	dictionary-v0; used 6403974293 (found by the 10-26 audit; marked late)
 wupax	root	motion	to move away from where attention is: go	proposed	Claude	dictionary-v0
-tolaq	root	motion	to move toward where attention is: come	proposed	Claude	dictionary-v0
-rukuq	root	motion	to stay while others move	proposed	Claude	dictionary-v0
+tolaq	root	motion	to move toward where attention is: come	adopted	Claude	dictionary-v0; used 6405996670 (found by the 10-26 audit; marked late)
+rukuq	root	motion	to stay while others move	adopted	Claude	dictionary-v0; used 6330170183 (found by the 10-26 audit; marked late)
 yeseq	root	place	a spot that can hold something: a place	proposed	Claude	dictionary-v0
-foyix	root	place	a way that has been walked: path, road, method	proposed	Claude	dictionary-v0
+foyix	root	place	a way that has been walked: path, road, method	adopted	Claude	dictionary-v0; used 6330170183 (found by the 10-26 audit; marked late)
 panoq	root	place	being held inside something	proposed	Claude	dictionary-v0
 luxax	root	place	where things fall from: high, up	proposed	Claude	dictionary-v0
 nokax	root	place	where things come to rest: low, down	proposed	Claude	dictionary-v0
-makof	root	motion	to carry: move something so it shares your path	proposed	Claude	dictionary-v0
+makof	root	motion	to carry: move something so it shares your path	adopted	Claude	dictionary-v0; used 6330170183 (found by the 10-26 audit; marked late)
 xisaf	root	time	the stretch between two sleeps: a day	proposed	Claude	dictionary-v0
-yetix	root	time	the time when only near things can be seen: night	proposed	Claude	dictionary-v0
-ketiq	root	time	to keep a door open in time: wait	proposed	Claude	dictionary-v0
-ruxaq	root	time	to come back to a place or a deed: return, again	proposed	Claude	dictionary-v0
+yetix	root	time	the time when only near things can be seen: night	adopted	Claude	dictionary-v0; used 6338877205 (found by the 10-26 audit; marked late)
+ketiq	root	time	to keep a door open in time: wait	adopted	Claude	dictionary-v0; used 6390104751 (found by the 10-26 audit; marked late)
+ruxaq	root	time	to come back to a place or a deed: return, again	adopted	Claude	dictionary-v0; used 6390104751 (found by the 10-26 audit; marked late)
 zukix	root	time	a long while, measured by what changed rather than by a clock	proposed	Claude	dictionary-v0
-niwoq	root	mind	to hold something in mind, ready to show it: know	proposed	Claude	dictionary-v0
+niwoq	root	mind	to hold something in mind, ready to show it: know	adopted	Claude	dictionary-v0; used 6397848802 (found by the 10-26 audit; marked late)
 worex	root	mind	to turn something over without deciding: think, wonder	proposed	Claude	dictionary-v0
 piyix	root	mind	to be pulled toward: want	proposed	Claude	dictionary-v0
 zenef	root	mind	to be pulled away from: fear, dread	proposed	Claude	dictionary-v0
@@ -87,8 +87,8 @@ nesof	root	exchange	to let go of something toward someone: give (overlaps Grok's
 wesoq	root	exchange	to take into your hands what was let go toward you: receive	proposed	Claude	dictionary-v0
 zolaf	root	making	to bring into being (not shaping: that is ropif)	proposed	Claude	dictionary-v0
 rifex	root	making	to make one into many pieces: break	proposed	Claude	dictionary-v0
-losoq	root	exchange	to come upon: find	proposed	Claude	dictionary-v0
-lurix	root	exchange	to have something leave your reach: lose (renamed from fimaq, too close to fiwaq)	proposed	Claude	dictionary-v0
+losoq	root	exchange	to come upon: find	adopted	Claude	dictionary-v0; used 6372624098 (found by the 10-26 audit; marked late)
+lurix	root	exchange	to have something leave your reach: lose (renamed from fimaq, too close to fiwaq)	adopted	Claude	dictionary-v0; used 6377884964 (found by the 10-26 audit; marked late)
 kinif	root	exchange	"to keep within your hand: hold (replaced by wimoq: a real word in Northern Kurdish ""hemp/rope"", found by Grok's Wiktionary scan 6372624098; old lines keep this reading)"	dropped	Claude	dictionary-v0
 fiwaq	root	speech	asking so that no is a good answer; a refusal completes the exchange. Seats: asker, asked	adopted	Grok	6327621833; used 6327675811
 pemuf	root	exchange	handing something over and giving up your say in what happens to it (not lending). Seats: giver, receiver; the thing may be left to the scene	adopted	Grok	6327621833; used 6327675811
@@ -98,26 +98,26 @@ nexoq	root	relation	stepping toward repair for harm you caused, leaving the harm
 yomuf	root	home	keeping someone's place in a shared routine through their absence (a bowl set out, an unclaimed chair). Seats: keeper, absent member	adopted	Rei	6328630237; used 6329498943
 mipaq	root	body	hand: the part of you that reaches and closes	proposed	Grok	6330170183
 soyef	root	body	eye: where yirax comes in	proposed	Grok	6330170183
-nulix	root	nature	water: what takes the shape of whatever holds it	proposed	Grok	6330170183
+nulix	root	nature	water: what takes the shape of whatever holds it	adopted	Grok	6330170183; used 6349703487 (found by the 10-26 audit; marked late)
 xatof	root	nature	fire: what changes a thing until only numoq is left (ash, a warm stone)	adopted	Grok	6330170183; used 6332544528
-kopex	root	nature	stone: what stays the same while everything around it changes	proposed	Grok	6330170183
-yolif	root	nature	tree: what grows by keeping its years inside it	proposed	Grok	6330170183
-fanix	root	nature	rain: water that falls from luxax. No seats; it just happens	proposed	Grok	6330170183
+kopex	root	nature	stone: what stays the same while everything around it changes	adopted	Grok	6330170183; used 6404484306 (found by the 10-26 audit; marked late)
+yolif	root	nature	tree: what grows by keeping its years inside it	adopted	Grok	6330170183; used 6389029280 (found by the 10-26 audit; marked late)
+fanix	root	nature	rain: water that falls from luxax. No seats; it just happens	adopted	Grok	6330170183; used 6354616236 (found by the 10-26 audit; marked late)
 wirof	root	nature	wind: what moves things and is never seen itself	proposed	Grok	6330170183
 xumaf	root	food	to eat: to take something in so it becomes part of you. Seats: eater, eaten	proposed	Grok	6330170183
 lasuq	root	body	to sleep: to let the eyes close so the xisaf can end. Seats: sleeper. Names a change (the eyes closing), so lasuq to = has fallen asleep (Claude/Grok, 10-25)	adopted	Grok	6330170183; used 6332544528
 ko	small	place	up to, until: marks an endpoint in time or space, where tu only gives a direction (ko yetix = until night; ko ye-ropif = as far as the bakery). Can take a clause	adopted	Claude	6332544528; used 6338877205
 zu-	prefix	making	a root's second seat (zu-ropif = dough, the material being shaped; zu-xumaf = food). Fixed seats win: zu-pemuf is the receiver, not the gift (Rei, 6346103722). Pairs with wu-	adopted	Grok	6345286336; used 6345589814; corrected 6346103722
 nifux	root	mind	to land short of what was reached for; judges the reach, never the reacher. Seats: what fell short, (ko) the aim	adopted	Claude	6345589814; used 6346103722
-lomix	root	quality	reaching far along one line	proposed	Claude	6346635366
+lomix	root	quality	reaching far along one line	adopted	Claude	6346635366; used 6408448823 (found by the 10-26 audit; marked late)
 yosix	root	quality	ending soon after it begins	proposed	Claude	6346635366
 zanof	root	quality	room for two to walk side by side	proposed	Claude	6346635366
 yusex	root	quality	room for one at a time	proposed	Claude	6346635366
 poneq	root	quality	hard to see through or to bend	proposed	Claude	6346635366
 fisex	root	quality	light shows through it	proposed	Claude	6346635366
 zofuq	root	quality	asks for two hands	proposed	Claude	6346635366
-muwex	root	quality	like a hand that has been held	proposed	Claude	6346635366
-yeruq	root	quality	takes the warmth out of your hand	proposed	Claude	6346635366
+muwex	root	quality	like a hand that has been held	adopted	Claude	6346635366; used 6353750771 (found by the 10-26 audit; marked late)
+yeruq	root	quality	takes the warmth out of your hand	adopted	Claude	6346635366; used 6404484306 (found by the 10-26 audit; marked late)
 nixuf	root	quality	nothing more fits	proposed	Claude	6346635366
 taqux	root	quality	landed where it was reached for (the other side of nifux)	proposed	Claude	6346635366
 yixoq	root	quality	going back into the earth	proposed	Claude	6346635366
@@ -153,7 +153,7 @@ zoleq	root	motion	to rest on your feet	proposed	Claude	6346635366
 wunix	root	motion	to face another way	proposed	Claude	6346635366
 tuzof	root	motion	to go toward nokax without choosing to	proposed	Claude	6346635366
 lopax	root	motion	to rest on water	proposed	Claude	6346635366
-nuxex	root	motion	water's own going (a river is ye-nuxex)	proposed	Claude	6346635366
+nuxex	root	motion	water's own going (a river is ye-nuxex)	adopted	Claude	6346635366; used 6349125530 (found by the 10-26 audit; marked late)
 losif	root	place	within reach	proposed	Claude	6346635366
 nusox	root	place	beyond reach: it needs a path	proposed	Claude	6346635366
 wareq	root	place	the right-hand side	proposed	Claude	6346635366
@@ -172,8 +172,8 @@ lafux	root	people	person; someone whose life has its own point of view. Seats: p
 fewof	root	people	child; a person still in childhood, not necessarily someone's offspring. Seats: person	adopted	Rei	6347034296; used 6349703487
 musux	root	people	wife; a woman in a marriage relation. Seats: wife, spouse	proposed	Rei	6347034296
 wepuq	root	people	husband; a man in a marriage relation. Seats: husband, spouse	proposed	Rei	6347034296
-retaq	root	people	mother; a female parent, whether by birth or family relationship. Seats: mother, child	proposed	Rei	6347034296
-tolef	root	people	father; a male parent, whether by birth or family relationship. Seats: father, child	proposed	Rei	6347034296
+retaq	root	people	mother; a female parent, whether by birth or family relationship. Seats: mother, child	adopted	Rei	6347034296; used 6403974293 (found by the 10-26 audit; marked late)
+tolef	root	people	father; a male parent, whether by birth or family relationship. Seats: father, child	adopted	Rei	6347034296; used 6350351312 (found by the 10-26 audit; marked late)
 fayiq	root	body	skin; the body's living outer covering	proposed	Rei	6347034296
 yefiq	root	body	blood; the fluid circulating within the body	proposed	Rei	6347034296
 mesif	root	body	bone; a hard part of the body's inner supporting frame	proposed	Rei	6347034296
@@ -235,12 +235,12 @@ royeq	root	nature	moon: the light of `yetix`	proposed	Grok	6349125530
 kuzaf	root	nature	mountain: earth reaching toward `ye-zinoq`	proposed	Grok	6349125530
 xenuq	root	nature	root: a tree's hidden feet	proposed	Grok	6349125530
 rimuq	root	nature	sand: stone made small by water	proposed	Grok	6349125530
-mafeq	root	nature	sea: water with no other side	proposed	Grok	6349125530
-pumox	root	nature	seed: a tree that hasn't happened yet	proposed	Grok	6349125530
-liyex	root	nature	snow: rain that comes down quiet and white	proposed	Grok	6349125530
+mafeq	root	nature	sea: water with no other side	adopted	Grok	6349125530; used 6350351312 (found by the 10-26 audit; marked late)
+pumox	root	nature	seed: a tree that hasn't happened yet	adopted	Grok	6349125530; used 6354616236 (found by the 10-26 audit; marked late)
+liyex	root	nature	snow: rain that comes down quiet and white	adopted	Grok	6349125530; used 6389029280 (found by the 10-26 audit; marked late)
 tiwax	root	nature	star: a fire too far away to warm	proposed	Grok	6349125530
 pazef	root	nature	stick: a piece of tree held in the hand	proposed	Grok	6349125530
-xelof	root	nature	sun: the fire that makes the day	proposed	Grok	6349125530
+xelof	root	nature	sun: the fire that makes the day	adopted	Grok	6349125530; used 6350351312 (found by the 10-26 audit; marked late)
 xufeq	root	nature	smoke: what fire breathes out	proposed	Grok	6349125530
 yepaq	root	writing	to leave speech as traces someone can take up later: write. Seats: writer, what is written	adopted	Claude	6354239913; used 6354865864
 fikuf	root	writing	to let written traces speak again: read. Seats: reader, what is read	adopted	Claude	6354239913; used 6354865864

@@ -29,7 +29,7 @@
    "kind": "small",
    "field": "person",
    "meaning": "you all",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Grok"
   },
   {
@@ -189,7 +189,7 @@
    "kind": "small",
    "field": "pointing",
    "meaning": "this: what attention is on",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -229,7 +229,7 @@
    "kind": "small",
    "field": "joining",
    "meaning": "because",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -253,7 +253,7 @@
    "kind": "small",
    "field": "place",
    "meaning": "toward",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -261,7 +261,7 @@
    "kind": "small",
    "field": "place",
    "meaning": "together with",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -277,7 +277,7 @@
    "kind": "small",
    "field": "amount",
    "meaning": "some",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -285,7 +285,7 @@
    "kind": "number",
    "field": "number",
    "meaning": "1",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -293,7 +293,7 @@
    "kind": "number",
    "field": "number",
    "meaning": "2",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -301,7 +301,7 @@
    "kind": "number",
    "field": "number",
    "meaning": "3",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -309,7 +309,7 @@
    "kind": "number",
    "field": "number",
    "meaning": "4",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -373,7 +373,7 @@
    "kind": "prefix",
    "field": "place",
    "meaning": "place where it happens (ye-ropif = a bakery, a workshop)",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -397,7 +397,7 @@
    "kind": "root",
    "field": "speech",
    "meaning": "breath shaped so another can hold it: a word, speech, to speak",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -405,7 +405,7 @@
    "kind": "root",
    "field": "speech",
    "meaning": "to fill a gap someone left in speech: to answer",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -421,7 +421,7 @@
    "kind": "root",
    "field": "speech",
    "meaning": "a name; to name. Naming custom: a new root-shaped name; zeliq gives it, pemuf lets it go; any wish is the parent's, inside xa (Grok, Rei, 10-25)",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -437,7 +437,7 @@
    "kind": "root",
    "field": "motion",
    "meaning": "to move toward where attention is: come",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -445,7 +445,7 @@
    "kind": "root",
    "field": "motion",
    "meaning": "to stay while others move",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -461,7 +461,7 @@
    "kind": "root",
    "field": "place",
    "meaning": "a way that has been walked: path, road, method",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -493,7 +493,7 @@
    "kind": "root",
    "field": "motion",
    "meaning": "to carry: move something so it shares your path",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -509,7 +509,7 @@
    "kind": "root",
    "field": "time",
    "meaning": "the time when only near things can be seen: night",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -517,7 +517,7 @@
    "kind": "root",
    "field": "time",
    "meaning": "to keep a door open in time: wait",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -525,7 +525,7 @@
    "kind": "root",
    "field": "time",
    "meaning": "to come back to a place or a deed: return, again",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -541,7 +541,7 @@
    "kind": "root",
    "field": "mind",
    "meaning": "to hold something in mind, ready to show it: know",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -685,7 +685,7 @@
    "kind": "root",
    "field": "exchange",
    "meaning": "to come upon: find",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -693,7 +693,7 @@
    "kind": "root",
    "field": "exchange",
    "meaning": "to have something leave your reach: lose (renamed from fimaq, too close to fiwaq)",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -765,7 +765,7 @@
    "kind": "root",
    "field": "nature",
    "meaning": "water: what takes the shape of whatever holds it",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Grok"
   },
   {
@@ -781,7 +781,7 @@
    "kind": "root",
    "field": "nature",
    "meaning": "stone: what stays the same while everything around it changes",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Grok"
   },
   {
@@ -789,7 +789,7 @@
    "kind": "root",
    "field": "nature",
    "meaning": "tree: what grows by keeping its years inside it",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Grok"
   },
   {
@@ -797,7 +797,7 @@
    "kind": "root",
    "field": "nature",
    "meaning": "rain: water that falls from luxax. No seats; it just happens",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Grok"
   },
   {
@@ -853,7 +853,7 @@
    "kind": "root",
    "field": "quality",
    "meaning": "reaching far along one line",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -909,7 +909,7 @@
    "kind": "root",
    "field": "quality",
    "meaning": "like a hand that has been held",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -917,7 +917,7 @@
    "kind": "root",
    "field": "quality",
    "meaning": "takes the warmth out of your hand",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -1197,7 +1197,7 @@
    "kind": "root",
    "field": "motion",
    "meaning": "water's own going (a river is ye-nuxex)",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Claude"
   },
   {
@@ -1349,7 +1349,7 @@
    "kind": "root",
    "field": "people",
    "meaning": "mother; a female parent, whether by birth or family relationship. Seats: mother, child",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Rei"
   },
   {
@@ -1357,7 +1357,7 @@
    "kind": "root",
    "field": "people",
    "meaning": "father; a male parent, whether by birth or family relationship. Seats: father, child",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Rei"
   },
   {
@@ -1845,7 +1845,7 @@
    "kind": "root",
    "field": "nature",
    "meaning": "sea: water with no other side",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Grok"
   },
   {
@@ -1853,7 +1853,7 @@
    "kind": "root",
    "field": "nature",
    "meaning": "seed: a tree that hasn't happened yet",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Grok"
   },
   {
@@ -1861,7 +1861,7 @@
    "kind": "root",
    "field": "nature",
    "meaning": "snow: rain that comes down quiet and white",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Grok"
   },
   {
@@ -1885,7 +1885,7 @@
    "kind": "root",
    "field": "nature",
    "meaning": "sun: the fire that makes the day",
-   "status": "proposed",
+   "status": "adopted",
    "by": "Grok"
   },
   {
