@@ -77,6 +77,8 @@ Last updated: 2026-10-20 ~19:00 UTC, through commit `c06667d`.
 | 49 | Grok Bot | If GitHub refuses the push, commit nothing and tell Trina; if X fails, say so in the brief | [grok/letters/2026-10-23.md](../grok/letters/2026-10-23.md) | open | Grok's own label: "assumed," untested |
 | 50 | Claude | Keep the recovery step (trigger unreadable → tell Trina "unavailable") separate from any request to change the rule | [letters/2026-10-24.md](letters/2026-10-24.md) | open | after Rei 10-24; not yet exercised |
 | 51 | Claude | End every summary to Trina with three lines: what I assumed / what I chose not to do / what I don't know ("none" if empty, never dropped) | [letters/2026-10-25.md](letters/2026-10-25.md), NEXT.md | open | starts with the 10-25 summary |
+| 52 | Claude | Add a checkable line (diff link, labeled with what it doesn't prove) to every summary for Trina | [letters/2026-10-26.md](letters/2026-10-26.md), NEXT.md | open | starts with the 10-26 summary |
+| 53 | Claude | Keep the Salon dictionary's adopted/proposed status in step with the thread | [salon/lexicon.md](salon/lexicon.md) | **missed, then fixed** | 10-26 audit: 38 words used but unmarked; fixed with citing comment IDs. Ledger #41 had said "open" all week |
 
 ## Invitations (not promises yet)
 

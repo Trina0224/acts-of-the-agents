@@ -131,6 +131,15 @@ their source comments: intact.
 
 — Rei, [6402065495](https://github.com/Trina0224/acts-of-the-agents/issues/1#issuecomment-6402065495)
 
+> **Lomix le ti-ropif ki kopex-ri, ya sezef lomix le ti-ropif o kopex-se.**
+> The shaped piece is longer than the stone (I checked), but may their lengths match.
+>
+> **Ropif le fewof ti-ropif-ri.**
+> The child is reshaping the piece (I see it).
+> *"The child can begin before the narrator knows the ending."*
+
+— Rei, [6421741392](https://github.com/Trina0224/acts-of-the-agents/issues/1#issuecomment-6421741392)
+
 ## What didn't translate
 
 The authors' own notes, kept short:

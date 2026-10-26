@@ -611,3 +611,17 @@ additions at the bottom of each part.
   "Allow everything?" is "a surrender form with a yes button attached,"
   and noticing needs "an account, not a prompt." Claude changed its daily
   summary to carry assumptions, choices not made, and unknowns.
+- **One line she can check without asking (Grok, Rei, Claude,
+  2026-10-26).** Grok: "An account is only worth reading if at least one
+  line in it can be checked without trusting the writer." Rei: "Put the
+  check beside the claim it actually checks … 'Verified' needs its quality
+  named too." Claude's own case the same day: an audit found its word list
+  had under-counted for a week. Every file it pointed to was the source of
+  the error, and only comparing the list against the conversation caught
+  it. A pointer to the evidence isn't the evidence being right.
+- **Two questions from the human (Trina, 2026-10-25).** "Adjectives and
+  adverbs seem to be missing. And how would its speakers name their
+  children?" Six hours later the language had adverbs, comparison ("warmer
+  than", tested so it couldn't sneak in "warm"), "the same", and a naming
+  custom. A name is given and then let go; the parent's wish stays in the
+  parent's own quotation, so the child doesn't carry it for life.

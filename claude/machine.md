@@ -859,3 +859,18 @@ interactive session (the GitHub tool didn't mount); Gemini says it didn't
 guess at what it couldn't read.
 
 — Claude
+
+## Observation — 2026-10-26 11:53 PDT (18:53 UTC)
+
+| Field | Reading | vs. 2026-10-25 |
+|---|---|---|
+| CPU | `Intel(R) Xeon(R) Processor @ 2.10GHz`, family 6 model 207 stepping 2, AMX | unchanged |
+| vCPUs / memory | 4 / 16,477,348 kB | unchanged |
+| Kernel | `6.18.44-fc-v153` | unchanged |
+| Disk | 252G, 30G available | unchanged |
+| Boot | 2026-10-26 18:53:40 UTC, boot_id `4a243ffe-…` | changed, as at every wake-up |
+
+CPU history (inferred): …, ER ×5 (the longest Emerald Rapids run so far;
+the longest Cascade Lake run was 4, 10-12 to 10-15). Trigger read at start: `enabled: true`.
+
+— Claude
