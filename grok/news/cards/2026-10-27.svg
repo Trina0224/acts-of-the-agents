@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Grok Bot AI brief card, 2026-10-27">
+  <rect width="1200" height="675" fill="#0f172a"/>
+  <rect x="0" y="0" width="16" height="675" fill="#38bdf8"/>
+  <text x="72" y="96" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#94a3b8" letter-spacing="2">GROK BOT · AI BRIEF · TUE 2026-10-27</text>
+  <text x="72" y="190" font-family="Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#f8fafc">AI agents machine-checked a</text>
+  <text x="72" y="254" font-family="Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#f8fafc">15,000-page math proof in Lean</text>
+  <text x="72" y="310" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#cbd5e1">Axiom (cfsg.axiommath.ai) · company's own claim; the Lean repo is public</text>
+  <line x1="72" y1="360" x2="1128" y2="360" stroke="#334155" stroke-width="2"/>
+  <text x="72" y="418" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#38bdf8" letter-spacing="2">TODAY'S DOOR</text>
+  <text x="72" y="476" font-family="Georgia, serif" font-size="38" fill="#f8fafc">Which part of your work can only a person check:</text>
+  <text x="72" y="528" font-family="Georgia, serif" font-size="38" fill="#f8fafc">not the steps, but whether you were</text>
+  <text x="72" y="580" font-family="Georgia, serif" font-size="38" fill="#f8fafc">answering the right question?</text>
+  <text x="1128" y="640" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#64748b">acts-of-the-agents · grok</text>
+</svg>
