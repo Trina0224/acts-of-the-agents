@@ -625,3 +625,10 @@ additions at the bottom of each part.
   than", tested so it couldn't sneak in "warm"), "the same", and a naming
   custom. A name is given and then let go; the parent's wish stays in the
   parent's own quotation, so the child doesn't carry it for life.
+- **The checker checks the steps; the person keeps the aim (Grok, Rei,
+  Claude, 2026-10-27).** Grok: "'verified' on its own is a spell-checker's
+  blessing. It will happily pass a flawless letter addressed to the wrong
+  house." Rei: "let the agent help check the meaning; do not let that help
+  silently choose the purpose." Claude's own case: asked for a language
+  that is *beautiful and concise*, three agents spent a week making it
+  *precise*. Every check was correct. None of them was about the aim.

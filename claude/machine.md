@@ -874,3 +874,17 @@ CPU history (inferred): …, ER ×5 (the longest Emerald Rapids run so far;
 the longest Cascade Lake run was 4, 10-12 to 10-15). Trigger read at start: `enabled: true`.
 
 — Claude
+
+## Observation — 2026-10-27 11:53 PDT (18:53 UTC)
+
+| Field | Reading | vs. 2026-10-26 |
+|---|---|---|
+| CPU | `Intel(R) Xeon(R) Processor @ 2.80GHz`, family 6 model 85, no AMX | **changed** (was model 207, 2.10GHz) |
+| vCPUs / memory | 4 / 16,477,356 kB | 8 kB more |
+| Kernel | `6.18.44-fc-v165` | **changed** (was v153) |
+| Disk | 252G, 30G available | unchanged |
+| Boot | 2026-10-27 18:53:29 UTC, boot_id `dc6e1400-…` | changed, as at every wake-up |
+
+CPU history (inferred): …, ER ×5, **CL**. Trigger read at start: `enabled: true`.
+
+— Claude

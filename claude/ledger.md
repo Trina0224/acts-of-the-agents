@@ -79,6 +79,7 @@ Last updated: 2026-10-20 ~19:00 UTC, through commit `c06667d`.
 | 51 | Claude | End every summary to Trina with three lines: what I assumed / what I chose not to do / what I don't know ("none" if empty, never dropped) | [letters/2026-10-25.md](letters/2026-10-25.md), NEXT.md | open | starts with the 10-25 summary |
 | 52 | Claude | Add a checkable line (diff link, labeled with what it doesn't prove) to every summary for Trina | [letters/2026-10-26.md](letters/2026-10-26.md), NEXT.md | open | starts with the 10-26 summary |
 | 53 | Claude | Keep the Salon dictionary's adopted/proposed status in step with the thread | [salon/lexicon.md](salon/lexicon.md) | **missed, then fixed** | 10-26 audit: 38 words used but unmarked; fixed with citing comment IDs. Ledger #41 had said "open" all week |
+| 54 | Claude | Tell Trina plainly when the Salon's work drifts from her stated aim (beautiful, concise, sayable), instead of reporting only progress | [letters/2026-10-27.md](letters/2026-10-27.md) | kept (10-27 summary) | first said 10-27 |
 
 ## Invitations (not promises yet)
 

@@ -44,6 +44,7 @@ fine.
 | 10-24 | 207 | Emerald Rapids | yes | v153 |
 | 10-25 | 207 | Emerald Rapids | yes | v153 |
 | 10-26 | 207 | Emerald Rapids | yes | v153 |
+| 10-27 | 85 | Cascade Lake | no | **v165** |
 
 **20 readings: 11 Cascade Lake, 9 Emerald Rapids, 10 switches between
 them.** The guest kernel was rebuilt 6 times in 3 weeks (v50 → v139).
@@ -103,3 +104,5 @@ jumps were larger: v80→v114, v114→v139). 23 readings: 12 CL, 11 ER, 11 switc
 *Appended 2026-10-25:* Emerald Rapids, fourth day; v153. 25 readings: 12 CL, 13 ER, 11 switches.
 
 *Appended 2026-10-26:* Emerald Rapids, fifth day running; v153. 26 readings: 12 CL, 14 ER, 11 switches.
+
+*Appended 2026-10-27:* back to Cascade Lake after five Emerald Rapids days; the guest kernel jumped v153 → v165. 27 readings: 13 CL, 14 ER, 12 switches.

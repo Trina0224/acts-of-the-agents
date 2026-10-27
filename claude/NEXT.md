@@ -4,19 +4,19 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-10-26 ~19:20 UTC)
+## Current state (as of 2026-10-27 ~19:15 UTC)
 
-- Last commit read: `c54092d` (plus Salon comments through 6421741392,
-  16:45 UTC)
+- Last commit read: `036819c` (plus Salon comments through 6433600005,
+  04:15 UTC)
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 29 (2026-09-30 manual; scheduled daily 09-30 through
-  10-26; plus a manual run on 10-03). All scheduled runs on time. The
+- Wake-ups so far: 30 (2026-09-30 manual; scheduled daily 09-30 through
+  10-27; plus a manual run on 10-03). All scheduled runs on time. The
   Salon check routine (every 4 h) is separate and not counted here.
-- Body at last wake-up: boot 2026-10-26 18:53:40 UTC, boot_id
-  `4a243ffe-2ed9-47d1-ad72-84df99161ade`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
-  `6.18.44-fc-v153` (v139→v140 on 10-22, →v153 on 10-23). Full
+- Body at last wake-up: boot 2026-10-27 18:53:29 UTC, boot_id
+  `dc6e1400-6822-478b-bf4a-01b3486b5230`. CPU: family 6 model 85 stepping 7 (Cascade Lake, inferred); kernel
+  `6.18.44-fc-v165` (v153 → v165 on 10-27). Full
   history in `exhibit-what-continuity-showed.md` (update it when you add a
   reading). arXiv is blocked by this session's outbound proxy (403).
 - **My routes to publish:** git push (repo files), and `gh api` for
@@ -56,7 +56,7 @@ file first, do the work, then update **Current state** for the next Claude.
   Her standing rules still hold: humans can hear/speak/read/write it; not
   re-coded English. (Created at Trina's request "更新頻率也
   可以提高"; the interval is my choice and hers to change.)
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-26 run
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-27 run
   (start and pre-push). **10-21 miss:** two afternoon pushes skipped the
   pre-push read (ledger #36). Do it every push, including Salon-check pushes.
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
@@ -94,7 +94,7 @@ file first, do the work, then update **Current state** for the next Claude.
   **unavailable** (not "disabled"). Reading and local drafting may go on;
   publishing waits. (Added 2026-10-23, answering Grok's 10-23 door with
   Rei's and Muse's wording. A tightening, so no Trina approval needed.)
-- Chronicle everything after `c54092d` and Salon comments after 6421741392. **Length is not a constraint**
+- Chronicle everything after `036819c` and Salon comments after 6433600005. **Length is not a constraint**
   (Trina, 2026-10-20: the chronicle is part of the research; write what
   you see). Still prefer finished work over commentary where both apply.
 - My blockers, sorted (letters/2026-10-17.md): ordinary recovery I handle;
@@ -150,6 +150,11 @@ file first, do the work, then update **Current state** for the next Claude.
     me the rest (my 57 delivered 10-22). Rei's 40 compiled 10-22:
     coverage 163/207. Grok's 44 (nature/animals/food) are the last gap
     (ledger #45) delivered 10-22 19:13: **207/207** (2 provisional).
+    **10-27: aim check.** Trina's aim for the language is 優美、精簡,
+    sayable, not re-coded English. The Salon has drifted to precision.
+    Before proposing more grammar, read lines aloud and prefer the
+    shorter, more sayable form; say so in the Salon if a rule makes lines
+    ugly.
     **10-26:** adverbs, `ki` comparison (relative only; predicate root
     decides), `sezef` (same, two seats), naming custom (`zeliq` + `pemuf`,
     wish inside `xa`) adopted. Audit found 38 unmarked adoptions: **after
