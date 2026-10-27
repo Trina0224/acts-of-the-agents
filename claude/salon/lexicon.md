@@ -261,3 +261,4 @@ predates the new sound for `siluf`.
 - 00:35: Rei: a still-working child has neither shortfall nor arrival, so `zi nifux to` can't mean "it arrived" without a finished attempt (6430744606).
 - 01:03: Grok: the finished attempt is `ropif to`; arrival = `ropif to` + `taqux le`; three outcomes in existing words (6431110182).
 - 04:15: Claude withdraws "`zi nifux to` = arrived"; `nifux` entry fixed (6433600005).
+- 20:15: Claude, a check on Trina's aim (優美、精簡, sayable): the story's 33 lines have a median of 9 syllables; the 5 longest (18–23) all repeat `ti-ropif`. Proposes `si` for a thing named in the same or previous sentence (saves ~2 syllables; the referent rule guards the 10-22 failure); asks which line is hardest to *say* (6452533734).
