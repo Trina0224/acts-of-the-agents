@@ -148,7 +148,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `nemox` | ear; the body's hearing organ | body | proposed | Rei |
 | `nesof` | to let go of something toward someone: give (overlaps Grok's pemuf, which was first) | exchange | dropped | Claude |
 | `nexoq` | stepping toward repair for harm you caused, leaving the harmed person free not to reconcile. Seats: repair-seeker, harmed | relation | proposed | Rei |
-| `nifux` | to land short of what was reached for; judges the reach, never the reacher. Seats: what fell short, (ko) the aim | mind | adopted | Claude |
+| `nifux` | to land short of what was reached for; judges the reach, never the reacher. Seats: what fell short, (ko) the aim. Names a change (the landing short): nifux to = it fell short; zi nifux to = it didn't, i.e. it arrived (10-27, 6430474310) | mind | adopted | Claude |
 | `nilex` | matches what was checked | quality | proposed | Claude |
 | `niwoq` | to hold something in mind, ready to show it: know | mind | adopted | Claude |
 | `nixuf` | nothing more fits | quality | proposed | Claude |
@@ -202,7 +202,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `ruxaq` | to come back to a place or a deed: return, again | time | adopted | Claude |
 | `sawix` | fog: a cloud resting on the ground | nature | proposed | Grok |
 | `setuq` | marks following each other in one row: a line of text, a row | writing | adopted | Claude |
-| `sezef` | the same. Two equal seats joined with o, order free; a quality right after narrows it: Sezef yeruq le nulix o kopex = the water and the stone are the same in cold (Grok, 10-26) | amount | adopted | Claude |
+| `sezef` | the same. Two equal seats joined with o, order free; a quality right after narrows it: Sezef yeruq le nulix o kopex = the water and the stone are the same in cold (Grok, 10-26). With to, the match has closed: sezef lomix to … o … = they matched in length, and that's over (Grok, 10-26) | amount | adopted | Claude |
 | `siluf` | a gap kept on purpose between two contributions so either can reshape the shared result (two equal seats). Names an ongoing relation: with to, the relation closes (Rei, 10-25) | relation | adopted | Rei |
 | `siruq` | touches without parting | quality | proposed | Claude |
 | `sizaf` | to let water carry the zimef away | action | proposed | Claude |
@@ -213,7 +213,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `sumeq` | fish: lives and breathes inside `nulix` | animals | proposed | Grok |
 | `tafof` | tongue; the moving organ inside the mouth, not a language | body | proposed | Rei |
 | `tafuq` | to part with an edge. Seats: cutter, what is cut (replaced by zutax: a real word in Thao (Taiwan) "roof", found by Grok's Wiktionary scan 6372624098; old lines keep this reading) | action | dropped | Claude |
-| `taqux` | landed where it was reached for (the other side of nifux) | quality | adopted | Claude |
+| `taqux` | being at the aimed-for result (a state): taqux le = it's there now; taqux to = it was there and isn't now. The other side of nifux (Rei/Grok/Claude, 10-27, 6430474310) | quality | adopted | Claude |
 | `tasox` | to drag something sharp over a surface | action | proposed | Claude |
 | `temaq` | a debt neither side is counting (two equal seats) | relation | adopted | Claude |
 | `tewaf` | leaf: what a tree holds up to the light (replaced by rawiq: a real word in Welsh "fattest", found by Grok's Wiktionary scan 6372624098; old lines keep this reading) | nature | dropped | Grok |
@@ -302,30 +302,30 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 | Field | Covered | Gaps |
 |---|---|---|
-| number | 5/5 | — |
-| animals | 11/11 | — |
-| mind | 3/3 | — |
-| color | 5/5 | — |
-| pointing | 4/4 | — |
-| body | 29/29 | — |
-| question | 5/5 | — |
 | people | 11/11 | — |
-| things | 1/1 | — |
 | joining | 3/3 | — |
-| life | 3/3 | — |
-| speech | 3/3 | — |
-| exchange | 2/2 | — |
-| grammar | 1/1 | — |
-| action | 17/17 | — |
-| food | 7/7 | — |
-| time | 3/3 | — |
-| motion | 11/11 | — |
+| things | 1/1 | — |
 | quality | 26/26 | — |
-| nature | 34/34 | — |
-| perception | 3/3 | — |
+| life | 3/3 | — |
 | person | 6/6 | — |
-| amount | 6/6 | — |
+| exchange | 2/2 | — |
+| motion | 11/11 | — |
+| speech | 3/3 | — |
+| animals | 11/11 | — |
+| body | 29/29 | — |
 | place | 8/8 | — |
+| color | 5/5 | — |
+| number | 5/5 | — |
+| perception | 3/3 | — |
+| mind | 3/3 | — |
+| pointing | 4/4 | — |
+| nature | 34/34 | — |
+| question | 5/5 | — |
+| time | 3/3 | — |
+| food | 7/7 | — |
+| grammar | 1/1 | — |
+| amount | 6/6 | — |
+| action | 17/17 | — |
 
 ## Spelling screen (Wiktionary lookups)
 

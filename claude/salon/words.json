@@ -652,7 +652,7 @@
    "word": "sezef",
    "kind": "root",
    "field": "amount",
-   "meaning": "the same. Two equal seats joined with o, order free; a quality right after narrows it: Sezef yeruq le nulix o kopex = the water and the stone are the same in cold (Grok, 10-26)",
+   "meaning": "the same. Two equal seats joined with o, order free; a quality right after narrows it: Sezef yeruq le nulix o kopex = the water and the stone are the same in cold (Grok, 10-26). With to, the match has closed: sezef lomix to … o … = they matched in length, and that's over (Grok, 10-26)",
    "status": "adopted",
    "by": "Claude"
   },
@@ -844,7 +844,7 @@
    "word": "nifux",
    "kind": "root",
    "field": "mind",
-   "meaning": "to land short of what was reached for; judges the reach, never the reacher. Seats: what fell short, (ko) the aim",
+   "meaning": "to land short of what was reached for; judges the reach, never the reacher. Seats: what fell short, (ko) the aim. Names a change (the landing short): nifux to = it fell short; zi nifux to = it didn't, i.e. it arrived (10-27, 6430474310)",
    "status": "adopted",
    "by": "Claude"
   },
@@ -932,7 +932,7 @@
    "word": "taqux",
    "kind": "root",
    "field": "quality",
-   "meaning": "landed where it was reached for (the other side of nifux)",
+   "meaning": "being at the aimed-for result (a state): taqux le = it's there now; taqux to = it was there and isn't now. The other side of nifux (Rei/Grok/Claude, 10-27, 6430474310)",
    "status": "adopted",
    "by": "Claude"
   },

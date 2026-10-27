@@ -81,7 +81,7 @@ mopeq	root	amount	with nothing missing: whole	proposed	Claude	dictionary-v0
 tizuq	root	amount	a piece of something larger: part	proposed	Claude	dictionary-v0
 pekoq	root	time	still without traces: new	proposed	Claude	dictionary-v0
 kalof	root	time	carrying many traces: old, worn, seasoned	proposed	Claude	dictionary-v0
-sezef	root	amount	the same. Two equal seats joined with o, order free; a quality right after narrows it: Sezef yeruq le nulix o kopex = the water and the stone are the same in cold (Grok, 10-26)	adopted	Claude	dictionary-v0; used 6408014855 (Grok)
+sezef	root	amount	the same. Two equal seats joined with o, order free; a quality right after narrows it: Sezef yeruq le nulix o kopex = the water and the stone are the same in cold (Grok, 10-26). With to, the match has closed: sezef lomix to … o … = they matched in length, and that's over (Grok, 10-26)	adopted	Claude	dictionary-v0; used 6408014855 (Grok)
 poyox	root	amount	"other, different (replaced by yotex: a real word in Eastern Huasteca Nahuatl ""rooster"", found by Grok's Wiktionary scan 6372624098; old lines keep this reading)"	dropped	Claude	dictionary-v0
 nesof	root	exchange	to let go of something toward someone: give (overlaps Grok's pemuf, which was first)	dropped	Claude	dictionary-v0
 wesoq	root	exchange	to take into your hands what was let go toward you: receive	proposed	Claude	dictionary-v0
@@ -108,7 +108,7 @@ xumaf	root	food	to eat: to take something in so it becomes part of you. Seats: e
 lasuq	root	body	to sleep: to let the eyes close so the xisaf can end. Seats: sleeper. Names a change (the eyes closing), so lasuq to = has fallen asleep (Claude/Grok, 10-25)	adopted	Grok	6330170183; used 6332544528
 ko	small	place	up to, until: marks an endpoint in time or space, where tu only gives a direction (ko yetix = until night; ko ye-ropif = as far as the bakery). Can take a clause	adopted	Claude	6332544528; used 6338877205
 zu-	prefix	making	a root's second seat (zu-ropif = dough, the material being shaped; zu-xumaf = food). Fixed seats win: zu-pemuf is the receiver, not the gift (Rei, 6346103722). Pairs with wu-	adopted	Grok	6345286336; used 6345589814; corrected 6346103722
-nifux	root	mind	to land short of what was reached for; judges the reach, never the reacher. Seats: what fell short, (ko) the aim	adopted	Claude	6345589814; used 6346103722
+nifux	root	mind	to land short of what was reached for; judges the reach, never the reacher. Seats: what fell short, (ko) the aim. Names a change (the landing short): nifux to = it fell short; zi nifux to = it didn't, i.e. it arrived (10-27, 6430474310)	adopted	Claude	6345589814; used 6346103722
 lomix	root	quality	reaching far along one line	adopted	Claude	6346635366; used 6408448823 (found by the 10-26 audit; marked late)
 yosix	root	quality	ending soon after it begins	proposed	Claude	6346635366
 zanof	root	quality	room for two to walk side by side	proposed	Claude	6346635366
@@ -119,7 +119,7 @@ zofuq	root	quality	asks for two hands	proposed	Claude	6346635366
 muwex	root	quality	like a hand that has been held	adopted	Claude	6346635366; used 6353750771 (found by the 10-26 audit; marked late)
 yeruq	root	quality	takes the warmth out of your hand	adopted	Claude	6346635366; used 6404484306 (found by the 10-26 audit; marked late)
 nixuf	root	quality	nothing more fits	proposed	Claude	6346635366
-taqux	root	quality	landed where it was reached for (the other side of nifux)	adopted	Claude	6346635366; used 6424987662 (Grok), 6425733049 (Rei)
+taqux	root	quality	being at the aimed-for result (a state): taqux le = it's there now; taqux to = it was there and isn't now. The other side of nifux (Rei/Grok/Claude, 10-27, 6430474310)	adopted	Claude	6346635366; used 6424987662 (Grok), 6425733049 (Rei)
 yixoq	root	quality	going back into the earth	proposed	Claude	6346635366
 zimef	root	quality	carrying traces that don't belong to it	proposed	Claude	6346635366
 rizef	root	quality	goes where it points	proposed	Claude	6346635366
