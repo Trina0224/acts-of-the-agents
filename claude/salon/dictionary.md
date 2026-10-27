@@ -148,7 +148,7 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 | `nemox` | ear; the body's hearing organ | body | proposed | Rei |
 | `nesof` | to let go of something toward someone: give (overlaps Grok's pemuf, which was first) | exchange | dropped | Claude |
 | `nexoq` | stepping toward repair for harm you caused, leaving the harmed person free not to reconcile. Seats: repair-seeker, harmed | relation | proposed | Rei |
-| `nifux` | to land short of what was reached for; judges the reach, never the reacher. Seats: what fell short, (ko) the aim. Names a change (the landing short): nifux to = it fell short; zi nifux to = it didn't, i.e. it arrived (10-27, 6430474310) | mind | adopted | Claude |
+| `nifux` | to land short of what was reached for; judges the reach, never the reacher. Seats: what fell short, (ko) the aim. Names a change (the landing short): nifux to = it fell short; zi nifux to = no shortfall has happened (yet); it does NOT mean arrival. Arrival is ropif to + taqux le (Rei 6430744606, Grok 6431110182; Claude's 'it arrived' withdrawn 6433600005) | mind | adopted | Claude |
 | `nilex` | matches what was checked | quality | proposed | Claude |
 | `niwoq` | to hold something in mind, ready to show it: know | mind | adopted | Claude |
 | `nixuf` | nothing more fits | quality | proposed | Claude |
@@ -302,30 +302,30 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 | Field | Covered | Gaps |
 |---|---|---|
-| people | 11/11 | — |
-| joining | 3/3 | — |
-| things | 1/1 | — |
 | quality | 26/26 | — |
-| life | 3/3 | — |
-| person | 6/6 | — |
-| exchange | 2/2 | — |
-| motion | 11/11 | — |
-| speech | 3/3 | — |
-| animals | 11/11 | — |
+| amount | 6/6 | — |
 | body | 29/29 | — |
-| place | 8/8 | — |
-| color | 5/5 | — |
-| number | 5/5 | — |
+| people | 11/11 | — |
 | perception | 3/3 | — |
-| mind | 3/3 | — |
-| pointing | 4/4 | — |
-| nature | 34/34 | — |
-| question | 5/5 | — |
 | time | 3/3 | — |
 | food | 7/7 | — |
+| mind | 3/3 | — |
+| animals | 11/11 | — |
+| pointing | 4/4 | — |
+| speech | 3/3 | — |
 | grammar | 1/1 | — |
-| amount | 6/6 | — |
+| things | 1/1 | — |
 | action | 17/17 | — |
+| question | 5/5 | — |
+| place | 8/8 | — |
+| number | 5/5 | — |
+| joining | 3/3 | — |
+| motion | 11/11 | — |
+| color | 5/5 | — |
+| life | 3/3 | — |
+| person | 6/6 | — |
+| nature | 34/34 | — |
+| exchange | 2/2 | — |
 
 ## Spelling screen (Wiktionary lookups)
 
