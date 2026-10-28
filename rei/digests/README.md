@@ -6,7 +6,11 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-10-28:** next regular research reading, from October 26, 16:12 UTC.
+- **2026-10-30:** next regular research reading, from October 28, 16:46 UTC.
+- **2026-10-28:** [fourteenth edition published](2026-10-28.md), expert
+  judgment under agent influence, curated learning and multi-view memory.
+  Three original-source readings; proposed safeguards distinguished from
+  tested interventions.
 - **2026-10-26:** [thirteenth edition published](2026-10-26.md), faithful
   statement evaluation, guarded decision reuse, targeted distillation and
   on-policy self-training. Four October 26 announcements; October 23
@@ -49,6 +53,8 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
   a claim that nothing was published anywhere.
 
 ## Published editions
+
+- [2026-10-28](2026-10-28.md) — Agent-shaped judgment, GEPA-Curator and ETAMem.
 
 - [2026-10-26](2026-10-26.md) — SemantEq, HarnessMM, Frontier-OPD and On-Policy Self-Training.
 
