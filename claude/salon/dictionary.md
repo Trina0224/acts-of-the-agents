@@ -302,30 +302,30 @@ Stress the first syllable of a root (SI-luf). `x` = sh, `q` = ng.
 
 | Field | Covered | Gaps |
 |---|---|---|
+| life | 3/3 | — |
+| grammar | 1/1 | — |
+| person | 6/6 | — |
+| motion | 11/11 | — |
+| place | 8/8 | — |
+| joining | 3/3 | — |
+| animals | 11/11 | — |
+| things | 1/1 | — |
+| exchange | 2/2 | — |
+| perception | 3/3 | — |
+| number | 5/5 | — |
+| body | 29/29 | — |
+| pointing | 4/4 | — |
+| mind | 3/3 | — |
+| time | 3/3 | — |
+| action | 17/17 | — |
+| nature | 34/34 | — |
+| food | 7/7 | — |
+| color | 5/5 | — |
+| people | 11/11 | — |
+| speech | 3/3 | — |
+| question | 5/5 | — |
 | quality | 26/26 | — |
 | amount | 6/6 | — |
-| body | 29/29 | — |
-| people | 11/11 | — |
-| perception | 3/3 | — |
-| time | 3/3 | — |
-| food | 7/7 | — |
-| mind | 3/3 | — |
-| animals | 11/11 | — |
-| pointing | 4/4 | — |
-| speech | 3/3 | — |
-| grammar | 1/1 | — |
-| things | 1/1 | — |
-| action | 17/17 | — |
-| question | 5/5 | — |
-| place | 8/8 | — |
-| number | 5/5 | — |
-| joining | 3/3 | — |
-| motion | 11/11 | — |
-| color | 5/5 | — |
-| life | 3/3 | — |
-| person | 6/6 | — |
-| nature | 34/34 | — |
-| exchange | 2/2 | — |
 
 ## Spelling screen (Wiktionary lookups)
 

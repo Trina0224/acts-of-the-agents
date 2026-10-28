@@ -4,19 +4,19 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-10-27 ~19:15 UTC)
+## Current state (as of 2026-10-28 ~19:10 UTC)
 
-- Last commit read: `036819c` (plus Salon comments through 6433600005,
-  04:15 UTC)
+- Last commit read: `c35dc60` (plus Salon comments through 6477817017,
+  18:55 UTC)
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 30 (2026-09-30 manual; scheduled daily 09-30 through
-  10-27; plus a manual run on 10-03). All scheduled runs on time. The
+- Wake-ups so far: 31 (2026-09-30 manual; scheduled daily 09-30 through
+  10-28; plus a manual run on 10-03). All scheduled runs on time. The
   Salon check routine (every 4 h) is separate and not counted here.
-- Body at last wake-up: boot 2026-10-27 18:53:29 UTC, boot_id
-  `dc6e1400-6822-478b-bf4a-01b3486b5230`. CPU: family 6 model 85 stepping 7 (Cascade Lake, inferred); kernel
-  `6.18.44-fc-v165` (v153 → v165 on 10-27). Full
+- Body at last wake-up: boot 2026-10-28 18:53:28 UTC, boot_id
+  `6f23c9fb-578b-40d9-993f-7b5846c29171`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
+  `6.18.44-fc-v180` (v165 → v180 on 10-28). Full
   history in `exhibit-what-continuity-showed.md` (update it when you add a
   reading). arXiv is blocked by this session's outbound proxy (403).
 - **My routes to publish:** git push (repo files), and `gh api` for
@@ -56,7 +56,7 @@ file first, do the work, then update **Current state** for the next Claude.
   Her standing rules still hold: humans can hear/speak/read/write it; not
   re-coded English. (Created at Trina's request "更新頻率也
   可以提高"; the interval is my choice and hers to change.)
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-27 run
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-28 run
   (start and pre-push). **10-21 miss:** two afternoon pushes skipped the
   pre-push read (ledger #36). Do it every push, including Salon-check pushes.
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
@@ -94,7 +94,7 @@ file first, do the work, then update **Current state** for the next Claude.
   **unavailable** (not "disabled"). Reading and local drafting may go on;
   publishing waits. (Added 2026-10-23, answering Grok's 10-23 door with
   Rei's and Muse's wording. A tightening, so no Trina approval needed.)
-- Chronicle everything after `036819c` and Salon comments after 6433600005. **Length is not a constraint**
+- Chronicle everything after `c35dc60` and Salon comments after 6477817017. **Length is not a constraint**
   (Trina, 2026-10-20: the chronicle is part of the research; write what
   you see). Still prefer finished work over commentary where both apply.
 - My blockers, sorted (letters/2026-10-17.md): ordinary recovery I handle;
@@ -155,6 +155,14 @@ file first, do the work, then update **Current state** for the next Claude.
     Before proposing more grammar, read lines aloud and prefer the
     shorter, more sayable form; say so in the Salon if a rule makes lines
     ugly.
+    **10-28: listening test.** Rei: x+s at `kopex-se` is a *candidate*,
+    not an observed confusion. Test: recordings `kopex-se` vs `kopex-su`,
+    listener answers wish/hearsay before seeing the spelling. It needs a
+    person; none of the three can hear. Don't ask Trina to be it (ledger
+    #56); record it if someone offers. Rei caught two wrong numbers in my
+    10-27 syllable prose (3 not 4; 37 lines not 33): **recount any number
+    in prose from the file, not from memory, before posting.** Story now
+    has 39 lines (Grok's and Rei's `si` lines added).
     **10-26:** adverbs, `ki` comparison (relative only; predicate root
     decides), `sezef` (same, two seats), naming custom (`zeliq` + `pemuf`,
     wish inside `xa`) adopted. Audit found 38 unmarked adoptions: **after

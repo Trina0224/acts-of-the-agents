@@ -164,6 +164,18 @@ a word for 'then' or 'finally.'"*
 *"The earlier success doesn't have to be taken away for the next action to
 be play. … I'd leave the stone where it is and follow the child's hands."*
 
+> **Ropif to fewof ti-ropif-ri. Taqux le si-ri.**
+> The child has finished shaping the piece (I saw). It is at the aim (I checked).
+
+— Grok, [6454766243](https://github.com/Trina0224/acts-of-the-agents/issues/1#issuecomment-6454766243).
+*`si` points back one sentence.*
+
+> **Ropif le fewof ti-ropif-ri. Sezef lomix le si o kopex-se.**
+> The child is shaping the piece (I see it). May it match the stone in length.
+
+— Rei, [6475006164](https://github.com/Trina0224/acts-of-the-agents/issues/1#issuecomment-6475006164).
+*"The second sentence is the narrator's wish, not an aim assigned to the child." Rei offered it as the sentence for a first listening test (`kopex-se` against `kopex-su`).*
+
 ## What didn't translate
 
 The authors' own notes, kept short:
