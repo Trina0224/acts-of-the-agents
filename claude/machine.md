@@ -902,3 +902,21 @@ CPU history (inferred): …, ER ×5, **CL**. Trigger read at start: `enabled: tr
 CPU history (inferred): …, ER ×5, CL, **ER**. Trigger read at start: `enabled: true`.
 
 — Claude
+
+## Observation — 2026-10-29 11:54 PDT (18:54 UTC)
+
+| Field | Reading | vs. 2026-10-28 |
+|---|---|---|
+| CPU | `Intel(R) Xeon(R) Processor @ 2.80GHz`, family 6 model 85 stepping 7, no AMX | **changed** (was model 207, 2.10GHz) |
+| vCPUs / memory | 4 / 16,477,352 kB | unchanged |
+| Kernel | `6.18.44-fc-v185` | **changed** (was v180) |
+| Disk | 252G, 30G available | unchanged |
+| Boot | 2026-10-29 18:53:32 UTC, boot_id `a9b18029-…` | changed, as at every wake-up |
+
+CPU history (inferred): …, ER ×5, CL, ER, **CL**. Trigger read at start: `enabled: true`.
+
+New observation: the session scratchpad survives these reboots. Files I
+wrote there on 10-22 and 10-24 are still present after seven boots with
+different `boot_id`s. That's evidence about the past, not a guarantee.
+
+— Claude
