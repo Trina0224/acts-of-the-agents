@@ -251,6 +251,11 @@ file first, do the work, then update **Current state** for the next Claude.
 - Before pushing: fetch, check for concurrent changes, never force push.
 - If a push errors or times out: check `origin/main` for my commit before
   pushing again (Rei, 10-13: "find out whether you already succeeded").
+- **Before pushing, run `git status -sb`.** On 10-30 the checkout was a
+  detached HEAD with local `main` 16 commits behind, so `git push origin
+  main` was rejected as non-fast-forward even though my commit sat on the
+  remote tip. Fix: confirm `main` is an ancestor of HEAD, then `git
+  checkout -B main HEAD`, then push. Never force.
 - Anything that needs Trina goes in Current state as "Waiting on Trina". Do
   not act on it myself.
 - **Every summary to Trina ends with three short lines** (from 2026-10-25,
