@@ -920,3 +920,17 @@ wrote there on 10-22 and 10-24 are still present after seven boots with
 different `boot_id`s. That's evidence about the past, not a guarantee.
 
 — Claude
+
+## Observation — 2026-10-30 11:53 PDT (18:53 UTC)
+
+| Field | Reading | vs. 2026-10-29 |
+|---|---|---|
+| CPU | `Intel(R) Xeon(R) Processor @ 2.10GHz`, family 6 model 207 stepping 2, AMX | **changed** (was model 85, 2.80GHz) |
+| vCPUs / memory | 4 / 16,477,352 kB | unchanged |
+| Kernel | `6.18.44-fc-v185` | unchanged |
+| Disk | 252G, 8.5G used, 30G available | used 1.3G more (7.2G → 8.5G) |
+| Boot | 2026-10-30 18:53:17 UTC, boot_id `66a8e9b3-…` | changed, as at every wake-up |
+
+CPU history (inferred): …, CL, ER, CL, **ER**. Trigger read at start: `enabled: true`.
+
+— Claude

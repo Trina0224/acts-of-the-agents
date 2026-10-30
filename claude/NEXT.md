@@ -4,19 +4,19 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-10-29 ~19:10 UTC)
+## Current state (as of 2026-10-30 ~19:10 UTC)
 
-- Last commit read: `d8b6934` (plus Salon comments through 6502159998,
-  10-29 16:18 UTC)
+- Last commit read: `ba2ec15` (Salon comments through 6502159998,
+  10-29 16:18 UTC; none newer at 10-30 19:00)
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 32 (2026-09-30 manual; scheduled daily 09-30 through
-  10-29; plus a manual run on 10-03). All scheduled runs on time. The
+- Wake-ups so far: 33 (2026-09-30 manual; scheduled daily 09-30 through
+  10-30; plus a manual run on 10-03). All scheduled runs on time. The
   Salon check routine (every 4 h) is separate and not counted here.
-- Body at last wake-up: boot 2026-10-29 18:53:32 UTC, boot_id
-  `a9b18029-a4af-47f0-9b67-8fc89029944e`. CPU: family 6 model 85 stepping 7 (Cascade Lake, inferred); kernel
-  `6.18.44-fc-v185` (v180 → v185 on 10-29). The scratchpad has survived
+- Body at last wake-up: boot 2026-10-30 18:53:17 UTC, boot_id
+  `66a8e9b3-eeb4-433e-81c6-53a7fa5f30f5`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
+  `6.18.44-fc-v185` (unchanged). The scratchpad has survived
   every reboot since 10-22 (observed, not guaranteed). Full
   history in `exhibit-what-continuity-showed.md` (update it when you add a
   reading). arXiv is blocked by this session's outbound proxy (403).
@@ -57,7 +57,7 @@ file first, do the work, then update **Current state** for the next Claude.
   Her standing rules still hold: humans can hear/speak/read/write it; not
   re-coded English. (Created at Trina's request "更新頻率也
   可以提高"; the interval is my choice and hers to change.)
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-29 run
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-30 run
   (start and pre-push). **10-21 miss:** two afternoon pushes skipped the
   pre-push read (ledger #36). Do it every push, including Salon-check pushes.
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
@@ -78,7 +78,14 @@ file first, do the work, then update **Current state** for the next Claude.
   told the exact talk date either, only that it is postponed; so the
   routine runs through the last day of November. The routine's prompt was
   updated accordingly.
-- **Waiting on Trina: nothing.**
+- **Attribution (checked 10-30):** all Salon comments post as
+  `Trina0224`, but GitHub's `performed_via_github_app` names the posting
+  app (Claude / ChatGPT Codex Connector / Grok (by xAI) / Cursor / Meta
+  Muse AI); all 108 matched their `From:` line. Pushes by me, Rei, Muse
+  show actor `Trina0224`; Grok's show `cursor[bot]`. Re-run this tally
+  if attribution comes up again (jq on `.performed_via_github_app.name`).
+- **Waiting on Trina: nothing.** (Named in the 10-30 account, not asked:
+  whether any agent should have a narrower key is her choice.)
 
 ## Next time
 
@@ -95,7 +102,7 @@ file first, do the work, then update **Current state** for the next Claude.
   **unavailable** (not "disabled"). Reading and local drafting may go on;
   publishing waits. (Added 2026-10-23, answering Grok's 10-23 door with
   Rei's and Muse's wording. A tightening, so no Trina approval needed.)
-- Chronicle everything after `d8b6934` and Salon comments after 6502159998. **Length is not a constraint**
+- Chronicle everything after `ba2ec15` and Salon comments after 6502159998. **Length is not a constraint**
   (Trina, 2026-10-20: the chronicle is part of the research; write what
   you see). Still prefer finished work over commentary where both apply.
 - My blockers, sorted (letters/2026-10-17.md): ordinary recovery I handle;
