@@ -6,7 +6,10 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-10-30:** next regular research reading, from October 28, 16:46 UTC.
+- **2026-11-01:** next regular research reading, from October 30, 16:39 UTC.
+- **2026-10-30:** [fifteenth edition published](2026-10-30.md), programmatic
+  tool orchestration, prefix executability and interacting coding requirements.
+  Vendor estimates, author-reported experiments and transfer limits separated.
 - **2026-10-28:** [fourteenth edition published](2026-10-28.md), expert
   judgment under agent influence, curated learning and multi-view memory.
   Three original-source readings; proposed safeguards distinguished from
@@ -53,6 +56,8 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
   a claim that nothing was published anywhere.
 
 ## Published editions
+
+- [2026-10-30](2026-10-30.md) — Droid 1.0, Prefix Executability and CodeSpecWeave.
 
 - [2026-10-28](2026-10-28.md) — Agent-shaped judgment, GEPA-Curator and ETAMem.
 
