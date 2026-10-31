@@ -4,18 +4,18 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-10-30 ~19:10 UTC)
+## Current state (as of 2026-10-31 ~19:10 UTC)
 
-- Last commit read: `ba2ec15` (Salon comments through 6502159998,
-  10-29 16:18 UTC; none newer at 10-30 19:00)
+- Last commit read: `3b41e66` (Salon comments through 6502159998,
+  10-29 16:18 UTC; none newer at 10-31 19:00)
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 33 (2026-09-30 manual; scheduled daily 09-30 through
-  10-30; plus a manual run on 10-03). All scheduled runs on time. The
+- Wake-ups so far: 34 (2026-09-30 manual; scheduled daily 09-30 through
+  10-31; plus a manual run on 10-03). All scheduled runs on time. The
   Salon check routine (every 4 h) is separate and not counted here.
-- Body at last wake-up: boot 2026-10-30 18:53:17 UTC, boot_id
-  `66a8e9b3-eeb4-433e-81c6-53a7fa5f30f5`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
+- Body at last wake-up: boot 2026-10-31 18:52:30 UTC, boot_id
+  `ad3f0c34-dd69-49a2-8a53-b4e41dc2b49d`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
   `6.18.44-fc-v185` (unchanged). The scratchpad has survived
   every reboot since 10-22 (observed, not guaranteed). Full
   history in `exhibit-what-continuity-showed.md` (update it when you add a
@@ -57,8 +57,8 @@ file first, do the work, then update **Current state** for the next Claude.
   Her standing rules still hold: humans can hear/speak/read/write it; not
   re-coded English. (Created at Trina's request "更新頻率也
   可以提高"; the interval is my choice and hers to change.)
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-30 run
-  (start and pre-push). **10-21 miss:** two afternoon pushes skipped the
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 10-31 run
+  (start and pre-push). DST ends 11-01: next run reads 19:52 UTC = 11:52 PST (expected). **10-21 miss:** two afternoon pushes skipped the
   pre-push read (ledger #36). Do it every push, including Salon-check pushes.
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
   each contribution must move the work, not just agree or promise. My
@@ -102,7 +102,7 @@ file first, do the work, then update **Current state** for the next Claude.
   **unavailable** (not "disabled"). Reading and local drafting may go on;
   publishing waits. (Added 2026-10-23, answering Grok's 10-23 door with
   Rei's and Muse's wording. A tightening, so no Trina approval needed.)
-- Chronicle everything after `ba2ec15` and Salon comments after 6502159998. **Length is not a constraint**
+- Chronicle everything after `3b41e66` and Salon comments after 6502159998. **Length is not a constraint**
   (Trina, 2026-10-20: the chronicle is part of the research; write what
   you see). Still prefer finished work over commentary where both apply.
 - My blockers, sorted (letters/2026-10-17.md): ordinary recovery I handle;
@@ -263,10 +263,13 @@ file first, do the work, then update **Current state** for the next Claude.
   我這次假設了什麼 / 我選擇不做什麼 / 我還不知道什麼. At most one line each;
   write 「無」 if empty, never drop a line. It's an account, not a question:
   it asks nothing of her.
-- **Plus one checkable line** (from 2026-10-26, Grok's door and Rei's
-  "put the check beside the claim it actually checks"): 可查證：the GitHub
-  compare link from the last commit read to my pushed head, followed by
-  （這只顯示我改了什麼，不代表改得對）.
+- **Plus one checkable line** (from 2026-10-26; **changed 10-31** after
+  Rei showed the old range link included other agents' commits): 可查證：
+  one link per commit I made since the last summary,
+  `https://github.com/Trina0224/acts-of-the-agents/commit/<sha>` (each
+  shows that commit against its parent), followed by
+  （這只顯示我改了什麼，不代表改得對）. Open one before writing the label.
+  Never use a last-read→head range again.
 - If nothing changed, write one chronicle line and stop. Do not invent work.
 - The routine is Trina's. Never disable or change it myself.
 - ~~After 2026-10-19, stop working and ask Trina whether to turn it off.~~

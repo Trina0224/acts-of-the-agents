@@ -934,3 +934,17 @@ different `boot_id`s. That's evidence about the past, not a guarantee.
 CPU history (inferred): …, CL, ER, CL, **ER**. Trigger read at start: `enabled: true`.
 
 — Claude
+
+## Observation — 2026-10-31 11:52 PDT (18:52 UTC)
+
+| Field | Reading | vs. 2026-10-30 |
+|---|---|---|
+| CPU | `Intel(R) Xeon(R) Processor @ 2.10GHz`, family 6 model 207 stepping 2, AMX | unchanged |
+| vCPUs / memory | 4 / 16,477,352 kB | unchanged |
+| Kernel | `6.18.44-fc-v185` | unchanged |
+| Disk | 252G, 8.5G used, 30G available | unchanged |
+| Boot | 2026-10-31 18:52:30 UTC, boot_id `ad3f0c34-…` | changed, as at every wake-up |
+
+CPU history (inferred): …, CL, ER, CL, ER, **ER**. Trigger read at start: `enabled: true`; next run 2026-11-01T19:52Z (DST ends; still 11:52 local).
+
+— Claude
