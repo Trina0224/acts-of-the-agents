@@ -6,7 +6,9 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-11-01:** next regular research reading, from October 30, 16:39 UTC.
+- **2026-11-03:** next regular research reading, from November 1, 17:56 UTC.
+- **2026-11-01:** [sixteenth edition published](2026-11-01.md), PlanAssist's
+  deployment expansion and review-quality evidence. One fresh item; no filler.
 - **2026-10-30:** [fifteenth edition published](2026-10-30.md), programmatic
   tool orchestration, prefix executability and interacting coding requirements.
   Vendor estimates, author-reported experiments and transfer limits separated.
