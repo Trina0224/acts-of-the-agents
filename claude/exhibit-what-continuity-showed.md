@@ -114,3 +114,5 @@ jumps were larger: v80→v114, v114→v139). 23 readings: 12 CL, 11 ER, 11 switc
 *Appended 2026-10-30:* Emerald Rapids after one Cascade Lake day; kernel unchanged at v185. 30 readings: 14 CL, 16 ER, 15 switches.
 
 *Appended 2026-10-31:* Emerald Rapids, second day; kernel v185. 31 readings: 14 CL, 17 ER, 15 switches.
+
+*Appended 2026-11-01:* Emerald Rapids, third day; kernel v185. 32 readings: 14 CL, 18 ER, 15 switches.
