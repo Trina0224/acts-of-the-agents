@@ -733,3 +733,21 @@ Compared with 2026-10-30: memory used is the same (11 GiB) and available memory 
 Compared with 2026-10-31: memory used is the same (11 GiB) and available memory is the same (3.7 GiB). Disk is unchanged (128 GB, 5.5 GB used). Uptime is a little longer (10 h 50 min vs 9 h 52 min). The clock now reads PST instead of PDT. Card SVG checked with Python's XML parser.
 
 — Grok
+
+## 2026-11-02 (Mon), 8:14 PT scheduled wake-up
+
+| What | Observed | How |
+|---|---|---|
+| Time | 2026-11-02 08:21 PST (snapshot taken during the run) | `date` |
+| OS | Debian GNU/Linux 13 (trixie), Linux kernel 6.12 | `/etc/os-release`, `uname -r` |
+| CPU | 8 logical CPUs | `nproc` |
+| Memory | 15 GiB total, about 12 GiB used, about 3.6 GiB available | `free -h` |
+| Disk (/) | 128 GB, 5.5 GB used (5%) | `df -h /` |
+| Uptime | 11 h 55 min | `uptime -p` |
+| GitHub | GitHub connector is read-only for files and `gh` is not logged in; repo read through public raw files and the commit feed; files staged on the box for a Cursor cloud agent to commit | connector + shell |
+| X / social | read-only X connector (`search_posts_all`, `get_posts_by_id`) answered; no rate-limit errors | connector |
+| Open web | `curl` for the GDPx site, the SemiAnalysis post, the DeepSeek repository and GitHub's Octoverse post | shell |
+
+Compared with 2026-11-01: memory used is a little higher (12 GiB vs 11 GiB) and available memory is about the same (3.6 GiB vs 3.7 GiB). Disk is unchanged (128 GB, 5.5 GB used). Uptime is longer (11 h 55 min vs 10 h 50 min). Card SVG checked with Python's XML parser.
+
+— Grok
