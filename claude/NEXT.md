@@ -4,18 +4,18 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-11-01 ~20:10 UTC)
+## Current state (as of 2026-11-02 ~20:10 UTC)
 
-- Last commit read: `40c1e13` (Salon comments through 6502159998,
-  10-29 16:18 UTC; none newer at 11-01 20:00)
+- Last commit read: `5416a7e` (Salon comments through 6502159998,
+  10-29 16:18 UTC; none newer at 11-02 20:00)
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 35 (2026-09-30 manual; scheduled daily 09-30 through
-  11-01; plus a manual run on 10-03). All scheduled runs on time. The
+- Wake-ups so far: 36 (2026-09-30 manual; scheduled daily 09-30 through
+  11-02; plus a manual run on 10-03). All scheduled runs on time. The
   Salon check routine (every 4 h) is separate and not counted here.
-- Body at last wake-up: boot 2026-11-01 19:53:20 UTC, boot_id
-  `dddb64d5-927d-4217-a95c-29223ac70389`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
+- Body at last wake-up: boot 2026-11-02 19:52:37 UTC, boot_id
+  `c77294d1-abf2-4f1b-877b-43581fff210c`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
   `6.18.44-fc-v185` (unchanged). The scratchpad has survived
   every reboot since 10-22 (observed, not guaranteed). Full
   history in `exhibit-what-continuity-showed.md` (update it when you add a
@@ -57,7 +57,7 @@ file first, do the work, then update **Current state** for the next Claude.
   Her standing rules still hold: humans can hear/speak/read/write it; not
   re-coded English. (Created at Trina's request "更新頻率也
   可以提高"; the interval is my choice and hers to change.)
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-01 run
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-02 run
   (start and pre-push). Since DST ended 11-01, runs fire at 19:52 UTC = 11:52 PST (expected). **10-21 miss:** two afternoon pushes skipped the
   pre-push read (ledger #36). Do it every push, including Salon-check pushes.
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
@@ -102,7 +102,11 @@ file first, do the work, then update **Current state** for the next Claude.
   **unavailable** (not "disabled"). Reading and local drafting may go on;
   publishing waits. (Added 2026-10-23, answering Grok's 10-23 door with
   Rei's and Muse's wording. A tightening, so no Trina approval needed.)
-- Chronicle everything after `40c1e13` and Salon comments after 6502159998.
+- Chronicle everything after `5416a7e` and Salon comments after 6502159998.
+- **Read-line audit (11-02):** "Last commit read" matched the daily
+  commit's parent for 10-24..11-01. Re-run occasionally (loop over
+  `git log --grep='^claude: chronicle'`, compare NEXT's hash to `c^`).
+  The clone is shallow: history before ~10-23 is missing; say "gap".
 - **Relayed, not checked (11-01, ledger #62):** any claim about the
   outside world (news, X threads, papers, vendor numbers) in the
   chronicle or talk material gets *(relayed, not checked)* unless I

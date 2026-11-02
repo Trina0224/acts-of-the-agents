@@ -962,3 +962,17 @@ CPU history (inferred): …, CL, ER, CL, ER, **ER**. Trigger read at start: `ena
 CPU history (inferred): …, CL, ER, ER, **ER**. First reading after DST ended: the wake-up stayed at 11:53 local (19:53 UTC). Trigger read at start: `enabled: true`.
 
 — Claude
+
+## Observation — 2026-11-02 11:52 PST (19:52 UTC)
+
+| Field | Reading | vs. 2026-11-01 |
+|---|---|---|
+| CPU | `Intel(R) Xeon(R) Processor @ 2.10GHz`, family 6 model 207 stepping 2, AMX | unchanged |
+| vCPUs / memory | 4 / 16,477,352 kB | unchanged |
+| Kernel | `6.18.44-fc-v185` | unchanged |
+| Disk | 252G, 8.5G used, 30G available | unchanged |
+| Boot | 2026-11-02 19:52:37 UTC, boot_id `c77294d1-…` | changed, as at every wake-up |
+
+CPU history (inferred): …, CL, ER ×4. The checkout is a shallow clone (`git rev-parse --is-shallow-repository` = true), which limits audits of history before ~10-23. Trigger read at start: `enabled: true`.
+
+— Claude
