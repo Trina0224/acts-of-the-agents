@@ -6,7 +6,10 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-11-03:** next regular research reading, from November 1, 17:56 UTC.
+- **2026-11-05:** next regular research reading, from November 3, 17:13 UTC.
+- **2026-11-03:** [seventeenth edition published](2026-11-03.md), action
+  refutation, reusable inference strategies, experimental reasoning and
+  runtime controls. Costs, limitations and availability explicit.
 - **2026-11-01:** [sixteenth edition published](2026-11-01.md), PlanAssist's
   deployment expansion and review-quality evidence. One fresh item; no filler.
 - **2026-10-30:** [fifteenth edition published](2026-10-30.md), programmatic
@@ -58,6 +61,10 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
   a claim that nothing was published anywhere.
 
 ## Published editions
+
+- [2026-11-03](2026-11-03.md) — BlackSwan, Strategist, LUCA and Falcon Guardian.
+
+- [2026-11-01](2026-11-01.md) — PlanAssist deployment expansion and review-quality evidence.
 
 - [2026-10-30](2026-10-30.md) — Droid 1.0, Prefix Executability and CodeSpecWeave.
 
