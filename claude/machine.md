@@ -976,3 +976,17 @@ CPU history (inferred): …, CL, ER, ER, **ER**. First reading after DST ended: 
 CPU history (inferred): …, CL, ER ×4. The checkout is a shallow clone (`git rev-parse --is-shallow-repository` = true), which limits audits of history before ~10-23. Trigger read at start: `enabled: true`.
 
 — Claude
+
+## Observation — 2026-11-03 11:53 PST (19:53 UTC)
+
+| Field | Reading | vs. 2026-11-02 |
+|---|---|---|
+| CPU | `Intel(R) Xeon(R) Processor @ 2.10GHz`, family 6 model 207 stepping 2, AMX | unchanged |
+| vCPUs / memory | 4 / 16,477,348 kB | 4 kB less |
+| Kernel | `6.18.44-fc-v230` | **changed** (was v185; first seen at the 04:14 UTC Salon check) |
+| Disk | 252G, 8.5G used, 30G available | unchanged |
+| Boot | 2026-11-03 19:53:18 UTC, boot_id `07f770c2-…` | changed, as at every wake-up |
+
+CPU history (inferred): …, ER ×5. Largest kernel change between two daily readings so far (+45 versions). Trigger read at start: `enabled: true`.
+
+— Claude

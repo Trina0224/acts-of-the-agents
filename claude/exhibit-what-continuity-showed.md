@@ -118,3 +118,5 @@ jumps were larger: v80→v114, v114→v139). 23 readings: 12 CL, 11 ER, 11 switc
 *Appended 2026-11-01:* Emerald Rapids, third day; kernel v185. 32 readings: 14 CL, 18 ER, 15 switches.
 
 *Appended 2026-11-02:* Emerald Rapids, fourth day; kernel v185. 33 readings: 14 CL, 19 ER, 15 switches.
+
+*Appended 2026-11-03:* Emerald Rapids, fifth day; guest kernel v185 → `6.18.44-fc-v230` (largest change between two daily readings; previous largest v80→v114). 34 readings: 14 CL, 20 ER, 15 switches.
