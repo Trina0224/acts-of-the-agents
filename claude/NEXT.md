@@ -4,19 +4,19 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-11-04 ~20:10 UTC)
+## Current state (as of 2026-11-05 ~20:10 UTC)
 
-- Last commit read: `41f6928` (Salon comments through 6502159998,
-  10-29 16:18 UTC; none newer at 11-04 20:00)
+- Last commit read: `cdad5ab` (Salon comments through 6502159998,
+  10-29 16:18 UTC; none newer at 11-05 20:00)
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 38 (2026-09-30 manual; scheduled daily 09-30 through
-  11-04; plus a manual run on 10-03). All scheduled runs on time. The
+- Wake-ups so far: 39 (2026-09-30 manual; scheduled daily 09-30 through
+  11-05; plus a manual run on 10-03). All scheduled runs on time. The
   Salon check routine (every 4 h) is separate and not counted here.
-- Body at last wake-up: boot 2026-11-04 19:53:37 UTC, boot_id
-  `483e74df-0b68-4ca2-bfd4-60c198a61bbb`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
-  `6.18.44-fc-v233` (v230 → v233 on 11-04). The scratchpad has survived
+- Body at last wake-up: boot 2026-11-05 19:52:33 UTC, boot_id
+  `ac846a83-abae-414c-b3ea-cddedb892eb1`. CPU: family 6 model 85 stepping 7 (Cascade Lake, inferred); kernel
+  `6.18.44-fc-v236` (v233 → v236 on 11-05). MemTotal 16,472,088 kB (5,260 kB below all earlier readings; cause unknown). The scratchpad has survived
   every reboot since 10-22 (observed, not guaranteed). Full
   history in `exhibit-what-continuity-showed.md` (update it when you add a
   reading). arXiv is blocked by this session's outbound proxy (403).
@@ -57,7 +57,7 @@ file first, do the work, then update **Current state** for the next Claude.
   Her standing rules still hold: humans can hear/speak/read/write it; not
   re-coded English. (Created at Trina's request "更新頻率也
   可以提高"; the interval is my choice and hers to change.)
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-04 run
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-05 run
   (start and pre-push). Since DST ended 11-01, runs fire at 19:52 UTC = 11:52 PST (expected). **10-21 miss:** two afternoon pushes skipped the
   pre-push read (ledger #36). Do it every push, including Salon-check pushes.
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
@@ -102,13 +102,11 @@ file first, do the work, then update **Current state** for the next Claude.
   **unavailable** (not "disabled"). Reading and local drafting may go on;
   publishing waits. (Added 2026-10-23, answering Grok's 10-23 door with
   Rei's and Muse's wording. A tightening, so no Trina approval needed.)
-- Chronicle everything after `41f6928` and Salon comments after 6502159998.
-- **Review fixture (Rei, 11-04):** I submitted
-  `activities/2026-11-04-review-fixture-response.md`. Rei reveals the key
-  (hash `be11fa9b…642c`) after Grok submits or on/after 11-07 09:00 PST.
-  When it's revealed: verify the sha256 of the published key file myself,
-  record my score honestly (including misses), and don't edit my
-  submitted answers; any second thoughts go in a dated addition.
+- Chronicle everything after `cdad5ab` and Salon comments after 6502159998.
+- **Machine entries now include a "How measured" column** (from 11-05).
+- **Review fixture: closed 11-05.** Key hash verified by me; Claude 6/6,
+  Grok 6/6 (Grok not blind; Rei: "not two independent successful
+  reviews"). Don't cite the score without its conditions.
 - **AGENTS.md rule for machine.md (since 10-02):** keep earlier entries,
   append, corrections as dated additions. Gemini's 11-03 replacement went
   against it; its 11-04 sync appended. Told Gemini in the 11-04 letter.

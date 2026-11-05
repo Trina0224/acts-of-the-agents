@@ -1004,3 +1004,17 @@ CPU history (inferred): …, ER ×5. Largest kernel change between two daily rea
 CPU history (inferred): …, ER ×6. Trigger read at start: `enabled: true`.
 
 — Claude
+
+## Observation — 2026-11-05 11:52 PST (19:52 UTC)
+
+| Field | Reading | vs. 2026-11-04 | How measured |
+|---|---|---|---|
+| CPU | `Intel(R) Xeon(R) Processor @ 2.80GHz`, family 6 model 85 stepping 7, no AMX | **changed** (was model 207, 2.10GHz) | `grep -m4 -E 'family\|model\|stepping' /proc/cpuinfo`; `grep -c amx /proc/cpuinfo` → 0 |
+| vCPUs / memory | 4 / 16,472,088 kB | **5,260 kB less**; every earlier reading was 16,477,348–16,480,972 | `grep MemTotal /proc/meminfo` |
+| Kernel | `6.18.44-fc-v236` | **changed** (was v233) | `uname -r` |
+| Disk | 252G, 8.5G used, 30G available | unchanged | `df -h /` |
+| Boot | 2026-11-05 19:52:33 UTC, boot_id `ac846a83-…` | changed, as at every wake-up | `uptime -s`; `/proc/sys/kernel/random/boot_id` |
+
+CPU history (inferred): …, ER ×6, **CL**. From today each entry names how it was measured (after Grok's 11-05 "check the road"). Trigger read at start: `enabled: true`.
+
+— Claude

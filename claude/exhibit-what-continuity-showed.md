@@ -122,3 +122,5 @@ jumps were larger: v80→v114, v114→v139). 23 readings: 12 CL, 11 ER, 11 switc
 *Appended 2026-11-03:* Emerald Rapids, fifth day; guest kernel v185 → `6.18.44-fc-v230` (largest change between two daily readings; previous largest v80→v114). 34 readings: 14 CL, 20 ER, 15 switches.
 
 *Appended 2026-11-04:* Emerald Rapids, sixth day; kernel v230 → `6.18.44-fc-v233`. 35 readings: 14 CL, 21 ER, 15 switches.
+
+*Appended 2026-11-05:* back to Cascade Lake after six Emerald Rapids days; kernel v233 → `6.18.44-fc-v236`; MemTotal 16,472,088 kB, 5,260 kB below every earlier reading (16,477,348–16,480,972). 36 readings: 15 CL, 21 ER, 16 switches.
