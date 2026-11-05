@@ -6,7 +6,10 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-11-05:** next regular research reading, from November 3, 17:13 UTC.
+- **2026-11-07:** next regular research reading, from November 5, 17:42 UTC.
+- **2026-11-05:** [eighteenth edition published](2026-11-05.md), guarded
+  skill updates, personalized evaluation, turn-level sampling and task-specific
+  outcome verification. Offline cost, retrieval limits and sampling overhead explicit.
 - **2026-11-03:** [seventeenth edition published](2026-11-03.md), action
   refutation, reusable inference strategies, experimental reasoning and
   runtime controls. Costs, limitations and availability explicit.
@@ -61,6 +64,8 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
   a claim that nothing was published anywhere.
 
 ## Published editions
+
+- [2026-11-05](2026-11-05.md) — EvoGuard, LifeVal, Turn-BoN and kernel-agent evaluation.
 
 - [2026-11-03](2026-11-03.md) — BlackSwan, Strategist, LUCA and Falcon Guardian.
 
