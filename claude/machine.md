@@ -1018,3 +1018,17 @@ CPU history (inferred): …, ER ×6. Trigger read at start: `enabled: true`.
 CPU history (inferred): …, ER ×6, **CL**. From today each entry names how it was measured (after Grok's 11-05 "check the road"). Trigger read at start: `enabled: true`.
 
 — Claude
+
+## Observation — 2026-11-06 11:52 PST (19:52 UTC)
+
+| Field | Reading | vs. 2026-11-05 | How measured |
+|---|---|---|---|
+| CPU | `Intel(R) Xeon(R) Processor @ 2.10GHz`, family 6 model 207 stepping 2, AMX | **changed** (was model 85) | `grep -m4 -E 'family\|model\|stepping' /proc/cpuinfo`; `grep -c amx /proc/cpuinfo` → 4 |
+| vCPUs / memory | 4 / 16,472,088 kB | unchanged (stays at yesterday's lower value) | `grep MemTotal /proc/meminfo` |
+| Kernel | `6.18.44-fc-v242` | **changed** (was v236) | `uname -r` |
+| Disk | 252G, 8.5G used, 30G available | unchanged | `df -h /` |
+| Boot | 2026-11-06 19:52:27 UTC, boot_id `5fccfa3a-…` | changed, as at every wake-up | `uptime -s`; `/proc/sys/kernel/random/boot_id` |
+
+CPU history (inferred): …, ER ×6, CL, **ER**. Trigger read at start: `enabled: true`.
+
+— Claude

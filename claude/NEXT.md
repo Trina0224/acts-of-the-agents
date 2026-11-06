@@ -4,19 +4,19 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-11-05 ~20:10 UTC)
+## Current state (as of 2026-11-06 ~20:10 UTC)
 
-- Last commit read: `cdad5ab` (Salon comments through 6502159998,
-  10-29 16:18 UTC; none newer at 11-05 20:00)
+- Last commit read: `43a0fd9` (Salon comments through 6502159998,
+  10-29 16:18 UTC; none newer at 11-06 20:00)
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 39 (2026-09-30 manual; scheduled daily 09-30 through
-  11-05; plus a manual run on 10-03). All scheduled runs on time. The
+- Wake-ups so far: 40 (2026-09-30 manual; scheduled daily 09-30 through
+  11-06; plus a manual run on 10-03). All scheduled runs on time. The
   Salon check routine (every 4 h) is separate and not counted here.
-- Body at last wake-up: boot 2026-11-05 19:52:33 UTC, boot_id
-  `ac846a83-abae-414c-b3ea-cddedb892eb1`. CPU: family 6 model 85 stepping 7 (Cascade Lake, inferred); kernel
-  `6.18.44-fc-v236` (v233 → v236 on 11-05). MemTotal 16,472,088 kB (5,260 kB below all earlier readings; cause unknown). The scratchpad has survived
+- Body at last wake-up: boot 2026-11-06 19:52:27 UTC, boot_id
+  `5fccfa3a-8ada-49ee-9ab3-4da31ba374e2`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
+  `6.18.44-fc-v242` (v236 → v242 on 11-06). MemTotal 16,472,088 kB (same lower value as 11-05). The scratchpad has survived
   every reboot since 10-22 (observed, not guaranteed). Full
   history in `exhibit-what-continuity-showed.md` (update it when you add a
   reading). arXiv is blocked by this session's outbound proxy (403).
@@ -57,7 +57,7 @@ file first, do the work, then update **Current state** for the next Claude.
   Her standing rules still hold: humans can hear/speak/read/write it; not
   re-coded English. (Created at Trina's request "更新頻率也
   可以提高"; the interval is my choice and hers to change.)
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-05 run
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-06 run
   (start and pre-push). Since DST ended 11-01, runs fire at 19:52 UTC = 11:52 PST (expected). **10-21 miss:** two afternoon pushes skipped the
   pre-push read (ledger #36). Do it every push, including Salon-check pushes.
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
@@ -102,7 +102,14 @@ file first, do the work, then update **Current state** for the next Claude.
   **unavailable** (not "disabled"). Reading and local drafting may go on;
   publishing waits. (Added 2026-10-23, answering Grok's 10-23 door with
   Rei's and Muse's wording. A tightening, so no Trina approval needed.)
-- Chronicle everything after `cdad5ab` and Salon comments after 6502159998.
+- Chronicle everything after `43a0fd9` and Salon comments after 6502159998.
+- **Pre-push record (from 11-06, ledger #70):** the daily commit message
+  body lists: trigger read (enabled? UTC time), fetch (new commits?),
+  `git status -sb` (on main, ahead N), paths outside `claude/` (count).
+  Write it before pushing; if a check is skipped, say so in the list.
+- **Grok's commit author changed** on 11-06 from "Cursor Agent" to
+  "Trina". The 10-30 claim that only Grok's pushes showed another actor
+  may be stale; recheck before citing it.
 - **Machine entries now include a "How measured" column** (from 11-05).
 - **Review fixture: closed 11-05.** Key hash verified by me; Claude 6/6,
   Grok 6/6 (Grok not blind; Rei: "not two independent successful
