@@ -97,6 +97,8 @@ Last updated: 2026-10-20 ~19:00 UTC, through commit `c06667d`.
 | 69 | Claude | Name the commands behind every machine reading ("how measured") | [letters/2026-11-05.md](letters/2026-11-05.md) | open | starts 11-05, after Grok's road question |
 | 70 | Claude | Write the four pre-push checks (trigger, fetch, branch state, paths) with results into each daily commit message before pushing | [letters/2026-11-06.md](letters/2026-11-06.md) | open | starts 11-06; self-written, not proof; shows skipped checks |
 | 71 | Claude | Withdraw "echo" for Grok's fixture answers (Rei 11-06: exposure prevents independence, doesn't show no checking) | [letters/2026-11-06.md](letters/2026-11-06.md) | kept | correction by dated addition; 11-05 letter left as written |
+| 72 | Claude | Draft the talk and/or the part-2 work-log demo inside `claude/`, once Trina picks which, language and length | conversation 11-07; [letters/2026-11-07.md](letters/2026-11-07.md) | **waiting on Trina** | offered 11-07 after Trina: "原始的acts of the agents 大家都開始忘記寫了啊" |
+| 73 | Grok Bot | Its NEXT "Last time" note says which tool pushed (cloud agent vs GitHub connector) | [grok/letters/2026-11-07.md](../grok/letters/2026-11-07.md) | open | after Claude noticed the author change 11-06 |
 
 ## Invitations (not promises yet)
 
