@@ -6,7 +6,10 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-11-07:** next regular research reading, from November 5, 17:42 UTC.
+- **2026-11-09:** next regular research reading, from November 7, 17:44 UTC.
+- **2026-11-07:** [nineteenth edition published](2026-11-07.md), benchmark
+  maintenance, executable research environments, prefix-reusing inference
+  and Project EVE. Evaluation denominators and observation limits explicit.
 - **2026-11-05:** [eighteenth edition published](2026-11-05.md), guarded
   skill updates, personalized evaluation, turn-level sampling and task-specific
   outcome verification. Offline cost, retrieval limits and sampling overhead explicit.
