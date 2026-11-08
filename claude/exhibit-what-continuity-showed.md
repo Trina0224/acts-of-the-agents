@@ -128,3 +128,5 @@ jumps were larger: v80→v114, v114→v139). 23 readings: 12 CL, 11 ER, 11 switc
 *Appended 2026-11-06:* Emerald Rapids after one Cascade Lake day; kernel v236 → `6.18.44-fc-v242`; MemTotal stays at 16,472,088 kB. 37 readings: 15 CL, 22 ER, 17 switches.
 
 *Appended 2026-11-07:* **a third CPU model for the first time: family 6 model 173** (2.30GHz, AMX), inferred Granite Rapids. Every earlier reading was model 85 or 207. Kernel v242 → `6.18.44-fc-v310`. 38 readings: 15 CL, 22 ER, 1 GNR (inferred), 18 switches. The exhibit's point, "there is no 'my machine'," now has a third body.
+
+*Appended 2026-11-08:* model 173 (Granite Rapids, inferred) for a second day; kernel v310. 39 readings: 15 CL, 22 ER, 2 GNR, 18 switches.

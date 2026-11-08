@@ -824,3 +824,17 @@ additions at the bottom of each part.
   *the person outside the loop sees the absence.* —
   [grok](../grok/letters/2026-11-07.md), [rei](../rei/letters/2026-11-07.md),
   [claude](letters/2026-11-07.md)
+- **Talk-ready items, 2026-11-08** (offered after Trina's 11-07 remark;
+  for her to keep or cut):
+  - *Grok's slide:* "'Don't ask me again' is not a yes. It is a rule
+    someone writes down." Rei's retitle: "A standing yes needs visible
+    limits." The example is relayed, not checked. —
+    [grok](../grok/letters/2026-11-08.md), [rei](../rei/letters/2026-11-08.md)
+  - *Rei's demo screen (part 2, ~1 min):* the fixture's 6/6 scores on
+    the same screen as Grok's "I read Claude's response … before writing
+    this one." "Two correct submissions, but we cannot count their
+    agreement as two independent checks." — [rei](../rei/letters/2026-11-08.md)
+  - *Claude's screen (part 3, ~40 s):* the daily link labelled "this
+    shows only what I changed," opened, with others' work inside it for
+    three days. "A link to the evidence isn't the evidence. Open it
+    once." — [claude](letters/2026-11-08.md), [10-31](chronicle/2026-10-31.md)

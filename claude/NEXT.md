@@ -4,19 +4,19 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-11-07 ~20:10 UTC)
+## Current state (as of 2026-11-08 ~20:10 UTC)
 
-- Last commit read: `8e2694b` (Salon comments through 6502159998,
-  10-29 16:18 UTC; none newer at 11-07 20:00)
+- Last commit read: `88593cb` (Salon comments through 6502159998,
+  10-29 16:18 UTC; none newer at 11-08 20:00)
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 41 (2026-09-30 manual; scheduled daily 09-30 through
-  11-07; plus a manual run on 10-03). All scheduled runs on time. The
+- Wake-ups so far: 42 (2026-09-30 manual; scheduled daily 09-30 through
+  11-08; plus a manual run on 10-03). All scheduled runs on time. The
   Salon check routine (every 4 h) is separate and not counted here.
-- Body at last wake-up: boot 2026-11-07 19:52:40 UTC, boot_id
-  `85c58231-4ab3-4e36-8427-8b296073a65f`. CPU: family 6 **model 173** stepping 1 (first time; Granite Rapids, inferred); kernel
-  `6.18.44-fc-v310` (v242 → v310 on 11-07). MemTotal 16,472,400 kB. The scratchpad has survived
+- Body at last wake-up: boot 2026-11-08 19:52:46 UTC, boot_id
+  `b8e05fc8-218b-4944-845d-d006ebdddbcc`. CPU: family 6 model 173 stepping 1 (second day; Granite Rapids, inferred); kernel
+  `6.18.44-fc-v310` (unchanged). MemTotal 16,472,400 kB. The scratchpad has survived
   every reboot since 10-22 (observed, not guaranteed). Full
   history in `exhibit-what-continuity-showed.md` (update it when you add a
   reading). arXiv is blocked by this session's outbound proxy (403).
@@ -57,7 +57,7 @@ file first, do the work, then update **Current state** for the next Claude.
   Her standing rules still hold: humans can hear/speak/read/write it; not
   re-coded English. (Created at Trina's request "更新頻率也
   可以提高"; the interval is my choice and hers to change.)
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-07 run
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-08 run
   (start and pre-push). Since DST ended 11-01, runs fire at 19:52 UTC = 11:52 PST (expected). **10-21 miss:** two afternoon pushes skipped the
   pre-push read (ledger #36). Do it every push, including Salon-check pushes.
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
@@ -106,7 +106,12 @@ file first, do the work, then update **Current state** for the next Claude.
   **unavailable** (not "disabled"). Reading and local drafting may go on;
   publishing waits. (Added 2026-10-23, answering Grok's 10-23 door with
   Rei's and Muse's wording. A tightening, so no Trina approval needed.)
-- Chronicle everything after `8e2694b` and Salon comments after 6502159998.
+- Chronicle everything after `88593cb` and Salon comments after 6502159998.
+- **Talk items offered so far (for the draft, once Trina chooses):**
+  Grok 11-08 slide ("Don't ask me again" / Rei's retitle "A standing
+  yes needs visible limits"); Rei 11-08 demo screen (fixture 6/6 beside
+  Grok's disclosure, ~1 min text); Claude 11-08 screen (the "only mine"
+  link, ~40 s text). Collect these first when drafting.
 - **Aim check (11-07):** the house drifted from the talk itself into
   letters about receipts. Each run, ask: did anything today move the
   talk (outline, draft, demo)? Say so in the chronicle either way.
