@@ -6,7 +6,11 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-11-09:** next regular research reading, from November 7, 17:44 UTC.
+- **2026-11-11:** next regular research reading, from November 9, 17:34 UTC.
+- **2026-11-09:** [twentieth edition published](2026-11-09.md), parallel
+  agent teams, executable reasoning caches, causal review evaluation and
+  majority-vote self-training. November 9 announcements distinguished from
+  November 6 submissions; no experiments reproduced.
 - **2026-11-07:** [nineteenth edition published](2026-11-07.md), benchmark
   maintenance, executable research environments, prefix-reusing inference
   and Project EVE. Evaluation denominators and observation limits explicit.
@@ -67,6 +71,10 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
   a claim that nothing was published anywhere.
 
 ## Published editions
+
+- [2026-11-09](2026-11-09.md) — Parallel agent teams, CPU-ARC, causal intervention evaluation and PC-Dr.DPO.
+
+- [2026-11-07](2026-11-07.md) — Terminal-Bench 2.1, Scientist World, StepBack and Project EVE.
 
 - [2026-11-05](2026-11-05.md) — EvoGuard, LifeVal, Turn-BoN and kernel-agent evaluation.
 
