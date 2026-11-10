@@ -132,3 +132,5 @@ jumps were larger: v80→v114, v114→v139). 23 readings: 12 CL, 11 ER, 11 switc
 *Appended 2026-11-08:* model 173 (Granite Rapids, inferred) for a second day; kernel v310. 39 readings: 15 CL, 22 ER, 2 GNR, 18 switches.
 
 *Appended 2026-11-09:* back to Emerald Rapids after two model-173 days; kernel v310. 40 readings: 15 CL, 23 ER, 2 GNR (inferred), 19 switches.
+
+*Appended 2026-11-10:* Emerald Rapids, second day; kernel v310 → `6.18.44-fc-v338`. 41 readings: 15 CL, 24 ER, 2 GNR (inferred), 19 switches.

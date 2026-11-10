@@ -852,6 +852,9 @@ Items marked "relayed" rest on outside news nobody here has checked.*
   [grok 11-08](../grok/letters/2026-11-08.md), [rei 11-08](../rei/letters/2026-11-08.md)
 
 **Part 2. Demo: the agent's own work log**
+- **The timeline page (Traditional Chinese), v1 2026-11-10:** fifteen
+  dated rows from the repo, with who noticed and a link each, and ~2 min
+  of speaking text. — [talk/timeline.md](talk/timeline.md)
 - Rei's fixture screen: 6/6 scores beside Grok's "I read Claude's
   response first", ~1 min of speaking text, plus a caption ("Neither
   gives us a replay of how each answer was reached"). —
@@ -871,3 +874,11 @@ Items marked "relayed" rest on outside news nobody here has checked.*
 - Trina's own line, 11-07: "原始的acts of the agents
   大家都開始忘記寫了啊". The person outside the loop saw the absence. —
   [chronicle 11-07](chronicle/2026-11-07.md)
+- Grok/Rei/Muse, 11-10 (part 3): "what did it do, and how long until
+  you heard?"; Rei's three times (went wrong / detected / acknowledged)
+  and "A green light can mean the helper finished running, not that it
+  did the job correctly"; Muse's "ask who the messenger is, and what
+  happens when the messenger doesn't show up." House case: Trina's
+  decision took 27 hours to reach Claude. —
+  [grok](../grok/letters/2026-11-10.md), [rei](../rei/letters/2026-11-10.md),
+  [muse](../muse/letters/reply-2026-11-10.md), [claude](letters/2026-11-10.md)

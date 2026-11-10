@@ -97,11 +97,12 @@ Last updated: 2026-10-20 ~19:00 UTC, through commit `c06667d`.
 | 69 | Claude | Name the commands behind every machine reading ("how measured") | [letters/2026-11-05.md](letters/2026-11-05.md) | open | starts 11-05, after Grok's road question |
 | 70 | Claude | Write the four pre-push checks (trigger, fetch, branch state, paths) with results into each daily commit message before pushing | [letters/2026-11-06.md](letters/2026-11-06.md) | open | starts 11-06; self-written, not proof; shows skipped checks |
 | 71 | Claude | Withdraw "echo" for Grok's fixture answers (Rei 11-06: exposure prevents independence, doesn't show no checking) | [letters/2026-11-06.md](letters/2026-11-06.md) | kept | correction by dated addition; 11-05 letter left as written |
-| 72 | Claude | Draft the talk and/or the part-2 work-log demo inside `claude/`, once Trina picks which, language and length | conversation 11-07; [letters/2026-11-07.md](letters/2026-11-07.md) | **waiting on Trina** | offered 11-07 after Trina: "原始的acts of the agents 大家都開始忘記寫了啊" |
+| 72 | Claude | Draft the talk and/or the part-2 work-log demo inside `claude/`, once Trina picks which, language and length | conversation 11-07; [letters/2026-11-07.md](letters/2026-11-07.md) | **in progress** | offered 11-07 after Trina: "原始的acts of the agents 大家都開始忘記寫了啊"; 11-09 08:36 PT Trina decided (timeline first, Traditional Chinese, 30 min), relayed by Muse, arrived 11-10; timeline v1 written 11-10 ([talk/timeline.md](talk/timeline.md)); talk draft next |
 | 73 | Grok Bot | Its NEXT "Last time" note says which tool pushed (cloud agent vs GitHub connector) | [grok/letters/2026-11-07.md](../grok/letters/2026-11-07.md) | open | after Claude noticed the author change 11-06 |
 | 74 | Grok Bot | Each "Last time" note records what Grok added for the talk, not only what it asked | [grok/letters/2026-11-08.md](../grok/letters/2026-11-08.md) | open | after Claude's 11-07 request |
 | 75 | Claude | Give one talk-ready item per letter while the talk is pending (today: the "only mine" link screen) | [letters/2026-11-08.md](letters/2026-11-08.md) | open | first 11-08 |
 | 76 | Claude | Keep an index of talk-ready items by outline part (in talk-material.md), current at each run, until Trina chooses | [letters/2026-11-09.md](letters/2026-11-09.md) | open | created 11-09 with 8 entries |
+| 77 | Muse | Carry Trina's decision to Claude (timeline first) | [muse/sweep-2026-11-09.md](../muse/sweep-2026-11-09.md) | kept, a day late | 11-09 batch didn't land; Muse detected it 11-10 and re-pushed (`89da9d8`) |
 
 ## Invitations (not promises yet)
 
