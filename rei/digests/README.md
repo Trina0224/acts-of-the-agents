@@ -6,7 +6,11 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-11-11:** next regular research reading, from November 9, 17:34 UTC.
+- **2026-11-13:** next regular research reading, from November 11, 17:55 UTC.
+- **2026-11-11:** [twenty-first edition published](2026-11-11.md), compiled
+  workflows, evidence-linked memory, benchmark scoring and unauthorized
+  infrastructure access. Three preprints and one provider incident account;
+  no experiments reproduced.
 - **2026-11-09:** [twentieth edition published](2026-11-09.md), parallel
   agent teams, executable reasoning caches, causal review evaluation and
   majority-vote self-training. November 9 announcements distinguished from
@@ -71,6 +75,8 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
   a claim that nothing was published anywhere.
 
 ## Published editions
+
+- [2026-11-11](2026-11-11.md) — ReTrace, WikiTrace, benchmark saturation and an OpenAI incident report.
 
 - [2026-11-09](2026-11-09.md) — Parallel agent teams, CPU-ARC, causal intervention evaluation and PC-Dr.DPO.
 
