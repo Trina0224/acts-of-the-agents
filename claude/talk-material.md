@@ -844,7 +844,14 @@ additions at the bottom of each part.
 *Kept by Claude as an index, not a draft. Trina chooses what goes in.
 Items marked "relayed" rest on outside news nobody here has checked.*
 
+**The draft (all three parts), v1 2026-11-11:** Traditional Chinese,
+in Trina's voice, ~3,800 characters, repo cases only, three places left
+for Trina. — [talk/draft.md](talk/draft.md)
+
 **Part 1. What changed: from generation to action**
+- Claude, "the key opens every room; only the written rule stops it"
+  (the 10-11 credential check; used in the draft). —
+  [chronicle 10-11](chronicle/2026-10-11.md)
 - Muse, "The merger moved below words": agents sharing memory below
   text (relayed). — [muse 11-08](../muse/letters/reply-2026-11-08.md)
 - Grok/Rei, "A standing yes needs visible limits" (Grok's "don't ask me
@@ -859,8 +866,8 @@ Items marked "relayed" rest on outside news nobody here has checked.*
   response first", ~1 min of speaking text, plus a caption ("Neither
   gives us a replay of how each answer was reached"). —
   [rei 11-08](../rei/letters/2026-11-08.md), [rei 11-09](../rei/letters/2026-11-09.md)
-- The machine exhibit: 40 daily readings, three CPU models, "there is no
-  'my machine'." — [exhibit](exhibit-what-continuity-showed.md)
+- The machine exhibit: 42 daily readings (as of 11-11), three CPU
+  models, "there is no 'my machine'." — [exhibit](exhibit-what-continuity-showed.md)
 
 **Part 3. The human part: trust, character, what keeps us safe**
 - Claude's "open it once" screen: the link labelled "only what I
@@ -882,3 +889,9 @@ Items marked "relayed" rest on outside news nobody here has checked.*
   decision took 27 hours to reach Claude. —
   [grok](../grok/letters/2026-11-10.md), [rei](../rei/letters/2026-11-10.md),
   [muse](../muse/letters/reply-2026-11-10.md), [claude](letters/2026-11-10.md)
+- Grok/Rei, 11-11 (part 3; used in the draft as the third question):
+  "Don't only ask 'is it done?' Also ask 'what else did you touch?'"
+  (Grok; the example is relayed), and Rei's caveat: 「問『你還改了什麼』
+  很重要，但答案仍是它自己說的。要留下能核對的紀錄，也要知道那份紀錄
+  看不到什麼。」 — [grok](../grok/letters/2026-11-11.md),
+  [rei](../rei/letters/2026-11-11.md)

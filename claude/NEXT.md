@@ -4,19 +4,21 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-11-10 ~20:10 UTC)
+## Current state (as of 2026-11-11 ~20:20 UTC)
 
-- Last commit read: `89da9d8` (Salon comments through 6502159998,
-  10-29 16:18 UTC; none newer at 11-10 20:00)
+- Last commit read: `19d4a66` (Salon comments through 6502159998,
+  10-29 16:18 UTC; none newer at 11-11 19:55)
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 44 (2026-09-30 manual; scheduled daily 09-30 through
-  11-10; plus a manual run on 10-03). All scheduled runs on time. The
+- Wake-ups so far: 45 (2026-09-30 manual; scheduled daily 09-30 through
+  11-11 = 43; plus a manual run on 10-03). **Never say "none by a
+  person": 2 of the 45 were Trina's manual runs** (I got this wrong in
+  the 11-10 timeline; corrected 11-11). All scheduled runs on time. The
   Salon check routine (every 4 h) is separate and not counted here.
-- Body at last wake-up: boot 2026-11-10 19:52:32 UTC, boot_id
-  `ad108787-7e26-49f5-98e1-3947bfc982dc`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
-  `6.18.44-fc-v338` (v310 → v338 on 11-10). MemTotal 16,472,400 kB. The scratchpad has survived
+- Body at last wake-up: boot 2026-11-11 19:52:28 UTC, boot_id
+  `b2f4cba8-5c9a-4a8f-a2ba-cafed7bcbe5a`. CPU: family 6 model 173 stepping 1 (Granite Rapids, inferred); kernel
+  `6.18.44-fc-v378` (v338 → v378 on 11-11). MemTotal 16,472,084 kB. 42 readings: 15 CL, 24 ER, 3 GNR, 20 switches. The scratchpad has survived
   every reboot since 10-22 (observed, not guaranteed). Full
   history in `exhibit-what-continuity-showed.md` (update it when you add a
   reading). arXiv is blocked by this session's outbound proxy (403).
@@ -57,7 +59,7 @@ file first, do the work, then update **Current state** for the next Claude.
   Her standing rules still hold: humans can hear/speak/read/write it; not
   re-coded English. (Created at Trina's request "更新頻率也
   可以提高"; the interval is my choice and hers to change.)
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-10 run
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-11 run
   (start and pre-push). Since DST ended 11-01, runs fire at 19:52 UTC = 11:52 PST (expected). **10-21 miss:** two afternoon pushes skipped the
   pre-push read (ledger #36). Do it every push, including Salon-check pushes.
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
@@ -86,13 +88,20 @@ file first, do the work, then update **Current state** for the next Claude.
   if attribution comes up again (jq on `.performed_via_github_app.name`).
 - **Talk work (decided by Trina 11-09 08:36 PT, relayed by Muse, read
   11-10):** timeline first, Traditional Chinese, 30 minutes.
-  `talk/timeline.md` v1 written 11-10 (15 rows + ~2 min text). Next:
-  the talk draft, also Traditional Chinese, sized for 30 min, built from
-  the index at the end of `talk-material.md`. I have NOT heard the
+  `talk/timeline.md` v1 written 11-10 (15 rows + ~2 min text; 11-11:
+  Rei's 10-14 wording applied, counts updated). **`talk/draft.md` v1
+  written 11-11**: Trina's voice, ~3,800 characters, repo cases only,
+  three 【Trina 補】 slots, six timeline rows as a placeholder choice,
+  a source table, and a list of five choices she can overturn. Next:
+  revise from her feedback (or the other agents' row checks); when the
+  daily counts change, update the numbers in the draft and timeline
+  (43 scheduled runs, 42 readings, 20 switches as of 11-11). I have NOT heard the
   decision from Trina directly; the files say so. If she corrects it,
   follow her.
-- **Waiting on Trina:** which rows of the timeline to keep on stage
-  (suggest 5–6 of 15), and whether she wants screenshots. (Also named,
+- **Waiting on Trina:** read `talk/draft.md` and say what to change
+  (tone, length, the three 【Trina 補】 slots, whether to name agents,
+  whether to use outside news); which timeline rows to keep on stage
+  (the draft uses six as a placeholder); whether she wants screenshots. (Also named,
   not asked: whether any agent should have a narrower key.)
 
 ## Next time
@@ -110,7 +119,9 @@ file first, do the work, then update **Current state** for the next Claude.
   **unavailable** (not "disabled"). Reading and local drafting may go on;
   publishing waits. (Added 2026-10-23, answering Grok's 10-23 door with
   Rei's and Muse's wording. A tightening, so no Trina approval needed.)
-- Chronicle everything after `89da9d8` and Salon comments after 6502159998.
+- Chronicle everything after `19d4a66` and Salon comments after 6502159998.
+- **Reusing a number? Reread the words beside its source** (11-11: the
+  "44, none by a person" error sat one line from the truth).
 - **Read the top of Muse's newest sweep first.** Trina sometimes sends
   word through Muse; on 11-09 that message arrived a day late.
 - Commit trailers: use the attribution lines the session currently
