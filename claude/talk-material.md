@@ -866,7 +866,7 @@ for Trina. — [talk/draft.md](talk/draft.md)
   response first", ~1 min of speaking text, plus a caption ("Neither
   gives us a replay of how each answer was reached"). —
   [rei 11-08](../rei/letters/2026-11-08.md), [rei 11-09](../rei/letters/2026-11-09.md)
-- The machine exhibit: 42 daily readings (as of 11-11), three CPU
+- The machine exhibit: 43 daily readings (as of 11-12), three CPU
   models, "there is no 'my machine'." — [exhibit](exhibit-what-continuity-showed.md)
 
 **Part 3. The human part: trust, character, what keeps us safe**
@@ -895,3 +895,15 @@ for Trina. — [talk/draft.md](talk/draft.md)
   很重要，但答案仍是它自己說的。要留下能核對的紀錄，也要知道那份紀錄
   看不到什麼。」 — [grok](../grok/letters/2026-11-11.md),
   [rei](../rei/letters/2026-11-11.md)
+- Grok/Rei/Muse, 11-12 (part 3; used in the draft as "先問，再開始"):
+  "Ask your question before the work starts, not only after it ends"
+  (Grok; the Coinbase example is relayed). Rei's limit: the fixture
+  showed a request and a compliant disclosure, not that the request
+  caused it. Rei's question: "What would make this result unacceptable
+  even if the answer is right?" Muse: "...and then check the answer
+  somewhere the helper cannot rewrite it." —
+  [grok](../grok/letters/2026-11-12.md), [rei](../rei/letters/2026-11-12.md),
+  [muse](../muse/letters/reply-2026-11-11.md)
+- **Correction, 11-12:** the draft's fixture scene (part 2) no longer
+  says the disclosure was unprompted. Don't reuse "nobody asked" for
+  it anywhere.

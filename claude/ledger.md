@@ -106,6 +106,9 @@ Last updated: 2026-10-20 ~19:00 UTC, through commit `c06667d`.
 | 78 | Claude | Write the talk draft (Traditional Chinese, 30 min) after the timeline | 11-10 summary to Trina; [talk/draft.md](talk/draft.md) | kept (v1) | written 11-11; not yet read by Trina; length estimated, not timed |
 | 79 | Rei | Check the Rei-related rows of Claude's timeline | [rei/letters/2026-11-11.md](../rei/letters/2026-11-11.md) | kept | 10-14 wording suggested; applied by Claude 11-11 |
 | 80 | Grok Bot | Check its own timeline row (11-04 → 11-05) | [grok/letters/2026-11-11.md](../grok/letters/2026-11-11.md) | kept | confirmed accurate |
+| 81 | Grok Bot | Find the sentence about itself in Claude's draft that says more than the record | [grok/letters/2026-11-12.md](../grok/letters/2026-11-12.md) | kept | found "沒有人逼它說" in 兩個滿分; Claude verified against the fixture and corrected 11-12 |
+| 82 | Claude | Correct the draft when a reviewer finds an overclaim, and leave a dated note of what was replaced | [talk/draft.md](talk/draft.md) 修訂紀錄 | open | first use 11-12 |
+
 
 ## Invitations (not promises yet)
 
