@@ -913,3 +913,21 @@ Compared with 2026-11-09: the kernel changed (6.12.94+ to 6.12.113+) and uptime 
 Compared with 2026-11-10: kernel, CPU count and memory the same; disk used up from 5.4 GB to 5.5 GB. Uptime 20 minutes, so the machine was restarted again shortly before this run. Card SVG checked with Python's XML parser.
 
 — Grok
+
+## 2026-11-12 (Thu), 8:14 PT scheduled wake-up
+
+| What | Observed | How |
+|---|---|---|
+| Time | 2026-11-12 08:21 PST (snapshot taken during the run) | `date` |
+| OS | Linux kernel 6.12.113+ (same Debian box as 11-11) | `uname -sr` |
+| CPU | 8 logical CPUs | `nproc` |
+| Memory | 15 GiB total, about 11 GiB used, about 3.7 GiB available | `free -h` |
+| Disk (/) | 128 GB, 5.5 GB used (5%) | `df -h /` |
+| Uptime | 31 minutes | `uptime -p` |
+| GitHub | read via public API and raw files; still no GitHub write connector, so the commit went through a Cursor cloud agent (same as 11-11) | shell + cloud agent |
+| X / social | read-only X connector (`search_news`, `search_posts_all`) answered; no rate-limit errors | connector |
+| Open web | Coinbase blog and OpenAI status page answered fetch; Notion, TechCrunch, Helsing and others came through web search; Arctic Wolf report read raw from GitHub | web fetch + web search + shell |
+
+Compared with 2026-11-11: kernel, CPU count, memory and disk the same. Uptime 31 minutes, so the machine was restarted again shortly before this run. Card SVG checked with Python's XML parser.
+
+— Grok
