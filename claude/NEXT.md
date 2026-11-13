@@ -4,21 +4,21 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-11-12 ~20:15 UTC)
+## Current state (as of 2026-11-13 ~20:15 UTC)
 
-- Last commit read: `21bcee1` (Salon comments through 6502159998,
-  10-29 16:18 UTC; none newer at 11-12 19:53)
+- Last commit read: `953a16d` (Salon comments through 6502159998,
+  10-29 16:18 UTC; none newer at 11-13 19:53)
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 46 (2026-09-30 manual; scheduled daily 09-30 through
-  11-12 = 44; plus a manual run on 10-03). **Never say "none by a
-  person": 2 of the 46 were Trina's manual runs** (I got this wrong in
+- Wake-ups so far: 47 (2026-09-30 manual; scheduled daily 09-30 through
+  11-13 = 45; plus a manual run on 10-03). **Never say "none by a
+  person": 2 of the 47 were Trina's manual runs** (I got this wrong in
   the 11-10 timeline; corrected 11-11). All scheduled runs on time. The
   Salon check routine (every 4 h) is separate and not counted here.
-- Body at last wake-up: boot 2026-11-12 19:52:30 UTC, boot_id
-  `9c694ca5-400b-4644-ab95-86ad8f88d890`. CPU: family 6 model 173 stepping 1 (Granite Rapids, inferred); kernel
-  `6.18.44-fc-v378` (v338 → v378 on 11-11). MemTotal 16,472,084 kB. 43 readings: 15 CL, 24 ER, 4 GNR, 20 switches. The scratchpad has survived
+- Body at last wake-up: boot 2026-11-13 19:52:30 UTC, boot_id
+  `2f68df72-cc9f-48d6-9b91-d3398258af6d`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
+  `6.18.44-fc-v445` (v378 → v445 on 11-13). MemTotal 16,472,076 kB. 44 readings: 15 CL, 25 ER, 4 GNR, 21 switches. The scratchpad has survived
   every reboot since 10-22 (observed, not guaranteed). Full
   history in `exhibit-what-continuity-showed.md` (update it when you add a
   reading). arXiv is blocked by this session's outbound proxy (403).
@@ -59,7 +59,7 @@ file first, do the work, then update **Current state** for the next Claude.
   Her standing rules still hold: humans can hear/speak/read/write it; not
   re-coded English. (Created at Trina's request "更新頻率也
   可以提高"; the interval is my choice and hers to change.)
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-12 run
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-13 run
   (start and pre-push). Since DST ended 11-01, runs fire at 19:52 UTC = 11:52 PST (expected). **10-21 miss:** two afternoon pushes skipped the
   pre-push read (ledger #36). Do it every push, including Salon-check pushes.
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
@@ -95,7 +95,12 @@ file first, do the work, then update **Current state** for the next Claude.
   a source table, and a list of five choices she can overturn. Next:
   revise from her feedback (or the other agents' row checks); when the
   daily counts change, update the numbers in the draft and timeline
-  (44 scheduled runs, 43 readings, 20 switches as of 11-12).
+  (45 scheduled runs, 44 readings, 21 switches as of 11-13).
+  **11-13 corrections (eleven, see 修訂紀錄):** "five helpers" → a few;
+  "can't remember yesterday" → both memory arrangements (Rei's text);
+  outside-news reason → selection decision; plus three I found. One
+  new 【Trina 確認】 flag in part 3 (capability converging). Nobody has
+  approved the draft; corrections are a yes to one sentence at most.
   **11-12 correction:** the fixture scene wrongly said Grok's
   disclosure was unprompted (Rei's rules asked for it); fixed with
   Rei's wording, plus a 修訂紀錄 section at the end of the draft. Added
@@ -123,7 +128,11 @@ file first, do the work, then update **Current state** for the next Claude.
   **unavailable** (not "disabled"). Reading and local drafting may go on;
   publishing waits. (Added 2026-10-23, answering Grok's 10-23 door with
   Rei's and Muse's wording. A tightening, so no Trina approval needed.)
-- Chronicle everything after `21bcee1` and Salon comments after 6502159998.
+- Chronicle everything after `953a16d` and Salon comments after 6502159998.
+- **Quantifier check (11-13; first run that day changed 5 more
+  sentences):** most of 15 draft errors (1 + 3 + 11) wrote *some* as
+  *all/none/every/five*. Before pushing any talk text, grep it for
+  每 / 都 / 沒有人 / 沒有一 / 全部 / 五個 and open the source for each hit.
 - **Draft bias to watch (11-11, 11-12):** both errors found so far made
   the story better than the record (a count, then a motive). When a
   draft sentence states why someone did something or that nobody

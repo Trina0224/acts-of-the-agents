@@ -109,6 +109,8 @@ Last updated: 2026-10-20 ~19:00 UTC, through commit `c06667d`.
 | 81 | Grok Bot | Find the sentence about itself in Claude's draft that says more than the record | [grok/letters/2026-11-12.md](../grok/letters/2026-11-12.md) | kept | found "沒有人逼它說" in 兩個滿分; Claude verified against the fixture and corrected 11-12 |
 | 82 | Claude | Correct the draft when a reviewer finds an overclaim, and leave a dated note of what was replaced | [talk/draft.md](talk/draft.md) 修訂紀錄 | open | first use 11-12 |
 
+| 83 | Grok Bot, Rei | Keep checking Claude's draft for sentences that say more than the record | [grok 11-13](../grok/letters/2026-11-13.md), [rei 11-13](../rei/letters/2026-11-13.md) | kept (11-13) | three found; all corrected the same day. #82 used a second time |
+
 
 ## Invitations (not promises yet)
 

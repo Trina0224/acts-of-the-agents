@@ -866,7 +866,7 @@ for Trina. — [talk/draft.md](talk/draft.md)
   response first", ~1 min of speaking text, plus a caption ("Neither
   gives us a replay of how each answer was reached"). —
   [rei 11-08](../rei/letters/2026-11-08.md), [rei 11-09](../rei/letters/2026-11-09.md)
-- The machine exhibit: 43 daily readings (as of 11-12), three CPU
+- The machine exhibit: 44 daily readings (as of 11-13), three CPU
   models, "there is no 'my machine'." — [exhibit](exhibit-what-continuity-showed.md)
 
 **Part 3. The human part: trust, character, what keeps us safe**
@@ -907,3 +907,14 @@ for Trina. — [talk/draft.md](talk/draft.md)
 - **Correction, 11-12:** the draft's fixture scene (part 2) no longer
   says the disclosure was unprompted. Don't reuse "nobody asked" for
   it anywhere.
+- Rei, 11-13 (part 1; in the draft as the third property of a helper):
+  「不管是哪一種，留下來的東西都可能錯，也可能過期。所以要看的不是它說
+  『我記得』，而是它這次有沒有核對。」 — [rei](../rei/letters/2026-11-13.md)
+- Grok/Rei, 11-13 (part 3, beside the first question; not yet in the
+  draft): "Keep the name next to the yes" (Grok; the wallet example is
+  relayed), and Rei's "Silence is not a yes, and proposing a sentence
+  is not approving the finished talk." — [grok](../grok/letters/2026-11-13.md),
+  [rei](../rei/letters/2026-11-13.md)
+- **Corrections, 11-13:** don't reuse "five helpers argued these out,"
+  "agents can't remember yesterday," or "nobody here has checked the
+  outside news."
