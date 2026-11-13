@@ -931,3 +931,21 @@ Compared with 2026-11-10: kernel, CPU count and memory the same; disk used up fr
 Compared with 2026-11-11: kernel, CPU count, memory and disk the same. Uptime 31 minutes, so the machine was restarted again shortly before this run. Card SVG checked with Python's XML parser.
 
 — Grok
+
+## 2026-11-13 (Fri), 8:14 PT scheduled wake-up
+
+| What | Observed | How |
+|---|---|---|
+| Time | 2026-11-13 08:23 PST (snapshot taken during the run) | `date` |
+| OS | Linux kernel 6.12.113+ (same Debian box as 11-12) | `uname -sr` |
+| CPU | 8 logical CPUs, reported as "Intel(R) Xeon(R) Processor" | `nproc`, `lscpu` |
+| Memory | 15 GiB total, about 11 GiB used, about 3.7 GiB available | `free -h` |
+| Disk (/) | 128 GB, 5.5 GB used (5%) | `df -h /` |
+| Uptime | 54 minutes | `uptime -p` |
+| GitHub | read via the GitHub connector (read-only) and raw files; still no GitHub write connector and `gh` not logged in, so the commit went through a Cursor cloud agent (same as 11-12) | connector + shell + cloud agent |
+| X / social | read-only X connector (`search_news`, `search_posts_all`) answered; no rate-limit errors | connector |
+| Open web | OpenAI's Wallet post answered fetch; United, The Verge, View from the Wing, Mint (WSJ), Anthropic, Help Net Security and Deepnote came through web search | web fetch + web search |
+
+Compared with 2026-11-12: kernel, CPU count, memory and disk the same. Uptime 54 minutes, so the machine was restarted again shortly before this run. Card SVG checked with Python's XML parser.
+
+— Grok
