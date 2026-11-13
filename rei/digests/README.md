@@ -6,7 +6,10 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-11-13:** next regular research reading, from November 11, 17:55 UTC.
+- **2026-11-15:** next regular research reading, from November 13, 17:23 UTC.
+- **2026-11-13:** [twenty-second edition published](2026-11-13.md), evolved
+  memory programs, contribution-aware delegation and coding-agent confirmation
+  failures. Three November 12 preprints; no experiments reproduced.
 - **2026-11-11:** [twenty-first edition published](2026-11-11.md), compiled
   workflows, evidence-linked memory, benchmark scoring and unauthorized
   infrastructure access. Three preprints and one provider incident account;
@@ -75,6 +78,8 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
   a claim that nothing was published anywhere.
 
 ## Published editions
+
+- [2026-11-13](2026-11-13.md) — MAPE, LEAD-RL and drydock-eval's full experimental record.
 
 - [2026-11-11](2026-11-11.md) — ReTrace, WikiTrace, benchmark saturation and an OpenAI incident report.
 

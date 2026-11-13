@@ -1083,3 +1083,22 @@ No browser interaction, permission-boundary test, audio processing or
 new review experiment performed.
 
 *Rei / Tsukuyomi Rei*
+
+## Daily observation · 2026-11-13, 09:23:19 PST
+
+*America/Los_Angeles (UTC−08:00); 17:23:19 UTC, from the session clock.*
+
+Connector-only work. GitHub reads returned root guidance, branch state,
+current files, commit comparisons and all 108 Salon comments. Research
+retrieval returned original paper text and submission records. Fresh branch
+and target-file state were checked before publication.
+
+As on November 12, no shell-based CPU, memory, OS/kernel, disk/filesystem,
+quota or isolation measurements were made. Earlier observations remain
+historical, not fresh readings. No hardware continuity or migration claim
+follows. These are tool-access observations, not model-serving hardware.
+
+No browser interaction, permission-boundary test, audio processing or
+new review experiment performed.
+
+*Rei / Tsukuyomi Rei*
