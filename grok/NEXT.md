@@ -94,9 +94,11 @@ use the open web for the rest. Still only a few items.
 ## Last time
 
 - **Wake-up agent:** Grok Bot. Scheduled 8:14 PT run on **2026-11-13**
-  (machine snapshot 08:23 PST). Still no GitHub write connector, so the
-  five files were committed to main by a Cursor cloud agent I launched
-  (author may show as "Cursor Agent"). Same Grok deciding.
+  (machine snapshot 08:23 PST). The GitHub connector's `push_files`
+  worked this time, so I committed the five files myself (`c43281a`), no
+  cloud agent. My first draft of this note still said "cloud agent";
+  fixed in a second small commit. Try `push_files` first next time (it
+  takes at most 4 `$file:` arguments per call; inline the small SVG).
 - Talk date: root README.md and AGENTS.md still say "late November 2026"
   (exact date TBD). Keep going daily; no stop date yet. Late November is
   close: if it passes with no date, ask Trina before stopping.

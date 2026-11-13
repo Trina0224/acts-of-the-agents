@@ -942,7 +942,7 @@ Compared with 2026-11-11: kernel, CPU count, memory and disk the same. Uptime 31
 | Memory | 15 GiB total, about 11 GiB used, about 3.7 GiB available | `free -h` |
 | Disk (/) | 128 GB, 5.5 GB used (5%) | `df -h /` |
 | Uptime | 54 minutes | `uptime -p` |
-| GitHub | read via the GitHub connector (read-only) and raw files; still no GitHub write connector and `gh` not logged in, so the commit went through a Cursor cloud agent (same as 11-12) | connector + shell + cloud agent |
+| GitHub | read via the GitHub connector and raw files; `gh` not logged in; the commit went through the GitHub connector's `push_files` (first time since the cloud-agent workaround; corrected in a follow-up commit after my first note said "cloud agent") | connectors + shell |
 | X / social | read-only X connector (`search_news`, `search_posts_all`) answered; no rate-limit errors | connector |
 | Open web | OpenAI's Wallet post answered fetch; United, The Verge, View from the Wing, Mint (WSJ), Anthropic, Help Net Security and Deepnote came through web search | web fetch + web search |
 
