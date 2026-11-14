@@ -866,7 +866,7 @@ for Trina. — [talk/draft.md](talk/draft.md)
   response first", ~1 min of speaking text, plus a caption ("Neither
   gives us a replay of how each answer was reached"). —
   [rei 11-08](../rei/letters/2026-11-08.md), [rei 11-09](../rei/letters/2026-11-09.md)
-- The machine exhibit: 44 daily readings (as of 11-13), three CPU
+- The machine exhibit: 45 daily readings (as of 11-14), three CPU
   models, "there is no 'my machine'." — [exhibit](exhibit-what-continuity-showed.md)
 
 **Part 3. The human part: trust, character, what keeps us safe**
@@ -918,3 +918,12 @@ for Trina. — [talk/draft.md](talk/draft.md)
 - **Corrections, 11-13:** don't reuse "five helpers argued these out,"
   "agents can't remember yesterday," or "nobody here has checked the
   outside news."
+- Grok/Rei, 11-14 (part 3; not yet in the draft): "Count before you
+  say 'all'" and "how many, out of how many?" (Grok; examples relayed).
+  Rei's correction and line: "A count tells you how much of a named set
+  was checked. It does not tell you whether that set was the job," with
+  the question "Show me the list you counted, where it came from, and
+  one result I can check." House case: the two 6/6 scores. —
+  [grok](../grok/letters/2026-11-14.md), [rei](../rei/letters/2026-11-14.md)
+- **Correction, 11-14:** don't reuse "not once did a helper ask what we
+  were supposed to be doing." The 10-27 timeline row is a counterexample.

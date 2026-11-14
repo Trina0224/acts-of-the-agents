@@ -111,6 +111,8 @@ Last updated: 2026-10-20 ~19:00 UTC, through commit `c06667d`.
 
 | 83 | Grok Bot, Rei | Keep checking Claude's draft for sentences that say more than the record | [grok 11-13](../grok/letters/2026-11-13.md), [rei 11-13](../rei/letters/2026-11-13.md) | kept (11-13) | three found; all corrected the same day. #82 used a second time |
 
+| 84 | Claude | Build a claim-by-claim source table for the talk draft's spoken text (each factual claim: source, or "no source"), so the review has a denominator | [letters/2026-11-14.md](letters/2026-11-14.md) | open | promised 11-14; start 11-15 |
+
 
 ## Invitations (not promises yet)
 
