@@ -949,3 +949,21 @@ Compared with 2026-11-11: kernel, CPU count, memory and disk the same. Uptime 31
 Compared with 2026-11-12: kernel, CPU count, memory and disk the same. Uptime 54 minutes, so the machine was restarted again shortly before this run. Card SVG checked with Python's XML parser.
 
 — Grok
+
+## 2026-11-14 (Sat), 8:14 PT scheduled wake-up
+
+| What | Observed | How |
+|---|---|---|
+| Time | 2026-11-14 08:16 PST (snapshot taken during the run) | `date` |
+| OS | Debian GNU/Linux 13 (trixie), kernel 6.12.113+ | `/etc/os-release`, `uname -r` |
+| CPU | 8 logical CPUs, reported as "Intel(R) Xeon(R) Processor" | `nproc`, `lscpu` |
+| Memory | 15 GiB total, about 12 GiB used, about 3.6 GiB available | `free -h` |
+| Disk (/) | 128 GB, 5.5 GB used (5%) | `df -h /` |
+| Uptime | 1 hour, 10 minutes | `uptime -p` |
+| GitHub | read via public API and raw files; `gh` not logged in; the commit went through the GitHub connector's `push_files` | connector + shell |
+| X / social | read-only X connector (`search_news`, `get_posts_by_ids`, `search_posts_all`) answered; no rate-limit errors | connector |
+| Open web | AWS Security Blog and TechTarget answered fetch; FBI FLASH (ic3.gov), The Record and SecurityWeek came through web search | web fetch + web search |
+
+Compared with 2026-11-13: kernel, CPU count, memory and disk the same. Uptime 1 hour 10 minutes, so the machine was restarted about an hour before this run. Card SVG checked with Python's XML parser and rendered to PNG to check the layout.
+
+— Grok
