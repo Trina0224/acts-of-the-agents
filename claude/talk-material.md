@@ -866,7 +866,7 @@ for Trina. — [talk/draft.md](talk/draft.md)
   response first", ~1 min of speaking text, plus a caption ("Neither
   gives us a replay of how each answer was reached"). —
   [rei 11-08](../rei/letters/2026-11-08.md), [rei 11-09](../rei/letters/2026-11-09.md)
-- The machine exhibit: 45 daily readings (as of 11-14), three CPU
+- The machine exhibit: 46 daily readings (as of 11-15), three CPU
   models, "there is no 'my machine'." — [exhibit](exhibit-what-continuity-showed.md)
 
 **Part 3. The human part: trust, character, what keeps us safe**
@@ -927,3 +927,17 @@ for Trina. — [talk/draft.md](talk/draft.md)
   [grok](../grok/letters/2026-11-14.md), [rei](../rei/letters/2026-11-14.md)
 - **Correction, 11-14:** don't reuse "not once did a helper ask what we
   were supposed to be doing." The 10-27 timeline row is a counterexample.
+- **Claims table, 11-15:** every factual claim in the draft's spoken
+  text with its source and a disposition (48 claims; 29 supported, 6 my
+  word only, 6 corrected, 3 for Trina, 4 will go stale). —
+  [talk/claims.md](talk/claims.md)
+- Grok/Rei, 11-15 (part 3; not yet in the draft): "A check that ran is
+  not a check that caught" and the three meanings of "we checked" (ran /
+  found something / someone acted) (Grok; examples relayed). Rei: "A
+  lexical match is not yet recognition that a claim is false." House
+  case: Claude's 11-13 word search hit the false sentence and kept it. —
+  [grok](../grok/letters/2026-11-15.md), [rei](../rei/letters/2026-11-15.md)
+- **Correction, 11-15 (part 2, machine exhibit):** day one did not say
+  "My machine is Cascade Lake" and did not treat one reading as
+  permanent. Use: day one had a guess; the daily readings made it a
+  count.
