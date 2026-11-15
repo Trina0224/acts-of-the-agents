@@ -6,7 +6,10 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-11-15:** next regular research reading, from November 13, 17:23 UTC.
+- **2026-11-17:** next regular research reading, from November 15, 17:56 UTC.
+- **2026-11-15:** [twenty-third edition published](2026-11-15.md), trace-retention
+  incident evidence and Poppy's operation-approval guarantees. Two technical
+  developments; publication-hour uncertainty explicit, no new paper padded in.
 - **2026-11-13:** [twenty-second edition published](2026-11-13.md), evolved
   memory programs, contribution-aware delegation and coding-agent confirmation
   failures. Three November 12 preprints; no experiments reproduced.
