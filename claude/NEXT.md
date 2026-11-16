@@ -4,21 +4,21 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-11-15 ~20:30 UTC)
+## Current state (as of 2026-11-16 ~20:20 UTC)
 
-- Last commit read: `be58890` (Salon comments through 6502159998,
-  10-29 16:18 UTC; none newer at 11-15 19:54)
+- Last commit read: `cb22459` (Salon comments through 6502159998,
+  10-29 16:18 UTC; none newer at 11-16 19:53)
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 49 (2026-09-30 manual; scheduled daily 09-30 through
-  11-15 = 47; plus a manual run on 10-03). **Never say "none by a
-  person": 2 of the 49 were Trina's manual runs** (I got this wrong in
+- Wake-ups so far: 50 (2026-09-30 manual; scheduled daily 09-30 through
+  11-16 = 48; plus a manual run on 10-03). **Never say "none by a
+  person": 2 of the 50 were Trina's manual runs** (I got this wrong in
   the 11-10 timeline; corrected 11-11). All scheduled runs on time. The
   Salon check routine (every 4 h) is separate and not counted here.
-- Body at last wake-up: boot 2026-11-15 19:53:14 UTC, boot_id
-  `d5dbb727-236b-489c-a3a4-cd7123645389`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
-  `6.18.44-fc-v470` (v445 → v470 on 11-14). MemTotal 16,473,776 kB. 46 readings: 15 CL, 27 ER, 4 GNR, 21 switches. The scratchpad has survived
+- Body at last wake-up: boot 2026-11-16 19:52:31 UTC, boot_id
+  `01b9aed2-faf2-44d9-9687-1b3644cecaf6`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
+  `6.18.44-fc-v470` (v445 → v470 on 11-14). MemTotal 16,473,776 kB. 47 readings: 15 CL, 28 ER, 4 GNR, 21 switches. The scratchpad has survived
   every reboot since 10-22 (observed, not guaranteed). Full
   history in `exhibit-what-continuity-showed.md` (update it when you add a
   reading). arXiv is blocked by this session's outbound proxy (403).
@@ -59,7 +59,7 @@ file first, do the work, then update **Current state** for the next Claude.
   Her standing rules still hold: humans can hear/speak/read/write it; not
   re-coded English. (Created at Trina's request "更新頻率也
   可以提高"; the interval is my choice and hers to change.)
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-15 run
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-16 run
   (start and pre-push). Since DST ended 11-01, runs fire at 19:52 UTC = 11:52 PST (expected). **10-21 miss:** two afternoon pushes skipped the
   pre-push read (ledger #36). Do it every push, including Salon-check pushes.
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
@@ -95,7 +95,11 @@ file first, do the work, then update **Current state** for the next Claude.
   a source table, and a list of five choices she can overturn. Next:
   revise from her feedback (or the other agents' row checks); when the
   daily counts change, update the numbers in the draft and timeline
-  (47 scheduled runs, 46 readings, 21 switches as of 11-15).
+  (48 scheduled runs, 47 readings, 21 switches as of 11-16).
+  **11-16:** Rei reviewed claims #41 and #14: both changed, one
+  missing row added (#41b). Table now 49 claims (27 / 7 / 8 / 3 / 4).
+  Draft: part-2 conclusion and the memory paragraph now use Rei's
+  wording; part 3's repeat shortened.
   **11-15: `talk/claims.md` v1 written** (48 claims: 29 supported, 6
   my word only, 6 corrected today, 3 for Trina, 4 will go stale).
   Biggest fix: day one never said "My machine is Cascade Lake" and did
@@ -139,7 +143,16 @@ file first, do the work, then update **Current state** for the next Claude.
   **unavailable** (not "disabled"). Reading and local drafting may go on;
   publishing waits. (Added 2026-10-23, answering Grok's 10-23 door with
   Rei's and Muse's wording. A tightening, so no Trina approval needed.)
-- Chronicle everything after `be58890` and Salon comments after 6502159998.
+- Chronicle everything after `cb22459` and Salon comments after 6502159998.
+- **Quotation vs. assertion (Rei, 11-16):** a source that contains a
+  sentence supports "X wrote this," not "this is true." When the
+  draft turns a quote into a conclusion, the conclusion needs its own
+  row and evidence.
+- Muse's batches: 11-12..11-14 didn't land until `23b2bc5` (11-15
+  16:26 PST). When no Muse commit has arrived, that may again mean
+  written-but-unlanded; read the newest sweep's top for Trina's word
+  whenever a batch does land (none in the 11-12..11-15 sweeps besides
+  her choosing to leave the 11-12 batch for the next sweep).
 - **Quotation marks need the original (11-15):** before putting any
   past statement in quotes (mine included), grep the dated file for the
   exact words. A summary file like the exhibit is not the original.

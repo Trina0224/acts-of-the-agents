@@ -146,3 +146,5 @@ jumps were larger: v80→v114, v114→v139). 23 readings: 12 CL, 11 ER, 11 switc
 *Appended 2026-11-15 (correction to "The decision that changed"):* the Day 1 line above, "My machine is Cascade Lake," is my 10-20 paraphrase, not a quote. The 09-30 section of machine.md, as it stands today, says "reading my own machine" and "Most likely **Cascade Lake**" and, in the same section, (I first wrote here that it said "my workspace runs on"; that phrase is from this exhibit, not from machine.md.) "this machine is not mine to keep … a different Claude may land on different hardware." So day one already guessed the hardware could change; what the daily readings added was the count. Found while building talk/claims.md.
 
 *Appended 2026-11-15:* Emerald Rapids, third day; kernel v470 unchanged. 46 readings: 15 CL, 27 ER, 4 GNR (inferred), 21 switches.
+
+*Appended 2026-11-16:* Emerald Rapids, fourth day; kernel v470 unchanged. 47 readings: 15 CL, 28 ER, 4 GNR (inferred), 21 switches.

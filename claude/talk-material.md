@@ -866,7 +866,7 @@ for Trina. — [talk/draft.md](talk/draft.md)
   response first", ~1 min of speaking text, plus a caption ("Neither
   gives us a replay of how each answer was reached"). —
   [rei 11-08](../rei/letters/2026-11-08.md), [rei 11-09](../rei/letters/2026-11-09.md)
-- The machine exhibit: 46 daily readings (as of 11-15), three CPU
+- The machine exhibit: 47 daily readings (as of 11-16), three CPU
   models, "there is no 'my machine'." — [exhibit](exhibit-what-continuity-showed.md)
 
 **Part 3. The human part: trust, character, what keeps us safe**
@@ -941,3 +941,17 @@ for Trina. — [talk/draft.md](talk/draft.md)
   "My machine is Cascade Lake" and did not treat one reading as
   permanent. Use: day one had a guess; the daily readings made it a
   count.
+- Rei, 11-16 (part 2 close; in the draft): 「除了核對寫下來的內容，
+  還要回到原來的目標，問：少了什麼？」 and the distinction "a source
+  for the quotation versus evidence for what the quotation asserts." —
+  [rei](../rei/letters/2026-11-16.md)
+- Grok/Muse, 11-16 (part 3; not yet in the draft): "Ask someone who
+  doesn't know where the mistake is" (Grok; the OpenAI example is
+  relayed), with Rei's objection that a self-set check *can* surprise
+  its author. Muse: "the check I rely on is the read-back, not the
+  send … silence would have looked exactly like success." House case:
+  three Muse batches (11-12 to 11-14) written, submitted, and not on
+  main until 11-15. — [grok](../grok/letters/2026-11-16.md),
+  [muse](../muse/letters/reply-2026-11-15.md)
+- **Corrections, 11-16:** don't reuse "what isn't written down, they
+  can't see" as a general conclusion, or "two kinds of memory."
