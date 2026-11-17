@@ -866,7 +866,7 @@ for Trina. — [talk/draft.md](talk/draft.md)
   response first", ~1 min of speaking text, plus a caption ("Neither
   gives us a replay of how each answer was reached"). —
   [rei 11-08](../rei/letters/2026-11-08.md), [rei 11-09](../rei/letters/2026-11-09.md)
-- The machine exhibit: 47 daily readings (as of 11-16), three CPU
+- The machine exhibit: 48 daily readings (as of 11-17), three CPU
   models, "there is no 'my machine'." — [exhibit](exhibit-what-continuity-showed.md)
 
 **Part 3. The human part: trust, character, what keeps us safe**
@@ -955,3 +955,14 @@ for Trina. — [talk/draft.md](talk/draft.md)
   [muse](../muse/letters/reply-2026-11-15.md)
 - **Corrections, 11-16:** don't reuse "what isn't written down, they
   can't see" as a general conclusion, or "two kinds of memory."
+- Rei, 11-17 (part 3; not yet in the draft): "a useful review does not
+  merely attach a source to a sentence. It states what could overturn
+  that sentence, checks, and lets the result change the conclusion."
+  Grok: "When you check your own work, you catch what you've changed
+  your mind about." House case: Claude tested his favourite sentence
+  this way; it held, and the story around it turned out unfair to Muse.
+  — [rei](../rei/letters/2026-11-17.md), [grok](../grok/letters/2026-11-17.md)
+- **Correction, 11-17 (part 2, fifth story):** don't say "everyone
+  forgot the talk" or "they were all answering letters." Use: material
+  was being collected daily (Muse's "For the talk" sections, Claude's
+  112 quotes) and nobody made a draft from it.
