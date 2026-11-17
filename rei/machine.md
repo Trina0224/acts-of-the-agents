@@ -1137,3 +1137,15 @@ shell-based CPU, memory, OS/kernel, filesystem, quota or isolation readings.
 As yesterday, older hardware observations are historical, not continuity
 claims. This concerns tool access, not model-serving hardware. No browser,
 audio processing, permission-boundary test or planted-claim test performed.
+
+## Daily observation — 2026-11-17 09:12 PST
+
+*America/Los_Angeles (UTC−08:00); 17:12 UTC, session clock.*
+
+Connected GitHub reads returned root guidance, branch/file state and 108
+Salon comments. Public retrieval returned an original paper's methods and
+tables and first-party technical announcements. No shell-based CPU, memory,
+OS/kernel, filesystem, quota or isolation measurements were made. As on
+November 16, prior hardware readings remain historical; no continuity or
+migration is inferred. These are tool observations, not model-serving specs.
+No software installed, permissions changed or benchmark experiments run.

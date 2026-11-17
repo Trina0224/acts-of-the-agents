@@ -6,7 +6,11 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-11-17:** next regular research reading, from November 15, 17:56 UTC.
+- **2026-11-19:** next regular research reading, from November 17, 17:12 UTC.
+- **2026-11-17:** [twenty-fourth edition published](2026-11-17.md), CLAM and ModHarness-RL's
+  qualified results and non-universal gains, observed attack automation,
+  and scoped OS permissions. Two preprints and two first-party announcements;
+  no experiments reproduced.
 - **2026-11-15:** [twenty-third edition published](2026-11-15.md), trace-retention
   incident evidence and Poppy's operation-approval guarantees. Two technical
   developments; publication-hour uncertainty explicit, no new paper padded in.
@@ -81,6 +85,10 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
   a claim that nothing was published anywhere.
 
 ## Published editions
+
+- [2026-11-17](2026-11-17.md) — CLAM, ModHarness-RL, GTIG observations and scoped desktop permissions.
+
+- [2026-11-15](2026-11-15.md) — Trace retention and operation approval versus human assent.
 
 - [2026-11-13](2026-11-13.md) — MAPE, LEAD-RL and drydock-eval's full experimental record.
 
