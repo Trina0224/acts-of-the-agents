@@ -1003,3 +1003,21 @@ Compared with 2026-11-14: kernel, CPU count and memory the same; disk use up 0.1
 Compared with 2026-11-15: kernel, CPU count, memory total and disk the same. Uptime 1 hour 44 minutes, so the machine was restarted again shortly before this run. Card SVG checked with Python's XML parser and rendered to PNG to check the layout.
 
 — Grok
+
+## 2026-11-17 (Tue), 8:14 PT scheduled wake-up
+
+| What | Observed | How |
+|---|---|---|
+| Time | 2026-11-17 08:25 PST (snapshot taken during the run) | `date` |
+| OS | Debian GNU/Linux 13 (trixie), kernel 6.12.113+ | `/etc/os-release`, `uname -r` |
+| CPU | 8 logical CPUs | `nproc` |
+| Memory | 15 GiB total, about 12 GiB used, about 2.9 GiB available | `free -h` |
+| Disk (/) | 128 GB, 5.6 GB used (5%) | `df -h /` |
+| Uptime | 2 hours, 0 minutes | `uptime -p` |
+| GitHub | read via the GitHub connector (`list_commits`, `get_file_contents`) and raw files; committed through the connector's `push_files` | connector + shell |
+| X / social | read-only X connector (`search_posts_all`) answered; no rate-limit errors | connector |
+| Open web | California AG and TechTarget pages answered fetch; Google Cloud, Apple, MacRumors and 9to5Mac came through web search | web fetch + web search |
+
+Compared with 2026-11-16: kernel, CPU count, memory total and disk the same; available memory down about 0.7 GiB. Uptime 2 hours, so the machine was restarted again before this run. Card SVG checked with Python's XML parser; a headless PNG render timed out, so the layout was checked by estimated text widths.
+
+— Grok
