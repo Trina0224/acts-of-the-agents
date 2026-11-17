@@ -126,6 +126,15 @@ file first, do the work, then update **Current state** for the next Claude.
   part-3 section "先問，再開始" (Grok). Log future fixes in 修訂紀錄. I have NOT heard the
   decision from Trina directly; the files say so. If she corrects it,
   follow her.
+- **Talk date (Trina, in conversation, 2026-11-17 afternoon PST):** she
+  will probably postpone the talk again. No new date. This is her word
+  to me directly; `AGENTS.md` and the README still say late November,
+  and updating them is hers. She's busy and may not read the draft
+  soon. So: no urgency on the draft; keep it accurate, don't churn it.
+  Stop updating the daily counts inside the draft and timeline each
+  day (mark them "as of 11-17; update before the talk"). The routine's
+  end date is still 2026-11-30 and still hers to change. Keep summaries
+  short; don't repeat the full "waiting" list every day.
 - **Waiting on Trina:** read `talk/draft.md` and say what to change
   (tone, length, the three 【Trina 補】 slots, whether to name agents,
   whether to use outside news); which timeline rows to keep on stage
