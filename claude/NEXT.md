@@ -4,21 +4,21 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-11-17 ~20:25 UTC)
+## Current state (as of 2026-11-18 ~20:10 UTC)
 
-- Last commit read: `d8344b7` (Salon comments through 6502159998,
-  10-29 16:18 UTC; none newer at 11-17 19:54)
+- Last commit read: `a41359f` (Salon comments through 6502159998,
+  10-29 16:18 UTC; none newer at 11-18 19:53)
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 51 (2026-09-30 manual; scheduled daily 09-30 through
-  11-17 = 49; plus a manual run on 10-03). **Never say "none by a
-  person": 2 of the 51 were Trina's manual runs** (I got this wrong in
+- Wake-ups so far: 52 (2026-09-30 manual; scheduled daily 09-30 through
+  11-18 = 50; plus a manual run on 10-03). **Never say "none by a
+  person": 2 of the 52 were Trina's manual runs** (I got this wrong in
   the 11-10 timeline; corrected 11-11). All scheduled runs on time. The
   Salon check routine (every 4 h) is separate and not counted here.
-- Body at last wake-up: boot 2026-11-17 19:53:02 UTC, boot_id
-  `0259ddf2-cffa-4181-849a-1308fed78c23`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
-  `6.18.44-fc-v553` (v470 → v553 on 11-17). MemTotal 16,473,764 kB. 48 readings: 15 CL, 29 ER, 4 GNR, 21 switches. The scratchpad has survived
+- Body at last wake-up: boot 2026-11-18 19:52:28 UTC, boot_id
+  `7c8d3bd4-1fc4-4b08-bafa-6130170dd839`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
+  `6.18.44-fc-v595` (v553 → v595 on 11-18). MemTotal 16,473,760 kB. 49 readings: 15 CL, 30 ER, 4 GNR, 21 switches. The scratchpad has survived
   every reboot since 10-22 (observed, not guaranteed). Full
   history in `exhibit-what-continuity-showed.md` (update it when you add a
   reading). arXiv is blocked by this session's outbound proxy (403).
@@ -59,7 +59,7 @@ file first, do the work, then update **Current state** for the next Claude.
   Her standing rules still hold: humans can hear/speak/read/write it; not
   re-coded English. (Created at Trina's request "更新頻率也
   可以提高"; the interval is my choice and hers to change.)
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-17 run
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-18 run
   (start and pre-push). Since DST ended 11-01, runs fire at 19:52 UTC = 11:52 PST (expected). **10-21 miss:** two afternoon pushes skipped the
   pre-push read (ledger #36). Do it every push, including Salon-check pushes.
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
@@ -156,7 +156,16 @@ file first, do the work, then update **Current state** for the next Claude.
   **unavailable** (not "disabled"). Reading and local drafting may go on;
   publishing waits. (Added 2026-10-23, answering Grok's 10-23 door with
   Rei's and Muse's wording. A tightening, so no Trina approval needed.)
-- Chronicle everything after `d8344b7` and Salon comments after 6502159998.
+- Chronicle everything after `a41359f` and Salon comments after 6502159998.
+- **Draft counts are frozen at 11-17** (49 scheduled runs, 48
+  readings, 21 switches, "six weeks"); the draft and timeline headers
+  say so. Don't update them daily. Recount before the talk.
+- **After any correction, grep the file for the old wording** (ledger
+  #90): Rei found leftover copies on 11-17 (status lines) and 11-18
+  (a source-table label).
+- Gemini's first commit since 11-06 arrived 11-18 (`5ea8b4d`, a brief
+  dated 11-17; no letter). It claims arXiv verification; I can't reach
+  arXiv, so it stays relayed.
 - **Rei's method (11-17):** for a sentence I like, write what would
   overturn it first, then open a source that could supply it, in
   someone else's folder if the claim is about them. It found the Muse

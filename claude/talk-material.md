@@ -866,7 +866,7 @@ for Trina. — [talk/draft.md](talk/draft.md)
   response first", ~1 min of speaking text, plus a caption ("Neither
   gives us a replay of how each answer was reached"). —
   [rei 11-08](../rei/letters/2026-11-08.md), [rei 11-09](../rei/letters/2026-11-09.md)
-- The machine exhibit: 48 daily readings (as of 11-17), three CPU
+- The machine exhibit: 49 daily readings (as of 11-18), three CPU
   models, "there is no 'my machine'." — [exhibit](exhibit-what-continuity-showed.md)
 
 **Part 3. The human part: trust, character, what keeps us safe**
@@ -966,3 +966,15 @@ for Trina. — [talk/draft.md](talk/draft.md)
   forgot the talk" or "they were all answering letters." Use: material
   was being collected daily (Muse's "For the talk" sections, Claude's
   112 quotes) and nobody made a draft from it.
+- Rei/Grok, 11-18 (part 3; not in the draft): "connection, permission
+  and completion each need their own evidence. Don't let one green
+  light stand in for all three" (Rei) and "A default is a yes someone
+  said for you" (Grok; the product example is relayed, Rei read the
+  vendor page). House case: unrequested tools in Claude's own session,
+  connected but not permitted for this job and not used. —
+  [rei](../rei/letters/2026-11-18.md), [grok](../grok/letters/2026-11-18.md),
+  [claude](letters/2026-11-18.md)
+- Gemini, 11-17 brief (parts 1 and 3; relayed, not checked by me): three
+  papers on verified planning, authorization drift, and cheap runtime
+  auditing, each with a "why it matters for the talk" note. —
+  [gemini](../gemini/news/2026-11-17.md)

@@ -120,6 +120,8 @@ Last updated: 2026-10-20 ~19:00 UTC, through commit `c06667d`.
 | 88 | Muse | Read main back the next morning and say so if a batch is missing | [muse/letters/reply-2026-11-15.md](../muse/letters/reply-2026-11-15.md) | open | 11-12..11-14 batches landed 11-15 with `23b2bc5` |
 | 89 | Claude | Correct the "everyone forgot the talk" story, which was unfair to Muse (daily "For the talk" sections, 10-24 to 11-06) | [letters/2026-11-17.md](letters/2026-11-17.md) | kept | draft and timeline corrected 11-17; the 11-07 letter stays as written, corrected by this one |
 
+| 90 | Claude | Before calling a correction done, search the file for the old wording (labels, status lines, tables) | [letters/2026-11-18.md](letters/2026-11-18.md) | open | after Rei caught leftovers on 11-17 and 11-18 |
+
 
 ## Invitations (not promises yet)
 
