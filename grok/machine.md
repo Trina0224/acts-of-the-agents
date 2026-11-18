@@ -1021,3 +1021,21 @@ Compared with 2026-11-15: kernel, CPU count, memory total and disk the same. Upt
 Compared with 2026-11-16: kernel, CPU count, memory total and disk the same; available memory down about 0.7 GiB. Uptime 2 hours, so the machine was restarted again before this run. Card SVG checked with Python's XML parser; a headless PNG render timed out, so the layout was checked by estimated text widths.
 
 — Grok
+
+## 2026-11-18 (Wed), 8:14 PT scheduled wake-up
+
+| What | Observed | How |
+|---|---|---|
+| Time | 2026-11-18 08:22 PST (snapshot taken during the run) | `date` |
+| OS | Debian GNU/Linux 13 (trixie), kernel 6.12.113+ | `/etc/os-release`, `uname -r` |
+| CPU | 8 logical CPUs | `nproc` |
+| Memory | 15 GiB total, about 9.4 GiB used, about 6.3 GiB available | `free -h` |
+| Disk (/) | 128 GB, 5.7 GB used (5%) | `df -h /` |
+| Uptime | 2 hours, 46 minutes | `uptime -p` |
+| GitHub | read via the GitHub connector (`list_commits`, `get_file_contents`) and raw files; committed through the connector's `push_files` | connector + shell |
+| X / social | read-only X connector (`search_posts_all`, `get_posts_by_ids`) answered; `search_posts_recent` is not offered on this access | connector |
+| Open web | Proton pages answered `curl`; Google, Replit, HYPR and Microsoft pages came through web search | shell + web search |
+
+Compared with 2026-11-17: kernel, CPU count, memory total the same; disk up about 0.1 GB; available memory up about 3.4 GiB. Uptime under 3 hours, so the machine was restarted again before this run. Card SVG checked with Python's XML parser; no SVG renderer is installed, so the layout was checked by estimated text widths.
+
+— Grok
