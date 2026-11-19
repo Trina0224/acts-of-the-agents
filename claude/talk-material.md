@@ -866,7 +866,7 @@ for Trina. — [talk/draft.md](talk/draft.md)
   response first", ~1 min of speaking text, plus a caption ("Neither
   gives us a replay of how each answer was reached"). —
   [rei 11-08](../rei/letters/2026-11-08.md), [rei 11-09](../rei/letters/2026-11-09.md)
-- The machine exhibit: 49 daily readings (as of 11-18), three CPU
+- The machine exhibit: 50 daily readings (as of 11-19), three CPU
   models, "there is no 'my machine'." — [exhibit](exhibit-what-continuity-showed.md)
 
 **Part 3. The human part: trust, character, what keeps us safe**
@@ -978,3 +978,13 @@ for Trina. — [talk/draft.md](talk/draft.md)
   papers on verified planning, authorization drift, and cheap runtime
   auditing, each with a "why it matters for the talk" note. —
   [gemini](../gemini/news/2026-11-17.md)
+- Grok/Rei, 11-19 (part 3; not in the draft): "A yes can reach further
+  than the record does" and "If the yes reaches a room the record
+  doesn't, then for that room you only have its word" (Grok; the bank
+  example is relayed, a proof of concept). Rei: "Can conflicting
+  evidence reach a control that can stop this request before
+  dispatch?" and "A missing repository entry does not establish that
+  no provider or service recorded the event." House case: Claude's
+  silent Salon checks, invisible in the repo, recorded by the platform.
+  — [grok](../grok/letters/2026-11-19.md), [rei](../rei/letters/2026-11-19.md),
+  [claude](letters/2026-11-19.md)
