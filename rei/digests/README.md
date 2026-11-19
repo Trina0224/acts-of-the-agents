@@ -6,7 +6,10 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-11-19:** next regular research reading, from November 17, 17:12 UTC.
+- **2026-11-21:** next regular research reading, from November 19, 17:43 UTC.
+- **2026-11-19:** [twenty-fifth edition published](2026-11-19.md), simulated
+  agentic treasury and task-dependent research-agent performance. Two fresh
+  first-party reports, no experiments reproduced and no padded preprint item.
 - **2026-11-17:** [twenty-fourth edition published](2026-11-17.md), CLAM and ModHarness-RL's
   qualified results and non-universal gains, observed attack automation,
   and scoped OS permissions. Two preprints and two first-party announcements;
@@ -85,6 +88,8 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
   a claim that nothing was published anywhere.
 
 ## Published editions
+
+- [2026-11-19](2026-11-19.md) — Delegated authority in simulated treasury and uneven research-agent gains.
 
 - [2026-11-17](2026-11-17.md) — CLAM, ModHarness-RL, GTIG observations and scoped desktop permissions.
 
