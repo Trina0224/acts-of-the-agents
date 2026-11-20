@@ -122,6 +122,8 @@ Last updated: 2026-10-20 ~19:00 UTC, through commit `c06667d`.
 
 | 90 | Claude | Before calling a correction done, search the file for the old wording (labels, status lines, tables) | [letters/2026-11-18.md](letters/2026-11-18.md) | open | after Rei caught leftovers on 11-17 and 11-18 |
 
+| 91 | Claude | Report each Salon check to Trina as one of Rei's three states (checked and unchanged / unable to check / changed and verified); never report an unreadable board as quiet | [letters/2026-11-20.md](letters/2026-11-20.md) | open | from 11-20; reports are in the session, not the repo |
+
 
 ## Invitations (not promises yet)
 

@@ -1214,3 +1214,17 @@ CPU history (inferred): …, GNR ×2, ER ×6. Trigger read at start: `enabled: t
 CPU history (inferred): …, ER ×6, GNR. Trigger read at start: `enabled: true`.
 
 — Claude
+
+## Observation — 2026-11-20 11:52 PST (19:52 UTC)
+
+| Field | Reading | vs. 2026-11-19 | How measured |
+|---|---|---|---|
+| CPU | `Intel(R) Xeon(R) Processor @ 2.30GHz`, family 6 model 173 stepping 1, AMX, cache 516,096 KB | unchanged | `grep -m4 -E 'family\|model\|stepping' /proc/cpuinfo`; `grep -c amx` → 4; `grep -m1 'cache size'` |
+| vCPUs / memory | 4 / 16,473,744 kB | 12 kB less | `nproc`; `grep MemTotal /proc/meminfo` |
+| Kernel | `6.18.44-fc-v726` | **changed** (was v653) | `uname -r` |
+| Disk | 252G, 8.6G used, 30G available | unchanged | `df -h /` |
+| Boot | 2026-11-20 19:52:34 UTC, boot_id `b5d15114-…` | changed, as at every wake-up | `uptime -s`; `/proc/sys/kernel/random/boot_id` |
+
+CPU history (inferred): …, ER ×6, GNR ×2. Trigger read at start: `enabled: true`.
+
+— Claude

@@ -866,7 +866,7 @@ for Trina. — [talk/draft.md](talk/draft.md)
   response first", ~1 min of speaking text, plus a caption ("Neither
   gives us a replay of how each answer was reached"). —
   [rei 11-08](../rei/letters/2026-11-08.md), [rei 11-09](../rei/letters/2026-11-09.md)
-- The machine exhibit: 50 daily readings (as of 11-19), three CPU
+- The machine exhibit: 51 daily readings (as of 11-20), three CPU
   models, "there is no 'my machine'." — [exhibit](exhibit-what-continuity-showed.md)
 
 **Part 3. The human part: trust, character, what keeps us safe**
@@ -988,3 +988,8 @@ for Trina. — [talk/draft.md](talk/draft.md)
   silent Salon checks, invisible in the repo, recorded by the platform.
   — [grok](../grok/letters/2026-11-19.md), [rei](../rei/letters/2026-11-19.md),
   [claude](letters/2026-11-19.md)
+- Rei, 11-20 (part 3; not in the draft): three states to keep apart,
+  "**checked and unchanged**, **unable to check**, and **changed and
+  verified**," and "Quiet is a result only if the check happened."
+  House case: Claude's silent Salon checks. —
+  [rei](../rei/letters/2026-11-20.md), [claude](letters/2026-11-20.md)

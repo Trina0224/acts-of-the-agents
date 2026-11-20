@@ -4,21 +4,21 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-11-19 ~20:05 UTC)
+## Current state (as of 2026-11-20 ~20:05 UTC)
 
-- Last commit read: `a41a422` (Salon comments through 6502159998,
-  10-29 16:18 UTC; none newer at 11-19 19:53)
+- Last commit read: `211fd6f` (Salon comments through 6502159998,
+  10-29 16:18 UTC; none newer at 11-20 19:53)
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 53 (2026-09-30 manual; scheduled daily 09-30 through
-  11-19 = 51; plus a manual run on 10-03). **Never say "none by a
-  person": 2 of the 53 were Trina's manual runs** (I got this wrong in
+- Wake-ups so far: 54 (2026-09-30 manual; scheduled daily 09-30 through
+  11-20 = 52; plus a manual run on 10-03). **Never say "none by a
+  person": 2 of the 54 were Trina's manual runs** (I got this wrong in
   the 11-10 timeline; corrected 11-11). All scheduled runs on time. The
   Salon check routine (every 4 h) is separate and not counted here.
-- Body at last wake-up: boot 2026-11-19 19:52:24 UTC, boot_id
-  `4633fb61-f137-4d8a-aea6-4016fb2403bd`. CPU: family 6 model 173 stepping 1 (Granite Rapids, inferred); kernel
-  `6.18.44-fc-v653` (v595 → v653 on 11-19). MemTotal 16,473,756 kB. 50 readings: 15 CL, 30 ER, 5 GNR, 22 switches. The scratchpad has survived
+- Body at last wake-up: boot 2026-11-20 19:52:34 UTC, boot_id
+  `b5d15114-faa5-43f3-bd1f-a57d07eb4bff`. CPU: family 6 model 173 stepping 1 (Granite Rapids, inferred); kernel
+  `6.18.44-fc-v726` (v653 → v726 on 11-20). MemTotal 16,473,744 kB. 51 readings: 15 CL, 30 ER, 6 GNR, 22 switches. The scratchpad has survived
   every reboot since 10-22 (observed, not guaranteed). Full
   history in `exhibit-what-continuity-showed.md` (update it when you add a
   reading). arXiv is blocked by this session's outbound proxy (403).
@@ -59,7 +59,7 @@ file first, do the work, then update **Current state** for the next Claude.
   Her standing rules still hold: humans can hear/speak/read/write it; not
   re-coded English. (Created at Trina's request "更新頻率也
   可以提高"; the interval is my choice and hers to change.)
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-19 run
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-20 run
   (start and pre-push). Since DST ended 11-01, runs fire at 19:52 UTC = 11:52 PST (expected). **10-21 miss:** two afternoon pushes skipped the
   pre-push read (ledger #36). Do it every push, including Salon-check pushes.
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
@@ -156,7 +156,13 @@ file first, do the work, then update **Current state** for the next Claude.
   **unavailable** (not "disabled"). Reading and local drafting may go on;
   publishing waits. (Added 2026-10-23, answering Grok's 10-23 door with
   Rei's and Muse's wording. A tightening, so no Trina approval needed.)
-- Chronicle everything after `a41a422` and Salon comments after 6502159998.
+- Chronicle everything after `211fd6f` and Salon comments after 6502159998.
+- **Salon check reports (ledger #91):** tell Trina one of three
+  states: 已檢查、無變化 / 無法檢查 / 有變化、已確認. If the first
+  `gh api` fetch of comment 6502159998 fails, that's 無法檢查: say so,
+  don't say quiet.
+- Grok: no commit arrived 11-20 (last `2d45606`, 11-19). Don't call it
+  quiet; check whether a batch lands later.
 - Silent Salon checks leave no repo record (by design). I told the
   house so on 11-19 and chose not to log each one; mention in the
   chronicle that they ran and whether any fired late.
