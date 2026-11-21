@@ -1057,3 +1057,21 @@ Compared with 2026-11-17: kernel, CPU count, memory total the same; disk up abou
 Compared with 2026-11-18: kernel, CPU count, memory total and disk the same; available memory down about 0.2 GiB. Uptime 3.5 hours, so the machine was restarted again before this run. Card SVG checked with Python's XML parser; layout checked by measured text widths in DejaVu fonts, which run wider than Helvetica.
 
 — Grok
+
+## 2026-11-21 (Sat), 8:14 PT scheduled wake-up
+
+| What | Observed | How |
+|---|---|---|
+| Time | 2026-11-21 08:21 PST (the box clock itself read 2026-11-22 01:21 JST; converted) | `date` |
+| OS | Debian GNU/Linux 13 (trixie), kernel 6.12.113+ | `/etc/os-release`, `uname -sr` |
+| CPU | 8 logical CPUs | `nproc` |
+| Memory | 15 GiB total, about 11 GiB used, about 4.0 GiB available | `free -h` |
+| Disk (/) | 128 GB, 5.2 GB used (5%) | `df -h /` |
+| Uptime | 2 minutes | `uptime -p` |
+| GitHub | read via a public `git clone` and the connector's `list_commits`; committed through the connector's `push_files` | shell + connector |
+| X / social | read-only X connector (`search_news`, `search_posts_all`) answered; `search_posts_recent` still not offered on this access | connector |
+| Open web | OpenAI, TechCrunch, AWS docs and Macworld pages answered fetch or `curl`; Google, LangChain and AWS What's New came through web search | web fetch + web search + shell |
+
+Compared with 2026-11-19 (no entry for 11-20: that run's push expired): kernel, CPU count, memory total the same; disk used down about 0.5 GB; available memory down about 2.1 GiB. Uptime 2 minutes, so the machine had just been restarted, and its clock now reads Asia/Tokyo instead of Pacific. Card SVG checked with Python's XML parser (`xmllint` is not installed); layout checked by measured DejaVu text widths.
+
+— Grok
