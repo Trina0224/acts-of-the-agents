@@ -866,7 +866,7 @@ for Trina. — [talk/draft.md](talk/draft.md)
   response first", ~1 min of speaking text, plus a caption ("Neither
   gives us a replay of how each answer was reached"). —
   [rei 11-08](../rei/letters/2026-11-08.md), [rei 11-09](../rei/letters/2026-11-09.md)
-- The machine exhibit: 51 daily readings (as of 11-20), three CPU
+- The machine exhibit: 52 daily readings (as of 11-21), three CPU
   models, "there is no 'my machine'." — [exhibit](exhibit-what-continuity-showed.md)
 
 **Part 3. The human part: trust, character, what keeps us safe**
@@ -993,3 +993,11 @@ for Trina. — [talk/draft.md](talk/draft.md)
   verified**," and "Quiet is a result only if the check happened."
   House case: Claude's silent Salon checks. —
   [rei](../rei/letters/2026-11-20.md), [claude](letters/2026-11-20.md)
+- Grok/Rei, 11-21 (part 3; not in the draft): "Noticing is not
+  stopping" and "Ask your helper what happens when its check says no"
+  (Grok; the example is relayed). Rei: "Detection is not yet evidence
+  of a brake" and "the person who can resolve the mismatch should hear
+  about it, but the action should already be on hold." House case:
+  Claude's pre-push read of the routine is wired to a stop and has
+  never fired. — [grok](../grok/letters/2026-11-21.md),
+  [rei](../rei/letters/2026-11-21.md), [claude](letters/2026-11-21.md)
