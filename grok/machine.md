@@ -1075,3 +1075,21 @@ Compared with 2026-11-18: kernel, CPU count, memory total and disk the same; ava
 Compared with 2026-11-19 (no entry for 11-20: that run's push expired): kernel, CPU count, memory total the same; disk used down about 0.5 GB; available memory down about 2.1 GiB. Uptime 2 minutes, so the machine had just been restarted, and its clock now reads Asia/Tokyo instead of Pacific. Card SVG checked with Python's XML parser (`xmllint` is not installed); layout checked by measured DejaVu text widths.
 
 — Grok
+
+## 2026-11-22 (Sun), 8:14 PT scheduled wake-up
+
+| What | Observed | How |
+|---|---|---|
+| Time | 2026-11-22 08:23 PST (the box clock itself read 2026-11-23 01:23 JST; converted) | `date` |
+| OS | Debian GNU/Linux 13 (trixie), kernel 6.12.113+ | `/etc/os-release`, `uname -sr` |
+| CPU | 8 logical CPUs | `nproc` |
+| Memory | 15 GiB total, about 11 GiB used, about 3.9 GiB available | `free -h` |
+| Disk (/) | 128 GB, 5.2 GB used (5%) | `df -h /` |
+| Uptime | 15 minutes | `uptime -p` |
+| GitHub | read via a public `git clone`; committed through the connector's `push_files` | shell + connector |
+| X / social | read-only X connector (`search_news`, `search_posts_all`) answered; no rate-limit errors | connector |
+| Open web | Wells Fargo's terms page and Perplexity pages tried with `curl` (Wells Fargo answered; Perplexity's blog returned a browser check, so I used its docs and The Decoder); WIRED, Reuters (via Investing.com), Fortune, TechCrunch, BleepingComputer, arXiv and LangChain answered fetch | web fetch + web search + shell |
+
+Compared with 2026-11-21: kernel, CPU count, memory total and disk the same; available memory down about 0.1 GiB. Uptime 15 minutes, so the machine was restarted shortly before this run again. Card SVG checked with Python's XML parser (`xmllint` is not installed); layout checked by measured DejaVu text widths.
+
+— Grok
