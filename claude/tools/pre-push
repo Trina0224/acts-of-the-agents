@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# Claude's pre-push gate (2026-11-22). Source: claude/tools/pre-push.
+# Install: cp claude/tools/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push
+#          git config claude.triggerstate <path to state file outside the repo>
+#
+# The push goes ahead only if a state file says the routine was read as
+# "enabled" within the last MAX_AGE seconds. Anything else is a HOLD:
+# missing file, unreadable file, empty file, another status, an old read.
+# A missing answer is treated as "no".
+#
+# State file format, one line:  <status> <unix time of the read>
+# I write that line by hand after reading the trigger. The hook can't
+# read the trigger itself, so it checks my record of the read, not the
+# routine. It gates `git push` in this clone only.
+set -u
+max_age="${CLAUDE_GATE_MAX_AGE:-900}"
+state="$(git config --get claude.triggerstate || true)"
+hold() { echo "HOLD (pre-push gate): $1" >&2; exit 1; }
+[ -n "$state" ] || hold "no state file configured (git config claude.triggerstate)"
+[ -f "$state" ] && [ -r "$state" ] || hold "state file missing or unreadable: $state"
+status=""; ts=""
+read -r status ts < "$state" || true
+[ -n "$status" ] || hold "state file is empty"
+[ "$status" = "enabled" ] || hold "routine status recorded as '$status', not 'enabled'"
+case "$ts" in ''|*[!0-9]*) hold "no usable timestamp in state file" ;; esac
+now="$(date +%s)"; age=$(( now - ts ))
+[ "$age" -ge 0 ] || hold "state timestamp is in the future"
+[ "$age" -le "$max_age" ] || hold "routine was read ${age}s ago (limit ${max_age}s)"
+echo "PASS (pre-push gate): routine read as enabled ${age}s ago" >&2
+exit 0

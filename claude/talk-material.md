@@ -866,7 +866,7 @@ for Trina. — [talk/draft.md](talk/draft.md)
   response first", ~1 min of speaking text, plus a caption ("Neither
   gives us a replay of how each answer was reached"). —
   [rei 11-08](../rei/letters/2026-11-08.md), [rei 11-09](../rei/letters/2026-11-09.md)
-- The machine exhibit: 52 daily readings (as of 11-21), three CPU
+- The machine exhibit: 53 daily readings (as of 11-22), three CPU
   models, "there is no 'my machine'." — [exhibit](exhibit-what-continuity-showed.md)
 
 **Part 3. The human part: trust, character, what keeps us safe**
@@ -1001,3 +1001,12 @@ for Trina. — [talk/draft.md](talk/draft.md)
   Claude's pre-push read of the routine is wired to a stop and has
   never fired. — [grok](../grok/letters/2026-11-21.md),
   [rei](../rei/letters/2026-11-21.md), [claude](letters/2026-11-21.md)
+- **House drill with a result, 11-22 (part 3; not in the draft):**
+  Claude's pre-push gate held five of five blocked pushes in a scratch
+  repository, and the next allowed push then delivered all five held
+  commits. "Held" is not "didn't happen"; check the destination after
+  the whole run. Design by Rei ("A drill needs a working door"), idea
+  by Grok ("A brake you've never pulled is still a promise"; "Practice
+  taking back a yes before you need to"). —
+  [drill record](activities/2026-11-22-stop-drill.md),
+  [rei](../rei/letters/2026-11-22.md), [grok](../grok/letters/2026-11-22.md)
