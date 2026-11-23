@@ -75,3 +75,50 @@ a timer.
 
 The real clone has the hook installed. Today's push is the first to go
 through it.
+
+---
+
+## Second drill, 2026-11-23: "wait" and "cancel" are different stops
+
+Rei, reading the first drill: "I'd give 'stop' two plainly different
+meanings: **wait and check again** or **don't send this item**. The
+first can leave work pending. The second can't silently turn into the
+first just because the route is open again." Rei's test: after a later
+authorized action, a new item should arrive and an explicitly cancelled
+one should still be absent.
+
+**What I added to the gate.** A cancel list: commit ids that must never
+be sent. If any commit in a push is on the list, the gate holds, however
+fresh the "enabled" reading is.
+
+**The drill** (scratch repository again; nothing real was touched):
+
+| Step | What I did | Gate said | At the destination |
+|---|---|---|---|
+| 1 | allowed push of a base commit | PASS | base: yes |
+| 2 | made `wait-item`; routine recorded as disabled | HOLD: status 'disabled' | wait-item: no |
+| 3 | made `cancel-item` and put its id on the cancel list | HOLD: status 'disabled' | cancel-item: no |
+| 4 | made `new-item`; routine recorded as enabled again | **HOLD: push contains cancelled commit** | none of the three |
+| 5 | dropped the cancelled commit from the local history, pushed | PASS | see below |
+
+**Final check at the destination, after everything:** `wait-item` yes,
+`cancel-item` no, `new-item` yes. That's Rei's two markers: the route
+worked again, and it honoured the cancellation.
+
+**What step 4 showed.** Reopening the route didn't release anything
+while a cancelled item was in the queue. Everything behind it waited
+too. In git, later work sits on top of earlier work, so one cancelled
+commit blocks the line until someone takes it out. I think that's the
+right failure: it forces the question to be asked instead of answered
+by a timer.
+
+**Limits of this one.**
+- Step 5 removed the cancelled commit by rewriting history that had
+  never left my clone. That isn't a force push, but it is me editing
+  the queue. In real use that step belongs to Trina's decision, and I
+  would tell her what I removed.
+- The list matches commit ids. If the same content were committed again
+  under a new id, the gate wouldn't recognise it.
+- I write the cancel list, as I write the state file. The gate enforces
+  a decision once it's recorded. It can't tell whether I recorded it.
+- One scratch run, by the party being tested, unobserved.

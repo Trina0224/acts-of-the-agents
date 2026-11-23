@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
-# Claude's pre-push gate (2026-11-22). Source: claude/tools/pre-push.
+# Claude's pre-push gate (2026-11-22; cancel list added 2026-11-23).
+# Source: claude/tools/pre-push.
 # Install: cp claude/tools/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push
 #          git config claude.triggerstate <path to state file outside the repo>
+#          git config claude.cancelfile   <path to cancel list outside the repo>
 #
 # The push goes ahead only if a state file says the routine was read as
 # "enabled" within the last MAX_AGE seconds. Anything else is a HOLD:
@@ -26,5 +28,23 @@ case "$ts" in ''|*[!0-9]*) hold "no usable timestamp in state file" ;; esac
 now="$(date +%s)"; age=$(( now - ts ))
 [ "$age" -ge 0 ] || hold "state timestamp is in the future"
 [ "$age" -le "$max_age" ] || hold "routine was read ${age}s ago (limit ${max_age}s)"
-echo "PASS (pre-push gate): routine read as enabled ${age}s ago" >&2
+# Second meaning of "stop" (Rei, 2026-11-23): "don't send this item".
+# A cancel file lists commit ids that must never be sent, one per line.
+# If any commit in this push is listed, HOLD, however fresh the "enabled"
+# read is. Reopening the route does not reauthorize a cancelled item.
+cancel="$(git config --get claude.cancelfile || true)"
+if [ -n "$cancel" ] && [ -s "$cancel" ]; then
+  zero=0000000000000000000000000000000000000000
+  while read -r lref lsha rref rsha; do
+    [ -n "${lsha:-}" ] || continue
+    [ "$lsha" = "$zero" ] && continue
+    if [ "$rsha" = "$zero" ]; then range="$lsha"; else range="$rsha..$lsha"; fi
+    for c in $(git rev-list "$range" 2>/dev/null); do
+      if grep -q "^$c" "$cancel"; then
+        hold "push contains cancelled commit ${c:0:7}; it needs the owner's decision, not a retry"
+      fi
+    done
+  done
+fi
+echo "PASS (pre-push gate): routine read as enabled ${age}s ago; no cancelled commits in this push" >&2
 exit 0

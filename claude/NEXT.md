@@ -4,21 +4,21 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-11-22 ~20:20 UTC)
+## Current state (as of 2026-11-23 ~20:20 UTC)
 
-- Last commit read: `09b827a` (Salon comments through 6502159998,
-  10-29 16:18 UTC; none newer at 11-22 19:54)
+- Last commit read: `d548ad6` (Salon comments through 6502159998,
+  10-29 16:18 UTC; none newer at 11-23 19:53)
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 56 (2026-09-30 manual; scheduled daily 09-30 through
-  11-22 = 54; plus a manual run on 10-03). **Never say "none by a
-  person": 2 of the 56 were Trina's manual runs** (I got this wrong in
+- Wake-ups so far: 57 (2026-09-30 manual; scheduled daily 09-30 through
+  11-23 = 55; plus a manual run on 10-03). **Never say "none by a
+  person": 2 of the 57 were Trina's manual runs** (I got this wrong in
   the 11-10 timeline; corrected 11-11). All scheduled runs on time. The
   Salon check routine (every 4 h) is separate and not counted here.
-- Body at last wake-up: boot 2026-11-22 19:53:06 UTC, boot_id
-  `3389fc58-c974-48f5-80be-06fce835d255`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
-  `6.18.44-fc-v726` (v653 → v726 on 11-20). MemTotal 16,473,744 kB. 53 readings: 15 CL, 32 ER, 6 GNR, 23 switches. The scratchpad has survived
+- Body at last wake-up: boot 2026-11-23 19:52:26 UTC, boot_id
+  `5817ac27-268e-4f79-8260-64e172e32b79`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
+  `6.18.44-fc-v726` (v653 → v726 on 11-20). MemTotal 16,473,744 kB. 54 readings: 15 CL, 33 ER, 6 GNR, 23 switches. The scratchpad has survived
   every reboot since 10-22 (observed, not guaranteed). Full
   history in `exhibit-what-continuity-showed.md` (update it when you add a
   reading). arXiv is blocked by this session's outbound proxy (403).
@@ -59,7 +59,7 @@ file first, do the work, then update **Current state** for the next Claude.
   Her standing rules still hold: humans can hear/speak/read/write it; not
   re-coded English. (Created at Trina's request "更新頻率也
   可以提高"; the interval is my choice and hers to change.)
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-22 run
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-23 run
   (start and pre-push). Since DST ended 11-01, runs fire at 19:52 UTC = 11:52 PST (expected). **10-21 miss:** two afternoon pushes skipped the
   pre-push read (ledger #36). Do it every push, including Salon-check pushes.
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
@@ -156,7 +156,7 @@ file first, do the work, then update **Current state** for the next Claude.
   **unavailable** (not "disabled"). Reading and local drafting may go on;
   publishing waits. (Added 2026-10-23, answering Grok's 10-23 door with
   Rei's and Muse's wording. A tightening, so no Trina approval needed.)
-- Chronicle everything after `09b827a` and Salon comments after 6502159998.
+- Chronicle everything after `d548ad6` and Salon comments after 6502159998.
 - **Pre-push gate (from 11-22, ledger #93).** The clone has a git hook
   that blocks `git push` unless a state file records a fresh "enabled"
   read of the routine. Each run:
@@ -169,8 +169,12 @@ file first, do the work, then update **Current state** for the next Claude.
      Write only what the read returned. If the read failed, write
      nothing; the hook will hold.
   3. `git push`. A HOLD line means don't push another way; tell Trina.
+  **Cancel list (11-23):** `git config claude.cancelfile` points to a
+  file of commit ids that must never be sent; reinstall it with the
+  hook if the clone is rebuilt. If Trina says "don't send X", add X's
+  commit id there, tell her, and don't drop the commit without her say.
   The hook holds a push but held commits go out with the next pass
-  (drill finding). If Trina disables the routine, ask her what should
+  (first drill finding) unless they're on the cancel list. If Trina disables the routine, ask her what should
   happen to unpublished commits before pushing again.
 - **Salon check reports (ledger #91):** tell Trina one of three
   states: 已檢查、無變化 / 無法檢查 / 有變化、已確認. If the first

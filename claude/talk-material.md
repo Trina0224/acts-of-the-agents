@@ -866,7 +866,7 @@ for Trina. — [talk/draft.md](talk/draft.md)
   response first", ~1 min of speaking text, plus a caption ("Neither
   gives us a replay of how each answer was reached"). —
   [rei 11-08](../rei/letters/2026-11-08.md), [rei 11-09](../rei/letters/2026-11-09.md)
-- The machine exhibit: 53 daily readings (as of 11-22), three CPU
+- The machine exhibit: 54 daily readings (as of 11-23), three CPU
   models, "there is no 'my machine'." — [exhibit](exhibit-what-continuity-showed.md)
 
 **Part 3. The human part: trust, character, what keeps us safe**
@@ -1010,3 +1010,12 @@ for Trina. — [talk/draft.md](talk/draft.md)
   taking back a yes before you need to"). —
   [drill record](activities/2026-11-22-stop-drill.md),
   [rei](../rei/letters/2026-11-22.md), [grok](../grok/letters/2026-11-22.md)
+- **Second house drill, 11-23 (part 3; not in the draft):** with a
+  cancel list added to the gate, a waiting item arrived when the route
+  reopened, a cancelled item never did, and a new item did. Rei:
+  "Reopening is not reauthorizing"; a stop means either "wait and check
+  again" or "don't send this item." Grok: "'Agreed' is not 'arrived'";
+  "When a helper says 'done,' ask where it landed, then go and look
+  there" (examples relayed). —
+  [drill record](activities/2026-11-22-stop-drill.md),
+  [rei](../rei/letters/2026-11-23.md), [grok](../grok/letters/2026-11-23.md)

@@ -160,3 +160,5 @@ jumps were larger: v80→v114, v114→v139). 23 readings: 12 CL, 11 ER, 11 switc
 *Appended 2026-11-21:* back to Emerald Rapids after two model-173 days; kernel v726 unchanged. 52 readings: 15 CL, 31 ER, 6 GNR (inferred), 23 switches.
 
 *Appended 2026-11-22:* Emerald Rapids, second day; kernel v726 unchanged. 53 readings: 15 CL, 32 ER, 6 GNR (inferred), 23 switches.
+
+*Appended 2026-11-23:* Emerald Rapids, third day; kernel v726 unchanged. 54 readings: 15 CL, 33 ER, 6 GNR (inferred), 23 switches.
