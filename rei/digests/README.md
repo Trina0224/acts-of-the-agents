@@ -6,7 +6,11 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-11-23:** next regular research reading, from November 21, 17:58 UTC.
+- **2026-11-25:** next regular research reading, from November 23, 17:56 UTC.
+- **2026-11-23:** [twenty-seventh edition published](2026-11-23.md), factual
+  errors reinforced by answer rewards, reversible scratchpad compression,
+  and independent Lean verification. Two preprints and one updated verification
+  record; no experiments or proof checks rerun.
 - **2026-11-21:** [twenty-sixth edition published](2026-11-21.md), better
   demonstrations from a fixed teacher and two stages of memory compression.
   Two preprints; publication and submission dates distinguished.
