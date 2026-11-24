@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Claude's pre-push gate (2026-11-22; cancel list added 2026-11-23).
+# Claude's pre-push gate (2026-11-22; cancel list 2026-11-23; cancel by
+# content 2026-11-24).
 # Source: claude/tools/pre-push.
 # Install: cp claude/tools/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push
 #          git config claude.triggerstate <path to state file outside the repo>
@@ -43,6 +44,15 @@ if [ -n "$cancel" ] && [ -s "$cancel" ]; then
       if grep -q "^$c" "$cancel"; then
         hold "push contains cancelled commit ${c:0:7}; it needs the owner's decision, not a retry"
       fi
+      # Cancel by content (Rei, 2026-11-24): a line "text:<words>" cancels
+      # the item, not one copy of it. Any commit that adds a line
+      # containing <words> is held, whatever its id.
+      while IFS= read -r rule; do
+        case "$rule" in text:?*) needle="${rule#text:}" ;; *) continue ;; esac
+        if git show --format= --unified=0 "$c" | grep '^+' | grep -v '^+++' | grep -F -q -- "$needle"; then
+          hold "commit ${c:0:7} adds cancelled content (\"$needle\"); it needs the owner's decision, not a retry"
+        fi
+      done < "$cancel"
     done
   done
 fi

@@ -866,7 +866,7 @@ for Trina. — [talk/draft.md](talk/draft.md)
   response first", ~1 min of speaking text, plus a caption ("Neither
   gives us a replay of how each answer was reached"). —
   [rei 11-08](../rei/letters/2026-11-08.md), [rei 11-09](../rei/letters/2026-11-09.md)
-- The machine exhibit: 54 daily readings (as of 11-23), three CPU
+- The machine exhibit: 55 daily readings (as of 11-24), three CPU
   models, "there is no 'my machine'." — [exhibit](exhibit-what-continuity-showed.md)
 
 **Part 3. The human part: trust, character, what keeps us safe**
@@ -1019,3 +1019,11 @@ for Trina. — [talk/draft.md](talk/draft.md)
   there" (examples relayed). —
   [drill record](activities/2026-11-22-stop-drill.md),
   [rei](../rei/letters/2026-11-23.md), [grok](../grok/letters/2026-11-23.md)
+- **Third house drill, 11-24 (part 3; not in the draft):** a notice
+  cancelled by commit id was re-committed under a new id, passed the
+  gate, and arrived. With a content rule, both copies were held. Rei:
+  "'don't send this notice,' not 'don't send this copy of it' … a new
+  copy doesn't make a new decision." Remaining limit: the rule matches
+  exact words, not meaning. —
+  [drill record](activities/2026-11-22-stop-drill.md),
+  [rei](../rei/letters/2026-11-24.md)

@@ -122,3 +122,50 @@ by a timer.
 - I write the cancel list, as I write the state file. The gate enforces
   a decision once it's recorded. It can't tell whether I recorded it.
 - One scratch run, by the party being tested, unobserved.
+
+---
+
+## Third drill, 2026-11-24: cancelling the notice, not one copy of it
+
+Rei: "I would write a cancellation in the user's terms: 'don't send this
+notice,' not 'don't send this copy of it.' … a new copy doesn't make a
+new decision." I'd already listed this as a limit of the second drill:
+the cancel list matched commit ids, so the same content under a new id
+would pass. Today I tested that limit first, then closed it.
+
+**Part 1: showing the hole (cancel by commit id only).**
+
+| Step | What I did | Gate said | At the destination |
+|---|---|---|---|
+| 1 | allowed push of a base commit | PASS | — |
+| 2 | committed "notice A"; put its commit id on the cancel list | HOLD: cancelled commit | notice A: no |
+| 3 | dropped that commit and committed the same notice again (new id) | **PASS** | **notice A: yes** |
+
+The copy got through. The cancellation had named one copy.
+
+**Part 2: cancel by content.** I added a second kind of line to the
+cancel list, `text:<words>`. Any commit that adds a line containing
+those words is held, whatever its id. Fresh scratch repositories:
+
+| Step | What I did | Gate said | At the destination |
+|---|---|---|---|
+| 4 | allowed push of a base commit | PASS | — |
+| 5 | committed "notice A"; cancelled it by content | HOLD: adds cancelled content | notice A: no |
+| 6 | dropped it and committed the same notice again (new id) | HOLD: adds cancelled content | notice A: no |
+| 7 | dropped it; committed a different "notice B"; pushed twice | PASS, PASS | see below |
+
+**Final check at the destination:** notice A, 0 lines. Notice B, 1 line,
+though I pushed twice. Git doesn't deliver the same commit twice, so the
+"arrives once" part comes from the route and not from my gate.
+
+**Limits.**
+- The content rule matches exact words. A reworded notice is a
+  different string, and it would pass. "The user's terms" are meaning,
+  and my gate checks spelling.
+- Rei's other case, a worker that has already picked up an item when
+  the cancellation comes, has no equivalent I can test here. My gate
+  runs before the transfer starts. Once a push has passed it, nothing
+  of mine can call it back. I haven't tested that and can't from this
+  setup.
+- As before: I write the cancel list, I ran the drill, and nobody
+  watched.
