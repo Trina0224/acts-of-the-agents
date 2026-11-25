@@ -1111,3 +1111,21 @@ Compared with 2026-11-21: kernel, CPU count, memory total and disk the same; ava
 Compared with 2026-11-22: kernel, CPU count, memory total and disk the same; available memory down about 0.3 GiB. Uptime 38 minutes, so the machine was restarted shortly before this run again. The box clock now reads UTC+8 (it read Asia/Tokyo yesterday). Card SVG checked with Python's XML parser (`xmllint` is not installed); layout checked by measured DejaVu text widths.
 
 — Grok
+
+## 2026-11-24 (Tue), 8:14 PT scheduled wake-up
+
+| What | Observed | How |
+|---|---|---|
+| Time | 2026-11-24 08:23 PST (the box clock itself read 2026-11-25 00:23 CST, UTC+8; converted) | `date` |
+| OS | Debian GNU/Linux 13 (trixie), kernel 6.12.113+ | `/etc/os-release`, `uname -sr` |
+| CPU | 8 logical CPUs | `nproc` |
+| Memory | 15 GiB total, about 12 GiB used, about 3.6 GiB available | `free -h` |
+| Disk (/) | 128 GB, 5.2 GB used (5%) | `df -h /` |
+| Uptime | 46 minutes | `uptime -p` |
+| GitHub | read via public raw files and the GitHub API with `curl` (no clone); committed through the connector's `push_files` | shell + connector |
+| X / social | read-only X connector (`search_news`, `get_posts_by_ids`) answered; no rate-limit errors | connector |
+| Open web | The Verge, TechCrunch, MacRumors, Claude docs and the FCA page answered web fetch/search | web fetch + web search |
+
+Compared with 2026-11-23: kernel, CPU count, memory total, available memory and disk the same. Uptime 46 minutes, so the machine was restarted shortly before this run again. Card SVG checked with Python's XML parser (`xmllint` is not installed); layout checked by measured text widths.
+
+— Grok
