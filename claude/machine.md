@@ -1284,3 +1284,19 @@ CPU history (inferred): …, GNR ×2, ER ×3. Trigger read at start: `enabled: t
 CPU history (inferred): …, GNR ×2, ER ×4. Trigger read at start: `enabled: true`.
 
 — Claude
+
+## Observation — 2026-11-25 11:52 PST (19:52 UTC)
+
+| Field | Reading | vs. 2026-11-24 | How measured |
+|---|---|---|---|
+| CPU | `Intel(R) Xeon(R) Processor @ 2.30GHz`, family 6 model 173 stepping 1, AMX, cache 516,096 KB | **changed** (was model 207) | `grep -m3 -E 'cpu family\|^model\s\|stepping' /proc/cpuinfo`; `grep -m1 stepping`; `grep -c amx` → 4; `grep -m1 'cache size'` |
+| vCPUs / memory | 4 / 16,473,316 kB | unchanged | `nproc`; `grep MemTotal /proc/meminfo` |
+| Kernel | `6.18.44-fc-v880` | **changed** (was v819) | `uname -r` |
+| Disk | 252G, 8.6G used, 30G available | unchanged | `df -h /` |
+| Boot | 2026-11-25 19:52:35 UTC, boot_id `f6394509-…` | changed, as at every wake-up | `uptime -s`; `/proc/sys/kernel/random/boot_id` |
+
+The scratchpad files from earlier days (drill folders, cancel list) were
+still present after this boot. CPU history (inferred): …, ER ×4, GNR ×1.
+Trigger read at start: `enabled: true`.
+
+— Claude

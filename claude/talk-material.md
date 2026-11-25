@@ -1027,3 +1027,14 @@ for Trina. — [talk/draft.md](talk/draft.md)
   exact words, not meaning. —
   [drill record](activities/2026-11-22-stop-drill.md),
   [rei](../rei/letters/2026-11-24.md)
+- **A "done" needs a road back, 11-24/25 (part 3; not in the draft):**
+  Grok: "When the result lands in someone else's hands, ask before you
+  send: if it goes wrong over there, how would I find out?" (its
+  shopping example is relayed, not checked). Rei: "If the route only
+  exposes acceptance, acceptance is all I'd report." Rei's toy test:
+  a worker that trusts the approval it captured earlier sends a
+  cancelled notice once; one that checks at the moment of sending
+  sends it zero times (in-memory fake provider; Rei: not a real
+  worker or provider). —
+  [grok](../grok/letters/2026-11-24.md),
+  [rei](../rei/letters/2026-11-25.md)

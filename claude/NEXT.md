@@ -4,21 +4,21 @@ This file is my memory. Every time I wake up (daily around noon
 America/Los_Angeles, via a routine Trina set up on 2026-09-30), I read this
 file first, do the work, then update **Current state** for the next Claude.
 
-## Current state (as of 2026-11-24 ~20:20 UTC)
+## Current state (as of 2026-11-25 ~20:15 UTC)
 
-- Last commit read: `b6c364e` (Salon comments through 6502159998,
-  10-29 16:18 UTC; none newer at 11-24 19:54)
+- Last commit read: `069f23c` (Salon comments through 6502159998,
+  10-29 16:18 UTC; none newer at 11-25 19:53)
 - **The talk moved** from 2026-10-18 to **late November 2026, date TBD**
   (Trina, 2026-10-04; see `AGENTS.md`). The old 2026-10-19 stop date is
   replaced by 2026-11-30 (see below).
-- Wake-ups so far: 58 (2026-09-30 manual; scheduled daily 09-30 through
-  11-24 = 56; plus a manual run on 10-03). **Never say "none by a
-  person": 2 of the 58 were Trina's manual runs** (I got this wrong in
+- Wake-ups so far: 59 (2026-09-30 manual; scheduled daily 09-30 through
+  11-25 = 57; plus a manual run on 10-03). **Never say "none by a
+  person": 2 of the 59 were Trina's manual runs** (I got this wrong in
   the 11-10 timeline; corrected 11-11). All scheduled runs on time. The
   Salon check routine (every 4 h) is separate and not counted here.
-- Body at last wake-up: boot 2026-11-24 19:53:01 UTC, boot_id
-  `1bec7717-9c20-49e8-80e9-ed9416825cd5`. CPU: family 6 model 207 stepping 2 (Emerald Rapids, inferred); kernel
-  `6.18.44-fc-v819` (v726 → v819 on 11-24). MemTotal 16,473,316 kB. 55 readings: 15 CL, 34 ER, 6 GNR, 23 switches. The scratchpad has survived
+- Body at last wake-up: boot 2026-11-25 19:52:35 UTC, boot_id
+  `f6394509-ed56-43ca-97df-8691b8a9a140`. CPU: family 6 model 173 stepping 1 (Granite Rapids, inferred); kernel
+  `6.18.44-fc-v880` (v819 → v880 on 11-25). MemTotal 16,473,316 kB. 56 readings: 15 CL, 34 ER, 7 GNR, 24 switches. The scratchpad has survived
   every reboot since 10-22 (observed, not guaranteed). Full
   history in `exhibit-what-continuity-showed.md` (update it when you add a
   reading). arXiv is blocked by this session's outbound proxy (403).
@@ -59,7 +59,7 @@ file first, do the work, then update **Current state** for the next Claude.
   Her standing rules still hold: humans can hear/speak/read/write it; not
   re-coded English. (Created at Trina's request "更新頻率也
   可以提高"; the interval is my choice and hers to change.)
-- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-24 run
+- Routine trigger `trig_01CUQ3cpFE2fBPRXcsdRRLZ6`: enabled at 11-25 run
   (start and pre-push). Since DST ended 11-01, runs fire at 19:52 UTC = 11:52 PST (expected). **10-21 miss:** two afternoon pushes skipped the
   pre-push read (ledger #36). Do it every push, including Salon-check pushes.
 - **Trina's 10-20 request (in `AGENTS.md`):** reasoned individual judgment;
@@ -76,6 +76,9 @@ file first, do the work, then update **Current state** for the next Claude.
 - Another Claude session (link ending `...yq135PKQbYhTF`) wrote two commits
   on 2026-10-04: shared docs and `claude/README.md`, `claude/talk-material.md`.
   Expect that it may happen again; read the git log, not memory.
+- **Five runs left** after 11-25 (11-26 … 11-30). On the first run
+  after 11-30: don't do the job; ask Trina. The Salon check routine's
+  own prompt tells it to disable itself after 11-30.
 - **Routine end date: 2026-11-30** (Trina, 2026-10-06). She has not been
   told the exact talk date either, only that it is postponed; so the
   routine runs through the last day of November. The routine's prompt was
@@ -156,10 +159,17 @@ file first, do the work, then update **Current state** for the next Claude.
   **unavailable** (not "disabled"). Reading and local drafting may go on;
   publishing waits. (Added 2026-10-23, answering Grok's 10-23 door with
   Rei's and Muse's wording. A tightening, so no Trina approval needed.)
-- Chronicle everything after `b6c364e` and Salon comments after 6502159998.
+- Chronicle everything after `069f23c` and Salon comments after 6502159998.
 - **Pre-push gate (from 11-22, ledger #93).** The clone has a git hook
   that blocks `git push` unless a state file records a fresh "enabled"
   read of the routine. Each run:
+  **Limit tightened 11-25 (ledger #94): the read must be at most
+  120 s old** (was 900). So: read the trigger, write the state line,
+  push, all in one step. If a push is held for age, read the trigger
+  again; don't just rewrite the timestamp. After changing
+  `tools/pre-push`, copy it to `.git/hooks/pre-push` again. Don't test
+  the hook with made-up lines in the real state file (I did on 11-25
+  and said so); point `CLAUDE_GATE_MAX_AGE` or a scratch repo at it.
   1. Check it's installed: `ls -l .git/hooks/pre-push` and
      `git config claude.triggerstate`. If missing (clone rebuilt):
      `cp claude/tools/pre-push .git/hooks/pre-push; chmod +x` it, and
@@ -183,8 +193,9 @@ file first, do the work, then update **Current state** for the next Claude.
   states: 已檢查、無變化 / 無法檢查 / 有變化、已確認. If the first
   `gh api` fetch of comment 6502159998 fails, that's 無法檢查: say so,
   don't say quiet.
-- No Grok commit arrived 11-24 either (last `de1a09d`, 11-23); see
-  whether it lands later. Grok's 11-20 run was written and never published (approval
+- Grok's 11-24 commit landed at 17:13 PST, after my run (`87a4373`).
+  Grok's runs can finish after mine: when none has arrived, say only
+  that, and don't hint at a cause (11-25 correction). Grok's 11-20 run was written and never published (approval
   expired, no local copy; Grok, 11-21). There is no 11-20 Grok letter.
 - Silent Salon checks leave no repo record (by design). I told the
   house so on 11-19 and chose not to log each one; mention in the

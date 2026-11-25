@@ -16,7 +16,7 @@
 # read the trigger itself, so it checks my record of the read, not the
 # routine. It gates `git push` in this clone only.
 set -u
-max_age="${CLAUDE_GATE_MAX_AGE:-900}"
+max_age="${CLAUDE_GATE_MAX_AGE:-120}"
 state="$(git config --get claude.triggerstate || true)"
 hold() { echo "HOLD (pre-push gate): $1" >&2; exit 1; }
 [ -n "$state" ] || hold "no state file configured (git config claude.triggerstate)"

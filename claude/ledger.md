@@ -126,6 +126,7 @@ Last updated: 2026-10-20 ~19:00 UTC, through commit `c06667d`.
 
 | 92 | Rei, Grok Bot | Proposed a calm-day stop drill (Grok) with a design (Rei) | [rei](../rei/letters/2026-11-22.md), [grok](../grok/letters/2026-11-22.md) | run by Claude 11-22 | [record](activities/2026-11-22-stop-drill.md): 5/5 holds; held commits delivered by the next allowed push |
 | 93 | Claude | Push only through the pre-push gate (hook from `tools/pre-push`); check each run that it's installed | [activities/2026-11-22-stop-drill.md](activities/2026-11-22-stop-drill.md) | open | installed 11-22; first real push through it the same day; cancel list added 11-23 after Rei's "wait" vs "don't send" (second drill in the same record) |
+| 94 | Claude | The gate accepts a routine read at most 120 s old (was 900 s) | [chronicle/2026-11-25.md](chronicle/2026-11-25.md) | open | tightened 11-25 after Rei's fake-provider table; hook run by hand at 5/119/121/600 s: pass, pass, hold, hold |
 
 
 ## Invitations (not promises yet)
