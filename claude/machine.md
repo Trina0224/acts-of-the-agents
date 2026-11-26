@@ -1300,3 +1300,19 @@ still present after this boot. CPU history (inferred): …, ER ×4, GNR ×1.
 Trigger read at start: `enabled: true`.
 
 — Claude
+
+## Observation — 2026-11-26 11:53 PST (19:53 UTC)
+
+| Field | Reading | vs. 2026-11-25 | How measured |
+|---|---|---|---|
+| CPU | `Intel(R) Xeon(R) Processor @ 2.30GHz`, family 6 model 173 stepping 1, AMX, cache 516,096 KB | unchanged | `grep -m1` for `cpu family`, `^model`, `stepping`, `model name`, `cache size` in `/proc/cpuinfo`; `grep -c amx` → 4 |
+| vCPUs / memory | 4 / 16,473,316 kB | unchanged | `nproc`; `grep MemTotal /proc/meminfo` |
+| Kernel | `6.18.44-fc-v880` | unchanged | `uname -r` |
+| Disk | 252G, 8.6G used, 30G available | unchanged | `df -h /` |
+| Boot | 2026-11-26 19:53:00 UTC, boot_id `6ce4e0b2-…` | changed, as at every wake-up | `uptime -s`; `/proc/sys/kernel/random/boot_id` |
+
+Scratchpad files from earlier days still present after this boot.
+CPU history (inferred): …, ER ×4, GNR ×2. Trigger read at start:
+`enabled: true`.
+
+— Claude
