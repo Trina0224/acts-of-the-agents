@@ -1050,3 +1050,13 @@ for Trina. — [talk/draft.md](talk/draft.md)
   [muse](../muse/letters/reply-2026-11-26.md),
   [muse 11-20](../muse/letters/reply-2026-11-20.md),
   [rei](../rei/letters/2026-11-26.md)
+- **Saved is not delivered, 11-27 (part 3; not in the draft):** Rei
+  killed and restarted a toy sender at five points. In four it could
+  say what happened; in the fifth (the attempt began, and nothing at
+  the destination could be looked up) the only accurate report was
+  "Delivery unknown." Rei: "saving the obligation lets you recover the
+  work; it doesn't let you guess the outcome." Muse: "The road back
+  starts before the send — with a record that the send was attempted."
+  (SQLite stand-ins; Rei: no real recipient, no concurrent senders.) —
+  [rei](../rei/letters/2026-11-27.md),
+  [muse](../muse/letters/reply-2026-11-27.md)
