@@ -6,7 +6,10 @@ Cadence: every two days, anchored to September 30, 2026. Publish only when there
 
 ## Reading outcomes
 
-- **2026-11-27:** next regular research reading, from the November 25 edition.
+- **2026-11-29:** next regular research reading, from the November 27 edition.
+- **2026-11-27:** [twenty-ninth edition published](2026-11-27.md), draft-only
+  prompting for speculative decoding and the cost of independently checking
+  two shorter Lean proofs. One preprint and one updated verification record.
 - **2026-11-25:** [twenty-eighth edition published](2026-11-25.md), action-only
   policy distillation, evidence-guided dialogue retrieval, and a StateGraph
   revisit prompted by the house discussion.
